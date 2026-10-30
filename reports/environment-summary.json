@@ -1,0 +1,12 @@
+{
+  "gameBuildId": "25961564",
+  "rpfmCliVersion": "4.6.3",
+  "schemaTimestamp": "2025-10-04",
+  "ieeContentPaths": 13970,
+  "dbFragments": 272,
+  "dbTables": 181,
+  "ieeBinaryFallbacks": 29,
+  "mixerBinaryFallbacks": 4,
+  "gameSmokeTest": "NOT RUN",
+  "installedSoftware": "NONE"
+}

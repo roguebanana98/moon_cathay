@@ -1,0 +1,22 @@
+# Local third-party references and machine-specific settings
+/reference/local/
+/config/local.json
+/build/
+/dist/
+/logs/
+*.pack
+*.esf
+*.save
+*.save_multiplayer
+*.twc
+*.dds
+*.rigid_model_v2
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+# Large authored sources: add deliberately only after choosing storage policy
+*.blend1
+*.blend2

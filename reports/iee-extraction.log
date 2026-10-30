@@ -1,0 +1,31 @@
+13:42:23 [INFO] Logger initialized.
+13:42:23 [INFO] Sentry Logging support enabled. Starting...
+13:42:24 [WARN] File with path db/building_levels_tables/cr_iee_ksn_settlement_dummies failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaign_settlement_display_buildings_tables/cr_iee_ksn_settlement_dummies failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/cultures_tables/!cr_new_beast_waagh_devastation failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/building_levels_tables/cr_iee_campaign_settlements_dummies failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/rituals_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/ritual_targets_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaign_cinematic_resources_tables/!cr_vanilla failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/land_units_to_unit_abilites_junctions_tables/!cr_iee_monster_hunt failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaign_map_event_area_province_region_junctions_tables/!cr_map_expansion failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/building_culture_variants_tables/cr_iee_campaign_settlements_dummies failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/ritual_payload_teleport_armies_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/pooled_resource_factor_junctions_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaign_map_event_areas_tables/!cr_map_expansion failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/agent_subtypes_tables/!cr_iee_monster_hunt failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaign_character_art_sets_tables/!cr_iee_monster_hunt failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaign_settlement_display_buildings_tables/cr_iee_campaign_settlements_dummies failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/devastation_states_tables/!cr_new_beast_waagh_devastation failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/cultures_tables/zzz_cr_cultures_other_mods failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/building_culture_variants_tables/!cr_new_factions failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaigns_tables/!cr_vanilla failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/ritual_military_force_target_criterias_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/building_culture_variants_tables/cr_iee_ksn_settlement_dummies failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/army_special_abilities_for_faction_junctions_tables/!cr_new_factions failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/building_levels_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/cdir_events_dilemma_choice_details_tables/!cr_iee_monster_hunt failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/devastation_campaign_battle_scenes_tables/!cr_new_beast_waagh_devastation failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaign_group_pooled_resource_effects_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/building_culture_variants_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/ritual_payload_effect_bundles_tables/!cr_new_wef_forest failed to extract as TSV. Extracting it as binary.

@@ -1,0 +1,209 @@
+{
+  "startpos": {
+    "faction": "cr_cth_agents_of_the_moon",
+    "esf_faction_id": 205,
+    "faction_offset": 15650189,
+    "leader": {
+      "character_id": 329,
+      "details_id": 339,
+      "frontend_id": "1104464346",
+      "subtype": "wh3_main_cth_dragon_blooded_shugengan_yin",
+      "art_set": "wh3_main_art_set_cth_dragon_blooded_shugengan_yin_010",
+      "names": {
+        "clan_name": {
+          "key": "",
+          "text": ""
+        },
+        "forename": {
+          "key": "names_name_1376971991",
+          "text": "Ju"
+        },
+        "family_name": {
+          "key": "names_name_623106632",
+          "text": "Di"
+        },
+        "other": {
+          "key": "",
+          "text": ""
+        }
+      },
+      "post_offset": 15706665,
+      "character_offset": 15706708,
+      "details_offset": 67126162
+    },
+    "regions": [
+      {
+        "region": "cr_combi_region_long_vi",
+        "name": "Long Vi",
+        "owner": "cr_cth_agents_of_the_moon",
+        "owner_name": "Agents of the Moon",
+        "subculture": "wh3_main_sc_cth_cathay",
+        "province": "cr_combi_province_primal_labyrinth",
+        "province_name": "Primal Labyrinth",
+        "province_capital": "false",
+        "esf_offset": 59304892
+      },
+      {
+        "region": "cr_combi_region_preenn",
+        "name": "Preenn",
+        "owner": "cr_cth_agents_of_the_moon",
+        "owner_name": "Agents of the Moon",
+        "subculture": "wh3_main_sc_cth_cathay",
+        "province": "cr_combi_province_paradise_spires",
+        "province_name": "Paradise Spires",
+        "province_capital": "false",
+        "esf_offset": 59984731
+      },
+      {
+        "region": "cr_combi_region_dai_loa",
+        "name": "Dai Loa",
+        "owner": "cr_cth_agents_of_the_moon",
+        "owner_name": "Agents of the Moon",
+        "subculture": "wh3_main_sc_cth_cathay",
+        "province": "cr_combi_province_primal_labyrinth",
+        "province_name": "Primal Labyrinth",
+        "province_capital": "true",
+        "esf_offset": 60010126
+      },
+      {
+        "region": "cr_combi_region_leilou",
+        "name": "Leilou",
+        "owner": "cr_cth_agents_of_the_moon",
+        "owner_name": "Agents of the Moon",
+        "subculture": "wh3_main_sc_cth_cathay",
+        "province": "cr_combi_province_primal_labyrinth",
+        "province_name": "Primal Labyrinth",
+        "province_capital": "false",
+        "esf_offset": 61135616
+      }
+    ]
+  },
+  "existing_save": {
+    "faction": "cr_cth_agents_of_the_moon",
+    "esf_faction_id": 205,
+    "faction_offset": 15513070,
+    "leader": {
+      "character_id": 329,
+      "details_id": 339,
+      "frontend_id": "1104464346",
+      "subtype": "wh3_main_cth_dragon_blooded_shugengan_yin",
+      "art_set": "wh3_main_art_set_cth_dragon_blooded_shugengan_yin_010",
+      "names": {
+        "clan_name": {
+          "key": "",
+          "text": ""
+        },
+        "forename": {
+          "key": "names_name_1376971991",
+          "text": "Ju"
+        },
+        "family_name": {
+          "key": "names_name_623106632",
+          "text": "Di"
+        },
+        "other": {
+          "key": "",
+          "text": ""
+        }
+      },
+      "post_offset": 15569578,
+      "character_offset": 15571055,
+      "details_offset": 69407751
+    },
+    "regions": [
+      {
+        "region": "cr_combi_region_long_vi",
+        "name": "Long Vi",
+        "owner": "cr_cth_agents_of_the_moon",
+        "owner_name": "Agents of the Moon",
+        "subculture": "wh3_main_sc_cth_cathay",
+        "province": "cr_combi_province_primal_labyrinth",
+        "province_name": "Primal Labyrinth",
+        "province_capital": "false",
+        "esf_offset": 59977767
+      },
+      {
+        "region": "cr_combi_region_preenn",
+        "name": "Preenn",
+        "owner": "cr_cth_agents_of_the_moon",
+        "owner_name": "Agents of the Moon",
+        "subculture": "wh3_main_sc_cth_cathay",
+        "province": "cr_combi_province_paradise_spires",
+        "province_name": "Paradise Spires",
+        "province_capital": "false",
+        "esf_offset": 60903986
+      },
+      {
+        "region": "cr_combi_region_dai_loa",
+        "name": "Dai Loa",
+        "owner": "cr_cth_agents_of_the_moon",
+        "owner_name": "Agents of the Moon",
+        "subculture": "wh3_main_sc_cth_cathay",
+        "province": "cr_combi_province_primal_labyrinth",
+        "province_name": "Primal Labyrinth",
+        "province_capital": "true",
+        "esf_offset": 60938043
+      },
+      {
+        "region": "cr_combi_region_leilou",
+        "name": "Leilou",
+        "owner": "cr_cth_agents_of_the_moon",
+        "owner_name": "Agents of the Moon",
+        "subculture": "wh3_main_sc_cth_cathay",
+        "province": "cr_combi_province_primal_labyrinth",
+        "province_name": "Primal Labyrinth",
+        "province_capital": "false",
+        "esf_offset": 62461710
+      }
+    ]
+  },
+  "db_faction": {
+    "key": "cr_cth_agents_of_the_moon",
+    "index": "1213178199",
+    "subculture": "wh3_main_sc_cth_cathay",
+    "category": "",
+    "name_group": "names_cth_cathay",
+    "skin": "wh3_main_cth_cathay",
+    "ui_skin": "wh3_main_cth_cathay",
+    "is_rebel": "false",
+    "flags_path": "ui\\flags\\cr_cth_agents_of_the_moon",
+    "military_group": "wh3_main_cth",
+    "movie_death_event": "0",
+    "unit_regiment_name_group": "names_cth_cathay",
+    "ship_name_group": "names_cth_cathay",
+    "pre_battle_speech_parameter": "FACTION_ODA",
+    "audio_voiceover_culture": "wh3_main_vo_culture_Cathay",
+    "mp_force_gen_template": "wh_mp_force_gen_cathay",
+    "faction_swapping_id": "cth",
+    "win_movie": "",
+    "waaagh_faction": "",
+    "waaagh_general_unit": "",
+    "is_quest_faction": "false",
+    "cdir_military_generator_config": "WH_Cathay",
+    "feature_forest": "LOCKED_STANDARD",
+    "default_audio_actor_vo_group": "wh3_main_vo_actor_Cathay_Lord_Magistrate",
+    "text_replacement_key": "",
+    "neutral_reinforcement_factions": "all",
+    "can_accept_gifts_when_dead": "false",
+    "uniform_colour_primary": "243355",
+    "uniform_colour_secondary": "6B6B18",
+    "uniform_colour_tertiary": "D0C11D",
+    "banner_colour_primary": "243355",
+    "banner_colour_secondary": "6B6B18",
+    "banner_colour_tertiary": "D0C11D",
+    "primary_colour": "243355",
+    "override_target_unit_vo_culture": "false",
+    "music_feedback_group": "Feedback_Alignment_Good_Faction",
+    "ui_main_theme_skin": "wh3_main_theme_caledor_sky",
+    "primary_colour_hex": "243355",
+    "alt_primary_colour_hex": "000000",
+    "secondary_colour_hex": "000000",
+    "alt_secondary_colour_hex": "000000",
+    "rebel_colour_hex": "000000",
+    "uniform_colour_hex": "000000",
+    "alt_uniform_colour_hex": "000000",
+    "card_colour_hex": "000000"
+  },
+  "khuresh_definition": "IEE cai_region_hint_area_khuresh (AI hint group, not a universal geographical boundary)",
+  "khuresh_regions": 42
+}
