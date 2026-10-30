@@ -1,0 +1,32 @@
+[
+  {
+    "path": "C:\\Users\\ADMIN\\AppData\\Roaming\\FrodoWazEre\\rpfm\\config\\schemas\\schema_wh3.ron",
+    "bytes": 10378766,
+    "sha256": "C994E39BB60AD842C9B11AABA236AFE60920542AEDC0FB0347B8C2DC98A1E0E1"
+  },
+  {
+    "path": "D:\\Mod TW3k\\rpfm-v4.5.4-x86_64-pc-windows-msvc\\rpfm_cli.exe",
+    "bytes": 18547200,
+    "sha256": "F54E20E9F0E95E9373238AAA2710D734B2BEEF5AC5BE5516EF80F92D509849A0"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\data\\db.pack",
+    "bytes": 8667644,
+    "sha256": "C5EBE71A6190C37C9FD7615251351046914D6FE34229E8903BFDBBB9712DA503"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\data\\local_en.pack",
+    "bytes": 33437470,
+    "sha256": "1D8B354B11D2B4B3C84927C864800A311EDC2B2D0D2D0611273F43D144A403F8"
+  },
+  {
+    "path": "C:\\Users\\ADMIN\\AppData\\Roaming\\The Creative Assembly\\Warhammer3\\save_games\\Agents of the Moon.11158371198.save",
+    "bytes": 12229825,
+    "sha256": "46BFF57FB82C464F7E8A64648FC53F98D218E6AB321418C6CF5E9D9396093150"
+  },
+  {
+    "path": "D:\\Warhammer3_Modding\\moon_cathay\\reference\\local\\iee\\campaigns\\cr_combi_expanded\\startpos.esf",
+    "bytes": 14097669,
+    "sha256": "C5F4944C9D42E322C52E34BAA83FB6C1E5F73173C7BB9327A3DEA7E809C7077A"
+  }
+]

@@ -1,0 +1,6 @@
+13:42:24 [INFO] Logger initialized.
+13:42:24 [INFO] Sentry Logging support enabled. Starting...
+13:42:24 [WARN] File with path db/building_culture_variants_tables/ab_mixu_le_asspos failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/campaign_map_event_area_province_region_junctions_tables/!b_mixer failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/cultures_tables/zzz_mixu_startpos failed to extract as TSV. Extracting it as binary.
+13:42:24 [WARN] File with path db/agent_subtypes_tables/ab_unlocker failed to extract as TSV. Extracting it as binary.

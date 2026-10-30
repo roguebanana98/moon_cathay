@@ -1,0 +1,5 @@
+PASS mod pack: exact dependency names, RPFM metadata only, no gameplay payload: moon_cathay_phase1_97227cb564be4bc49092c7300f992636.pack
+PASS snapshot identity/settlements/leader: startpos
+PASS snapshot identity/settlements/leader: existing_save
+PASS Khuresh: 42 regions, 17 provinces, 14 owners
+These checks do not validate game runtime or future gameplay builds.
