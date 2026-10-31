@@ -9,7 +9,7 @@ $report = Get-Content (Join-Path $candidateDir 'candidate-report.json') -Raw | C
 $startpos = Join-Path $candidateDir 'province-candidate.esf'
 if ((Get-FileHash $startpos).Hash.ToLowerInvariant() -ne $report.output_sha256) { throw 'Candidate hash mismatch' }
 $buildId = [Guid]::NewGuid().ToString('N')
-$pack = Join-Path $candidateDir ('mc_province_test_' + $buildId + '.pack')
+$pack = Join-Path $candidateDir ('mc_longvi_8slots_test_' + $buildId + '.pack')
 function Invoke-Rpfm {
     param([string[]]$Arguments)
     & $cfg.rpfm -g warhammer_3 @Arguments
@@ -28,6 +28,11 @@ foreach ($entry in @(
     Invoke-Rpfm @('pack','add','-p',$pack,'-t',$cfg.schema,'-f',($source + ';' + $internal))
 }
 Invoke-Rpfm @('pack','add','-p',$pack,'-f',($startpos + ';campaigns/cr_combi_expanded/startpos.esf'))
+$buildings = Get-Content (Join-Path $candidateDir 'long-vi-buildings-report.json') -Raw | ConvertFrom-Json
+foreach ($internal in $buildings.files) {
+    $source = Join-Path $candidateDir ($internal + '.tsv')
+    Invoke-Rpfm @('pack','add','-p',$pack,'-t',$cfg.schema,'-f',($source + ';' + $internal))
+}
 Invoke-Rpfm @('pack','list','-p',$pack)
 $verifyDir = Join-Path $root ('reference/local/province-pack-check/' + $buildId)
 New-Item -ItemType Directory -Path $verifyDir -Force | Out-Null

@@ -10,6 +10,10 @@
   only for this ignored local test artifact; no third-party content enters Git/src.
 - Deployment to game/Workshop, gameplay launch and public redistribution are not
   included in those approvals. Preserve original dependency packs and live saves.
+- User additionally requested 8 total building slots at Long Vi, preserving its
+  existing buildings including the port, and approved a separate current WH3
+  RPFM schema in local tooling. The private test pack may include the scoped
+  building definitions and localization required for that change.
 
 ## General constraints
 

@@ -32,13 +32,26 @@ class Document:
         r.p = self.table
         r.names = [r.take(r.number(2)).decode('utf-8') for _ in range(r.number(2))]
         r.strings = {}
+        self.added_strings = []
+        self.magic = magic
         for marker, encoding, width in ((14,'utf-16-le',2),(15,'utf-8',1)):
             values = {}
+            if marker == 15:
+                self.ascii_count_offset = r.p
             for _ in range(r.number(4)):
                 size = r.number(4 if magic == 0xabcb else 2)
                 value = r.take(size * width).decode(encoding)
                 values[r.number(4)] = value
             r.strings[marker] = values
+        self.ascii_end = r.p
+
+    def add_string(self, value):
+        if value in self.r.strings[15].values():
+            return self.string(value)
+        index = max(self.r.strings[15]) + 1
+        self.r.strings[15][index] = value
+        self.added_strings.append((index,value))
+        return self.string(value)
 
     def header(self, start):
         r = self.r
@@ -121,7 +134,17 @@ class Document:
             return b''.join(chunks)
         body, end = node(16)
         assert end == self.table and used == set(patches), (used, patches.keys())
-        return self.data[:12] + struct.pack('<I', 16 + len(body)) + body + self.data[self.table:]
+        table = self.data[self.table:]
+        if self.added_strings:
+            count_pos = self.ascii_count_offset
+            old_count = int.from_bytes(self.data[count_pos:count_pos+4],'little')
+            entries = []
+            for index,value in self.added_strings:
+                encoded = value.encode('utf-8')
+                entries.append(struct.pack('<I' if self.magic==0xabcb else '<H',len(encoded))+encoded+struct.pack('<I',index))
+            table = (self.data[self.table:count_pos]+struct.pack('<I',old_count+len(entries))+
+                     self.data[count_pos+4:self.ascii_end]+b''.join(entries)+self.data[self.ascii_end:])
+        return self.data[:12] + struct.pack('<I', 16 + len(body)) + body + table
 
 def main():
     raw = (OUT / 'roundtrip-input.raw.esf').read_bytes()
@@ -129,6 +152,15 @@ def main():
     doc = Document(raw)
     patches = {}
     changes = []
+    # Keep building ID, tier, health, owner, construction state, port, and all slots.
+    # Only use a region-scoped copy of the existing primary building definition.
+    primary_offset = 59304987
+    primary, _ = doc.decode(primary_offset)
+    assert primary['name']=='BUILDING_BASE' and primary['version']==1
+    assert primary['groups'][0][:2]==[357,'wh3_main_cth_settlement_minor_2']
+    children = doc.children(primary_offset)
+    new_key = doc.add_string('mc_long_vi_cth_settlement_2')
+    patches[primary_offset] = doc.record(primary_offset,b''.join(new_key if i==1 else raw[a:b] for i,(a,b,_) in enumerate(children)))
     for offset, province, old_capital, old_members, capital, members in (
         (2104977, 'paradise_spires', 'avauka', ['preenn','avauka'], 'dai_loa', ['preenn','avauka','dai_loa']),
         (2107467, 'primal_labyrinth', 'dai_loa', ['long_vi','dai_loa','leilou'], 'long_vi', ['long_vi','leilou']),
@@ -170,7 +202,10 @@ def main():
     result = Reader(edited).parse()
     actual = {}
     managers = {}
+    long_vi = None
     for n in walk(result):
+        if n['name']=='REGION' and n['groups'][0][1]=='cr_combi_region_long_vi':
+            long_vi = n
         if n['name'] == 'PROVINCE_DATA':
             g = n['groups'][0]
             if g[0] in {x['province'] for x in changes}:
@@ -181,6 +216,16 @@ def main():
                 managers[g[0]] = (g[2],g[7])
     assert actual == {x['province']:x for x in changes}
     assert managers == {193:([251,254],254),304:([153,404],153)}
+    assert long_vi is not None
+    baseline,_ = doc.decode(59304892)
+    def clean(x):
+        if isinstance(x,dict): return {k:clean(v) for k,v in x.items() if k!='offset'}
+        if isinstance(x,list): return [clean(v) for v in x]
+        return x
+    baseline_primary = next(n for n in walk(baseline) if n['name']=='BUILDING_BASE' and n['groups'][0][0]==357)
+    baseline_primary['groups'][0][1] = 'mc_long_vi_cth_settlement_2'
+    assert clean(long_vi)==clean(baseline), 'Unexpected change to Long Vi buildings, port, slots or other state'
+    assert [n['groups'][0][1] for n in walk(long_vi) if n['name']=='BUILDING_BASE']==['mc_long_vi_cth_settlement_2','wh3_main_cth_port_1']
     del result
     # Reuse the original outer ESF and compression properties.
     source = (OUT / 'roundtrip-input.esf').read_bytes()
@@ -208,7 +253,8 @@ def main():
     report = {'status':'experimental_static_candidate_not_game_tested', 'source_payload_sha256':EXPECTED,
               'output_sha256':hashlib.sha256(encoded).hexdigest(), 'changes':changes,
               'modified_record_offsets':list(patches),
-              'limitations':['DB junction replacements not built','Settlement slots/buildings not converted',
+              'long_vi':{'total_slots_target':8,'primary_building':'mc_long_vi_cth_settlement_2','port_preserved':'wh3_main_cth_port_1','all_other_region_data_preserved':True},
+              'limitations':['Long Vi eight-slot unlocks require accompanying custom-building DB tables','Other settlement infrastructure unchanged',
                              'AI cached data not audited','No game/load/end-turn test','Not deployed; no live save migration']}
     (OUT/'candidate-report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(json.dumps(report,indent=2))

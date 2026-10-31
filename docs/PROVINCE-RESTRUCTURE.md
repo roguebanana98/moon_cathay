@@ -116,5 +116,35 @@ header validation nevertheless confirmed both required dependency names. There w
 no DB import/export failures. Settlement infrastructure and runtime limitations above
 still apply. Only the `cr_combi_expanded` startpos is overridden.
 
+## Long Vi eight-slot revision
+
+User requested eight total building slots while retaining existing buildings and
+the port, and approved a separate updated WH3 schema in tooling. Schema SHA256:
+`bc78e1fc63f5c5d3bd942c0793adf07cbe2c9b328c68b1521115805321390768`.
+It successfully decodes building_levels version 3 and building_culture_variants
+version 5, absent from the previous local schema.
+
+`Prepare-LongVi-Buildings.py` creates a private Cathay primary-building chain copy
+with the same levels, costs, health, effects (except slot-count tooltip), recruitment,
+garrison groups, art references and English localization. Only Long Vi's primary
+template permits this chain; the original Cathay primary chain is removed from
+that template only. Vanilla building keys and other settlement templates are not
+overridden. The custom chain unlocks seven non-primary slots at levels 1–3, giving
+eight total: one primary, the existing port, and six general slots. The existing
+ten physical slot records and map geometry are retained; no global Cathay slot
+unlock rows are changed. Conversion to another race is not covered by this custom
+Cathay chain and has not been tested.
+
+Startpos changes only the definition key of existing building ID 357 to the private
+equivalent `mc_long_vi_cth_settlement_2`; its level, health and ownership are retained.
+Port building ID 358 remains `wh3_main_cth_port_1`. A full decoded comparison of the
+Long Vi REGION subtree verifies that this building-key substitution is its only
+change. The two province arrangements and manager updates still pass validation.
+
+The revised private pack contains 15 gameplay/localization files. Every DB and loc
+was imported and exported losslessly using RPFM, with exact pack/dependency checks.
+No deployment, new-campaign launch, construction, upgrade, end-turn or save/load
+test has occurred. This remains an experimental pack, not proven runtime behavior.
+
 Tool-author reference for the map/database workflow:
 https://github.com/TW-Campaign-Map-Modding-Team/CampaignMapToolkit/blob/main/docs/user-guide-modifying-an-existing-map.md

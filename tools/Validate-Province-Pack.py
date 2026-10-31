@@ -33,6 +33,9 @@ assert pos == end and end+total == len(b)
 expected = {'campaigns/cr_combi_expanded/startpos.esf',
             'db/region_to_province_junctions_tables/!cr_map_expansion',
             'db/regions_to_region_groups_junctions_tables/!cr_map_expansion_province'}
+buildings = json.loads((build/'long-vi-buildings-report.json').read_text())
+assert len(buildings['files'])==12
+expected.update(buildings['files'])
 assert {n for n in names if not n.endswith('.rpfm_reserved')} == expected
 verify = Path(manifest['verification_directory'])
 assert (verify/'campaigns/cr_combi_expanded/startpos.esf').read_bytes() == (build/'province-candidate.esf').read_bytes()
@@ -61,8 +64,22 @@ for province in spec['provinces']:
     for region in province['regions']:
         assert sum(r['region']==region for r in records)==1
 manifest['status'] = 'static_pack_verification_passed_not_game_tested'
-manifest['checks'] = ['PFH5 mod type','exact IEE/MIXER dependencies','exact three gameplay payloads',
-                      'pack startpos byte-identical to audited candidate','both DB tables imported and exported losslessly',
+unlock_header,unlock_rows=rows(verify/'db/campaign_building_chain_slot_unlocks_tables/mc_long_vi_eight_slots.tsv')
+assert unlock_header==['building_chain','level','active_slot_count']
+assert unlock_rows==[['mc_long_vi_cth_settlement',str(level),'7'] for level in (-1,1,2,3)]
+_,permission_rows=rows(verify/'db/slot_template_permitted_building_chains_tables/mc_long_vi_eight_slots.tsv')
+assert permission_rows==[['wh3_main_cth_settlement_minor','','cr_minor_primary_long_vi','','true'],['mc_long_vi_cth_settlement','','cr_minor_primary_long_vi','','false']]
+level_header,level_rows=rows(verify/'db/building_levels_tables/mc_long_vi_eight_slots.tsv')
+assert {r[level_header.index('level_name')] for r in level_rows}=={'mc_long_vi_cth_settlement_'+x for x in ('1','2','3','ruin')}
+assert all(r[level_header.index('chain')]=='mc_long_vi_cth_settlement' for r in level_rows)
+_,garrison_rows=rows(verify/'db/building_level_armed_citizenry_junctions_tables/mc_long_vi_eight_slots.tsv')
+assert {r[2] for r in garrison_rows}=={'wh3_main_cth_settlement_minor_'+str(i) for i in (1,2,3)}
+candidate=json.loads((build/'candidate-report.json').read_text())
+assert candidate['long_vi']['all_other_region_data_preserved']
+manifest['checks'] = ['PFH5 mod type','exact IEE/MIXER dependencies','exact fifteen gameplay/localization payloads',
+                      'pack startpos byte-identical to audited candidate','all DB/loc files imported and exported losslessly',
+                      'Long Vi exclusive Cathay chain; seven non-primary slots including port; original garrison groups',
+                      'Long Vi region data unchanged except primary building definition key; original port preserved',
                       'five unique regions; exactly one capital per target province']
 manifest_path.write_text(json.dumps(manifest,indent=2),encoding='utf-8')
 print(json.dumps(manifest,indent=2))
