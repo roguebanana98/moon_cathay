@@ -1,0 +1,107 @@
+MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
+
+TIẾN ĐỘ HIỆN TẠI [31/10/2026]: Đã xong setup/phân tích IEE–MIXER; đang sửa và kiểm thử chia province + Long Vi 8 ô. Bản test cũ bị treo khi tạo campaign; đã chuẩn bị bản sửa UINT32-array, chưa xác nhận chạy được trong game. Việc tiếp theo: test province_v2, sau đó longvi8_v2 trên campaign mới.
+
+HƯỚNG DẪN CẬP NHẬT
+- Cập nhật dòng “TIẾN ĐỘ HIỆN TẠI” mỗi khi bàn giao hoặc kết thúc một mốc.
+- Ghi ngày, kết quả thực tế, vấn đề còn lại và việc tiếp theo ngay trên dòng đó.
+- Chỉ đánh dấu hoàn thành tính năng gameplay sau khi đã kiểm thử trong game.
+- Quy ước: [X] hoàn thành; [~] đang làm/chờ kiểm chứng; [ ] chưa hoàn thành.
+
+1. MỤC TIÊU TỔNG THỂ
+Phát triển submod Total War: Warhammer III trên Immortal Empires Expanded (IEE)
+và MIXER – Mixu's Unlocker, tập trung vào các faction dựa trên Grand Cathay.
+Xây dựng faction có bản sắc riêng, Legendary Lord/model riêng, roster và hệ thống
+gia tộc, tạo Lord, class và skill tree tùy chỉnh. Triển khai từng phần, có thể
+kiểm chứng và duy trì khi game hoặc dependency cập nhật.
+
+2. NỀN TẢNG DỰ ÁN
+[X] Xác minh đường dẫn game, Workshop và pack IEE/MIXER.
+[X] Thiết lập cấu trúc source, assets, tools, docs, reports, build và reference.
+[X] Tạo Git repository, .gitignore và bản backup đầy đủ lịch sử commit.
+[X] Push lên repo Public: https://github.com/roguebanana98/moon_cathay
+[X] Phân tích baseline Agents of the Moon: faction key, culture/subculture,
+    settlement, Lord, tên hiển thị, cờ và màu hiện tại.
+[X] Lập danh sách Khuresh theo group IEE: 42 region, 17 province, 14 owner.
+[X] Tạo công cụ đọc/trích xuất, build pack và kiểm tra dữ liệu tĩnh.
+[X] Viết hướng dẫn build/test và kiến trúc phát triển.
+[~] Hoàn thiện quy trình build và kiểm thử runtime cho mod có gameplay.
+
+3. CAMPAIGN — PHẠM VI ĐANG TRIỂN KHAI
+[~] Chia lại Primal Labyrinth: Long Vi (province capital), Leilou.
+[~] Chia lại Paradise Spires: Dai Loa (province capital), Avauka, Preenn.
+    Giữ nguyên faction ownership, faction capital và tên province trong phạm vi này.
+[~] Long Vi có 8 ô tổng cộng: 1 nhà chính + 1 cảng + 6 ô thường;
+    giữ công trình hiện có và cảng.
+[~] Sửa lỗi serialization: hai danh sách membership phải thuộc UINT32-array family.
+[ ] Xác nhận bản province_v2 vào được campaign mới.
+[ ] Xác nhận bản longvi8_v2 vào được campaign mới và mở đúng 8 ô.
+[ ] Kiểm tra xây/nâng cấp công trình, nâng cấp thành, end turn và save/load.
+[ ] Kiểm tra ảnh hưởng đến AI, MCT và các region ngoài phạm vi.
+
+Trạng thái quan trọng:
+- Hai bản test cũ đã bị treo khi tạo campaign; không coi là bản dùng ổn định.
+- Bản sửa được mô tả tại docs/PROVINCE-LOADING-FAILURE.md.
+- province_v2 và longvi8_v2 là hai lựa chọn thử riêng; không bật đồng thời.
+- longvi8_v2 dự kiến tích hợp cả chia province và thay đổi 8 ô Long Vi.
+- Chưa có xác nhận sửa triệt để lỗi treo trong game.
+
+4. FACTION VÀ ROSTER
+[ ] Chốt tên, chủ đề, bối cảnh và bản sắc faction tùy chỉnh.
+[ ] Đổi tên hiển thị, mô tả, cờ và màu quân đội/banner.
+[ ] Thiết kế roster: bộ binh, kỵ binh, tầm xa, pháo binh và đơn vị đặc biệt.
+[ ] Thiết lập tuyển quân, công trình, giới hạn unit và cân bằng kinh tế.
+[ ] Kiểm tra faction frontend, campaign và custom battle.
+
+5. LEGENDARY LORD, MODEL VÀ SKILL TREE
+[ ] Thiết kế Legendary Lord riêng: tên, vai trò, chỉ số, kỹ năng và cơ chế.
+[ ] Tạo model 3D/texture riêng; rig theo skeleton phù hợp và reuse animation có sẵn.
+[ ] Kiểm tra vật liệu, LOD, vũ khí, mount, portrait và unit card.
+[ ] Tích hợp Lord với faction, frontend, campaign và battle.
+[ ] Xây skill tree riêng, liên kết node/effect và cân bằng progression.
+
+6. MỞ RỘNG FACTION VÀ PROVINCE
+[ ] Thiết kế cách tạo/tách faction và phân bố lãnh thổ theo từng yêu cầu cụ thể.
+[ ] Xác minh công cụ, startpos, dữ liệu province/region và AI cần đồng bộ.
+[ ] Mở rộng province/faction sau khi thay đổi hiện tại chạy ổn định.
+[ ] Xác định chính sách campaign mới và khả năng tương thích save cũ.
+
+7. FAMILY TREE VÀ TẠO LORD
+[ ] Thiết kế dữ liệu gia tộc, quan hệ cha mẹ/con cái và giao diện Family Tree.
+[ ] Thiết kế hôn nhân, sinh con, tuổi tác và trưởng thành.
+[ ] Thiết kế di truyền skill/trait/class với quy tắc và giới hạn rõ ràng.
+[ ] Tích hợp tạo Lord, lựa chọn class và skill tree tùy chỉnh.
+[ ] Nghiên cứu API/thỏa thuận tích hợp Custom Lord Creation trước khi sử dụng.
+[ ] Kiểm tra lưu trạng thái, load lại, chết/hồi sinh, migration và multiplayer.
+    Các mục này là mục tiêu nghiên cứu; chưa xác nhận mọi cơ chế đều khả thi
+    bằng hệ thống native hoặc API của WH3.
+
+8. KIỂM THỬ VÀ PHÁT HÀNH
+[ ] Có bản gameplay vượt qua kiểm thử campaign mới, battle, end turn và save/load.
+[ ] Kiểm tra tương thích IEE, MIXER, MCT và các mod được chọn hỗ trợ.
+[ ] Lập changelog, version, hướng dẫn cài/load order và danh sách lỗi đã biết.
+[ ] Kiểm tra quyền sử dụng mọi code/asset trước khi phát hành.
+[ ] Chỉ phát hành sau khi đã xác minh nội dung pack và quyền phân phối.
+
+9. NGUYÊN TẮC CHUNG
+- Không sửa/xóa/ghi đè pack game gốc hoặc mod Workshop.
+- Phát triển qua pack riêng; source tự viết tách khỏi dữ liệu reference.
+- Không commit game asset, pack, save hoặc bản trích xuất của bên thứ ba.
+- Các pack test chứa dữ liệu IEE dẫn xuất hiện chỉ dành cho thử nghiệm local
+  theo phạm vi đã được cho phép; không upload/phát hành lại chúng.
+- Không tự cài/cập nhật phần mềm nếu chưa được người dùng cho phép.
+- Phân biệt rõ: thiết kế xong, build xong, kiểm tra tĩnh qua và chạy trong game qua.
+- Chỉ mở rộng gameplay/campaign trong phạm vi người dùng đã yêu cầu.
+
+10. ĐIỂM BẮT ĐẦU CHO NGƯỜI CÙNG LÀM
+Project local: D:\Warhammer3_Modding\moon_cathay
+Repo chính: https://github.com/roguebanana98/moon_cathay
+Tổng quan: README.md
+Phân tích baseline: docs/PHASE1-REPORT.md và docs/FACTION-ANALYSIS.md
+Mục tiêu province/Long Vi: docs/PROVINCE-RESTRUCTURE.md
+Lỗi treo và bản sửa đang chờ test: docs/PROVINCE-LOADING-FAILURE.md
+Hướng dẫn build/test: docs/BUILD-TEST.md
+Quy tắc làm việc và ngoại lệ được phép: AGENTS.md
+
+Lưu ý: báo cáo Phase 1 mô tả baseline ban đầu, không thay thế trạng thái mới nhất
+trong dòng tiến độ ở đầu file và tài liệu lỗi/kiểm thử campaign.
