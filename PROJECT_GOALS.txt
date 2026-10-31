@@ -1,6 +1,6 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
-TIẾN ĐỘ HIỆN TẠI [31/10/2026]: Đã xong setup/phân tích IEE–MIXER; đang sửa và kiểm thử chia province + Long Vi 8 ô. Bản test cũ bị treo khi tạo campaign; đã chuẩn bị bản sửa UINT32-array, chưa xác nhận chạy được trong game. Việc tiếp theo: test province_v2, sau đó longvi8_v2 trên campaign mới.
+TIẾN ĐỘ HIỆN TẠI [31/10/2026]: Hoàn thành mốc chia province + Long Vi thành chính Cathay cấp I–V, mở ô theo cấp và tối đa 8 ô gồm cảng. Người dùng xác nhận bản v3 chạy trong game không lỗi; lỗi treo khi tạo campaign đã được sửa từ v2. Bản hiện hành: build/longvi-tiered/mc_longvi_v3_tiered_capital.pack. Chưa có báo cáo riêng về toàn bộ chuỗi nâng cấp I–V, end turn, battle và save/load; đây là phần kiểm thử tiếp theo trước khi đánh giá ổn định dài hạn.
 
 HƯỚNG DẪN CẬP NHẬT
 - Cập nhật dòng “TIẾN ĐỘ HIỆN TẠI” mỗi khi bàn giao hoặc kết thúc một mốc.
@@ -28,23 +28,30 @@ kiểm chứng và duy trì khi game hoặc dependency cập nhật.
 [~] Hoàn thiện quy trình build và kiểm thử runtime cho mod có gameplay.
 
 3. CAMPAIGN — PHẠM VI ĐANG TRIỂN KHAI
-[~] Chia lại Primal Labyrinth: Long Vi (province capital), Leilou.
-[~] Chia lại Paradise Spires: Dai Loa (province capital), Avauka, Preenn.
+[X] Chia lại Primal Labyrinth: Long Vi (province capital), Leilou.
+[X] Chia lại Paradise Spires: Dai Loa (province capital), Avauka, Preenn.
     Giữ nguyên faction ownership, faction capital và tên province trong phạm vi này.
-[~] Long Vi có 8 ô tổng cộng: 1 nhà chính + 1 cảng + 6 ô thường;
-    giữ công trình hiện có và cảng.
-[~] Sửa lỗi serialization: hai danh sách membership phải thuộc UINT32-array family.
-[ ] Xác nhận bản province_v2 vào được campaign mới.
-[ ] Xác nhận bản longvi8_v2 vào được campaign mới và mở đúng 8 ô.
+[X] Long Vi có tối đa 8 ô tổng cộng: 1 nhà chính + 1 cảng + 6 ô thường;
+    giữ cảng và tài nguyên, thay nhà chính bằng chuỗi thành chính Cathay.
+[X] Chuyển Long Vi sang thành chính Cathay cấp I–V, gồm chỉ số và quân đồn trú.
+[X] Áp dụng mở ô theo cấp: 1/2/3/5/7 ô phụ ở cấp I/II/III/IV/V;
+    cảng chiếm một ô phụ, cộng nhà chính đạt tối đa 8 ô ở cấp V.
+[X] Sửa lỗi serialization: hai danh sách membership thuộc UINT32-array family.
+[X] Người dùng xác nhận v2 sửa thành công lỗi treo khi tạo campaign mới.
+[X] Người dùng xác nhận v3 thành chính mở ô theo cấp chạy không lỗi.
 [ ] Kiểm tra xây/nâng cấp công trình, nâng cấp thành, end turn và save/load.
 [ ] Kiểm tra ảnh hưởng đến AI, MCT và các region ngoài phạm vi.
 
 Trạng thái quan trọng:
 - Hai bản test cũ đã bị treo khi tạo campaign; không coi là bản dùng ổn định.
-- Bản sửa được mô tả tại docs/PROVINCE-LOADING-FAILURE.md.
-- province_v2 và longvi8_v2 là hai lựa chọn thử riêng; không bật đồng thời.
-- longvi8_v2 dự kiến tích hợp cả chia province và thay đổi 8 ô Long Vi.
-- Chưa có xác nhận sửa triệt để lỗi treo trong game.
+- Lỗi treo đã được người dùng xác nhận sửa thành công ở v2;
+  lịch sử chẩn đoán tại docs/PROVINCE-LOADING-FAILURE.md.
+- Bản hiện hành v3 tích hợp chia province và Long Vi thành chính I–V,
+  thay thế các bản province/Long Vi cũ; chỉ bật một bản submod.
+- File: build/longvi-tiered/mc_longvi_v3_tiered_capital.pack.
+- Chi tiết build/kiểm tra: docs/LONGVI-TIERED-CAPITAL.md.
+- Xác nhận runtime do người dùng cung cấp: “oke tốt lắm, k lỗi”.
+  Không suy diễn thành đã kiểm thử mọi cấp thành, battle hoặc save/load.
 
 4. FACTION VÀ ROSTER
 [ ] Chốt tên, chủ đề, bối cảnh và bản sắc faction tùy chỉnh.
@@ -99,7 +106,8 @@ Repo chính: https://github.com/roguebanana98/moon_cathay
 Tổng quan: README.md
 Phân tích baseline: docs/PHASE1-REPORT.md và docs/FACTION-ANALYSIS.md
 Mục tiêu province/Long Vi: docs/PROVINCE-RESTRUCTURE.md
-Lỗi treo và bản sửa đang chờ test: docs/PROVINCE-LOADING-FAILURE.md
+Lịch sử lỗi treo đã sửa: docs/PROVINCE-LOADING-FAILURE.md
+Long Vi thành chính I–V, bản v3: docs/LONGVI-TIERED-CAPITAL.md
 Hướng dẫn build/test: docs/BUILD-TEST.md
 Quy tắc làm việc và ngoại lệ được phép: AGENTS.md
 

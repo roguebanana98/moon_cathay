@@ -8,7 +8,9 @@
     "wh3_main_cth_port_1"
   ],
   "scope": "Long Vi only; retain previous province regrouping",
-  "implementation": "Long Vi-only Cathay primary chain copy; 7 non-primary slots including the existing port",
+  "implementation": "Long Vi-only Cathay major chain I-V; vanilla tier-dependent unlocking, maximum 7 non-primary slots including the existing port",
+  "active_secondary_slots_by_tier": {"1": 1, "2": 2, "3": 3, "4": 5, "5": 7},
+  "source_chain": "wh3_main_cth_settlement_major",
   "primary_building_variant": "mc_long_vi_cth_settlement_2",
-  "status": "private_pack_static_validation_passed_not_game_tested"
+  "status": "v3_tiered_capital_static_validation_passed_not_game_tested"
 }
