@@ -1,0 +1,14 @@
+{
+  "region": "cr_combi_region_long_vi",
+  "requested_total_building_slots": 8,
+  "count_includes_primary_and_port": true,
+  "preserve_existing_buildings": true,
+  "baseline_buildings": [
+    "wh3_main_cth_settlement_minor_2",
+    "wh3_main_cth_port_1"
+  ],
+  "scope": "Long Vi only; retain previous province regrouping",
+  "implementation": "Long Vi-only Cathay primary chain copy; 7 non-primary slots including the existing port",
+  "primary_building_variant": "mc_long_vi_cth_settlement_2",
+  "status": "private_pack_static_validation_passed_not_game_tested"
+}
