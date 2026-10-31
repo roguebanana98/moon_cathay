@@ -1,5 +1,18 @@
 # Project constraints
 
+## User-authorized exceptions (2026-10-31)
+
+- Campaign scope expanded specifically to regroup Primal Labyrinth (Long Vi capital,
+  Leilou) and Paradise Spires (Dai Loa capital, Avauka, Preenn).
+- User explicitly approved installing EditSF 1.3.0 under local tooling and packaging
+  derived IEE startpos plus the two province-related DB tables in a private local
+  test pack. This is an exception to the third-party bundling prohibition below
+  only for this ignored local test artifact; no third-party content enters Git/src.
+- Deployment to game/Workshop, gameplay launch and public redistribution are not
+  included in those approvals. Preserve original dependency packs and live saves.
+
+## General constraints
+
 - Phase 1 only until the user explicitly expands scope. Do not change gameplay/campaign.
 - Never write to game installation or Workshop paths. Reference packs are read-only inputs.
 - Do not install/update software or schemas without user permission.

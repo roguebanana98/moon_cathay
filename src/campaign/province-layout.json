@@ -1,0 +1,19 @@
+{
+  "campaign": "cr_combi_expanded",
+  "status": "target_spec_only_not_runtime_patch",
+  "provinces": [
+    {
+      "key": "cr_combi_province_primal_labyrinth",
+      "capital": "cr_combi_region_long_vi",
+      "regions": ["cr_combi_region_long_vi", "cr_combi_region_leilou"]
+    },
+    {
+      "key": "cr_combi_province_paradise_spires",
+      "capital": "cr_combi_region_dai_loa",
+      "regions": ["cr_combi_region_dai_loa", "cr_combi_region_avauka", "cr_combi_region_preenn"]
+    }
+  ],
+  "change_ownership": false,
+  "change_faction_capital": false,
+  "rename_provinces": false
+}
