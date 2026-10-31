@@ -14,6 +14,9 @@
   existing buildings including the port, and approved a separate current WH3
   RPFM schema in local tooling. The private test pack may include the scoped
   building definitions and localization required for that change.
+- User selected Cathay major-settlement tiers I-V for Long Vi, including major
+  settlement stats/garrison and normal tier-dependent slot unlocking, capped at
+  eight total slots. Keep the existing port and resources.
 
 ## General constraints
 

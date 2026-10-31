@@ -191,7 +191,9 @@ def main():
         assert [v for _,_,v in scalars[:3]] == [manager_id,205,old_members]
         assert scalars[7][2] == old_capital
         replacements = {
-            scalars[2][0]: b'\x47' + var(2*len(members)) + struct.pack('<'+'H'*len(members),*members),
+            # 0x57 is an optimized UINT32 array with 2-byte elements.
+            # 0x47 is a UINT16 array: same decoded numbers, different ESF type.
+            scalars[2][0]: b'\x57' + var(2*len(members)) + struct.pack('<'+'H'*len(members),*members),
             scalars[7][0]: b'\x08' + struct.pack('<I',capital),
         }
         body = b''.join(replacements.get(a,raw[a:b]) for a,b,_ in children)
@@ -200,6 +202,7 @@ def main():
     (OUT / 'province-candidate.raw.esf').write_bytes(edited)
     # Verify edited records by walking the independently implemented reader.
     result = Reader(edited).parse()
+    typed_document = Document(edited)
     actual = {}
     managers = {}
     long_vi = None
@@ -213,6 +216,9 @@ def main():
         if n['name'] == 'FACTION_PROVINCE_MANAGER':
             g = [v for v in n['groups'][0] if not isinstance(v,dict)]
             if g[0] in (193,304):
+                fields=typed_document.children(n['offset'])
+                array_field=fields[2]
+                assert typed_document.data[array_field[0]] in (0x48,0x56,0x57,0x58), 'Province region IDs must remain UINT32_ARRAY, not UINT16_ARRAY'
                 managers[g[0]] = (g[2],g[7])
     assert actual == {x['province']:x for x in changes}
     assert managers == {193:([251,254],254),304:([153,404],153)}
