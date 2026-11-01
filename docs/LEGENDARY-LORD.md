@@ -1,5 +1,21 @@
 # Huyen Ve, Warden of Long Vi — Legendary Lord
 
+## Native equipment icons — v14 (2026-11-02)
+
+Current integrated build: `build/huyen-ve-equipment/mc_huyen_ve_v14_native_icons.pack`.
+Replaces the v13 authored equipment/ability icons with existing game artwork.
+All gameplay values are unchanged; static validation passed, runtime pending.
+
+
+## Equipment prototype — v13 (2026-11-02)
+
+Current integrated build: `build/huyen-ve-equipment/mc_huyen_ve_v13_equipment.pack`.
+Adds five authored items, native Custom Battle item links, three item-gated
+abilities and the five-piece set bonus. All v12 payloads are byte-identical.
+Static validation passed; runtime verification pending. Campaign acquisition
+quests are not implemented and no automatic campaign item grants are added.
+See [equipment and Custom Battle test notes](HUYEN-VE-EQUIPMENT.md).
+
 ## Official identity — v12 (2026-11-02)
 
 Approved name: **Huyen Ve, Warden of Long Vi**. Class label: **Legendary Lord**.

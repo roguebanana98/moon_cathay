@@ -26,6 +26,18 @@
 
 ## General constraints
 
+- User preference (2026-11-02): use existing game artwork for equipment/ability
+  icons for now; do not generate new art. Native paths are referenced directly;
+  the three phase-ID icon aliases may reuse native PNGs byte-for-byte only in
+  the ignored private build. No native artwork enters src or authored assets.
+
+- Scope extension (2026-11-02): user requested the five proposed Huyen Ve items
+  implemented in the private local mod and equipped/selectable in Custom Battle
+  for testing where supported. This authorizes authored icons, scoped ancillary,
+  effect/ability/set definitions and native Custom Battle item links. Campaign
+  quest acquisition is still pending; no automatic campaign grant, game/Workshop
+  deployment, gameplay launch or publishing is included.
+
 - Scope extension (2026-11-01): user authorized implementation of the Legendary
   Lord described in PROJECT_GOALS.txt, replacing Ju Di. Male, temporary name,
   existing human sword model, healing/AOE/Yang Dragon's Breath, no dragon form

@@ -19,7 +19,8 @@
   "spell_choices": "Dragon's Breath required; Earth Blood and Flame Storm provisional choices from project goal candidates",
   "initial_spell_unlocks": "Dragon Breath 1, Earth Blood 1; Flame Storm 0",
   "preserve_baseline": "Long Vi v3 and province regrouping",
-  "status": "v12_name_update_runtime_pending",
+  "status": "v14_native_icons_static_checked_runtime_pending",
+  "equipment_source": "src/campaign/huyen-ve-equipment.json",
   "spell_progression": {
     "rank_gates": false,
     "flame_storm_prerequisite": {

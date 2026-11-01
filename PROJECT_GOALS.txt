@@ -1,6 +1,6 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
-TIẾN ĐỘ HIỆN TẠI [02/11/2026]: Đã chốt và tích hợp tên Huyen Ve, Warden of Long Vi; loại Legendary Lord. Bản v12: build/huyen-ve-name/mc_huyen_ve_v12_name.pack, thay tên campaign/battle/Custom Battle, mô tả frontend/loading và script sửa tên khi load save. Đối chiếu pack và localization roundtrip đạt; toàn bộ DB/startpos v11 giữ nguyên. Chưa deploy, chưa kiểm thử runtime. Tiếp theo: thay pack cũ bằng v12 và xác nhận tên trong game.
+TIẾN ĐỘ HIỆN TẠI [02/11/2026]: Bản tích hợp hiện hành v14: build/huyen-ve-equipment/mc_huyen_ve_v14_native_icons.pack. Lord chính thức Huyen Ve, Warden of Long Vi — Legendary Lord; đã định nghĩa 5 trang bị, 3 ability gắn với item, bonus đủ bộ và link trang bị Custom Battle. Dùng icon có sẵn trong game theo yêu cầu. Build và kiểm tra tĩnh đạt; chưa deploy/chưa xác nhận runtime. Quest nhận từng món chưa triển khai, campaign chưa tự cấp đồ. Việc tiếp theo: kiểm tra bật/tắt từng món trong Custom Battle, hiệu ứng/bonus đủ bộ, rồi triển khai chuỗi nhiệm vụ; chương 3 đã chốt Hero điều tra → quest battle riêng. Model concept03 chưa xuất được file thân local/chưa tích hợp; xem mốc model bên dưới.
 
 MỐC MODEL TRƯỚC ĐÓ [02/11/2026]: Đã dựng xong bản 3D Public xem thử của concept 03 trên Tripo quốc tế (H3.1, Geometry & Texture), dùng đúng 45 credits, số dư 140→95. Model aaf0a312-0f6a-4ff7-8915-d72a9505c819 có 1,970,610 faces / 1,023,713 vertices theo viewer; đã xoay kiểm tra trước/cạnh/sau và lưu ảnh trong reports/concept03-tripo-*.jpg. Xuất GLB chính thức bị chặn bởi yêu cầu subscription; chưa có file thân local, không mua gói. Kiếm prototype riêng đã có .blend/.glb tại assets/authored/moon-warden/concept03-v1/. Bước tiếp theo: duyệt model, xuất file bằng quyền tài khoản hợp lệ rồi làm sạch/retopo/rig/LOD cho WH3. Chưa thay model trong pack game; gameplay vẫn v11_spell_progression.
 
@@ -48,9 +48,9 @@ Trạng thái quan trọng:
 - Hai bản test cũ đã bị treo khi tạo campaign; không coi là bản dùng ổn định.
 - Lỗi treo đã được người dùng xác nhận sửa thành công ở v2;
   lịch sử chẩn đoán tại docs/PROVINCE-LOADING-FAILURE.md.
-- Bản hiện hành v3 tích hợp chia province và Long Vi thành chính I–V,
-  thay thế các bản province/Long Vi cũ; chỉ bật một bản submod.
-- File: build/longvi-tiered/mc_longvi_v3_tiered_capital.pack.
+- Baseline campaign đã xác nhận là v3, gồm chia province và Long Vi thành chính I–V.
+  Bản tích hợp hiện hành v14 kế thừa dữ liệu này; chỉ bật một bản submod tích hợp.
+- File baseline: build/longvi-tiered/mc_longvi_v3_tiered_capital.pack.
 - Chi tiết build/kiểm tra: docs/LONGVI-TIERED-CAPITAL.md.
 - Xác nhận runtime do người dùng cung cấp: “oke tốt lắm, k lỗi”.
   Không suy diễn thành đã kiểm thử mọi cấp thành, battle hoặc save/load.
@@ -73,7 +73,8 @@ Trạng thái quan trọng:
 [X] Người dùng cho phép triển khai ngày 01/11/2026: nam, tên tạm, dùng model có sẵn.
 [X] Người dùng xác nhận Moon Warden v2 chạy không lỗi sau khi sửa crash khởi động.
 [X] Người dùng đã chọn được Lord và vào trận Custom Battle từ v4.
-[~] Bản hiện hành v12 đổi tên đã kiểm tra dữ liệu; kế thừa progression v11, chưa xác nhận đầy đủ runtime.
+[~] Bản hiện hành v14 có tên chính thức và bộ trang bị; kế thừa progression v11,
+    toàn bộ payload v12 giữ nguyên; chưa xác nhận đầy đủ runtime.
 [X] Chốt tên chính thức: Huyen Ve, Warden of Long Vi — Legendary Lord (02/11/2026).
 [ ] Chốt ngoại hình cụ thể, chỉ số, cân bằng và mốc mở khóa kỹ năng.
 [~] Đã tích hợp Earth Blood, Dragon's Breath, Flame Storm và sửa bộ phép hỗn hợp.
@@ -89,9 +90,11 @@ Trạng thái quan trọng:
     họa tiết trăng, một kiếm; đây là phương án đầu, chưa phải thiết kế được duyệt.
     Ảnh: assets/concepts/moon-warden/moon-warden-front-side-v1.png
     Prompt/công cụ: assets/concepts/moon-warden/concept-v1-prompt.txt (imagegen).
-[ ] Duyệt/chỉnh ngoại hình và chuẩn bị bộ ảnh tham chiếu cho bước dựng 3D.
-    Dự kiến tách kiếm khỏi thân nhân vật để thuận tiện xử lý mesh và rig.
-[ ] Tạo model 3D thử nghiệm; Tripo là lựa chọn dự kiến của người dùng, chưa chạy.
+[~] Đã chuẩn bị concept03 và ảnh đầu vào Tripo; tiếp tục duyệt/chỉnh ngoại hình.
+    Kiếm prototype tách riêng đã có .blend/.glb tại assets/authored/moon-warden/concept03-v1/.
+[~] Đã tạo bản model thử concept03 trên Tripo quốc tế, dùng 45 credits.
+    Đã xem trước/cạnh/sau; xuất GLB chính thức bị yêu cầu subscription,
+    chưa có file thân local và chưa mua gói. Chi tiết docs/CONCEPT03-MODEL.md.
 [ ] Làm sạch mesh/topology, UV/texture, rig/weight và LOD để tích hợp vào WH3.
 [ ] Thử tái sử dụng skeleton/animation tương thích với Yuan Bo dạng người;
     chỉ làm/chỉnh animation riêng sau khi model hoạt động ổn. Chưa có anim mới.
@@ -103,6 +106,46 @@ Trạng thái quan trọng:
     Nhánh tăng rank khi tuyển quân được hoãn theo yêu cầu.
 [ ] Xác nhận tính duy nhất/immortality, bị thương/hồi phục, lên cấp, end turn,
     save/load và tương thích bản campaign tích hợp trước khi coi là hoàn thành.
+
+5A. TRANG BỊ VÀ NHIỆM VỤ CỦA HUYEN VE
+[X] Nghiên cứu nhiệm vụ nhận item của game và kiểm tra tính khả thi bằng dữ liệu/script.
+    16 kiểm tra bằng chứng tĩnh đạt; không coi là kiểm thử runtime.
+[X] Tạo source thông số 5 món tại src/campaign/huyen-ve-equipment.json:
+    Ngọc Bội Nguyệt Ảnh (talisman), Giáp Sơn Văn Long Vi (armour),
+    Ấn Trấn Thủ (enchanted item), Nguyệt Đăng (arcane item), Kiếm Trấn Dạ (weapon).
+[~] Đã build định nghĩa item và effect; chưa xác nhận equip/hiệu ứng trong game.
+[~] Đã nối 5 item vào Huyen Ve bằng cơ chế native Custom Battle;
+    cần kiểm tra chúng xuất hiện và có thể bật/tắt trong army setup mới.
+[~] Đã định nghĩa aura +6 leadership/35m, power recharge +15%, giảm cooldown phép 10%,
+    Phá Tà (Silence 15 giây, 2 lần, 60m, cooldown 120 giây) và bonus đủ bộ +5% ward save.
+    Cần test từng món, tháo món, cộng dồn với skill và set bonus thực tế.
+[X] V14 chuyển sang icon có sẵn của game; dừng tạo icon mới theo người dùng.
+    Item/ability tham chiếu icon native; 3 icon phase alias giữ nguyên byte từ game
+    chỉ nằm trong build private. Không dùng bộ icon tự vẽ của v13 trong pack mới.
+[X] Kiểm tra tĩnh v14: 22 payload thêm so với v12 (18 DB, 1 loc, 3 PNG alias),
+    RPFM roundtrip đạt; giá trị gameplay giữ nguyên so với v13, chỉ đổi icon.
+    Pack/manifest: build/huyen-ve-equipment/; validator: tools/Validate-Huyen-Ve-Equipment.py.
+[ ] Test runtime Custom Battle: trang bị, stat, aura, recharge, cooldown, Silence và set bonus.
+[ ] Triển khai nhận từng món qua chuỗi “Mật Lệnh Phương Nam”; campaign hiện chưa cấp đồ.
+    Mốc cấp dự kiến 6/10/14/18/22, cần chốt khi triển khai; chỉ mở chương sau
+    khi hoàn thành chương trước, không trao tất cả đồ chỉ vì Lord đã cấp cao.
+[ ] Chương 1: sở hữu Long Vi và Huyen Ve thắng 2 trận → nhận Ngọc Bội.
+[ ] Chương 2: giải cứu thợ rèn/đánh quân cướp, trả 2.000 vàng → nhận Giáp.
+    Chưa chốt đổi chương 2 sang quest battle riêng; không tự suy diễn từ chương 3.
+[ ] Chương 3 (người dùng đã chọn): Hero tới marker điều tra → mở quest battle riêng,
+    Huyen Ve thắng phản đồ → nhận Ấn. Không tạo quân mục tiêu trên campaign.
+[ ] Chương 4: quest battle bảo vệ nghi lễ → nhận Nguyệt Đăng.
+[ ] Chương 5: quest battle phản đồ Cathay + viện quân Chaos → nhận Kiếm Trấn Dạ.
+[ ] Kiểm tra trao thưởng đúng một lần, thua/đánh lại, teleport, save/load, Lord bị thương,
+    save cấp cao, thiếu tiền, mất Long Vi và xử lý mục tiêu nhiệm vụ bị mất.
+[ ] Đồng bộ ngoại hình trang bị với model 3D sau; equip item hiện chỉ thêm effect/icon.
+
+Audit nhiệm vụ faction hiện tại:
+[X] Đối chiếu IEE/MIXER/vanilla và save 30/10: 4 mission ACTIVE (Short, Long,
+    Domination, Capture Settlement), chưa có chuỗi riêng cho Huyen Ve/Long Vi.
+[ ] Nếu mở rộng sau: thiết kế Short/Long Victory phù hợp Long Vi/Khuresh.
+[ ] Kiểm chứng thiếu mapping Taoyan cho Agents of the Moon và sửa nếu được yêu cầu;
+    chưa áp dụng thay đổi nào vào hệ thống Legendary Hero trong lần audit.
 
 6. MỞ RỘNG FACTION VÀ PROVINCE
 [ ] Thiết kế cách tạo/tách faction và phân bố lãnh thổ theo từng yêu cầu cụ thể.
@@ -146,6 +189,12 @@ Mục tiêu province/Long Vi: docs/PROVINCE-RESTRUCTURE.md
 Lịch sử lỗi treo đã sửa: docs/PROVINCE-LOADING-FAILURE.md
 Long Vi thành chính I–V, bản v3: docs/LONGVI-TIERED-CAPITAL.md
 Hướng dẫn build/test: docs/BUILD-TEST.md
+Lord và phiên bản tích hợp: docs/LEGENDARY-LORD.md
+Trang bị và hướng dẫn test Custom Battle: docs/HUYEN-VE-EQUIPMENT.md
+Thiết kế chuỗi nhiệm vụ: docs/HUYEN-VE-EQUIPMENT-IDEA.md
+Kiểm tra khả thi nhiệm vụ/trang bị: docs/HUYEN-VE-EQUIPMENT-FEASIBILITY.md
+Audit nhiệm vụ faction: docs/FACTION-MISSIONS.md
+Tiến độ model concept03: docs/CONCEPT03-MODEL.md
 Quy tắc làm việc và ngoại lệ được phép: AGENTS.md
 
 Lưu ý: báo cáo Phase 1 mô tả baseline ban đầu, không thay thế trạng thái mới nhất

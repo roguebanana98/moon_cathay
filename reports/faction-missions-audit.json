@@ -1,0 +1,201 @@
+{
+  "audit_date": "2026-11-02",
+  "faction": "cr_cth_agents_of_the_moon",
+  "save_source": "C:\\Users\\ADMIN\\AppData\\Roaming\\The Creative Assembly\\Warhammer3\\save_games\\Agents of the Moon.11158371198.save",
+  "save_sha256_verified": "46bff57fb82c464f7e8a64648fc53f98d218e6ab321418c6cf5e9d9396093150",
+  "save_snapshot_date": "2026-10-30",
+  "scope": "Read-only cached snapshot audit; not live campaign UI or v12 runtime verification",
+  "snapshots": {
+    "save-compact.json": {
+      "cache_sha256": "690ae606ea80f41456ea8f03f178b8f9e4cf687eb15fb91da31d81bc097d128b",
+      "mission_count": 4,
+      "missions": [
+        {
+          "key": "wh_main_short_victory",
+          "states": [
+            "ACTIVE"
+          ],
+          "objectives": [
+            {
+              "type": "CAMPAIGN_MISSION_OBJECTIVE_IMPL_OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS",
+              "values": [
+                [
+                  30,
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  false
+                ]
+              ]
+            }
+          ],
+          "payloads": [
+            {
+              "type": "CAMPAIGN_PAYLOAD::COMPONENT::EFFECT_BUNDLE_TO_FACTION",
+              "values": [
+                [
+                  "",
+                  0.0
+                ]
+              ]
+            }
+          ],
+          "effect_bundles": [
+            {
+              "type": "CAMPAIGN_EFFECT_BUNDLE",
+              "values": [
+                [
+                  "wh3_main_ie_victory_objective_order_short",
+                  0
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "wh_main_long_victory",
+          "states": [
+            "ACTIVE"
+          ],
+          "objectives": [
+            {
+              "type": "CAMPAIGN_MISSION_OBJECTIVE_IMPL_SCRIPTED",
+              "values": [
+                [
+                  "complete_faction_victory",
+                  0,
+                  0,
+                  -1,
+                  0,
+                  false
+                ]
+              ]
+            },
+            {
+              "type": "CAMPAIGN_MISSION_OBJECTIVE_IMPL_OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS",
+              "values": [
+                [
+                  60,
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  false
+                ]
+              ]
+            }
+          ],
+          "payloads": [
+            {
+              "type": "CAMPAIGN_PAYLOAD::COMPONENT::EFFECT_BUNDLE_TO_FACTION",
+              "values": [
+                [
+                  "",
+                  0.0
+                ]
+              ]
+            }
+          ],
+          "effect_bundles": [
+            {
+              "type": "CAMPAIGN_EFFECT_BUNDLE",
+              "values": [
+                [
+                  "wh3_main_ie_victory_objective_order_long",
+                  0
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "wh_main_domination_victory",
+          "states": [
+            "ACTIVE"
+          ],
+          "objectives": [
+            {
+              "type": "CAMPAIGN_MISSION_OBJECTIVE_IMPL_OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS",
+              "values": [
+                [
+                  272,
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  false
+                ]
+              ]
+            }
+          ],
+          "payloads": [
+            {
+              "type": "CAMPAIGN_PAYLOAD::COMPONENT::TEXT_DISPLAY",
+              "values": [
+                [
+                  "dummy_wh3_main_survival_forge_of_souls"
+                ]
+              ]
+            }
+          ],
+          "effect_bundles": []
+        },
+        {
+          "key": "wh3_main_camp_narrative_shared_capture_settlement_01",
+          "states": [
+            "ACTIVE"
+          ],
+          "objectives": [
+            {
+              "type": "CAMPAIGN_MISSION_OBJECTIVE_IMPL_CAPTURE_REGIONS",
+              "values": [
+                [
+                  [],
+                  "",
+                  "",
+                  "",
+                  0,
+                  [],
+                  true,
+                  true
+                ]
+              ]
+            }
+          ],
+          "payloads": [
+            {
+              "type": "CAMPAIGN_PAYLOAD::COMPONENT::TREASURY_CHANGE",
+              "values": [
+                [
+                  750,
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "CAMPAIGN_PAYLOAD::COMPONENT::GAIN_ANCILLARY",
+              "values": [
+                [
+                  0,
+                  "wh_main_anc_enchanted_item_potion_of_strength",
+                  0,
+                  false
+                ]
+              ]
+            }
+          ],
+          "effect_bundles": []
+        }
+      ]
+    },
+    "startpos-compact.json": {
+      "cache_sha256": "8522ef0db5be1c3fbbca1227fb40ddf311ee5c926ce73aa04a131209fd9f17fb",
+      "mission_count": 0,
+      "missions": []
+    }
+  }
+}
