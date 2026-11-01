@@ -1,0 +1,43 @@
+{
+  "added": [
+    "db/agent_subtypes_tables/ab_unlocker.tsv",
+    "db/building_culture_variants_tables/ab_mixu_le_asspos.tsv",
+    "db/campaign_map_event_area_province_region_junctions_tables/!b_mixer.tsv",
+    "db/cultures_tables/zzz_mixu_startpos.tsv"
+  ],
+  "removed": [
+    "db/agent_subtypes_tables/ab_unlocker",
+    "db/building_culture_variants_tables/ab_mixu_le_asspos",
+    "db/campaign_map_event_area_province_region_junctions_tables/!b_mixer",
+    "db/cultures_tables/zzz_mixu_startpos"
+  ],
+  "changed": [
+    "db/campaign_building_chain_slot_unlocks_tables/zzz_bok.tsv",
+    "db/cultures_subcultures_tables/zzz_mixu_startpos.tsv",
+    "db/faction_potential_categories_tables/zzzz__mixer.tsv",
+    "db/factions_tables/zzz_mixu_startpos.tsv",
+    "db/frontend_faction_leaders_tables/zzz_mixu_startpos.tsv",
+    "db/frontend_factions_tables/zzz_mixer.tsv",
+    "db/technology_node_sets_tables/!_mixu_le_asspos.tsv",
+    "db/ui_features_to_factions_tables/!b_mixer.tsv",
+    "script/mixer/mixer_helpers.lua"
+  ],
+  "previously_undecoded_tables": {
+    "db\\agent_subtypes_tables\\ab_unlocker.tsv": {
+      "added": [],
+      "removed": []
+    },
+    "db\\building_culture_variants_tables\\ab_mixu_le_asspos.tsv": {
+      "added": [],
+      "removed": []
+    },
+    "db\\campaign_map_event_area_province_region_junctions_tables\\!b_mixer.tsv": {
+      "added": [],
+      "removed": []
+    },
+    "db\\cultures_tables\\zzz_mixu_startpos.tsv": {
+      "added": [],
+      "removed": []
+    }
+  }
+}

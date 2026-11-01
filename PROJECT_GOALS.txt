@@ -1,6 +1,6 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
-TIẾN ĐỘ HIỆN TẠI [31/10/2026]: Hoàn thành mốc chia province + Long Vi thành chính Cathay cấp I–V, mở ô theo cấp và tối đa 8 ô gồm cảng. Người dùng xác nhận bản v3 chạy trong game không lỗi; lỗi treo khi tạo campaign đã được sửa từ v2. Bản hiện hành: build/longvi-tiered/mc_longvi_v3_tiered_capital.pack. Chưa có báo cáo riêng về toàn bộ chuỗi nâng cấp I–V, end turn, battle và save/load; đây là phần kiểm thử tiếp theo trước khi đánh giá ổn định dài hạn.
+TIẾN ĐỘ HIỆN TẠI [01/11/2026]: Đã chuyển sang giai đoạn concept/model/animation của Moon Warden. Đã tạo concept v1 hai góc trước và ngang bằng imagegen, lưu tại assets/concepts/moon-warden/moon-warden-front-side-v1.png; chưa chốt ngoại hình cuối. Người dùng dự kiến dùng Tripo để tạo model 3D; chưa tạo model, rig hay animation mới. Bước tiếp theo: duyệt/chỉnh concept, chuẩn bị ảnh tham chiếu phù hợp rồi dựng 3D. Bản gameplay hiện hành vẫn là build/moon-lord-spell-ranks/mc_moon_warden_v11_spell_progression.pack; kiểm tra tĩnh qua, điều kiện mở phép v11 chưa có xác nhận runtime riêng.
 
 HƯỚNG DẪN CẬP NHẬT
 - Cập nhật dòng “TIẾN ĐỘ HIỆN TẠI” mỗi khi bàn giao hoặc kết thúc một mốc.
@@ -61,11 +61,45 @@ Trạng thái quan trọng:
 [ ] Kiểm tra faction frontend, campaign và custom battle.
 
 5. LEGENDARY LORD, MODEL VÀ SKILL TREE
-[ ] Thiết kế Legendary Lord riêng: tên, vai trò, chỉ số, kỹ năng và cơ chế.
-[ ] Tạo model 3D/texture riêng; rig theo skeleton phù hợp và reuse animation có sẵn.
+[X] Chốt yêu cầu cơ bản cho Legendary Lord mới của Agents of the Moon
+    (cr_cth_agents_of_the_moon): hình người, chuyên cận chiến, dùng một thanh kiếm.
+[X] Chốt không có biến hình rồng; không yêu cầu dạng rồng để dùng phép phun lửa.
+[X] Chọn Dragon's Breath hệ Yang của Dragon-Blooded Shugengan làm phép phun lửa.
+    Ability key đã kiểm tra: wh3_main_spell_yang_dragons_breath.
+    Không dùng Jade Dragon's Breath của Jade Lion làm đại diện cho phép này.
+[X] Loại bỏ yêu cầu Blood-line/nhánh Dragon-Blooded riêng khỏi hạng mục Lord này.
+[X] Người dùng cho phép triển khai ngày 01/11/2026: nam, tên tạm, dùng model có sẵn.
+[X] Người dùng xác nhận Moon Warden v2 chạy không lỗi sau khi sửa crash khởi động.
+[X] Người dùng đã chọn được Lord và vào trận Custom Battle từ v4.
+[~] Bản hiện hành v11 đã kiểm tra dữ liệu; chưa xác nhận đầy đủ progression/runtime.
+[ ] Chốt tên, ngoại hình cụ thể, chỉ số, cân bằng và mốc mở khóa kỹ năng.
+[~] Đã tích hợp Earth Blood, Dragon's Breath, Flame Storm và sửa bộ phép hỗn hợp.
+    V11: campaign mới có Earth Blood 1 + Dragon's Breath 1; Flame Storm yêu cầu
+    cả hai đạt cấp 2, không khóa cấp Lord riêng. Custom Battle giữ cấu hình thử phép.
+[~] Đã tạo subtype/unit riêng và thay Ju Di bằng Lord mới làm faction leader
+    khi bắt đầu campaign Expanded mới; kiểm tra quân đội, lãnh thổ và frontend.
+    Giữ các thay đổi province/Long Vi v3 khi xây bản tích hợp.
+[ ] Tích hợp và thử Dragon's Breath ở hình người: casting animation, VFX,
+    hướng/phạm vi sát thương, Winds of Magic, cooldown và AI sử dụng.
+[X] Bắt đầu giai đoạn concept/model mới theo yêu cầu người dùng.
+[X] Tạo concept v1 nhìn trước và ngang: nam chiến tướng Cathay, giáp tối viền bạc,
+    họa tiết trăng, một kiếm; đây là phương án đầu, chưa phải thiết kế được duyệt.
+    Ảnh: assets/concepts/moon-warden/moon-warden-front-side-v1.png
+    Prompt/công cụ: assets/concepts/moon-warden/concept-v1-prompt.txt (imagegen).
+[ ] Duyệt/chỉnh ngoại hình và chuẩn bị bộ ảnh tham chiếu cho bước dựng 3D.
+    Dự kiến tách kiếm khỏi thân nhân vật để thuận tiện xử lý mesh và rig.
+[ ] Tạo model 3D thử nghiệm; Tripo là lựa chọn dự kiến của người dùng, chưa chạy.
+[ ] Làm sạch mesh/topology, UV/texture, rig/weight và LOD để tích hợp vào WH3.
+[ ] Thử tái sử dụng skeleton/animation tương thích với Yuan Bo dạng người;
+    chỉ làm/chỉnh animation riêng sau khi model hoạt động ổn. Chưa có anim mới.
+    Model đang dùng trong pack vẫn là Yuan Bo dạng người.
 [ ] Kiểm tra vật liệu, LOD, vũ khí, mount, portrait và unit card.
 [ ] Tích hợp Lord với faction, frontend, campaign và battle.
-[ ] Xây skill tree riêng, liên kết node/effect và cân bằng progression.
+[~] Đã có các nhánh đấu tay đôi, trị an/chống Chaos/tầm xa, kỹ năng bổ trợ Lord
+    và tiến trình phép riêng; tiếp tục kiểm thử liên kết, hiệu ứng và cân bằng.
+    Nhánh tăng rank khi tuyển quân được hoãn theo yêu cầu.
+[ ] Xác nhận tính duy nhất/immortality, bị thương/hồi phục, lên cấp, end turn,
+    save/load và tương thích bản campaign tích hợp trước khi coi là hoàn thành.
 
 6. MỞ RỘNG FACTION VÀ PROVINCE
 [ ] Thiết kế cách tạo/tách faction và phân bố lãnh thổ theo từng yêu cầu cụ thể.

@@ -1,0 +1,214 @@
+{
+  "status": "baseline_audit_complete_prototype_in_progress",
+  "faction": "cr_cth_agents_of_the_moon",
+  "baseline_subtype": "wh3_main_cth_dragon_blooded_shugengan_yin",
+  "baseline_associated_unit": "wh3_main_cth_cha_dragon_blooded_shugengan_lord_yin_0",
+  "baseline_skill_sets": [
+    "wh3_main_skill_node_set_cth_dragon_blooded_shugengan_yin"
+  ],
+  "direct_dependency_tables": {
+    "agent_subtype_ownership_content_pack_junctions_tables": {
+      "rows": 1,
+      "columns": [
+        "agent_subtype"
+      ]
+    },
+    "agent_subtypes_tables": {
+      "rows": 1,
+      "columns": [
+        "associated_unit_override",
+        "key"
+      ]
+    },
+    "ancillaries_included_agent_subtypes_tables": {
+      "rows": 2,
+      "columns": [
+        "agent_subtype"
+      ]
+    },
+    "battle_currency_units_cost_values_tables": {
+      "rows": 1,
+      "columns": [
+        "item_type"
+      ]
+    },
+    "battle_set_piece_armies_characters_items_tables": {
+      "rows": 2,
+      "columns": [
+        "character_name"
+      ]
+    },
+    "battle_set_piece_armies_characters_junctions_tables": {
+      "rows": 1,
+      "columns": [
+        "character_name"
+      ]
+    },
+    "battle_set_piece_armies_characters_tables": {
+      "rows": 4,
+      "columns": [
+        "agent_subtype",
+        "character_name",
+        "unit_type"
+      ]
+    },
+    "campaign_character_art_sets_tables": {
+      "rows": 5,
+      "columns": [
+        "agent_subtype"
+      ]
+    },
+    "campaign_group_member_criteria_agent_subtypes_tables": {
+      "rows": 1,
+      "columns": [
+        "agent_subtype"
+      ]
+    },
+    "campaign_map_attrition_unit_immunities_tables": {
+      "rows": 1,
+      "columns": [
+        "unit"
+      ]
+    },
+    "cdir_military_generator_unit_qualities_tables": {
+      "rows": 1,
+      "columns": [
+        "unit_key"
+      ]
+    },
+    "character_skill_node_set_items_tables": {
+      "rows": 68,
+      "columns": [
+        "set"
+      ]
+    },
+    "character_skill_node_sets_tables": {
+      "rows": 1,
+      "columns": [
+        "agent_subtype_key",
+        "key"
+      ]
+    },
+    "effect_bonus_value_agent_subtype_junctions_tables": {
+      "rows": 4,
+      "columns": [
+        "subtype"
+      ]
+    },
+    "faction_agent_permitted_subtypes_tables": {
+      "rows": 16,
+      "columns": [
+        "subtype"
+      ]
+    },
+    "land_units_tables": {
+      "rows": 1,
+      "columns": [
+        "attribute_group",
+        "key"
+      ]
+    },
+    "land_units_to_unit_abilites_junctions_tables": {
+      "rows": 3,
+      "columns": [
+        "land_unit"
+      ]
+    },
+    "loading_screen_quotes_to_units_tables": {
+      "rows": 1,
+      "columns": [
+        "unit"
+      ]
+    },
+    "main_unit_ownership_content_pack_junctions_tables": {
+      "rows": 1,
+      "columns": [
+        "main_unit"
+      ]
+    },
+    "main_units_tables": {
+      "rows": 1,
+      "columns": [
+        "land_unit",
+        "unit"
+      ]
+    },
+    "special_ability_groups_to_units_junctions_tables": {
+      "rows": 1,
+      "columns": [
+        "unit"
+      ]
+    },
+    "ui_unit_bullet_point_unit_overrides_tables": {
+      "rows": 2,
+      "columns": [
+        "unit_key"
+      ]
+    },
+    "unit_attributes_groups_tables": {
+      "rows": 1,
+      "columns": [
+        "group_name"
+      ]
+    },
+    "unit_attributes_to_groups_junctions_tables": {
+      "rows": 3,
+      "columns": [
+        "attribute_group"
+      ]
+    },
+    "unit_set_to_unit_junctions_tables": {
+      "rows": 4,
+      "columns": [
+        "unit_record"
+      ]
+    },
+    "unit_to_unit_list_junctions_tables": {
+      "rows": 1,
+      "columns": [
+        "unit"
+      ]
+    },
+    "unit_variants_tables": {
+      "rows": 1,
+      "columns": [
+        "name",
+        "unit"
+      ]
+    },
+    "units_custom_battle_mounts_tables": {
+      "rows": 2,
+      "columns": [
+        "base_unit"
+      ]
+    },
+    "units_custom_battle_permissions_tables": {
+      "rows": 3,
+      "columns": [
+        "set_piece_character",
+        "unit"
+      ]
+    },
+    "units_custom_battle_types_tables": {
+      "rows": 2,
+      "columns": [
+        "alternate_unit",
+        "base_unit"
+      ]
+    },
+    "units_to_groupings_military_permissions_tables": {
+      "rows": 2,
+      "columns": [
+        "unit"
+      ]
+    }
+  },
+  "scope": "New Legendary Lord; reuse existing model; preserve v3 province and Long Vi changes",
+  "accepted_design": "Male human swordsman replacing Ju Di; temporary name; healing, AOE and Yang Dragon Breath; no transformation or Blood-line",
+  "prototype_report": "build/moon-lord/lord-report.json",
+  "pending": [
+    "Runtime testing",
+    "Final name, balance and skill progression",
+    "Frontend portrait and description"
+  ]
+}
