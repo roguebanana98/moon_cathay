@@ -1,0 +1,62 @@
+{
+  "inventory_date": "2026-11-02",
+  "scope": "Verified installed local versions; not a latest-version recommendation or minimum supported version",
+  "game": {
+    "file_version": "9.0.4.0",
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III",
+    "steam_build_id": "25961564"
+  },
+  "tools": {
+    "rpfm_path": "D:\\Mod TW3k\\rpfm-v4.5.4-x86_64-pc-windows-msvc\\rpfm_cli.exe",
+    "tripo_generation_model": "H3.1",
+    "editsf": "1.3.0",
+    "python": "3.12.14",
+    "paint_net_package": "5.1.12",
+    "assembly_kit_path": "D:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\assembly_kit",
+    "powershell": "7.6.5",
+    "asset_editor": "0.78.0",
+    "blender": "4.5.15 LTS",
+    "rmv2_blender_addon": "1.22.3",
+    "rpfm_cli": "4.6.3",
+    "git": "2.56.0.windows.4",
+    "python_path": "C:\\Users\\ADMIN\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "directxtex": "may2026 / 2026.5.8.1"
+  },
+  "files": [
+    {
+      "name": "IEE",
+      "path": "F:\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3007996493\\!cr_immortal_empires_expanded.pack",
+      "bytes": 3223934769,
+      "last_write_utc": "2026-10-30T12:14:45.3036702Z",
+      "sha256": "fbd77da1a94295a6a81f3b55ff9f88900c7c7859bbfe7c05182872e396048957"
+    },
+    {
+      "name": "MIXER",
+      "path": "F:\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2859968660\\!b_mixer.pack",
+      "bytes": 27528227,
+      "last_write_utc": "2026-10-31T15:58:45.3208496Z",
+      "sha256": "bee9a9122dbdfcb3d18388292c8bd6e49777fac5013f5d51ae1e549f3e944a3e"
+    },
+    {
+      "name": "MCT",
+      "path": "F:\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2927955021\\groovy_mct.pack",
+      "bytes": 2795325,
+      "last_write_utc": "2026-10-30T12:14:45.3076700Z",
+      "sha256": "f2c3ed5ed90feb6c9d7e9c086d8f3ac508d869835a5c6262dc317a9a491ae787"
+    },
+    {
+      "name": "Custom Lord Creation",
+      "path": "F:\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3660806424\\fuwuvi_custom_lord_creation.pack",
+      "bytes": 12203837,
+      "last_write_utc": "2026-10-30T12:23:21.9022343Z",
+      "sha256": "c15dd76f3b1e88418e8fa099feeae539a9173b0b2336f1a213aa96988ff1865f"
+    },
+    {
+      "name": "WH3 schema",
+      "path": "D:\\Warhammer3_Modding\\tooling\\rpfm-schema-wh3\\schema_wh3.ron",
+      "bytes": 11212291,
+      "last_write_utc": "2026-10-31T05:28:59.7694551Z",
+      "sha256": "bc78e1fc63f5c5d3bd942c0793adf07cbe2c9b328c68b1521115805321390768"
+    }
+  ]
+}

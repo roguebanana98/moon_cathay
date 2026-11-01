@@ -29,6 +29,101 @@ kiểm chứng và duy trì khi game hoặc dependency cập nhật.
 [X] Viết hướng dẫn build/test và kiến trúc phát triển.
 [~] Hoàn thiện quy trình build và kiểm thử runtime cho mod có gameplay.
 
+2A. MOD PHỤ THUỘC VÀ BỘ CÔNG CỤ — KIỂM KÊ LOCAL 02/11/2026
+Các phiên bản dưới đây là bản đang có/đã dùng trong dự án, không phải khẳng định
+bản mới nhất hoặc phiên bản tối thiểu tương thích. Đường dẫn máy nằm trong
+config/local.json; phiên bản và SHA256 đầy đủ nằm trong reports/tool-mod-inventory.json.
+
+A. Nền tảng và mod để chơi/test
+- Total War: WARHAMMER III: executable FileVersion/ProductVersion 9.0.4.0;
+  Steam build ID 25961564, đọc từ appmanifest_1142710.acf.
+  Game: F:\SteamLibrary\steamapps\common\Total War WARHAMMER III.
+- Bắt buộc — Immortal Empires Expanded (IEE): Workshop ID 3007996493;
+  file !cr_immortal_empires_expanded.pack, campaign cr_combi_expanded.
+  Link: https://steamcommunity.com/sharedfiles/filedetails/?id=3007996493
+  Chưa xác định số release semantic; nhận diện bằng pack local và SHA256
+  fbd77da1a94295a6a81f3b55ff9f88900c7c7859bbfe7c05182872e396048957.
+- Bắt buộc — MIXER – Mixu's Unlocker: Workshop ID 2859968660;
+  file !b_mixer.pack; baseline cập nhật đã kiểm tra ngày 01/11/2026.
+  Link: https://steamcommunity.com/sharedfiles/filedetails/?id=2859968660
+  Chưa xác định số release semantic; SHA256 local
+  bee9a9122dbdfcb3d18388292c8bd6e49777fac5013f5d51ae1e549f3e944a3e.
+- Bộ test cấu hình IEE — Mod Configuration Tool (MCT): Workshop ID 2927955021;
+  file groovy_mct.pack, đã có local. Dùng chỉnh/kiểm thử các tùy chọn IEE như
+  chuyển Epidemius tới Khuresh. Chưa xác định số release semantic; ghim hash
+  trong report kiểm kê. Header submod hiện chỉ khai báo IEE + MIXER; không suy
+  từ việc dùng MCT để khẳng định nó là dependency pack thứ ba của submod.
+  Link: https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021
+- Submod hiện hành — mc_huyen_ve_v14_native_icons.pack:
+  build/huyen-ve-equipment/mc_huyen_ve_v14_native_icons.pack.
+  Chỉ bật một bản tích hợp; thay v13/v12/các prototype cũ bằng v14.
+  Định nghĩa 5 item và link Custom Battle đã build, runtime vẫn chờ xác nhận.
+- Không bắt buộc hiện tại — Custom Lord Creation: Workshop ID 3660806424;
+  file fuwuvi_custom_lord_creation.pack, đã có local nhưng chưa tích hợp API.
+  Chỉ xét khi triển khai tạo Lord/class/family tree; không coi là dependency v14.
+  Chưa xác định số release semantic; pack hash nằm trong report kiểm kê.
+  Link: https://steamcommunity.com/sharedfiles/filedetails/?id=3660806424
+- IEE/MIXER nằm dưới F:\SteamLibrary\steamapps\workshop\content\1142710\<ID>\.
+  Load order thực tế và tương thích với mod khác phải kiểm tra trong launcher/game;
+  dependency header không thay thế kiểm thử. Không yêu cầu thêm overhaul để test v14.
+
+B. Công cụ build/kiểm tra dữ liệu
+- RPFM CLI 4.6.3: đọc trực tiếp bằng rpfm_cli.exe --version; công cụ đang dùng
+  để list/extract/import DB+loc, build pack và diagnose.
+  Path: D:\Mod TW3k\rpfm-v4.5.4-x86_64-pc-windows-msvc\rpfm_cli.exe.
+  Lưu ý: thư mục tên 4.5.4 không phản ánh version CLI thực tế. GUI rpfm_ui.exe
+  cùng thư mục đã có; không tự gán số version GUI theo tên thư mục hoặc CLI.
+- Schema WH3 riêng: D:\Warhammer3_Modding\tooling\rpfm-schema-wh3\schema_wh3.ron.
+  Schema file format version 5 (không phải phiên bản game); SHA256
+  bc78e1fc63f5c5d3bd942c0793adf07cbe2c9b328c68b1521115805321390768.
+  Dùng cfg.schema, không tự thay bằng schema cũ của hồ sơ RPFM.
+- Python 3.12.14: cfg.python; các tool build/audit/validator hiện hành dùng
+  standard library. Pipeline icon native v14 không cần Pillow/image generation.
+- PowerShell 7.6.5: môi trường đã chạy các script .ps1 của dự án.
+- Git 2.56.0.windows.4: quản lý source, diff và lịch sử; không cần để người dùng
+  chỉ chơi pack. GitHub CLI không phải dependency build/gameplay hiện tại.
+- EditSF 1.3.0: D:\Warhammer3_Modding\tooling\EditSF-1.3.0\EditSF.exe.
+  Chỉ cần khi khảo sát/chỉnh ESF campaign/startpos; không cần để test item hoặc
+  thêm chuỗi nhiệm vụ bằng Lua/DB. Công cụ đọc/ghi ESF Python của dự án vẫn phải
+  kiểm tra serialization và đối chiếu thay đổi đúng phạm vi.
+- Assembly Kit WH3: D:\SteamLibrary\steamapps\common\Total War WARHAMMER III\assembly_kit.
+  Đã có binaries/DAVE/Bob; chưa xác định version riêng và chưa xác nhận quy trình
+  export map/Terry. Dùng khi cần chỉnh DB qua AK hoặc dựng terrain/BMD/map layer.
+  Quest battle dùng map game có sẵn có thể tham chiếu map + DB + battle script;
+  chưa bắt buộc làm map mới để hoàn thành thiết kế nhiệm vụ.
+
+C. Công cụ model/texture — chỉ cần khi làm ngoại hình mới
+Thư mục chuẩn: D:\Warhammer3_Modding\tooling\model-workbench.
+Lối mở nhanh: model-workbench\Open Tools. Các executable có trong config/local.json.
+- Blender 4.5.15 LTS portable x64: dựng/chỉnh mesh, UV, rig/weight, animation và LOD.
+  Đã xác nhận bằng --version và chạy import test, không đồng nghĩa export/gameplay đạt.
+- Total War RigidModel add-on (io_scene_rmv2) 1.22.3: nhập/xuất RMV2 và ANIM;
+  đã bật trong portable/scripts/addons/io_scene_rmv2 của Blender trên.
+- Asset Editor 0.78.0 (gói v.078): xem/kitbash model, material, rig và animation.
+  Đã mở với WH3 và game packs read-only; export roundtrip vẫn cần test.
+- Paint.NET 5.1.12 portable: chỉnh texture/DDS; bản package 5.1.12, binary báo
+  FileVersion 5.112.9563.32325. Không suy version ứng dụng chỉ từ chuỗi build nội bộ.
+- Microsoft DirectXTex may2026, texconv/texdiag FileVersion 2026.5.8.1:
+  chuyển định dạng DDS/compression và kiểm tra codec/mipmap.
+- Tripo Studio quốc tế: dịch vụ tạo model tùy chọn, model generation đã dùng H3.1.
+  Không cần để build/chơi submod. Concept03 đã tạo preview Public; xuất GLB qua
+  giao diện chính thức hiện bị yêu cầu subscription; chưa có file thân local,
+  không tự mua gói hoặc chi thêm credits. Không dùng bản Trung Quốc thay thế.
+- V14 dùng icon game có sẵn; không cần công cụ tạo ảnh/icon mới cho bước hiện tại.
+
+D. Kiểm tra trước khi tiếp tục hoặc chuyển máy
+[X] Đối chiếu version tool từ CLI/file metadata và báo cáo import model có sẵn.
+[X] Ghi path, version, hash schema/mod local tại reports/tool-mod-inventory.json.
+[ ] Sau Steam/game/Workshop update: chạy tools/Verify-Dependencies.ps1, đối chiếu
+    game build/schema; nếu khác baseline phải phân tích lại trước khi build tiếp.
+[ ] Sau chuyển máy: xác minh path trong config/local.json và kiểm tra lại binary;
+    không dùng đường dẫn/tên thư mục để đoán version.
+[ ] Kiểm thử bộ game + IEE + MIXER + MCT + đúng một submod v14; ghi lại mod list
+    và kết quả Custom Battle/campaign. Không đánh dấu runtime chỉ vì tool đã chạy.
+Nguồn phiên bản/tool model: docs/MODEL-TOOLS.md, reports/model-tools-setup.json,
+reports/model-tools-blender-check.json, tooling/model-workbench/download-manifest.json.
+Ưu tiên số phiên bản executable vừa kiểm tra nếu tài liệu lịch sử ghi khác.
+
 3. CAMPAIGN — PHẠM VI ĐANG TRIỂN KHAI
 [X] Chia lại Primal Labyrinth: Long Vi (province capital), Leilou.
 [X] Chia lại Paradise Spires: Dai Loa (province capital), Avauka, Preenn.
@@ -196,6 +291,7 @@ Kiểm tra khả thi nhiệm vụ/trang bị: docs/HUYEN-VE-EQUIPMENT-FEASIBILIT
 Audit nhiệm vụ faction: docs/FACTION-MISSIONS.md
 Tiến độ model concept03: docs/CONCEPT03-MODEL.md
 Quy tắc làm việc và ngoại lệ được phép: AGENTS.md
+Kiểm kê tool/mod và phiên bản local: mục 2A ở trên; reports/tool-mod-inventory.json
 
 Lưu ý: báo cáo Phase 1 mô tả baseline ban đầu, không thay thế trạng thái mới nhất
 trong dòng tiến độ ở đầu file và tài liệu lỗi/kiểm thử campaign.
