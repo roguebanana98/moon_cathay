@@ -20,6 +20,12 @@
 
 ## General constraints
 
+- Scope extension (2026-11-01): user authorized implementation of the Legendary
+  Lord described in PROJECT_GOALS.txt, replacing Ju Di. Male, temporary name,
+  existing human sword model, healing/AOE/Yang Dragon's Breath, no dragon form
+  or Blood-line branch. Private local prototype derivatives are part of this
+  implementation; preserve v3 campaign changes and do not deploy or publish.
+
 - Phase 1 only until the user explicitly expands scope. Do not change gameplay/campaign.
 - Never write to game installation or Workshop paths. Reference packs are read-only inputs.
 - Do not install/update software or schemas without user permission.

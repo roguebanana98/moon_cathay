@@ -1,0 +1,27 @@
+{
+  "faction": "cr_cth_agents_of_the_moon",
+  "subtype": "mc_moon_warden",
+  "temporary_name": "Moon Warden",
+  "gender": "male",
+  "integration": "Replace Ju Di as starting faction leader in a new Expanded campaign",
+  "role": "Human melee swordsman with healing and area spells",
+  "model_prototype": "Yuan Bo human form; no new 3D assets",
+  "dragon_transformation": false,
+  "blood_line_branch": false,
+  "spells": [
+    "wh3_main_spell_yang_dragons_breath",
+    "wh_dlc05_spell_life_earth_blood",
+    "wh_main_spell_fire_flame_storm"
+  ],
+  "spell_choices": "Dragon's Breath required; Earth Blood and Flame Storm provisional choices from project goal candidates",
+  "initial_spell_unlocks": "Dragon Breath 1, Earth Blood 1; Flame Storm 0",
+  "preserve_baseline": "Long Vi v3 and province regrouping",
+  "status": "v11_static_checked_runtime_pending",
+  "spell_progression": {
+    "rank_gates": false,
+    "flame_storm_prerequisite": {
+      "dragons_breath": 2,
+      "earth_blood": 2
+    }
+  }
+}
