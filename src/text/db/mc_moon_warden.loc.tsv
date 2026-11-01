@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/mc_moon_warden.loc		
+agent_subtypes_onscreen_name_override_mc_moon_warden	Legendary Lord	true
+land_units_onscreen_name_mc_moon_warden_human	Huyen Ve, Warden of Long Vi	true
+names_name_mc_moon_warden	Huyen Ve, Warden of Long Vi	true
+names_name_mc_moon_warden_empty		true
+special_ability_groups_localised_name_mc_moon_warden_lore	Moon Arts	true
+frontend_faction_leaders_frontend_description_cr_political_party_combi_cth_agents_of_the_moon	Huyen Ve, Warden of Long Vi — Legendary Lord.	true
+frontend_faction_leaders_loading_screen_text_cr_political_party_combi_cth_agents_of_the_moon	Huyen Ve, Warden of Long Vi — Legendary Lord.	true

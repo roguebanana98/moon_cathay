@@ -2,6 +2,12 @@
 
 ## User-authorized exceptions (2026-10-31)
 
+- Tooling scope extension (2026-11-01): user authorized downloading and preparing
+  tools for the new lord's 3D model. Portable Blender, Asset Editor, Paint.NET,
+  the Total War RMV2 add-on and DirectXTex are prepared under ignored
+  `tooling/model-workbench`; paths and validation are documented in
+  `docs/MODEL-TOOLS.md`. This does not authorize game/Workshop deployment.
+
 - Campaign scope expanded specifically to regroup Primal Labyrinth (Long Vi capital,
   Leilou) and Paradise Spires (Dai Loa capital, Avauka, Preenn).
 - User explicitly approved installing EditSF 1.3.0 under local tooling and packaging

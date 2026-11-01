@@ -1,4 +1,4 @@
-"""Build private local DB derivatives for the human-only Moon Warden prototype."""
+"""Build private local DB derivatives for Huyen Ve, Warden of Long Vi."""
 import csv
 import json
 from pathlib import Path
@@ -14,6 +14,8 @@ ART='mc_moon_warden_art'
 SET='mc_moon_warden_skills'
 FACTION='cr_cth_agents_of_the_moon'
 files=[]
+identity=json.loads((ROOT/'src/campaign/moon-warden.json').read_text(encoding='utf-8'))
+display_name=identity['display_name']
 
 def read(table):
     with (REF/(table+'_tables/data__.tsv')).open(encoding='utf-8-sig',newline='') as f:
@@ -97,8 +99,8 @@ write('character_skill_nodes',custom_nodes)
 write('character_skill_node_set_items',keep)
 # No cloned transformation ability, alternate dragon unit, mount or donor quest skill.
 loc=[['agent_subtypes_onscreen_name_override_'+NEW,'Legendary Lord','true'],
-     ['land_units_onscreen_name_'+UNIT,'Moon Warden','true'],
-     ['names_name_mc_moon_warden','Moon Warden','true'],
+     ['land_units_onscreen_name_'+UNIT,display_name,'true'],
+     ['names_name_mc_moon_warden',display_name,'true'],
      ['names_name_mc_moon_warden_empty','','true'],
      ['special_ability_groups_localised_name_mc_moon_warden_lore','Moon Arts','true']]
 internal='text/db/mc_moon_warden.loc'
@@ -107,7 +109,7 @@ with p.open('w',encoding='utf-8',newline='') as f:
     csv.writer(f,delimiter='\t',lineterminator='\n').writerows([['key','text','tooltip'],['#Loc;1;'+internal,'','']]+loc)
 files.append(internal)
 report={'files':files,'subtype':NEW,'unit':UNIT,'art':ART,'skill_set':SET,
-        'starting_skills':skills,'spells':spells,'name':'Moon Warden','gender':'male',
+        'starting_skills':skills,'spells':spells,'name':display_name,'gender':'male',
         'model_donor':DU,'transformation':False,'baseline':'v3 tiered Long Vi',
         'status':'prototype_prepared_not_runtime_tested','starting_spells':'All three at level 1 for prototype testing'}
 (OUT/'lord-report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')

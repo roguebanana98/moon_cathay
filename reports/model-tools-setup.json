@@ -1,0 +1,51 @@
+{
+  "downloads": [
+    {
+      "name": "AssetEditor_078.rar",
+      "version": "v.078",
+      "source": "https://github.com/donkeyProgramming/TheAssetEditor/releases/download/v.078/AssetEditor_078.rar",
+      "sha256": "a2d1d570bc398edc766dcfe1a9e50fb07148e80cb1dd83e70acae3306de5d9a5",
+      "verified": true
+    },
+    {
+      "name": "paint.net.5.1.12.portable.x64.zip",
+      "version": "v5.1.12",
+      "source": "https://github.com/paintdotnet/release/releases/download/v5.1.12/paint.net.5.1.12.portable.x64.zip",
+      "sha256": "d5ae7043f2fb9d365b48dfe243a2aca1c74924de99b04b6445916c95354aefa3",
+      "verified": true
+    },
+    {
+      "name": "io_scene_rmv2-1.22.3.zip",
+      "version": "v1.22.3",
+      "source": "https://github.com/robert-d-schultz/rmv2_anim_blender_import_export/releases/download/v1.22.3/io_scene_rmv2-1.22.3.zip",
+      "sha256": "83f04715f64550e1c848d7df9d058f9f6bf36f4a6d1fd7aee3ed60ab0c4eddaa",
+      "verified": true
+    },
+    {
+      "name": "texconv.exe",
+      "version": "may2026",
+      "source": "https://github.com/microsoft/DirectXTex/releases/download/may2026/texconv.exe",
+      "sha256": "dcfdec10244e02cf5037fba089c55fb7e1326b1c8181742d77d15fa5cb5eef06",
+      "verified": true
+    },
+    {
+      "name": "texdiag.exe",
+      "version": "may2026",
+      "source": "https://github.com/microsoft/DirectXTex/releases/download/may2026/texdiag.exe",
+      "sha256": "411c303c98ba73e4423376f717ac139347dd749bf80a7fc1a22368ab1088ff56",
+      "verified": true
+    },
+    {
+      "name": "blender-4.5.15-windows-x64.zip",
+      "version": "4.5.15 LTS",
+      "source": "https://download.blender.org/release/Blender4.5/blender-4.5.15-windows-x64.zip",
+      "sha256": "52dd02fd74877fa08e74b67d7854cf32468a232c02aaa19b6844c91285574f8d",
+      "verified": true
+    }
+  ],
+  "shortcuts": "D:\\Warhammer3_Modding\\tooling\\model-workbench\\Open Tools",
+  "date": "2026-11-01",
+  "asset_editor": "Main window verified: WH3, All Game Packs read-only",
+  "blender_check": "model-tools-blender-check.json",
+  "paint_net": "Blank document window verified"
+}

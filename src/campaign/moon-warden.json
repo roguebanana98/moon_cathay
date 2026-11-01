@@ -1,7 +1,10 @@
 {
   "faction": "cr_cth_agents_of_the_moon",
   "subtype": "mc_moon_warden",
-  "temporary_name": "Moon Warden",
+  "name": "Huyen Ve",
+  "title": "Warden of Long Vi",
+  "display_name": "Huyen Ve, Warden of Long Vi",
+  "lord_type": "Legendary Lord",
   "gender": "male",
   "integration": "Replace Ju Di as starting faction leader in a new Expanded campaign",
   "role": "Human melee swordsman with healing and area spells",
@@ -16,7 +19,7 @@
   "spell_choices": "Dragon's Breath required; Earth Blood and Flame Storm provisional choices from project goal candidates",
   "initial_spell_unlocks": "Dragon Breath 1, Earth Blood 1; Flame Storm 0",
   "preserve_baseline": "Long Vi v3 and province regrouping",
-  "status": "v11_static_checked_runtime_pending",
+  "status": "v12_name_update_runtime_pending",
   "spell_progression": {
     "rank_gates": false,
     "flame_storm_prerequisite": {

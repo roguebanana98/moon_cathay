@@ -1,0 +1,10 @@
+{
+  "asset": "Concept03 lotus sword prototype",
+  "date": "2026-11-02",
+  "mesh_objects": 31,
+  "triangles": 16458,
+  "rigged": false,
+  "rmv2_exported": false,
+  "game_tested": false,
+  "notes": "Authored geometry; grip center origin. Must align to donor weapon_2 before game export."
+}

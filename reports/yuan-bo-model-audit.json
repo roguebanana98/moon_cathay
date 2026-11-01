@@ -1,0 +1,838 @@
+{
+  "date": "2026-11-01",
+  "provenance": "Installed vanilla packs; extracted by RPFM, read-only audit",
+  "models": [
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_jade_human/cth_dragon_jade_human_01.rigid_model_v2",
+      "bytes": 1911626,
+      "sha256": "9b2986e532c5800273f8e0d6b1445bc6fa006f19860baae77d2fce940182678f",
+      "version": 8,
+      "skeleton": "humanoid01e",
+      "lods": [
+        {
+          "level": 0,
+          "camera_distance": 10.0,
+          "mesh_count": 2,
+          "vertices": 15146,
+          "triangles": 19812,
+          "parts": [
+            {
+              "vertices": 14390,
+              "triangles": 19176,
+              "vertex_format": 4,
+              "vertex_stride": 36,
+              "material_id": 65,
+              "bounds": [
+                -0.7257025837898254,
+                -0.008366774767637253,
+                -0.38346967101097107,
+                0.7241632342338562,
+                2.1331686973571777,
+                0.2918160557746887
+              ]
+            },
+            {
+              "vertices": 756,
+              "triangles": 636,
+              "vertex_format": 4,
+              "vertex_stride": 36,
+              "material_id": 65,
+              "bounds": [
+                -0.7257025837898254,
+                -0.008366774767637253,
+                -0.38346967101097107,
+                0.7241632342338562,
+                2.1331686973571777,
+                0.2918160557746887
+              ]
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "camera_distance": 20.0,
+          "mesh_count": 2,
+          "vertices": 12845,
+          "triangles": 15879,
+          "parts": [
+            {
+              "vertices": 12089,
+              "triangles": 15243,
+              "vertex_format": 4,
+              "vertex_stride": 36,
+              "material_id": 65,
+              "bounds": [
+                -0.7249571681022644,
+                -0.008366773836314678,
+                -0.38346967101097107,
+                0.7234211564064026,
+                2.1331686973571777,
+                0.2918160557746887
+              ]
+            },
+            {
+              "vertices": 756,
+              "triangles": 636,
+              "vertex_format": 4,
+              "vertex_stride": 36,
+              "material_id": 65,
+              "bounds": [
+                -0.7249571681022644,
+                -0.008366773836314678,
+                -0.38346967101097107,
+                0.7234211564064026,
+                2.1331686973571777,
+                0.2918160557746887
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "camera_distance": 30.0,
+          "mesh_count": 2,
+          "vertices": 8783,
+          "triangles": 9955,
+          "parts": [
+            {
+              "vertices": 8043,
+              "triangles": 9335,
+              "vertex_format": 3,
+              "vertex_stride": 32,
+              "material_id": 65,
+              "bounds": [
+                -0.7247958183288574,
+                -0.00830733310431242,
+                -0.38346970081329346,
+                0.722824215888977,
+                2.1331686973571777,
+                0.2918160557746887
+              ]
+            },
+            {
+              "vertices": 740,
+              "triangles": 620,
+              "vertex_format": 3,
+              "vertex_stride": 32,
+              "material_id": 65,
+              "bounds": [
+                -0.7247958183288574,
+                -0.00830733310431242,
+                -0.38346970081329346,
+                0.722824215888977,
+                2.1331686973571777,
+                0.2918160557746887
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "camera_distance": 10000.0,
+          "mesh_count": 1,
+          "vertices": 7188,
+          "triangles": 7761,
+          "parts": [
+            {
+              "vertices": 7188,
+              "triangles": 7761,
+              "vertex_format": 3,
+              "vertex_stride": 32,
+              "material_id": 65,
+              "bounds": [
+                -0.7244095802307129,
+                -0.00830733310431242,
+                -0.38346970081329346,
+                0.722824215888977,
+                2.0707008838653564,
+                0.2918160557746887
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_props/cth_dragon_jade_human_sword_2h_01.rigid_model_v2",
+      "bytes": 91608,
+      "sha256": "ed21d31d6c9e020b270adee185298d99f79856c0e9e7d8fc8cd2207b1e1a4261",
+      "version": 8,
+      "skeleton": "",
+      "lods": [
+        {
+          "level": 0,
+          "camera_distance": 10.0,
+          "mesh_count": 1,
+          "vertices": 822,
+          "triangles": 814,
+          "parts": [
+            {
+              "vertices": 822,
+              "triangles": 814,
+              "vertex_format": 0,
+              "vertex_stride": 32,
+              "material_id": 68,
+              "bounds": [
+                -0.2938317358493805,
+                -0.034106794744729996,
+                -0.1989656239748001,
+                1.2605655193328857,
+                0.030150366947054863,
+                0.2032133936882019
+              ]
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "camera_distance": 20.0,
+          "mesh_count": 1,
+          "vertices": 634,
+          "triangles": 570,
+          "parts": [
+            {
+              "vertices": 634,
+              "triangles": 570,
+              "vertex_format": 0,
+              "vertex_stride": 32,
+              "material_id": 68,
+              "bounds": [
+                -0.2938316762447357,
+                -0.034106794744729996,
+                -0.19896560907363892,
+                1.2606548070907593,
+                0.030150366947054863,
+                0.2032133936882019
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "camera_distance": 30.0,
+          "mesh_count": 1,
+          "vertices": 409,
+          "triangles": 316,
+          "parts": [
+            {
+              "vertices": 409,
+              "triangles": 316,
+              "vertex_format": 0,
+              "vertex_stride": 32,
+              "material_id": 68,
+              "bounds": [
+                -0.29129740595817566,
+                -0.034106794744729996,
+                -0.19993624091148376,
+                1.2610297203063965,
+                0.030150366947054863,
+                0.20418399572372437
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "camera_distance": 10000.0,
+          "mesh_count": 1,
+          "vertices": 344,
+          "triangles": 246,
+          "parts": [
+            {
+              "vertices": 344,
+              "triangles": 246,
+              "vertex_format": 0,
+              "vertex_stride": 32,
+              "material_id": 68,
+              "bounds": [
+                -0.2895907759666443,
+                -0.028143897652626038,
+                -0.19608695805072784,
+                1.2606548070907593,
+                0.021963974460959435,
+                0.20033469796180725
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skeleton": {
+    "name": "humanoid01e",
+    "version": 8,
+    "bone_count": 96,
+    "bones": [
+      {
+        "id": 0,
+        "name": "animroot",
+        "parent": -1
+      },
+      {
+        "id": 1,
+        "name": "root",
+        "parent": 0
+      },
+      {
+        "id": 2,
+        "name": "weapon_1",
+        "parent": 0
+      },
+      {
+        "id": 3,
+        "name": "weapon_2",
+        "parent": 0
+      },
+      {
+        "id": 4,
+        "name": "weapon_3",
+        "parent": 0
+      },
+      {
+        "id": 5,
+        "name": "weapon_4",
+        "parent": 0
+      },
+      {
+        "id": 6,
+        "name": "weapon_5",
+        "parent": 0
+      },
+      {
+        "id": 7,
+        "name": "weapon_6",
+        "parent": 0
+      },
+      {
+        "id": 8,
+        "name": "spine_0",
+        "parent": 1
+      },
+      {
+        "id": 9,
+        "name": "upperleg_left",
+        "parent": 1
+      },
+      {
+        "id": 10,
+        "name": "upperleg_right",
+        "parent": 1
+      },
+      {
+        "id": 11,
+        "name": "lowerleg_left",
+        "parent": 9
+      },
+      {
+        "id": 12,
+        "name": "lowerleg_right",
+        "parent": 10
+      },
+      {
+        "id": 13,
+        "name": "spine_1",
+        "parent": 8
+      },
+      {
+        "id": 14,
+        "name": "armour_side_left_0",
+        "parent": 13
+      },
+      {
+        "id": 15,
+        "name": "armour_side_right_0",
+        "parent": 13
+      },
+      {
+        "id": 16,
+        "name": "foot_left",
+        "parent": 11
+      },
+      {
+        "id": 17,
+        "name": "foot_right",
+        "parent": 12
+      },
+      {
+        "id": 18,
+        "name": "spine_2",
+        "parent": 13
+      },
+      {
+        "id": 19,
+        "name": "clav_left",
+        "parent": 18
+      },
+      {
+        "id": 20,
+        "name": "clav_right",
+        "parent": 18
+      },
+      {
+        "id": 21,
+        "name": "neck_0",
+        "parent": 18
+      },
+      {
+        "id": 22,
+        "name": "neck_1",
+        "parent": 21
+      },
+      {
+        "id": 23,
+        "name": "upperarm_left",
+        "parent": 19
+      },
+      {
+        "id": 24,
+        "name": "upperarm_right",
+        "parent": 20
+      },
+      {
+        "id": 25,
+        "name": "head_0",
+        "parent": 22
+      },
+      {
+        "id": 26,
+        "name": "lowerarm_left",
+        "parent": 23
+      },
+      {
+        "id": 27,
+        "name": "lowerarm_right",
+        "parent": 24
+      },
+      {
+        "id": 28,
+        "name": "upperarm_roll_left_0",
+        "parent": 23
+      },
+      {
+        "id": 29,
+        "name": "upperarm_roll_right_0",
+        "parent": 24
+      },
+      {
+        "id": 30,
+        "name": "eyebrows_0",
+        "parent": 25
+      },
+      {
+        "id": 31,
+        "name": "eyelid_left_0",
+        "parent": 25
+      },
+      {
+        "id": 32,
+        "name": "eyelid_right_0",
+        "parent": 25
+      },
+      {
+        "id": 33,
+        "name": "hand_left",
+        "parent": 26
+      },
+      {
+        "id": 34,
+        "name": "hand_right",
+        "parent": 27
+      },
+      {
+        "id": 35,
+        "name": "lowerarm_roll_left_0",
+        "parent": 26
+      },
+      {
+        "id": 36,
+        "name": "lowerarm_roll_right_0",
+        "parent": 27
+      },
+      {
+        "id": 37,
+        "name": "toe_left_0",
+        "parent": 16
+      },
+      {
+        "id": 38,
+        "name": "toe_right_0",
+        "parent": 17
+      },
+      {
+        "id": 39,
+        "name": "finger_index_left_0",
+        "parent": 33
+      },
+      {
+        "id": 40,
+        "name": "finger_index_right_0",
+        "parent": 34
+      },
+      {
+        "id": 41,
+        "name": "finger_ring_left_0",
+        "parent": 33
+      },
+      {
+        "id": 42,
+        "name": "finger_ring_right_0",
+        "parent": 34
+      },
+      {
+        "id": 43,
+        "name": "thumb_left_0",
+        "parent": 33
+      },
+      {
+        "id": 44,
+        "name": "thumb_right_0",
+        "parent": 34
+      },
+      {
+        "id": 45,
+        "name": "finger_index_left_1",
+        "parent": 39
+      },
+      {
+        "id": 46,
+        "name": "finger_index_right_1",
+        "parent": 40
+      },
+      {
+        "id": 47,
+        "name": "finger_ring_left_1",
+        "parent": 41
+      },
+      {
+        "id": 48,
+        "name": "finger_ring_right_1",
+        "parent": 42
+      },
+      {
+        "id": 49,
+        "name": "thumb_left_1",
+        "parent": 43
+      },
+      {
+        "id": 50,
+        "name": "thumb_right_1",
+        "parent": 44
+      },
+      {
+        "id": 51,
+        "name": "finger_index_left_2",
+        "parent": 45
+      },
+      {
+        "id": 52,
+        "name": "finger_index_right_2",
+        "parent": 46
+      },
+      {
+        "id": 53,
+        "name": "finger_ring_left_2",
+        "parent": 47
+      },
+      {
+        "id": 54,
+        "name": "finger_ring_right_2",
+        "parent": 48
+      },
+      {
+        "id": 55,
+        "name": "thumb_left_2",
+        "parent": 49
+      },
+      {
+        "id": 56,
+        "name": "thumb_right_2",
+        "parent": 50
+      },
+      {
+        "id": 57,
+        "name": "shoulderpad_left_0",
+        "parent": 19
+      },
+      {
+        "id": 58,
+        "name": "shoulderpad_right_0",
+        "parent": 20
+      },
+      {
+        "id": 59,
+        "name": "jaw_0",
+        "parent": 25
+      },
+      {
+        "id": 60,
+        "name": "beard_0",
+        "parent": 59
+      },
+      {
+        "id": 61,
+        "name": "beard_1",
+        "parent": 60
+      },
+      {
+        "id": 62,
+        "name": "beard_2",
+        "parent": 61
+      },
+      {
+        "id": 63,
+        "name": "skirt_back_left_0",
+        "parent": 1
+      },
+      {
+        "id": 64,
+        "name": "skirt_back_right_0",
+        "parent": 1
+      },
+      {
+        "id": 65,
+        "name": "skirt_front_center_0",
+        "parent": 1
+      },
+      {
+        "id": 66,
+        "name": "skirt_back_left_1",
+        "parent": 63
+      },
+      {
+        "id": 67,
+        "name": "skirt_back_right_1",
+        "parent": 64
+      },
+      {
+        "id": 68,
+        "name": "skirt_front_center_1",
+        "parent": 65
+      },
+      {
+        "id": 69,
+        "name": "skirt_front_left_0",
+        "parent": 9
+      },
+      {
+        "id": 70,
+        "name": "skirt_front_right_0",
+        "parent": 10
+      },
+      {
+        "id": 71,
+        "name": "skirt_front_left_1",
+        "parent": 69
+      },
+      {
+        "id": 72,
+        "name": "skirt_front_right_1",
+        "parent": 70
+      },
+      {
+        "id": 73,
+        "name": "cape_middle_0",
+        "parent": 18
+      },
+      {
+        "id": 74,
+        "name": "cape_left_0",
+        "parent": 19
+      },
+      {
+        "id": 75,
+        "name": "cape_middle_1",
+        "parent": 73
+      },
+      {
+        "id": 76,
+        "name": "cape_right_0",
+        "parent": 20
+      },
+      {
+        "id": 77,
+        "name": "cape_left_1",
+        "parent": 74
+      },
+      {
+        "id": 78,
+        "name": "cape_middle_2",
+        "parent": 75
+      },
+      {
+        "id": 79,
+        "name": "cape_right_1",
+        "parent": 76
+      },
+      {
+        "id": 80,
+        "name": "cape_left_2",
+        "parent": 77
+      },
+      {
+        "id": 81,
+        "name": "cape_right_2",
+        "parent": 79
+      },
+      {
+        "id": 82,
+        "name": "quiver_right_0",
+        "parent": 1
+      },
+      {
+        "id": 83,
+        "name": "crest_0",
+        "parent": 25
+      },
+      {
+        "id": 84,
+        "name": "ponytail_0",
+        "parent": 25
+      },
+      {
+        "id": 85,
+        "name": "crest_1",
+        "parent": 83
+      },
+      {
+        "id": 86,
+        "name": "ponytail_1",
+        "parent": 84
+      },
+      {
+        "id": 87,
+        "name": "crest_2",
+        "parent": 85
+      },
+      {
+        "id": 88,
+        "name": "ponytail_2",
+        "parent": 86
+      },
+      {
+        "id": 89,
+        "name": "ponytail_3",
+        "parent": 88
+      },
+      {
+        "id": 90,
+        "name": "ponytail_4",
+        "parent": 89
+      },
+      {
+        "id": 91,
+        "name": "ponytail_5",
+        "parent": 90
+      },
+      {
+        "id": 92,
+        "name": "feathers_0",
+        "parent": 25
+      },
+      {
+        "id": 93,
+        "name": "feathers_1",
+        "parent": 92
+      },
+      {
+        "id": 94,
+        "name": "feathers_2",
+        "parent": 93
+      },
+      {
+        "id": 95,
+        "name": "feathers_3",
+        "parent": 94
+      }
+    ]
+  },
+  "textures": [
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_jade_human/tex/cth_dragon_jade_human_01_base_colour.dds",
+      "width": 2048,
+      "height": 2048,
+      "mipmaps": 12,
+      "fourcc": "DX10",
+      "bytes": 2796364
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_jade_human/tex/cth_dragon_jade_human_01_mask.dds",
+      "width": 2048,
+      "height": 2048,
+      "mipmaps": 11,
+      "fourcc": "DXT5",
+      "bytes": 5592544
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_jade_human/tex/cth_dragon_jade_human_01_material_map.dds",
+      "width": 2048,
+      "height": 2048,
+      "mipmaps": 12,
+      "fourcc": "DX10",
+      "bytes": 2796364
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_dragon_jade_human/tex/cth_dragon_jade_human_01_normal.dds",
+      "width": 2048,
+      "height": 2048,
+      "mipmaps": 11,
+      "fourcc": "DXT5",
+      "bytes": 5592544
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_props/tex/cth_dragon_jade_human_sword_1h_01_base_colour.dds",
+      "width": 512,
+      "height": 512,
+      "mipmaps": 10,
+      "fourcc": "DX10",
+      "bytes": 174924
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_props/tex/cth_dragon_jade_human_sword_1h_01_material_map.dds",
+      "width": 512,
+      "height": 512,
+      "mipmaps": 10,
+      "fourcc": "DX10",
+      "bytes": 174924
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_props/tex/cth_dragon_jade_human_sword_1h_01_normal.dds",
+      "width": 512,
+      "height": 512,
+      "mipmaps": 9,
+      "fourcc": "DXT5",
+      "bytes": 349664
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_props/tex/cth_dragon_jade_human_sword_2h_01_base_colour.dds",
+      "width": 512,
+      "height": 512,
+      "mipmaps": 10,
+      "fourcc": "DX10",
+      "bytes": 174924
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_props/tex/cth_dragon_jade_human_sword_2h_01_mask.dds",
+      "width": 512,
+      "height": 512,
+      "mipmaps": 9,
+      "fourcc": "DXT5",
+      "bytes": 349664
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_props/tex/cth_dragon_jade_human_sword_2h_01_material_map.dds",
+      "width": 512,
+      "height": 512,
+      "mipmaps": 10,
+      "fourcc": "DX10",
+      "bytes": 174924
+    },
+    {
+      "path": "variantmeshes/wh_variantmodels/hu1e/cth/cth_props/tex/cth_dragon_jade_human_sword_2h_01_normal.dds",
+      "width": 512,
+      "height": 512,
+      "mipmaps": 9,
+      "fourcc": "DXT5",
+      "bytes": 349664
+    }
+  ]
+}
