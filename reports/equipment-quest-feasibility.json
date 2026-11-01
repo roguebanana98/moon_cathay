@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-02",
+  "status": "static_feasibility_confirmed_runtime_unverified",
+  "checks": [
+    {
+      "check": "create_force",
+      "static_evidence": "campaign manager implementation"
+    },
+    {
+      "check": "create_force_with_general",
+      "static_evidence": "campaign manager implementation"
+    },
+    {
+      "check": "get_saved_value",
+      "static_evidence": "campaign manager implementation"
+    },
+    {
+      "check": "set_saved_value",
+      "static_evidence": "campaign manager implementation"
+    },
+    {
+      "check": "scripted mission objective",
+      "static_evidence": "mission manager implementation"
+    },
+    {
+      "check": "campaign investigation marker",
+      "static_evidence": "marker manager exposes entering character; Hero filter still needs authoring"
+    },
+    {
+      "check": "all five current spells support generic cooldown effect",
+      "static_evidence": [
+        "wh3_main_spell_yang_dragons_breath",
+        "wh_dlc05_spell_life_earth_blood",
+        "wh_dlc05_spell_shadow_the_enfeebling_foe",
+        "wh_main_spell_death_spirit_leech",
+        "wh_main_spell_fire_flame_storm"
+      ]
+    },
+    {
+      "check": "actual silenced attribute donor",
+      "static_evidence": "Black Tongue phase -> silenced"
+    },
+    {
+      "check": "targeted active donor",
+      "static_evidence": {
+        "key": "wh3_dlc27_character_abilities_the_black_tongue",
+        "num_uses": "2",
+        "active_time": "21.0000",
+        "target_enemies": "true",
+        "num_effected_enemy_units": "1"
+      }
+    },
+    {
+      "check": "battle power recharge phase exists",
+      "static_evidence": {
+        "phase": "wh_main_character_abilities_arcane_conduit",
+        "mana_regen_mod": "0.4000"
+      }
+    },
+    {
+      "check": "native equipment set effects",
+      "static_evidence": "set key links to scoped effects"
+    },
+    {
+      "check": "quest item donor prevents random drop/theft/destruction",
+      "static_evidence": {
+        "key": "wh3_dlc24_anc_weapon_the_dragons_fang",
+        "randomly_dropped": "false",
+        "can_be_stolen": "false",
+        "can_be_destroyed": "false"
+      }
+    },
+    {
+      "check": "quest UI links item/subtype/rank",
+      "static_evidence": "character_ancillary_quest_ui_details records"
+    },
+    {
+      "check": "native quest battle map/script configuration",
+      "static_evidence": {
+        "battle_name": "wh3_dlc24_cth_yuan_bo_dragons_fang",
+        "battlefield_folder": "wh3_main_macro_nur_realm_01",
+        "battle_script": "script\\battle\\quest_battles\\yuan_bo\\battle_script.lua",
+        "teleport_cost": "500",
+        "can_autoresolve_in_campaign": "false"
+      }
+    },
+    {
+      "check": "quest battle army configuration",
+      "static_evidence": "army/battle junction records"
+    },
+    {
+      "check": "candidate Cathay quest faction exists in IEE startpos",
+      "static_evidence": "wh3_main_cth_cathay_qb1; shared faction, not reserved exclusively for this mod"
+    }
+  ],
+  "source_sha256": {
+    "reference/local/lord-scripts/script/_lib/lib_campaign_manager.lua": "27a553a415705e2e9c5d8dbb08e91568122baaae6e138217907009a7cbf48c27",
+    "reference/local/lord-scripts/script/_lib/lib_campaign_mission_manager.lua": "d686bb3e09700ab721541769eef2388547c003ef9ed1aa70a79bc9173c7fdf85",
+    "reference/local/lord-scripts/script/campaign/wh2_campaign_interactive_marker_manager.lua": "728f366c897fe3153ab4bb4690561b7a28e89fdb371580d4726cffe006b236e4",
+    "reference/local/lord-vanilla/db/effect_bonus_value_unit_ability_junctions_tables/data__.tsv": "911ab1b189f4a94a2ce381c933375ebeba81558df210b25afed031340998854c",
+    "reference/local/lord-vanilla/db/special_ability_phase_attribute_effects_tables/data__.tsv": "bd0af437b78b51bfadb165608585ebd18a160b9aed873cc5b7b65f9c09434499",
+    "reference/local/lord-vanilla/db/unit_special_abilities_tables/data__.tsv": "5bb1f9254b6bf70b13f2e7df284cd95bcc4f918b6569121ca33dd2cd29b06ecf",
+    "reference/local/lord-vanilla/db/special_ability_phases_tables/data__.tsv": "b95c4b62263f1c8e1729f0496e04ca6ba7948367e3ce528e646afce0ceecb03a",
+    "reference/local/lord-vanilla/db/ancillary_set_effect_junctions_tables/data__.tsv": "8c43f8b720e33fba470977d0abfb2e8700c4401b8e140b047659b417c4399534",
+    "reference/local/lord-vanilla/db/ancillaries_tables/data__.tsv": "5e6a8b9bf94c14ce7f4e3e37635244205aa19e0333fa1ea0fa8924931ef85954",
+    "reference/local/lord-vanilla/db/character_ancillary_quest_ui_details_tables/data__.tsv": "f7f07d900c2811e2d3db14cc69a450e1e758a454785d436daf184f643c57a0fb",
+    "reference/local/lord-vanilla/db/battle_set_pieces_tables/data__.tsv": "b690e8be6f75dba69b11958f2721ceac88b8b93df5758b0eebca10b40f0fb155",
+    "reference/local/lord-vanilla/db/battle_set_piece_armies_junctions_tables/data__.tsv": "a58aaccce6f7ee542958bcdd76bcf3f636167c1c6702d9ce318ca8e0e1859453",
+    "reference/local/startpos-compact.json": "8522ef0db5be1c3fbbca1227fb40ddf311ee5c926ce73aa04a131209fd9f17fb"
+  },
+  "not_done": [
+    "No mission/item DB authored",
+    "No new pack built",
+    "No gameplay launched",
+    "No battle map suitability/teleport/retry runtime verification"
+  ]
+}

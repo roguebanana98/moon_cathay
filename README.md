@@ -1,9 +1,14 @@
 # Moon Cathay — IEE / MIXER submod
 
 Legendary Lord: **Huyen Ve, Warden of Long Vi** (official name, 02/11/2026).
-Current integrated build: `build/huyen-ve-name/mc_huyen_ve_v12_name.pack`.
-Name update statically validated; runtime confirmation pending. See
+Current integrated build: `build/huyen-ve-equipment/mc_huyen_ve_v14_native_icons.pack`.
+Five items and Custom Battle item links statically validated; runtime confirmation pending. See
 [Lord identity and build notes](docs/LEGENDARY-LORD.md).
+
+[Trang bị v14 và cách test Custom Battle](docs/HUYEN-VE-EQUIPMENT.md).
+
+[Kiểm tra hệ thống nhiệm vụ Agents of the Moon](docs/FACTION-MISSIONS.md)
+(02/11/2026): đối chiếu script và save 30/10; chưa thay đổi nhiệm vụ.
 
 Project: `D:\Warhammer3_Modding\moon_cathay` · Phase 1 · 30/10/2026 (Asia/Saigon).
 
