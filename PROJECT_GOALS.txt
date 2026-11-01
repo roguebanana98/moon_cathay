@@ -1,6 +1,8 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
-TIẾN ĐỘ HIỆN TẠI [01/11/2026]: Đã chuyển sang giai đoạn concept/model/animation của Moon Warden. Đã tạo concept v1 hai góc trước và ngang bằng imagegen, lưu tại assets/concepts/moon-warden/moon-warden-front-side-v1.png; chưa chốt ngoại hình cuối. Người dùng dự kiến dùng Tripo để tạo model 3D; chưa tạo model, rig hay animation mới. Bước tiếp theo: duyệt/chỉnh concept, chuẩn bị ảnh tham chiếu phù hợp rồi dựng 3D. Bản gameplay hiện hành vẫn là build/moon-lord-spell-ranks/mc_moon_warden_v11_spell_progression.pack; kiểm tra tĩnh qua, điều kiện mở phép v11 chưa có xác nhận runtime riêng.
+TIẾN ĐỘ HIỆN TẠI [02/11/2026]: Đã chốt và tích hợp tên Huyen Ve, Warden of Long Vi; loại Legendary Lord. Bản v12: build/huyen-ve-name/mc_huyen_ve_v12_name.pack, thay tên campaign/battle/Custom Battle, mô tả frontend/loading và script sửa tên khi load save. Đối chiếu pack và localization roundtrip đạt; toàn bộ DB/startpos v11 giữ nguyên. Chưa deploy, chưa kiểm thử runtime. Tiếp theo: thay pack cũ bằng v12 và xác nhận tên trong game.
+
+MỐC MODEL TRƯỚC ĐÓ [02/11/2026]: Đã dựng xong bản 3D Public xem thử của concept 03 trên Tripo quốc tế (H3.1, Geometry & Texture), dùng đúng 45 credits, số dư 140→95. Model aaf0a312-0f6a-4ff7-8915-d72a9505c819 có 1,970,610 faces / 1,023,713 vertices theo viewer; đã xoay kiểm tra trước/cạnh/sau và lưu ảnh trong reports/concept03-tripo-*.jpg. Xuất GLB chính thức bị chặn bởi yêu cầu subscription; chưa có file thân local, không mua gói. Kiếm prototype riêng đã có .blend/.glb tại assets/authored/moon-warden/concept03-v1/. Bước tiếp theo: duyệt model, xuất file bằng quyền tài khoản hợp lệ rồi làm sạch/retopo/rig/LOD cho WH3. Chưa thay model trong pack game; gameplay vẫn v11_spell_progression.
 
 HƯỚNG DẪN CẬP NHẬT
 - Cập nhật dòng “TIẾN ĐỘ HIỆN TẠI” mỗi khi bàn giao hoặc kết thúc một mốc.
@@ -71,8 +73,9 @@ Trạng thái quan trọng:
 [X] Người dùng cho phép triển khai ngày 01/11/2026: nam, tên tạm, dùng model có sẵn.
 [X] Người dùng xác nhận Moon Warden v2 chạy không lỗi sau khi sửa crash khởi động.
 [X] Người dùng đã chọn được Lord và vào trận Custom Battle từ v4.
-[~] Bản hiện hành v11 đã kiểm tra dữ liệu; chưa xác nhận đầy đủ progression/runtime.
-[ ] Chốt tên, ngoại hình cụ thể, chỉ số, cân bằng và mốc mở khóa kỹ năng.
+[~] Bản hiện hành v12 đổi tên đã kiểm tra dữ liệu; kế thừa progression v11, chưa xác nhận đầy đủ runtime.
+[X] Chốt tên chính thức: Huyen Ve, Warden of Long Vi — Legendary Lord (02/11/2026).
+[ ] Chốt ngoại hình cụ thể, chỉ số, cân bằng và mốc mở khóa kỹ năng.
 [~] Đã tích hợp Earth Blood, Dragon's Breath, Flame Storm và sửa bộ phép hỗn hợp.
     V11: campaign mới có Earth Blood 1 + Dragon's Breath 1; Flame Storm yêu cầu
     cả hai đạt cấp 2, không khóa cấp Lord riêng. Custom Battle giữ cấu hình thử phép.

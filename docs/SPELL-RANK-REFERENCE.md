@@ -25,10 +25,10 @@ All named visible spell skill records have unlocked_at_rank=0 and no relevant
 character_skill_level_details rows in this snapshot. This does NOT mean they
 are all available immediately: links and investment thresholds still apply.
 Hidden base-spell enablement is not equivalent to a free point in the visible
-upgrade skill. Moon Warden's requested two visible starting investments are
+upgrade skill. Huyen Ve's requested two visible starting investments are
 therefore more generous than the observed native base-spell grants.
 
-## Implication for Moon Warden
+## Implication for Huyen Ve, Warden of Long Vi
 
 V10's 6/8/12/16 rank locks were bespoke proposals, not extracted vanilla ranks.
 For native-like progression, allow early investment in the two starter spells

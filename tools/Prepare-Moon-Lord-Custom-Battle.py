@@ -1,4 +1,4 @@
-"""Add the existing Moon Warden to the Cathay custom battle roster."""
+"""Add Huyen Ve, Warden of Long Vi to the Cathay custom battle roster."""
 import csv,json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
@@ -7,6 +7,7 @@ out=root/'build/moon-lord-custom-battle'
 unit='mc_moon_warden_human'
 donor='wh3_dlc24_cth_cha_yuan_bo_human'
 files=[]
+identity=json.loads((root/'src/campaign/moon-warden.json').read_text(encoding='utf-8'))
 def read(table):
     with (ref/(table+'_tables/data__.tsv')).open(encoding='utf-8-sig',newline='') as f:
         d=list(csv.reader(f,delimiter='\t'))
@@ -45,7 +46,7 @@ internal='text/db/mc_moon_warden_custom_battle.loc';p=out/(internal+'.tsv');p.pa
 with p.open('w',encoding='utf-8',newline='') as f:
     csv.writer(f,delimiter='\t',lineterminator='\n').writerows([
       ['key','text','tooltip'],['#Loc;1;'+internal,'',''],
-      ['names_name_1800312100','Moon Warden','true'],['names_name_1800312101','','true']])
+      ['names_name_1800312100',identity['display_name'],'true'],['names_name_1800312101','','true']])
 files.append(internal)
 (out/'report.json').write_text(json.dumps({'files':files,'faction':'wh3_main_cth_cathay_mp','unit':unit,'runtime_verified':False},indent=2))
 print('Prepared custom battle permissions, character, names, military group and localization.')

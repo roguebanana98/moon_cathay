@@ -1,0 +1,26 @@
+{
+  "generation_url": "https://studio.tripo3d.ai/workspace/generate/aaf0a312-0f6a-4ff7-8915-d72a9505c819",
+  "rigged": false,
+  "credits_after": 95,
+  "model": "H3.1",
+  "mode": "Geometry & Texture",
+  "credits_before": 140,
+  "date": "2026-11-02",
+  "input": "assets/concepts/moon-warden/concept03-model-input/moon-warden-concept03-front-apose-v1.png",
+  "body_exported": false,
+  "game_tested": false,
+  "status": "completed_public_preview_export_subscription_required",
+  "job_id": "aaf0a312-0f6a-4ff7-8915-d72a9505c819",
+  "provider": "Tripo Studio international",
+  "credits_spent": 45,
+  "concept": "03-bach-bao-nho-tuong",
+  "privacy": "Public",
+  "viewer_faces": 1970610,
+  "viewer_vertices": 1023713,
+  "views_checked": [
+    "front",
+    "side",
+    "back"
+  ],
+  "export_attempt": "Official Export GLB 2K opens subscription dialog; no file downloaded"
+}

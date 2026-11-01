@@ -1,4 +1,31 @@
-# Moon Warden — first playable prototype
+# Huyen Ve, Warden of Long Vi — Legendary Lord
+
+## Official identity — v12 (2026-11-02)
+
+Approved name: **Huyen Ve, Warden of Long Vi**. Class label: **Legendary Lord**.
+No family name is added. The full name is stored in a single localized name
+component to avoid culture-dependent surname ordering. Stable technical keys
+(`mc_moon_warden`, unit/skill keys and asset directories) remain unchanged.
+
+Integrated output: `build/huyen-ve-name/mc_huyen_ve_v12_name.pack`.
+Use this instead of v11 or earlier integrated packs; do not stack them.
+Campaign character name, battle unit name, Custom Battle character name and
+frontend/loading description text now use the approved identity.
+A first-tick campaign script reapplies the identity to the custom subtype on
+load, including saves that retained IEE's original name components. It also
+renames the original Ju Di faction leader only when both original name keys
+match; this does not convert a pre-prototype generic Lord into the custom Lord.
+Use a new campaign for the full custom-Lord implementation in pre-prototype saves.
+
+Build: `tools/Build-Huyen-Ve-Name.ps1`.
+Validate: configured Python with `tools/Validate-Huyen-Ve-Name.py`.
+Dependency hashes match the recorded baseline. Pack extraction and localization
+roundtrip pass. Only two localization payloads change from v11, plus one scoped
+name script; every DB and startpos payload remains byte-identical to v11.
+No game/Workshop deployment or runtime verification has been performed.
+
+Earlier sections below document historical builds under the temporary name
+Moon Warden; those old pack filenames and observations are retained as history.
 
 ## Spell investment gate — v11 (2026-11-01)
 
