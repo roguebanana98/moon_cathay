@@ -1,6 +1,12 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
-TIẾN ĐỘ HIỆN TẠI [03/11/2026]: Đã rà và đồng bộ toàn bộ goal Huyen Ve (mục 2A, 3, 5, 5A và tài liệu bàn giao), không chỉ chuỗi nhiệm vụ. Private test v19 kế thừa model đã duyệt + native animation fix v16, tên/portrait/test grant v17, re-equip hotfix v18 và thêm Moonlit Command; source/file game có SHA256 khớp theo kiểm tra đọc, chưa xác nhận live launcher/runtime. Đã ghi đủ skill branches, RoR capacity native, model/LOD/kiếm, UI, save compatibility, test còn thiếu và giới hạn private assets. Thiết kế nhiệm vụ đã được người dùng duyệt: 5 nhiệm vụ campaign nhận đủ bộ + 1 quest battle cuối nhận Legendary Hero mới; chưa triển khai, danh tính Lam Anh còn đề xuất. Việc tiếp theo: xác nhận runtime Lord/UI/equip/Moonlit Command, prototype kill counter và Hero lifecycle, rồi triển khai nhiệm vụ theo đặc tả. Lần cập nhật này chỉ sửa tài liệu, không build/deploy/launch game hoặc sửa save.
+VỊ TRÍ KHỞI ĐẦU [03/11/2026]: Đã cài/bật v25 r7, r6 tắt/giữ rollback. Thêm startup Lua native pre-first-tick, chỉ campaign mới: đưa chính Huyen Ve và nguyên quân đoàn tới điểm đất hợp lệ cạnh Long Vi đang sở hữu, áp dụng player/AI; không dịch chuyển khi load save. Không sửa ESF/save trực tiếp; mọi payload r6 byte-identical. 10 trường hợp Lua vị trí đầu game và hồi quy quest đạt, chưa xác nhận vị trí/camera trong game. Chi tiết docs/HUYEN-VE-LONG-VI-START.md.
+
+KIẾM THỬ GAME [03/11/2026]: Người dùng đã duyệt preview fantasy longsword và yêu cầu đưa vào mod. Đã cài/bật v25 r6, r5 tắt/giữ làm fallback, backup launcher và hash pack trùng. 4 LOD 12000/6000/3000/1200 tam giác; DDS PBR 2K/mipmap, giữ UV/tỷ lệ/điểm weapon_2 đã xem. RMV2 nhập lại + render và12 tư thế native đạt; không thêm binding thứ hai. Chỉ 6 payload đồ họa kiếm thêm/thay; cơ thể/tay/rig/animation/gameplay/Da Lien/quest byte-identical, diagnostics không đổi. Chưa xác nhận trong game. Chi tiết docs/HUYEN-VE-FANTASY-LONGSWORD-PREVIEW.md.
+
+KIẾM THỬ BLENDER [03/11/2026]: Đã nhập fantasy longsword người dùng cung cấp, giữ đủ 466.979 tam giác/texture 4K, căn theo chuôi kiếm và weapon_2 trên model Huyen Ve đã duyệt. Scene riêng build/huyen-ve-fantasy-longsword/huyen-ve-fantasy-sword-preview.blend; kiếm cũ ẩn và giữ nguyên, không sửa tay/body/rig. Chín mẫu đứng/chạy/chém bám attachment đạt; đã render/xem trước và mở Blender. Theo yêu cầu mới nhất chỉ thử Blender, chưa export/tối ưu mesh/đưa vào mod; v25 r5 giữ nguyên. Xem docs/HUYEN-VE-FANTASY-LONGSWORD-PREVIEW.md.
+
+TIẾN ĐỘ HIỆN TẠI [03/11/2026]: R5 đã tích hợp ảnh thẻ Da Lien người dùng cung cấp, căn đủ 5 PNG portrait/card; bản gốc giữ nguyên. Đã cài/bật r5 sau khi người dùng tự thoát game, r4 tắt; chưa kiểm tra ảnh trong game. R4 đổi icon Crimson Moonstone sang Gem of Blood native theo yêu cầu người dùng. Đã viết/đóng/cài và bật pack đủ 6 chương v25 r7; giữ v24 tắt làm fallback. Đủ gate 6/8/10/14/18/22, rescue Da Lien + ngọc, Avauka/chuộc giáp, Hero điều tra-giao hồ sơ, kill đúng quân đoàn và phục hồi kiếm trả phí một lần/2 lượt. 58 kiểm tra chuỗi Lua, 13 hồi quy chương 1, 10 tình huống thưởng Hero và kiểm tra battle/native-library đạt ở biên engine giả lập; DB roundtrip/diagnostics không lỗi chặn mới. Campaign mới IEE đã khởi tạo controller đúng, không spawn Hero visual test; đã thoát game và khôi phục/đối chiếu hash đủ 69 save cùng intro preference. Full campaign end-to-end chưa xác nhận. Xem docs/HUYEN-VE-V25-QUEST-INTEGRATION.md.
 
 LỊCH SỬ CÁC MỐC — mô tả trạng thái tại thời điểm ghi; dùng tiến độ hiện tại và checklist bên dưới để tiếp tục công việc.
 
@@ -80,13 +86,14 @@ A. Nền tảng và mod để chơi/test
   trong report kiểm kê. Header submod hiện chỉ khai báo IEE + MIXER; không suy
   từ việc dùng MCT để khẳng định nó là dependency pack thứ ba của submod.
   Link: https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021
-- Submod test tích hợp mới nhất đã ghi nhận deploy — mc_huyen_ve_v19_moonlit_command.pack:
-  build/huyen-ve-v19-moonlit-command/mc_huyen_ve_v19_moonlit_command.pack.
+- Submod test tích hợp mới nhất đã ghi nhận deploy — mc_huyen_ve_v22_da_lien_appearance.pack:
+  build/huyen-ve-v22-da-lien-appearance/mc_huyen_ve_v22_da_lien_appearance.pack.
   Kế thừa model đã duyệt + native animation fix v16, campaign UI/test grant v17,
-  hotfix re-equip v18 và thêm Moonlit Command v19. Chỉ bật một bản tích hợp.
+  hotfix re-equip v18, Moonlit Command v19 và thêm Da Lien appearance test v20.
+  Chỉ bật một bản tích hợp.
   Đã đối chiếu SHA256 source với file trong game ngày 03/11/2026: khớp
-  d0364009f4b401b01ec6c1832179f2694fbff855a6ba850a2f4bfff09fbb2c06.
-  Báo cáo deploy ghi v19 bật/v18 tắt; chưa đọc lại launcher đang chạy trong lần rà này.
+  7fdab0705301c2f8951dd5e7f68971435438805442c7ef5f195fe1da9f7cd4a3.
+  Đã đọc/ghi/đọc lại launcher: v22 bật/v21 tắt, có backup, entry khác giữ nguyên.
   Static validation đạt; runtime tổng thể và các hotfix vẫn chờ xác nhận.
 - Không bắt buộc hiện tại — Custom Lord Creation: Workshop ID 3660806424;
   file fuwuvi_custom_lord_creation.pack, đã có local nhưng chưa tích hợp API.
@@ -198,7 +205,7 @@ Trạng thái quan trọng:
 [X] Người dùng cho phép triển khai ngày 01/11/2026: nam, tên tạm, dùng model có sẵn.
 [X] Người dùng xác nhận Moon Warden v2 chạy không lỗi sau khi sửa crash khởi động.
 [X] Người dùng đã chọn được Lord và vào trận Custom Battle từ v4.
-[~] Bản test tích hợp hiện hành theo báo cáo deploy là v19; source và file game
+[~] Bản test tích hợp hiện hành theo báo cáo deploy là v22; source và file game
     đã đối chiếu hash khớp. Không coi deploy hoặc static checks là runtime đạt.
 [X] Chốt tên chính thức: Huyen Ve, Warden of Long Vi — Legendary Lord (02/11/2026).
 [X] Người dùng duyệt ngoại hình ngày 03/11/2026: model nguyên đầu/cổ từ Workshop
@@ -293,31 +300,51 @@ Trạng thái quan trọng:
     giữ subtype whitelist, transferrable=false, stats và marker chống cấp trùng.
     Build/static/deploy đạt, v19 kế thừa; nguyên nhân vẫn là giả thuyết, cần
     người dùng xác nhận tháo/equip lại trên save cũ. Không re-grant hoặc sửa save.
-[X] Người dùng đã chốt phương án nhiệm vụ [03/11/2026]: 5 nhiệm vụ campaign nhận
-    đủ bộ trang bị, chỉ 1 quest battle cuối nhận Legendary Hero mới.
+[X] Người dùng yêu cầu nhận Da Lien sớm hơn [03/11/2026]. Thiết kế cập nhật giữ
+    5 nhiệm vụ campaign nhận đủ bộ và chỉ 1 quest battle, chuyển lên chương 2/
+    cấp Huyen Ve 8 để nhận Da Lien + Crimson Moonstone; bỏ gate đủ bộ/cấp 25.
     Đặc tả hiện hành: docs/HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md.
     Thay thế các phương án quest battle chương 3–5 trong thiết kế trước.
-[ ] Triển khai nhận từng món qua chuỗi “Mật Lệnh Phương Nam”. Bản test v17 có
-    auto-grant cả bộ; cần tách đường cấp đồ test khỏi bản progression.
-    Mốc cấp dự kiến 6/10/14/18/22, cần chốt khi triển khai; chỉ mở chương sau
+[~] Đã triển khai đủ sáu chương nhận từng món qua chuỗi “Mật Lệnh Phương Nam”. Bản v25 chặn
+    auto-grant cả bộ và spawn Hero visual test bằng saved flag.
+    Mốc 6 chương đã tích hợp 6/8/10/14/18/22; chỉ mở chương sau
     khi hoàn thành chương trước, không trao tất cả đồ chỉ vì Lord đã cấp cao.
-[ ] Chương 1: sở hữu Long Vi và Huyen Ve thắng 2 trận → nhận Ngọc Bội.
-[ ] Chương 2: chiếm Avauka → nhận Giáp; đã sở hữu thì công nhận ngay.
+[~] Chương 1 (đã tích hợp, chờ playthrough): sở hữu Long Vi và Huyen Ve thắng 2 trận → nhận Ngọc Bội.
+[~] Đã tích hợp chương 1 vào candidate v25: rank gate, một objective kết hợp
+    quyền sở hữu thành/2 chiến thắng, save/load, reward pending và inventory guard.
+    13 hồi quy state chương 1 và 58 kiểm tra chuỗi đầy đủ đạt; roundtrip/RPFM
+    không có lỗi chặn mới trong r3. Candidate tách 3 đường spawn/grant test bằng saved flag;
+    không xóa đồ/Hero cũ. Cần kiểm tra engine trước khi đánh dấu gameplay đạt.
+[~] Chương 2 (đã tích hợp, chờ playthrough): sau chương 1/cấp 8, quest battle đầu game giải cứu Da Lien → nhận
+    Hero + Crimson Moonstone; không cần Avauka/đủ bộ. Hero mới gợi ý cấp 5 và
+    4 điểm chưa dùng; không hạ cấp/reset nhân vật test đã có hoặc cấp bản sao.
+[~] Chương 3 (đã tích hợp, chờ playthrough): chiếm Avauka → nhận Giáp; đã sở hữu thì công nhận ngay.
     Nếu đồng minh/trung lập giữ: cho đường thương lượng trả 2.000 vàng.
-[ ] Chương 3: Hero độc lập tới marker điều tra → giao hồ sơ tại Long Vi → nhận Ấn.
+[~] Chương 4 (đã tích hợp, chờ playthrough): Hero độc lập tới marker điều tra → giao hồ sơ tại Long Vi → nhận Ấn.
     Không quest battle, không tạo quân mục tiêu, không hero action có xác suất.
-[ ] Chương 4: quân đoàn Huyen Ve tích lũy kill → nhận Nguyệt Đăng.
+    Có thể dùng Da Lien hoặc Hero khác; không khóa tuyến khi Da Lien bị thương.
+[~] Chương 5 (đã tích hợp, chờ playthrough): quân đoàn Huyen Ve tích lũy kill → nhận Nguyệt Đăng.
     Mốc dự kiến 2.000 cá thể ở Ultra, điều chỉnh theo unit size sau kiểm thử.
-    Phải chứng minh đếm đúng quân đoàn, manual/autoresolve và không tính trùng.
-[ ] Chương 5: Huyen Ve về Long Vi, trả 3.000 vàng, xử lý 2 lượt còn giữ thành
+    Phải chứng minh đếm đúng quân đoàn, gồm AOE Da Lien khi embed, manual/auto
+    và không tính trùng; không buộc phải dùng Da Lien để đạt mốc.
+[~] Chương 6 (đã tích hợp, chờ playthrough): Huyen Ve về Long Vi, trả 3.000 vàng, xử lý 2 lượt còn giữ thành
     → nhận Kiếm Trấn Dạ. Lord được rời đi sau khi giao việc; mất thành tạm dừng,
     lấy lại tiếp tục, không thu phí lần hai. Vàng/số lượt cần playtest cân bằng.
-[ ] Chương 6: sau khi hoàn thành 5 chương, quest battle duy nhất giải cứu và nhận
-    Legendary Hero mới; cấp mở dự kiến 25, không yêu cầu đang equip đủ 5 món.
-    Lam Anh là danh tính đề xuất, chưa chốt tên/model/kit của Hero.
-[ ] Chốt tọa độ campaign IEE, battlefield/catchment, deployment/entry, faction,
-    roster/unit keys/số lượng và timeline viện quân cho battle cuối trước khi build.
-    Hiện chưa có battle Huyen Ve được cấu hình và kiểm chứng (0/1).
+    Nhận kiếm kết thúc tuyến và hoàn tất bộ; không thêm quest battle/nhận Hero nữa.
+[~] Đã tích hợp điểm đất hợp lệ quanh Long Vi qua API native, Amber Bow/catchment,
+    deployment/entry, faction, roster và timeline; còn kiểm chứng campaign runtime.
+    Cân bằng quân tier 1–2, không dùng Da Lien preset cấp 40 hoặc giữ 4 phút cũ.
+    Battle duy nhất đã có prototype chơi được; full campaign end-to-end vẫn 0/1.
+[~] Rescue prototype v4 dùng Amber Bow (Moon Bow rừng tuyết đã bị loại). Đã
+    kiểm chứng frontend, map/deployment, script labels, lệnh khởi đầu, UI mục
+    tiêu và Decisive Victory với Da Lien sống. Sửa thiếu scripted_objectives DB
+    và localisation; DB roundtrip/RPFM không lỗi chặn mới. Da Lien 3 phép cơ bản,
+    hộ vệ Cathay, Chaos tier 1–2, không viện quân/timer thắng. Chưa đạt cân bằng
+    (v4 đứng yên vẫn thắng); v25 đổi địch đánh hộ vệ, chờ thử chết/thua/campaign return.
+    Hiện bật đủ sáu chương v25 r3; v24 tắt làm fallback.
+[~] Dịch vụ thưởng Hero/ngọc đã viết, 10 tình huống Lua/mock đạt; đã nối vào mission chương 2
+    với điều kiện thắng đúng rescue bằng Huyen Ve và xác nhận MissionSucceeded. Giữ Hero/item cũ, không hạ cấp/cấp trùng, chờ khi thiếu
+    vị trí spawn hoặc cấp ngọc chưa thành công.
 [ ] Prototype vòng đời Hero: spawn đúng một lần, di chuyển/embed/battle,
     wounded-return và save/load; không phụ thuộc LH dùng chung của vanilla.
 [ ] Kiểm tra trao thưởng đúng một lần, thua/đánh lại, teleport, save/load, Lord bị thương,
@@ -330,6 +357,108 @@ Audit nhiệm vụ faction hiện tại:
 [ ] Nếu mở rộng sau: thiết kế Short/Long Victory phù hợp Long Vi/Khuresh.
 [ ] Kiểm chứng thiếu mapping Taoyan cho Agents of the Moon và sửa nếu được yêu cầu;
     chưa áp dụng thay đổi nào vào hệ thống Legendary Hero trong lần audit.
+
+5B. LEGENDARY HERO DA LIEN — PHÁP SƯ CON NGƯỜI
+[X] Người dùng chọn tên ASCII Da Lien, thuộc Agents of the Moon (03/11/2026).
+[X] Chốt vai trò: AOE sát thương lên bộ binh, hồi máu nhẹ và buff giáp;
+    bổ sung cho Huyen Ve thiên tiêu diệt Lord/Hero địch.
+[X] Người dùng xác định Da Lien có 1 magic item đi kèm: viên ngọc đỏ lấy ý tưởng
+    từ viên ngọc trên ngực model (03/11/2026).
+[X] Đã tích hợp Crimson Moonstone, slot Arcane Item, chỉ Da Lien dùng; +5 dự trữ
+    Winds, +5% ward save và Moonlit Renewal (bound Earth Blood 1 lần/trận).
+    Theo yêu cầu tích hợp, đã build/deploy v24; xem docs/DA-LIEN-V24-MOONSTONE.md.
+[X] Có grant/equip cùng Da Lien, hỗ trợ Hero test đã tồn tại và Custom Battle;
+    kiểm tra kho faction/marker chống cấp trùng, không ép equip lại sau khi tháo.
+    14 payload thêm mới, v23 byte-identical; roundtrip/validator đạt. Deploy có
+    backup/hash checks, v24 bật/v23 tắt; runtime chưa xác nhận.
+[ ] Test runtime item: grant đúng một lần, tooltip/icon, effect/cộng dồn, bound
+    heal 1 lần/trận/healing cap, tháo/trang bị lại và reload không tự equip/cấp trùng.
+[X] Chọn nguồn model Beautiful Neferata, Workshop 3809988722; giữ nguồn read-only.
+[X] Tạo scene private có texture, skeleton humanoid01ba 86 bones, staff/dagger
+    đúng điểm gắn native và stand animation; đã mở Blender xem trước/hông/sau.
+    Scene: build/da-lien-model-review/da-lien-beautiful-neferata-review.blend.
+    Chi tiết: docs/DA-LIEN-MODEL-REVIEW.md. Chưa tự sửa ngoại hình nguồn.
+[X] Đã duyệt ngoại hình Da Lien hiện tại: bỏ cổ áo dựng, da hồng ấm nhẹ,
+    đầu trượng trăng lưỡi liềm bạc/vàng; giữ trang phục và các phần còn lại.
+[X] Sau bàn giao v22, người dùng phản hồi “tốt lắm” và yêu cầu cập nhật goal.
+    Ghi nhận hài lòng với mốc hiện tại; không suy thành mọi case runtime đã đạt.
+[X] Người dùng duyệt đầu trượng trăng và yêu cầu tích hợp: v22 đã xuất bỏ cổ áo,
+    bake tint da vào DDS 4096 BC7 sRGB/13 mips, xuất đầu trăng bạc/vàng + atlas PBR.
+    Giữ chính xác native vertex channels của các phần còn lại; không double attach.
+    6 clip native/24 pose của model xuất kiểm tra motion/prop-follow đạt.
+[X] V22 pack chỉ thay 4 + thêm 7 graphics payload; DB/gameplay/scripts/startpos
+    v21 giữ nguyên, không diagnostic mới/thay đổi. Đã deploy v22 bật/v21 tắt,
+    có backup launcher/hash checks; không sửa source Workshop/save.
+    Chi tiết: docs/DA-LIEN-V22-APPEARANCE.md. Runtime appearance/animation chờ test.
+[X] Người dùng đồng ý màu da hồng nhẹ; theo yêu cầu mới, thay cụm ly đầu trượng
+    bằng trăng lưỡi liềm bạc viền vàng, có khớp nối đỏ/vàng và gắn be_prop_5.
+    Giữ shaft/tua trượng, mọi mesh khác, da ấm và bỏ cổ áo. Scene mới nhất:
+    build/da-lien-moon-staff/da-lien-moon-staff.blend. Đã export/deploy trong v22;
+    chi tiết docs/DA-LIEN-MOON-STAFF.md và docs/DA-LIEN-V22-APPEARANCE.md.
+[X] Theo yêu cầu, làm da hồng ấm nhẹ hơn bằng material riêng của Neferata_Body,
+    giữ texture/chi tiết da gốc, mọi geometry/UV/weights và các material khác.
+    Scene mới nhất: build/da-lien-skin-warm/da-lien-skin-warm.blend, kế thừa bỏ cổ áo.
+    Tint đã chuyển sang diffuse DDS và deploy v22; xem docs/DA-LIEN-SKIN-WARM.md.
+[X] Theo yêu cầu mới, đã bỏ riêng cổ áo dựng sau cổ trong
+    Neferata_Outfit_Sleeves_Collar trên bản sao live Blender; giữ tay áo/vòng cổ
+    phía trước và mọi mesh khác. Retained coords/UV/weights/faces/normals và rig
+    đã đối chiếu không đổi. Scene: build/da-lien-collar-edit/da-lien-collar-removed.blend.
+    Chi tiết: docs/DA-LIEN-COLLAR-EDIT.md. Model sửa đã export/deploy ở v22.
+[ ] Tối ưu LOD/mật độ cho bản hoàn thiện: v22 giữ 1 LOD, body 219.537 tam giác
+    sau bỏ cổ áo. Pipeline v22 xuất từ raw source để bảo toàn vertex channels,
+    không dùng mesh Blender bị giảm 980 faces làm nguồn xuất body.
+[X] Đã chốt và tích hợp test bộ Moon Arts: Blossom Wind, Storm of Shadows,
+    Talons of Night, Comet of Casandora, Earth Blood, Flesh to Stone; Power of Yin.
+    Dùng composite lore và native overcast links; giữ nền Hero người sống,
+    không kế thừa skill Lord/Undead của Neferata. Kiểm thử gameplay còn chờ.
+[X] V20 đã build subtype mc_da_lien/unit mc_da_lien_human, Hero engineer theo
+    nền Alchemist Cathay người sống; graphics/portrait paths riêng, không sửa native.
+    Tham chiếu BIN animation Neferata native đã kiểm tra ở campaign và battle.
+    Giữ nguyên mesh nguồn, không dùng mesh Blender export cho pack test.
+[X] Build/roundtrip/diagnose v20 đạt: 74 payload mới, tất cả payload v19 giữ nguyên,
+    không lỗi chặn mới; 10 cảnh báo metadata schema ghi riêng. IEE/MIXER hash khớp.
+[X] Đã deploy v20 thay v19 với backup launcher/hash check, không sửa save/Workshop.
+    Script tạo Da Lien một lần gần Long Vi đang sở hữu khi load/faction turn;
+    có kiểm tra subtype/marker chống trùng, thiếu vị trí/thành thì chờ và thử lại.
+    Chi tiết: docs/DA-LIEN-V20-VISUAL-TEST.md.
+[X] V23 thay cây Metal thử nghiệm bằng cây riêng 26 ô/51 điểm, 6 spell và
+    6 unique; giữ Evasion/Earthing/Reserves/Conduit, campaign actions, kháng sát
+    thương và Mentor cấp 30/40/50. Blossom Wind cơ bản miễn phí, immortality sẵn.
+    Thiết kế V1 Metal đã bị thay bằng hướng Yin/Heavens/Life được người dùng duyệt.
+[X] Build/roundtrip/RPFM v23 đạt: thay 5 payload Da Lien và thêm 9; không
+    diagnostic mới. Kiểm tra độc lập 6 đường base/overcast/cost, cấp 1 chỉ có
+    Blossom Wind, gates cấp 2→12, 26 ô/51 điểm và preset Custom Battle đạt.
+[X] Deploy v23 bật/v22 tắt, backup launcher và hash khớp; graphics/portrait,
+    Huyen Ve, tỉnh/startpos và script spawn v20 không đổi. File v22 giữ nguyên.
+    Chi tiết: docs/DA-LIEN-V23-SKILL-TEST.md; báo cáo build/huyen-ve-v23-da-lien-skills/.
+[~] Có script migration một lần theo CQI: native reset cây cũ, dọn grant Metal,
+    cấp lại foundation mới, giữ XP/background/trang bị; không tự tăng XP/mua skill.
+    Chưa chạy trong engine; cần kiểm tra hoàn điểm đúng và save/load không reset lại.
+[ ] Test runtime composite lore/overcast/hidden enable, Power of Yin/Conduit,
+    skill UI/gates, campaign actions, mastery, mana/heal cap và cân bằng battle.
+[ ] Kiểm tra runtime spawn, tên/portrait, campaign/battle model, UI, equip,
+    embed, wounds/return và load không nhân bản Hero.
+[~] Đã xuất PNG portrait đang dùng trong pack v22 để người dùng tự chỉnh:
+    build/da-lien-portrait-edit/Da_Lien_unit_card.png (60x130 RGBA) và
+    Da_Lien_portrait.png (300x164 RGBA). Có bản gốc và mapping/hash tại
+    export-manifest.json cùng thư mục; chờ ảnh người dùng sửa rồi import lại mod.
+[X] Theo phản hồi ảnh UI quá nhỏ, đã render portrait mới trực tiếp từ model đã
+    duyệt ở 2048x2048 PNG RGBA nền trong suốt, 96 samples/denoise, giữ da ấm và
+    bỏ cổ áo. File chỉnh sửa chính: build/da-lien-portrait-edit/Da_Lien_portrait_2048.png.
+    Report: high-resolution-render.json cùng thư mục. Chờ ảnh người dùng chỉnh;
+    chưa thay portrait trong pack v22.
+[X] V21 đã thêm Da Lien vào Custom Battle → Grand Cathay → Heroes, kèm preset
+    12 skill magic/passive Metal native để test cast (Searing Doom, Glittering Robe...).
+    Không đổi mainunit Hero thành Lord, không thêm mount hoặc sửa campaign spawn.
+    7 payload DB/loc mới, roundtrip đạt, không blocking diagnostic mới;
+    2 metadata warnings names type/gender ghi riêng. Đã deploy thay v20, có backup.
+    Chi tiết: docs/DA-LIEN-V21-CUSTOM-BATTLE.md; runtime roster/animation chờ test.
+[ ] Kiểm tra run/attack/cast, deform/clipping và runtime animation lookup;
+    preview Blender/static native BIN check không thay thế test engine.
+[ ] Nhận Da Lien + Crimson Moonstone qua quest battle sớm chương 2/cấp Huyen Ve 8,
+    sau chương 1, không cần thu đủ bộ. Hero mới gợi ý cấp 5, không downgrade Hero test.
+    Map/roster/tọa độ/timeline còn phải chốt và test; bản progression phải bỏ
+    spawn appearance-test v20 và xử lý migration save test rõ ràng.
 
 6. MỞ RỘNG FACTION VÀ PROVINCE
 [ ] Thiết kế cách tạo/tách faction và phân bố lãnh thổ theo từng yêu cầu cụ thể.
@@ -375,6 +504,8 @@ Long Vi thành chính I–V, bản v3: docs/LONGVI-TIERED-CAPITAL.md
 Hướng dẫn build/test: docs/BUILD-TEST.md
 Lord và phiên bản tích hợp: docs/LEGENDARY-LORD.md
 Ngoại hình đã duyệt và animation fix v16: docs/HUYEN-VE-APPROVED-MODEL.md
+Da Lien v20 appearance test và cách spawn Long Vi: docs/DA-LIEN-V20-VISUAL-TEST.md
+Da Lien v21 Custom Battle test animation: docs/DA-LIEN-V21-CUSTOM-BATTLE.md
 Tên/portrait/campaign test grant v17 và re-equip v18: docs/HUYEN-VE-CAMPAIGN-V17.md
 Moonlit Command v19 và provenance Army of Renown: docs/HUYEN-VE-MOONLIT-COMMAND.md
 Trang bị và hướng dẫn test Custom Battle: docs/HUYEN-VE-EQUIPMENT.md

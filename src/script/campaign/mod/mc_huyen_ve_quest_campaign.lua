@@ -1,0 +1,1 @@
+-- Chapter-1 adapter superseded by mc_huyen_ve_quest_chain.lua (all six chapters).

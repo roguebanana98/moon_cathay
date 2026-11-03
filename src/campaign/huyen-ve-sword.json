@@ -1,0 +1,12 @@
+{
+  "character": "mc_moon_warden",
+  "selected_sword": "user_fantasy_longsword",
+  "source_folder": "assets/authored/fantasy longsword 3d model",
+  "approved_preview": "build/huyen-ve-fantasy-longsword/huyen-ve-fantasy-sword-preview.blend",
+  "graphics_manifest": "build/huyen-ve-fantasy-longsword/graphics-validation.json",
+  "graphics_root": "build/huyen-ve-fantasy-longsword",
+  "attachment": "weapon_2",
+  "status": "private_test_r6_deployed",
+  "game_runtime_verified": false,
+  "documentation": "docs/HUYEN-VE-FANTASY-LONGSWORD-PREVIEW.md"
+}

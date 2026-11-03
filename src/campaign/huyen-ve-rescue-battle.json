@@ -1,0 +1,124 @@
+{
+  "key": "mc_huyen_ve_rescue_da_lien",
+  "status": "campaign_binding_implemented_runtime_pending",
+  "native_map_donor": "wh2_dlc13_vortex_emp_wulfhart_amber_bow_stage_4",
+  "battlefield": "qb_wh2_dlc13_wulfhart_amber_bow",
+  "layer": "",
+  "campaign_location": {
+    "mode": "native_valid_land_near_settlement_then_mission_location_override",
+    "anchor": "cr_combi_region_long_vi",
+    "persisted_fields": [
+      "rescue_x",
+      "rescue_y"
+    ],
+    "no_valid_land": "Do not issue mission; retry next turn."
+  },
+  "campaign_entry_enabled": true,
+  "teleport_cost": 0,
+  "reinforcements": [],
+  "player": {
+    "faction": "cr_cth_agents_of_the_moon",
+    "lord": "mc_moon_warden_human",
+    "frontend_display_level": 8,
+    "frontend_units": [
+      [
+        "wh3_main_cth_inf_jade_warriors_0",
+        3
+      ],
+      [
+        "wh3_main_cth_inf_peasant_spearmen_1",
+        2
+      ],
+      [
+        "wh3_main_cth_inf_peasant_archers_0",
+        2
+      ],
+      [
+        "wh3_main_cth_inf_jade_warrior_crossbowmen_0",
+        1
+      ]
+    ]
+  },
+  "allies": {
+    "faction": "wh3_main_cth_cathay_qb1",
+    "deployment_zone": 1,
+    "hero": "mc_da_lien_human",
+    "hero_display_level": 5,
+    "hero_base_spells": [
+      "Blossom Wind",
+      "Earth Blood",
+      "Flesh to Stone"
+    ],
+    "escort_lord": "wh3_main_cth_cha_lord_magistrate_0",
+    "units": [
+      [
+        "wh3_main_cth_inf_jade_warriors_0",
+        2
+      ],
+      [
+        "wh3_main_cth_inf_peasant_archers_0",
+        1
+      ]
+    ]
+  },
+  "enemies": {
+    "faction": "wh_main_chs_chaos_qb1",
+    "deployment_zone": 0,
+    "lord": "wh_main_chs_cha_chaos_lord_0",
+    "lord_display_level": 2,
+    "units": [
+      [
+        "wh_main_chs_inf_chaos_marauders_0",
+        4
+      ],
+      [
+        "wh_main_chs_inf_chaos_marauders_1",
+        1
+      ],
+      [
+        "wh_main_chs_mon_chaos_warhounds_0",
+        2
+      ],
+      [
+        "wh_main_chs_cav_marauder_horsemen_0",
+        1
+      ]
+    ]
+  },
+  "timeline": [
+    "Native deployment zones; normal player deployment",
+    "At battle start +1 second: Chaos targets the escort; allied escort and Da Lien defend her initial position.",
+    "Da Lien death forces enemy victory; otherwise normal battle victory rules"
+  ],
+  "readiness_gates": [
+    "verify native map assets and DB graph",
+    "visually check deployment, paths, camera and ally survival",
+    "select walkable campaign position near Long Vi",
+    "bind chapter 2 mission and reward and test win/loss/retry/return"
+  ],
+  "runtime_verified": false,
+  "native_army_donors": {
+    "player": "wh2_dlc13_emp_wulfhart_amber_bow_stage_4_player",
+    "allies": "wh2_dlc13_emp_wulfhart_amber_bow_stage_4_defender_1",
+    "enemies": "wh2_dlc13_emp_wulfhart_amber_bow_stage_4_attacker_3"
+  },
+  "map_review": {
+    "rejected": "qb_wh2_the_moon_bow",
+    "reason": "Real game QA showed snowy Dark Elf forest; unsuitable for Long Vi rescue.",
+    "replacement": "Native Amber Bow; map loaded, deployment/paths and normal victory verified in prototype v4. Escort-targeting balance in v25 remains unverified."
+  },
+  "qa": {
+    "prototype": "v4",
+    "frontend_entry": true,
+    "map_loaded": true,
+    "script_started": true,
+    "objective_ui": true,
+    "normal_victory": true,
+    "da_lien_alive": true,
+    "balance_approved": false,
+    "death_failure_verified": false,
+    "campaign_verified": false,
+    "report": "build/huyen-ve-v25-rescue-prototype/runtime-qa-v4.json",
+    "changed_after_v4": "Enemy attack target changed from general attack to escort. Re-test balance and death/failure."
+  }
+}

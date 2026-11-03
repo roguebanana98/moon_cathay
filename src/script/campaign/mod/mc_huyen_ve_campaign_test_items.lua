@@ -9,6 +9,7 @@ local items = {
 }
 
 local function grant_test_loadout()
+    if cm:get_saved_value("mc_huyen_ve_quests_v25_enabled") then return end
     local faction = cm:get_faction("cr_cth_agents_of_the_moon")
     if not faction or faction:is_null_interface() then return end
     local characters = faction:character_list()

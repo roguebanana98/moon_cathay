@@ -2,28 +2,34 @@
 
 Ngày thiết kế: 03/11/2026. Phạm vi: thiết kế campaign `cr_combi_expanded`, faction
 `cr_cth_agents_of_the_moon`, Legendary Lord subtype `mc_moon_warden`.
-Đây là đặc tả để triển khai; chưa thêm mission, hero, sửa pack hoặc chạy game.
+Đủ sáu chương và campaign binding/reward đã tích hợp trong private test v25 r3.
+Rescue prototype v4 đã chạy frontend tới thắng trận; full campaign playthrough
+chưa xác nhận. Trạng thái hiện hành: `HUYEN-VE-V25-QUEST-INTEGRATION.md`.
+
+Tiếp nối v20: đã build/deploy Hero **appearance prototype** với script spawn
+một lần gần Long Vi theo yêu cầu test ngoại hình; xem `DA-LIEN-V20-VISUAL-TEST.md`.
+Spawn visual test đã được chặn trong v25; giữ Hero/item cũ, không nhân bản/hạ cấp.
+Các đánh giá khả thi cũ bên dưới là lịch sử thiết kế; xem tài liệu tích hợp để
+phân biệt phần đã triển khai với phần còn chờ engine QA.
 
 ## 1. Quyết định thiết kế và mức khả thi
 
-Giữ nhiệm vụ nền hiện có, thêm một tuyến truyện gồm **5 chương nhận 5 món của
-Relics of the Warden of Long Vi**, sau đó **1 chương cuối nhận Legendary Hero mới**.
+Giữ nhiệm vụ nền hiện có, thêm một tuyến truyện gồm **6 chương: 5 nhiệm vụ campaign
+nhận 5 món của Relics of the Warden of Long Vi và 1 quest battle nhận Da Lien ở
+chương 2, cấp Huyen Ve gợi ý 8**. Người dùng yêu cầu đẩy Hero lên sớm hơn ngày
+03/11/2026 vì nhận ở cuối quá muộn. Không còn gate thu đủ bộ hoặc cấp 25 cho Hero.
 Không yêu cầu hoàn thành Long Victory mới được nhận hero. Không đặt thời hạn.
 Các cấp là cấp hiển thị mục tiêu thiết kế, chưa phải rank nội bộ dùng trong DB.
 
-Điều chỉnh theo phản hồi mới nhất: **chỉ còn một quest battle ở chương 6** để
-nhận Legendary Hero. Năm món trang bị được nhận qua nhiệm vụ campaign. Chương
-3 đổi thành điều tra rồi mang chứng cứ về Long Vi; chương 5 đổi thành hồi phục
-thanh kiếm tại Long Vi. Thay đổi này supersede phương án Hero điều tra → quest
-battle trước đó, không giữ ba battle chỉ vì bản cũ đã viết như vậy.
+Điều chỉnh mới nhất: **chỉ một quest battle, tại chương 2** để giải cứu Da Lien.
+Năm món trang bị vẫn nhận qua campaign. Điều tra/giao hồ sơ chuyển thành chương
+4; hồi phục kiếm là chương 6 và kết thúc tuyến. Không thêm battle cuối thứ hai.
+Thứ tự cũ chương 6/cấp 25 nhận Hero đã bị thay thế.
 
-**Hạ tầng native hỗ trợ các cơ chế đề xuất, nhưng chưa chứng minh triển khai được
-trận cuối Huyen Ve cụ thể. Trận này chưa đạt mức sẵn sàng triển khai:** chưa
-chốt tọa độ campaign, map/deployment/entry, roster và trigger đầy đủ. Không thể
-cam kết chất lượng bản chơi từ bản thiết kế này. Xem đánh giá bổ sung tại
-`HUYEN-VE-QUEST-BATTLE-READINESS.md`. Hai cổng phải chứng minh sớm là bộ đếm kill
-đúng quân đoàn và vòng đời Legendary Hero mới. Quest battle dùng map có sẵn;
-không đặt yêu cầu map mới, lồng tiếng mới hoặc model hero tự làm trong bản đầu.
+Map Amber Bow, deployment, roster, trigger đã có prototype chơi được; điểm campaign
+tìm đất hợp lệ quanh Long Vi bằng native API. Kill counter và vòng đời Hero đã
+triển khai/kiểm tra giả lập, còn phải chứng minh engine. Chưa cam kết chất lượng
+phát hành trước full playthrough; xem `HUYEN-VE-V25-QUEST-INTEGRATION.md`.
 
 ## 2. Nhiệm vụ hiện có và cách cùng tồn tại
 
@@ -61,9 +67,12 @@ không thay phần thưởng bằng Saytang/Taoyan và không phụ thuộc tuy�
 tìm kẻ dùng ấn giả và thu hồi các bảo vật trước khi chúng bị dùng để mở đường
 cho Chaos. Những dấu hiệu để lại cho thấy một người bảo vệ đoàn hàng vẫn sống.
 
-Người đó là **Lam Anh, the Last Moonwatcher** — tên và nhân vật đề xuất cho mod.
-Lam Anh giữ sổ lộ trình gốc, lần theo kẻ chủ mưu rồi bị vây khi đang khóa đường
-dẫn quân Chaos. Thu đủ năm bảo khí giúp Huyen Ve tìm ra và giải cứu cô ở hồi cuối.
+Người đó là **Da Lien** — pháp sư con người của Agents of the Moon, tên đã được
+người dùng chọn ngày 03/11/2026. Danh hiệu The Last Moonwatcher còn là đề xuất.
+Da Lien giữ sổ lộ trình gốc và bị vây khi đưa tin về Long Vi. Nhiệm vụ đầu tìm
+được tín hiệu cầu cứu; Huyen Ve giải cứu cô ngay ở chương 2. Cô mang Crimson
+Moonstone và cùng điều tra các lệnh giả, chỉ ra tuyến hàng về Avauka và cách
+khôi phục những bảo khí còn lại. Không bắt thu đủ bảo vật để tìm thấy cô.
 Mỗi chương giải quyết một vấn đề và để lại một manh mối, không chỉ trả một món đồ.
 
 Toàn bộ truyện mới là sáng tác cho mod; không coi là canon Warhammer.
@@ -77,11 +86,17 @@ hoạt động cùng lúc. Mốc cấp dùng để điều tiết nhịp, sẽ �
 | Chương / cấp gợi ý | Mission UI | Mục tiêu bắt buộc | Phần thưởng duy nhất |
 |---|---|---|---|
 | 1 / 6 | A Seal in the Moonlight | Sở hữu Long Vi; Huyen Ve thắng 2 trận campaign sau khi nhận nhiệm vụ | Moonshadow Jade Pendant — talisman |
-| 2 / 10 | Reopen the Southern Road | Đưa Avauka về quyền sở hữu trực tiếp của faction | Long Vi Mountain-Pattern Armour — armour |
-| 3 / 14 | The Counterfeit Seal | Hero độc lập điều tra marker rồi đưa chứng cứ về Long Vi | Warden's Seal — enchanted item |
-| 4 / 18 | Feed the Moon Lantern | Quân đoàn do Huyen Ve chỉ huy đạt mốc kill từ khi chương mở | Moon Lantern — arcane item |
-| 5 / 22 | Restore the Nightwarden | Huyen Ve tới Long Vi, trả 3.000 gold để phục hồi kiếm; bảo vệ quyền sở hữu thành trong 2 lượt xử lý | Nightwarden's Blade — weapon |
-| 6 / 25 | The Last Moonwatcher | Đã nhận đủ 5 món; Huyen Ve thắng quest battle giải cứu Lam Anh | Legendary Hero mới: Lam Anh |
+| 2 / 8 | The Last Moonwatcher | Hoàn thành chương 1; Huyen Ve thắng quest battle giải cứu Da Lien | Da Lien + Crimson Moonstone |
+| 3 / 10 | Reopen the Southern Road | Đưa Avauka về quyền sở hữu trực tiếp của faction, hoặc đường thương lượng hợp lệ | Long Vi Mountain-Pattern Armour — armour |
+| 4 / 14 | The Counterfeit Seal | Hero độc lập điều tra marker rồi đưa chứng cứ về Long Vi | Warden's Seal — enchanted item |
+| 5 / 18 | Feed the Moon Lantern | Quân đoàn do Huyen Ve chỉ huy đạt mốc kill từ khi chương mở | Moon Lantern — arcane item |
+| 6 / 22 | Restore the Nightwarden | Huyen Ve tới Long Vi, trả 3.000 gold để phục hồi kiếm; giữ thành trong 2 lượt xử lý | Nightwarden's Blade — weapon, hoàn tất bộ |
+
+Mục tiêu nhịp: Da Lien có mặt ở đầu campaign và phát triển cùng quân đoàn qua
+bốn chương còn lại. Không hứa một số lượt cố định vì tùy tiến độ chiến dịch.
+Gate chương 2 chỉ là chương 1 + cấp 8; không cần Avauka, marker điều tra, mốc
+kill, tiền phục hồi kiếm, cấp 25 hoặc equip đủ bộ. Chương 3 mở sau khi reward
+Hero chương 2 được xác nhận, tránh nhận nhiều mission đồng thời.
 
 ### Chương 1 — Dấu ngọc trong đêm
 
@@ -93,9 +108,39 @@ thắng xác lập uy tín của Huyen Ve và hé lộ các mệnh lệnh phục
 - Chỉ tính trận có Huyen Ve chỉ huy quân đoàn tham chiến và thắng; cho phép
   autoresolve. Không tính trận chỉ quân đồng minh đánh khi Huyen Ve không tham dự.
 - Quest battle và trận thử không tính vào hai chiến thắng campaign này.
-- Nhận ngọc dẫn tới tin thợ rèn mang giáp bị cắt đường về từ Avauka.
+- Nhận ngọc nhận diện và báo cáo tuần phòng xác định tín hiệu cầu cứu của
+  Da Lien; mở trận giải cứu chương 2 khi Huyen Ve đạt cấp 8.
 
-### Chương 2 — Mở lại đường phương Nam
+### Chương 2 — Người gác trăng cuối cùng
+
+Tín hiệu của Da Lien dẫn Huyen Ve tới nơi cô bị bao vây khi mang sổ lộ trình
+về Long Vi. Giải cứu cô mở sớm một Hero bổ trợ và nhân chứng cho phần điều tra.
+
+- Hoàn thành chương 1 và Huyen Ve đạt cấp 8; không thêm mục tiêu campaign
+  trung gian trước trận này. Giữ sẵn quest để có thể thử lại khi thua.
+- Đây là quest battle duy nhất. Thiết kế lại cho quân đầu game tier 1–2;
+  không bê độ khó, quân elite/monster hoặc preset cấp 40 từ bản test sang.
+- Mục tiêu: đánh bại quân vây và giữ Da Lien sống tới khi thắng. Bỏ ý tưởng
+  cũ bắt giữ 4 phút/chờ nhiều đợt cuối game. Ưu tiên một lực lượng địch rõ ràng;
+  chỉ thêm viện quân nếu map/entry và nhịp cứu viện đã được thử.
+- Battle proxy Da Lien có bộ phép đầu game giới hạn để hỗ trợ, không thay
+  người chơi tự giải quyết trận. Skill preset/roster thực phải ghi riêng và test;
+  không mặc định dùng toàn bộ phép/unique của preset Custom Battle hiện có.
+- Điểm campaign ưu tiên đường đi gần Long Vi; map native, deployment, vùng hộ
+  vệ, faction/unit keys/count và trigger chưa chốt. Không coi việc chuyển mốc
+  thành bằng chứng battle đã setup được. Prototype phải chứng minh thắng/thua,
+  retry, bảo vệ Hero và quay về campaign đúng trước khi đưa vào progression.
+- Sau thắng: spawn đúng một Da Lien gần Huyen Ve, hoặc owned region an toàn
+  nếu Lord trên biển/vị trí bị chặn; reward_pending và thử lại nếu chưa spawn được.
+  Hero campaign sinh sau chiến thắng, không dùng chính battle proxy làm nhân vật.
+- Cấp Da Lien mới gợi ý **5**, có 4 điểm tăng cấp để người chơi tự chọn. Chỉ
+  Blossom Wind cơ bản miễn phí theo cây hiện hành; không tự mua spell/unique.
+  XP/rank phải đối chiếu đúng dữ liệu khi triển khai, không gán nội bộ rank=5.
+- Cấp/equip Crimson Moonstone cùng reward Hero, kiểm tra item đã có trong kho
+  để không nhân bản; immortality và wounded-return theo framework Hero hiện có.
+- Sổ lộ trình của Da Lien dẫn tới thợ rèn và giáp bị kẹt ở Avauka, mở chương 3.
+
+### Chương 3 — Mở lại đường phương Nam
 
 Thu hồi Avauka để đưa thợ rèn và giáp về Long Vi. Dùng một thành cụ thể để người
 chơi có mục tiêu chiến dịch rõ ràng, không sinh quân cướp dùng chung faction QB.
@@ -111,13 +156,15 @@ chơi có mục tiêu chiến dịch rõ ràng, không sinh quân cướp dùng 
 - Chỉ cần đạt một trong hai đường, trao đúng một giáp. Mất Avauka sau hoàn thành
   không thu hồi giáp hoặc khóa chương tiếp theo.
 
-### Chương 3 — Kẻ mang ấn giả
+### Chương 4 — Kẻ mang ấn giả
 
 Giáp trở về cùng một lệnh áp tải sai dấu. Một Hero tới kho lưu trữ được đánh dấu
 để tìm ấn thật và chứng cứ sửa lệnh; đưa hồ sơ về Long Vi để xác nhận quyền trấn thủ.
 
 - Hero phải thuộc faction, đứng độc lập; Lord và Hero đang embed không hoàn
   thành bước điều tra. Marker không đòi hero action có xác suất thành công.
+- Da Lien có thể là người điều tra, nhưng chấp nhận Hero khác để không kẹt
+  tuyến khi cô bị thương hoặc đang cần tham chiến cùng Huyen Ve.
 - Tọa độ marker chưa được chốt: phải chọn điểm đất đi tới được trên IEE, ngoài
   vùng thành bị vây, có đường thay vị trí nếu kiểm tra ban đầu thất bại.
 - Sau điều tra, một Hero độc lập của faction tới region Long Vi đang sở hữu
@@ -125,10 +172,11 @@ Giáp trở về cùng một lệnh áp tải sai dấu. Một Hero tới kho l�
   faction, không làm mất tiến độ vì thay nhân vật. Không bắt hero action có RNG.
 - Chỉ hoàn tất khi giao hồ sơ sau bước điều tra; Hero đã ở Long Vi từ trước
   không tự hoàn thành bước giao ngay tại thời điểm discovery.
-- Trao ấn sau khi xác minh hồ sơ. Sổ giả hé lộ Lam Anh còn sống và chiếc đèn đang
-  bị ô uế. Không spawn quân nhiệm vụ, không quest battle, không phải giết nhân vật.
+- Trao ấn sau khi xác minh hồ sơ. Da Lien đối chiếu với sổ gốc và phát hiện dấu
+  ô uế trên chiếc đèn. Không spawn quân nhiệm vụ, không quest battle, không phải
+  giết nhân vật. Lore không đòi cô đang sống trên bản đồ đúng callback này.
 
-### Chương 4 — Thắp lại Nguyệt Đăng
+### Chương 5 — Thắp lại Nguyệt Đăng
 
 Chiếc đèn cần chiến công thực tế của đoàn quân trấn thủ để phá dấu ô uế.
 Đây là nhiệm vụ tích lũy qua các trận campaign thường, không thêm quest battle.
@@ -139,6 +187,8 @@ Chiếc đèn cần chiến công thực tế của đoàn quân trấn thủ đ
   rõ ràng chọn lúc khởi tạo và lưu mốc, không tự đoán hoặc đổi giữa chừng.
 - Đếm cá thể địch, không đếm 2.000 unit card. Cộng kill do các đơn vị thuộc quân
   đoàn Huyen Ve gây ra; không phải 2.000 kill cá nhân của Lord.
+- Khi Da Lien embed vào quân đoàn này, kill từ AOE của cô cũng phải được tính.
+  Đây là case kiểm thử bắt buộc, không bắt buộc phải dùng cô để đạt mốc.
 - Tính từ khi phát chương, giữ tiến độ khi thua/rút lui hoặc Huyen Ve bị thương.
   Chỉ cộng kết quả hợp lệ của trận campaign; không cộng kill cũ hoặc quest battle.
 - Định danh lực lượng tại lúc giao chiến, không suy ra từ quyền sở hữu các unit
@@ -148,10 +198,11 @@ Chiếc đèn cần chiến công thực tế của đoàn quân trấn thủ đ
 - UI hiển thị `Army kills: X / Y` và số được cộng sau trận; không dùng dữ liệu
   phần trăm casualties nhân quân số ban đầu để giả làm kill chính xác.
 
-### Chương 5 — Thanh kiếm sau nửa đêm
+### Chương 6 — Thanh kiếm sau nửa đêm
 
 Ngọn đèn soi ra nơi giấu kiếm trong lô hàng thu hồi. Thanh kiếm bị hỏng phong ấn;
-Huyen Ve phải mang nó về Long Vi để thợ rèn phục hồi trước khi tìm Lam Anh.
+Huyen Ve mang nó về Long Vi để thợ rèn phục hồi, hoàn tất bộ bảo khí và khóa
+đường tiếp tế của mạng lưới lệnh giả mà ông cùng Da Lien đã lần ra.
 
 - Huyen Ve tới region Long Vi đang thuộc faction, mở dilemma trả 3.000 gold.
   Thiếu tiền được chờ và mở lại; không dùng treasury âm hoặc trừ lặp callback.
@@ -162,49 +213,33 @@ Huyen Ve phải mang nó về Long Vi để thợ rèn phục hồi trước khi
   Không đòi construction chain chưa có hoặc sinh địch ép công thành.
 - Trao kiếm; bonus đủ bộ +5% ward save dùng định nghĩa set đã có, không thêm
   vĩnh viễn một buff tương đương bằng script hoàn thành nhiệm vụ.
-- Kiếm và ấn xác nhận vị trí Lam Anh đang cố thủ; mở hồi cuối ở cấp phù hợp.
+- Nhận kiếm kết thúc tuyến; không mở thêm quest battle cuối hoặc thưởng thêm
+  Da Lien lần hai. Sau cốt truyện, cô tiếp tục là Hero bình thường của faction.
 
-### Chương 6 — Người gác trăng cuối cùng
+## 5. Legendary Hero mới — Da Lien
 
-Lam Anh dùng tín hiệu cuối cùng dẫn Huyen Ve tới chỗ cô đang chặn quân Chaos.
-Trận cuối kết thúc câu chuyện bằng việc giải cứu một nhân vật đã được nhắc tới,
-đồng thời mở thêm lựa chọn đội hình cho chiến dịch sau đó.
+Vai trò đã chốt: **pháp sư con người**, thiên sát thương diện rộng lên bộ binh,
+có một chút hồi máu và buff giáp; bổ sung cho Huyen Ve chuyên hạ Lord/Hero địch.
+Tên hiển thị ASCII: **Da Lien**. Nguồn ngoại hình đã chọn: **Beautiful Neferata**,
+Workshop 3809988722. Ngoại hình đã duyệt, Moon Arts và Crimson Moonstone đã tích
+hợp test ở v24; xem `DA-LIEN-V23-SKILL-TEST.md` và `DA-LIEN-V24-MOONSTONE.md`.
 
-- Gate là đã hoàn thành 5 chương và nhận đủ 5 món; **không buộc đang equip đủ
-  bộ**, không bắt quay về thay đồ. Đồ chỉ mang vai trò mạch truyện ở gate này.
-- Một quest battle cuối gồm phòng thủ và phản công: giữ Lam Anh sống khoảng
-  4 phút, sau đó đẩy lùi quân địch cuối cùng. Timer là chuyển giai đoạn, không tự thắng.
-- Lam Anh là đơn vị đồng minh cố định trong battle; nếu chết thì thua và được
-  thử lại. Hero campaign thực chỉ sinh sau chiến thắng, không lấy chính battle
-  unit làm nhân vật campaign trước khi mission hoàn tất.
-- Vị trí Lam Anh có khoảng trống để tiếp cận; đợt đầu không đủ sức giết cô
-  trước khi quân người chơi có cơ hội can thiệp. Không yêu cầu người chơi biết
-  trước điểm spawn để thắng.
-- Sau thắng: spawn Hero tại điểm hợp lệ gần Huyen Ve; nếu Lord đang trên biển,
-  trong tình trạng không hợp lệ hoặc vị trí bị chặn, dùng owned region an toàn.
-  Nếu chưa có điểm hợp lệ, giữ reward pending và thử lại, không phát bản sao.
-
-## 5. Legendary Hero mới — Lam Anh
-
-Vai trò đề xuất: nữ Moonwatch captain, kiếm một tay, bộ binh, hỗ trợ tuyến trước
-và săn Hero địch. Giữ bản đầu human-only, không mount, không thêm lore phép.
-Đây là tên/giới tính/vai trò đề xuất thiết kế, chưa phải lựa chọn đã được người
-dùng chốt. Có thể đổi danh tính mà không ảnh hưởng cấu trúc sáu chương.
-
-- Một subtype riêng dự kiến `mc_lam_anh`, một instance cho faction trong campaign.
+- Subtype riêng `mc_da_lien`, một instance cho faction trong campaign.
   Không đưa vào pool tuyển ngẫu nhiên; wounded rồi trở lại được, không nhận lần hai.
-- Cấp khi nhận đề xuất: 15, sẽ chốt quy ước XP/rank sau prototype. Không tự gán
+- Cấp khi nhận đề xuất mới: 5 ở chương 2/cấp Huyen Ve 8, thay mốc 15 cũ. Không tự gán
   chỉ số ngang LL cấp cao hoặc cộng hero capacity toàn faction không cần thiết.
-- Bộ kỹ năng đầu dùng melee/defence/duelist native phù hợp, có cây riêng.
-  Hai điểm đặc trưng dự kiến: bản thân có Stalk và một kỹ năng chỉ huy phòng thủ
-  ngắn hạn. Chỉ chọn effect/ability sau khi đối chiếu DB; chưa hứa aura mới.
-- Không thêm hồi máu, không nhân bản Silence của kiếm hay spell kit Huyen Ve.
-  Test để kit không cộng dồn vô hạn với aura ấn và Moonlit Command.
-- Chất lượng bản đầu: model/animation/portrait native tương thích, tên và UI riêng,
-  không T-pose, không portrait trống. Model mới, voice mới và cinematic không nằm
-  trong điều kiện hoàn thành tính năng này.
-- Chưa chọn donor art/model; phải kiểm tra skeleton, animation, equip, voice và
-  quyền nội dung trước khi chốt. Không mặc định dùng model Huyen Ve bên thứ ba.
+- Đã xây cây skill caster riêng; không kế thừa nguyên cây Neferata liên quan Undead.
+  Rà cả attribute, ability, target filter, healing, trait và campaign agent class:
+  model donor là Lord, nhân vật mới phải là Hero và là người sống.
+- Chọn phép AOE là trọng tâm, heal nhẹ và armour buff hỗ trợ; tránh tăng mạnh
+  cả ba hướng hoặc trùng toàn bộ bộ phép Huyen Ve. Cây hiện hành là Yin/Heavens
+  với Earth Blood/Flesh to Stone; số liệu và trigger còn cần kiểm thử runtime.
+- Model dùng humanoid01ba với 86 bones; giữ native Neferata animation lookup khi
+  thử tích hợp, kiểm tra runtime riêng để tránh lặp lỗi custom lookup của Huyen Ve.
+- Body hiện tại v22+ sau bỏ cổ áo có 1 LOD/219.537 tam giác; cần kế hoạch LOD
+  và kiểm tra animation/deformation trước khi coi là sẵn sàng đưa vào game.
+- Nguồn mod được giữ nguyên; scene/model dẫn xuất chỉ ở reference/build private.
+  Xem `DA-LIEN-MODEL-REVIEW.md` cho kết quả và vị trí scene Blender.
 
 ## 6. Khả thi kỹ thuật và cổng chất lượng
 
@@ -214,7 +249,7 @@ dùng chốt. Có thể đổi danh tính mà không ảnh hưởng cấu trúc 
 | Hero điều tra → giao hồ sơ | Interactive Marker Manager và kiểm tra vị trí/ownership campaign | Có nền tảng; cần chốt marker đi được, thứ tự hai bước và khôi phục sau load |
 | Phục hồi kiếm | Dilemma, treasury transaction và saved-state/turn listener | Có nền tảng; cần kiểm chứng trừ tiền một lần, đếm lượt và mất/lấy lại Long Vi |
 | Đếm kill đúng quân đoàn | Glottkin script dùng force CQI + `units_killed_by_attacker_unit_set`/defender tại CharacterCompletedBattle | Khả thi có điều kiện; chưa chứng minh dữ liệu bao phủ mọi đơn vị/phép/autoresolve |
-| Một quest battle cuối | Dragon's Fang và các bảng battle_set_piece đã audit | Chưa cấu hình; chất lượng phụ thuộc map, deployment, trigger và playtest |
+| Một quest battle sớm chương 2 | Dragon's Fang và các bảng battle_set_piece đã audit | Chưa cấu hình; phải cân bằng cho đầu game, kiểm tra map, deployment, trigger và playtest |
 | Hero campaign mới | Native character_unlocking dùng UniqueAgentSpawned và spawn_unique_agent* | Có đường triển khai; cần DB subtype/unit/skill/agent đúng và thử wounded-return |
 | Trao đủ bộ và equip | 5 ancillaries + set đã build; có script cấp đồ test v17 | Định nghĩa đã có; re-equip v18 và bonus đủ/tháo đồ vẫn cần runtime xác nhận |
 
@@ -226,7 +261,7 @@ roster hợp lệ, kể cả Lord, Hero, artillery và quân mod; xác minh summ
 và kill phép thực tế. Không coi một set Cathay missile sẵn có là toàn quân.
 
 Nếu prototype không đạt việc quy kill cho đúng quân đoàn trong cả manual và
-autoresolve, dừng triển khai chương 4 để sửa bộ đếm. Phương án thay thế công khai
+autoresolve, dừng triển khai chương 5 để sửa bộ đếm. Phương án thay thế công khai
 là đổi sang thắng 4 trận bằng Huyen Ve; đây là thay đổi thiết kế cần ghi rõ,
 không âm thầm đếm toàn liên minh hoặc bỏ autoresolve mà vẫn dùng mô tả cũ.
 
@@ -260,29 +295,38 @@ chơi lại câu chuyện nhưng không phát thêm món đã được ghi nhậ
 hoặc marker grant test. Marker test không đồng nghĩa đã hoàn thành mission.
 Phải đối chiếu đồ đang equip lẫn inventory; nếu không xác minh được inventory
 đáng tin cậy thì chưa hỗ trợ migration save test, không xóa đồ để ép chơi lại.
-Không tự đánh dấu 5 chương hoàn tất hoặc spawn Hero chỉ vì phát hiện có đủ bộ.
+Không tự đánh dấu các chương hoàn tất hoặc spawn Hero chỉ vì phát hiện có đủ bộ.
+
+**Hero test đã tồn tại:** vẫn cho chơi chương 2 nhưng nhận diện subtype hiện có
+trước reward, không spawn thêm, không hạ cấp hoặc reset XP/skill/trang bị của cô.
+Crimson Moonstone đã nằm trong inventory/equip/marker thì không cấp thêm. Việc
+có sẵn Hero từ test không tự đánh dấu rescue mission hoàn tất. New campaign
+progression phải bỏ spawn v20 tự do, chuyển sang reward handler chương 2; ngọc
+được cấp xác nhận cùng Hero để không phải chờ tới lượt tiếp theo mới có item.
 
 ## 8. Trình tự thực hiện và tiêu chí nghiệm thu
 
-1. Làm prototype kill counter và Hero lifecycle trước khi đầu tư battle cuối.
+1. Làm prototype Hero lifecycle/reward và battle giải cứu đầu game trước.
    Mỗi cái cần log đối chiếu trong game, không chỉ kiểm tra tồn tại API.
-2. Làm chương 1–2: UI, reward pending, đủ/thiếu tiền, chiếm thành và đường đồng
-   minh. Chứng minh một item được nhận/equip/tháo/equip lại và không nhân bản.
-3. Làm chương 3: Hero marker → giao hồ sơ tại Long Vi → đúng một ấn.
-4. Làm chương 4 sau khi bộ đếm đạt; thử các unit size và điều chỉnh ngưỡng.
-5. Làm chương 5: dilemma → thanh toán một lần → 2 lượt xử lý → đúng một kiếm.
-6. Làm chương 6 từ quest battle tối giản đã vào/ra campaign được. Chốt map,
-   tọa độ, roster, entry và timeline rồi kiểm thử thắng/thua/retry/reward.
-   Test end-to-end bằng một campaign progression không có test grant.
+2. Làm chương 1–2: UI, hai chiến thắng, gate cấp 8 và quest battle tối giản đã
+   vào/ra campaign được. Chốt map/tọa độ/roster/entry/trigger, test thắng/thua/retry,
+   nhận một Hero + một ngọc; không phụ thuộc Avauka hoặc thu đủ bộ.
+3. Làm chương 3 chiếm Avauka/đường thương lượng rồi chương 4 Hero marker → giao
+   hồ sơ tại Long Vi → đúng một ấn. Da Lien bị thương không được khóa tuyến.
+4. Làm kill counter và chương 5 sau khi bộ đếm đạt; thử unit size và kill AOE
+   của Da Lien khi embed đúng quân đoàn.
+5. Làm chương 6: dilemma → thanh toán một lần → 2 lượt xử lý → đúng một kiếm.
+6. Test end-to-end bằng campaign progression không có test grant; ghi cấp/lượt
+   thực nhận Da Lien và thời gian cô tham gia trước khi kết thúc chuỗi.
 
 | Nhóm kiểm thử | Điều kiện đạt |
 |---|---|
 | Kill | Đúng army, attacker/defender, reinforcement, manual/auto; infantry/artillery/spell; không cộng quân khác, không đếm hai lần |
 | Save/load | Load giữa mục tiêu và sau battle/reward; giữ tiến độ, không lặp marker/reward, không mất mission khi wounded |
-| Battle | Map cuối deploy/pathfinding tốt, không thắng sớm, thua thử lại được, teleport và trở về đúng; không spawn đè lên quân người chơi |
+| Battle | Map giải cứu deploy/pathfinding tốt, cân bằng với quân tier 1–2, không thắng sớm, thua thử lại được, teleport và trở về đúng |
 | Điều tra/phục hồi | Giao hồ sơ đúng thứ tự, thay Hero không kẹt; thiếu tiền chờ được, trả đúng một lần, mất thành tạm dừng và load không tăng lượt |
 | Reward | Đúng 5 món/5 ô, đúng thứ tự, không bản sao; set bật đủ bộ/tắt khi thiếu; tháo lắp lại ổn |
-| Hero | Nhận đúng một Lam Anh, chọn/di chuyển/embed/ra trận được; model/skill/portrait đúng; wounded hồi phục; load không spawn lại |
+| Hero | Nhận đúng một Da Lien + ngọc từ chương 2/cấp 8, không cần Avauka/đủ bộ; model/skill/portrait đúng; wounded hồi phục; load không nhân bản |
 | Nhịp campaign | Tối thiểu một lượt chơi toàn tuyến và kiểm tra mốc cấp; không phải farm lại thành, phá liên minh hay phụ thuộc faction địch sống |
 | Regression | Nhiệm vụ/victory nền còn nguyên; dependency/schema/diagnose hợp lệ; không bảng DLC ownership bị cấm |
 

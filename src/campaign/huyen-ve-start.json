@@ -1,0 +1,14 @@
+{
+  "lord_subtype": "mc_moon_warden",
+  "faction": "cr_cth_agents_of_the_moon",
+  "region": "cr_combi_region_long_vi",
+  "placement": "Valid land beside owned Long Vi, existing commander and army",
+  "new_campaign_only": true,
+  "player_and_ai": true,
+  "method": "Native pre-first-tick callback, is_new_game gate, teleport_to",
+  "script": "script/campaign/mod/mc_huyen_ve_start_at_long_vi.lua",
+  "deployment": "v25_r7",
+  "runtime_verified": false,
+  "existing_saves_moved": false,
+  "documentation": "docs/HUYEN-VE-LONG-VI-START.md"
+}

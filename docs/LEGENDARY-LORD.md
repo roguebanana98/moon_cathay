@@ -1,4 +1,48 @@
+Latest start-location update: v25 r7 places the existing Huyen Ve army beside Long Vi on new campaigns only. See HUYEN-VE-LONG-VI-START.md; runtime verification pending.
+
 # Huyen Ve, Warden of Long Vi — Legendary Lord
+
+Sword update: r6 integrates the approved fantasy longsword with four LODs; body/rig/gameplay unchanged. Exported-file checks pass, game QA pending. See HUYEN-VE-FANTASY-LONGSWORD-PREVIEW.md.
+
+Current deployment (2026-11-03): **v25 full quest-chain private test r7**, enabled
+with v24 retained inactive. All six sequential missions, early rescue/reward,
+Avauka occupation/ransom, Hero marker/delivery, army-specific kills and two-turn
+paid sword restoration are implemented. Old test grants are suppressed. Existing
+Hero/items remain. 56 chain checks plus chapter-one, Hero and battle regressions
+pass with fake engine boundaries; DB roundtrip and diagnostics pass. Full live
+campaign playthrough is not verified. See [integration status](HUYEN-VE-V25-QUEST-INTEGRATION.md).
+The deployment notes below are historical.
+
+Latest update: [v24 Crimson Moonstone](DA-LIEN-V24-MOONSTONE.md) deployed over
+v23 on 2026-11-03: Da Lien-only Arcane Item, +5 Winds reserve, +5 ward save,
+one-use bound heal, campaign grant and CB equipment. All v23 payloads preserved;
+v24 enabled/v23 disabled, backup and hash checks pass. Runtime testing pending.
+
+Previous update: [v23 Da Lien Moon Arts skill test](DA-LIEN-V23-SKILL-TEST.md)
+deployed over v22 on 2026-11-03: six Yin/Heavens/Life spells, full caster/Hero
+basics, six uniques, Mentor and a one-time legacy skill migration. v23 is enabled,
+v22 disabled; hash and launcher backup checks pass. Runtime testing is pending.
+
+Previous update: [v22 Da Lien appearance](DA-LIEN-V22-APPEARANCE.md) deployed over
+v21 on 2026-11-03. Includes the approved collar removal, warm skin DDS and crescent
+staff; preserves all v21 gameplay/DB/scripts. Static/exported animation checks
+passed; runtime confirmation is pending. The version notes below are history.
+
+Latest update (2026-11-03): **v21** is deployed over v20, adding
+[Da Lien under Grand Cathay Custom Battle Heroes](DA-LIEN-V21-CUSTOM-BATTLE.md)
+with a temporary Metal casting preset. All v20 payloads are preserved. Restart
+the game to load it; runtime animation confirmation is pending.
+
+## Current update — v20 Da Lien visual test, 2026-11-03
+
+Latest private deployment is now v20, enabled over v19 with launcher backup and
+source/installed hash checks. It preserves all v19 payloads and adds Da Lien as
+a living-human Hero using Beautiful Neferata graphics and native animations.
+A one-time test script creates her near owned Long Vi on campaign load/turn.
+Temporary Cathay Alchemist skills are used; final wizard tree and quest remain
+pending. Runtime not yet verified. See [test details](DA-LIEN-V20-VISUAL-TEST.md).
+
+The v19 status below documents the unchanged Huyen Ve foundation of v20.
 
 ## Current status — v19, 2026-11-03
 
@@ -32,7 +76,10 @@ campaign/battle runtime verification remains incomplete.
   Army of Renown +2/+4/+6 is native army RoR capacity and remains unchanged.
 - Approved quest design: five campaign missions for the set, then one quest
   battle for a new Legendary Hero. No quest battle is retained in chapters 3/5.
-  Lam Anh is a proposed identity; the hero and acquisition chain are not built.
+  The user selected Da Lien, a living human wizard focused on infantry AOE,
+  light healing and armour buffs, using Beautiful Neferata as appearance source.
+  Private Blender review: [Da Lien model](DA-LIEN-MODEL-REVIEW.md).
+  v20 has the Hero appearance prototype; the final kit and acquisition chain are not built.
 
 Current checklist: [PROJECT_GOALS.txt](../PROJECT_GOALS.txt).
 Details: [approved model/animation](HUYEN-VE-APPROVED-MODEL.md),

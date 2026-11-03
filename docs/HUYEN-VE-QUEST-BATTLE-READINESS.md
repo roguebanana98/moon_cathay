@@ -1,18 +1,40 @@
 # Quest battle Huyen Ve — mức sẵn sàng thực tế
 
 Đối chiếu local ngày 03/11/2026, sau yêu cầu làm rõ tính khả thi.
-Không tạo pack, không sửa game/launcher/save, không chạy battle.
+Lần audit ban đầu chỉ đọc dữ liệu. Trạng thái triển khai mới nhất ở đoạn dưới.
 
-**Cập nhật sau phản hồi giảm số battle:** thiết kế hiện hành chỉ giữ **một quest
-battle chương 6**. Chương 3 và 5 đã đổi thành nhiệm vụ campaign; các bảng 0/3
-và đánh giá ba trận bên dưới là lịch sử audit bản cũ. Trận cuối hiện hành chưa
-cấu hình/kiểm chứng: **0/1**. Bước prototype battle chuyển sang chương 6; không
-triển khai lại battle chương 3 chỉ để làm theo kế hoạch cũ.
+**Hiện hành v25 r3:** đủ sáu chương đã tích hợp/cài/bật private test; campaign
+rescue/reward đã nối. Điểm battle tìm đất hợp lệ quanh Long Vi; marker điều tra
+quanh Leilou. Địch mới nhắm hộ vệ để tăng sức ép. Chưa full campaign playthrough.
+IEE script dùng main_warhammer; r3 đã sửa guard nhận alias và kiểm tra Long Vi.
+Xem `HUYEN-VE-V25-QUEST-INTEGRATION.md` và báo cáo mới trong quest-chain build.
+Các đoạn audit/prototype bên dưới được giữ làm lịch sử, không mô tả launcher hiện tại.
 
-## Kết luận
+**Lịch sử prototype 03/11:** rescue prototype v4 đã chạy thật từ Quest Battles
+tới Decisive Victory trên Amber Bow, Da Lien sống và hai mục tiêu hiện/hoàn thành.
+Log native xác nhận script và nhóm quân. Moon Bow rừng tuyết đã bị loại; lỗi
+thiếu scripted_objectives DB và sai localisation đã sửa. Chưa duyệt cân bằng
+(đứng yên vẫn thắng), chưa thử nhánh Hero chết/thua, chưa nối campaign/reward.
+Đã thoát game, khôi phục v24 và intro preference; không mở campaign save.
+Xem `HUYEN-VE-V25-QUEST-INTEGRATION.md`. Full campaign end-to-end vẫn **0/1**.
+
+**Cập nhật sau yêu cầu nhận Da Lien sớm:** thiết kế hiện hành giữ **một quest
+battle ở chương 2/cấp Huyen Ve 8**, ngay sau chương 1; thưởng Da Lien và Crimson
+Moonstone. Không còn chờ chương 6/cấp 25/thu đủ bộ. Các bảng 0/3 và đánh giá ba
+trận bên dưới là lịch sử audit bản cũ. Battle hiện hành đã có prototype như
+cập nhật trên. Prototype phải làm trận giải cứu đầu game, không triển khai
+battle Ấn/Kiếm hoặc thêm một trận cuối khác.
+
+Mục tiêu cân bằng mới: quân tier 1–2, battle proxy Da Lien với bộ phép đầu game
+giới hạn, không dùng preset Custom Battle cấp 40/full spell kit. Bỏ yêu cầu cũ
+giữ 4 phút; ưu tiên mục tiêu thắng quân vây và giữ Hero sống. Map/điểm campaign,
+deployment/entry, enemy faction/roster/count và timeline phải chốt qua prototype.
+Chưa có số unit/key hoặc tọa độ nào được duyệt chỉ từ thay đổi thứ tự quest.
+
+## Kết luận audit ba battle cũ — chỉ dùng làm bằng chứng lịch sử
 
 **Chưa thể chắc ba quest battle Huyen Ve sẽ hoạt động hoặc đạt chất lượng.**
-Thiết kế hiện tại là ý tưởng campaign có bằng chứng hạ tầng, chưa phải battle
+Thiết kế tại thời điểm audit là ý tưởng campaign có bằng chứng hạ tầng, chưa phải battle
 spec đầy đủ. Số battle Huyen Ve đã cấu hình và kiểm chứng end-to-end: **0/3**.
 Không được dùng sự tồn tại của battle native làm bằng chứng mod mới chạy được.
 
@@ -99,7 +121,7 @@ và quyền nội dung đã hợp lệ cho custom set piece.
 Không chuyển đội hình native trong bảng trên thành roster Huyen Ve mà không
 ghi nhận đó là quyết định thiết kế mới và kiểm tra lại cân bằng.
 
-## Bước cần làm để có thể xác nhận khả thi
+## Trình tự prototype trong audit cũ — đã thay bằng chương 2 ở phần cập nhật trên
 
 Làm **một vertical slice chương 3** trước khi cam kết cả ba trận:
 
