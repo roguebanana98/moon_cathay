@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-02",
+  "source": "D:\\Warhammer3_Modding\\moon_cathay\\assets\\authored\\ancient warrior armor 3d model\\tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbx",
+  "objects": [
+    {
+      "name": "tripo_node_54bb716b",
+      "vertices": 237377,
+      "polygons": 474836,
+      "triangles": 474836,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": 0,
+      "weighted_vertices": 0,
+      "materials": [
+        "tripo_mat_54bb716b"
+      ],
+      "modifiers": [],
+      "location": [
+        -7.62939453125e-06,
+        -8.7738037109375e-05,
+        0.0
+      ],
+      "rotation": [
+        -4.371138828673793e-08,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "rigs": [],
+  "bounds_min": [
+    -0.2036896049976349,
+    -0.11710359156131744,
+    -5.114925372140533e-09
+  ],
+  "bounds_max": [
+    0.2036743462085724,
+    0.11692816019058228,
+    0.98016357421875
+  ],
+  "dimensions": [
+    0.4073639512062073,
+    0.23403175175189972,
+    0.98016357421875
+  ],
+  "images": [
+    {
+      "name": "ancient_warrior_armor_3d_model_basecolor",
+      "path": "D:\\Warhammer3_Modding\\moon_cathay\\assets\\authored\\ancient warrior armor 3d model\\tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm\\ancient_warrior_armor_3d_model_basecolor.JPEG",
+      "exists": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "has_data": true
+    },
+    {
+      "name": "ancient_warrior_armor_3d_model_metallic",
+      "path": "D:\\Warhammer3_Modding\\moon_cathay\\assets\\authored\\ancient warrior armor 3d model\\tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm\\ancient_warrior_armor_3d_model_metallic.JPEG",
+      "exists": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "has_data": true
+    },
+    {
+      "name": "ancient_warrior_armor_3d_model_normal",
+      "path": "D:\\Warhammer3_Modding\\moon_cathay\\assets\\authored\\ancient warrior armor 3d model\\tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm\\ancient_warrior_armor_3d_model_normal.PNG",
+      "exists": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "has_data": true
+    },
+    {
+      "name": "ancient_warrior_armor_3d_model_roughness",
+      "path": "D:\\Warhammer3_Modding\\moon_cathay\\assets\\authored\\ancient warrior armor 3d model\\tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm\\ancient_warrior_armor_3d_model_roughness.JPEG",
+      "exists": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "has_data": true
+    }
+  ],
+  "actions": [],
+  "input_hashes": {
+    "tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbx": "e3f40e1255718ddc36841dae4d07ed4acfcbc67a41d6c2e9e7fcb98ff033c302",
+    "tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm/ancient_warrior_armor_3d_model_basecolor.JPEG": "93a54fcf5cb045b2a35dd2bb6fc75ecf68c4c3d0d3af26f7cd67b5bbbb08ff03",
+    "tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm/ancient_warrior_armor_3d_model_metallic.JPEG": "f11cc7a7b8f9260c09f90a08b189c6f610536f7fd8eddab1dea34027ef6751ee",
+    "tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm/ancient_warrior_armor_3d_model_normal.PNG": "085be7a4eed364b9ee67bd950ce22169dccf9acd2d15413ba67caab6a7942ad3",
+    "tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm/ancient_warrior_armor_3d_model_rm.JPEG": "1c494bedebb661afe2b4d1d2fcf1d270d1aced72dbe30d5647ae03d650e6b927",
+    "tripo_convert_54bb716b-006f-47b3-8c1a-26c175497887.fbm/ancient_warrior_armor_3d_model_roughness.JPEG": "3cf669070ec8272074fb921b4a083f864eca7cf62c4a90f047b25f45b4d6949f"
+  },
+  "totals": {
+    "vertices": 237377,
+    "polygons": 474836,
+    "triangles": 474836,
+    "weighted_vertices": 0
+  },
+  "material_nodes": {
+    "tripo_mat_54bb716b": [
+      {
+        "type": "BSDF_PRINCIPLED",
+        "label": "",
+        "image": null
+      },
+      {
+        "type": "OUTPUT_MATERIAL",
+        "label": "",
+        "image": null
+      },
+      {
+        "type": "NORMAL_MAP",
+        "label": "Normal/Map",
+        "image": null
+      },
+      {
+        "type": "TEX_IMAGE",
+        "label": "",
+        "image": "ancient_warrior_armor_3d_model_basecolor"
+      },
+      {
+        "type": "TEX_IMAGE",
+        "label": "",
+        "image": "ancient_warrior_armor_3d_model_normal"
+      },
+      {
+        "type": "TEX_IMAGE",
+        "label": "",
+        "image": "ancient_warrior_armor_3d_model_roughness"
+      },
+      {
+        "type": "TEX_IMAGE",
+        "label": "",
+        "image": "ancient_warrior_armor_3d_model_metallic"
+      }
+    ]
+  }
+}

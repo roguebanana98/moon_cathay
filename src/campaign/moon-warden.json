@@ -19,7 +19,7 @@
   "spell_choices": "Dragon's Breath required; Earth Blood and Flame Storm provisional choices from project goal candidates",
   "initial_spell_unlocks": "Dragon Breath 1, Earth Blood 1; Flame Storm 0",
   "preserve_baseline": "Long Vi v3 and province regrouping",
-  "status": "v14_native_icons_static_checked_runtime_pending",
+  "status": "v19_moonlit_command_static_checked_runtime_pending",
   "equipment_source": "src/campaign/huyen-ve-equipment.json",
   "spell_progression": {
     "rank_gates": false,
@@ -27,5 +27,25 @@
       "dragons_breath": 2,
       "earth_blood": 2
     }
+  },
+  "magic_skill_line": [
+    "Dragon's Breath",
+    "Earth Blood",
+    "Moonlit Command",
+    "Flame Storm"
+  ],
+  "moonlit_command": {
+    "skill_key": "mc_moon_warden_magic_moonlit_command",
+    "ability_key": "mc_huyen_ve_moonlit_command",
+    "levels": 1,
+    "cost": "one skill point",
+    "prerequisite": "Earth Blood learned",
+    "weapon_damage_percent": 25,
+    "bonus_vs_large": 16,
+    "duration_seconds": 20,
+    "radius_m": 35,
+    "cooldown_seconds": 90,
+    "winds_cost": 0,
+    "native_donor": "wh_dlc06_lord_abilities_spite_of_da_bad_moon"
   }
 }

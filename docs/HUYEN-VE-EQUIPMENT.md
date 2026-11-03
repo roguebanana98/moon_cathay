@@ -1,5 +1,10 @@
 # Huyen Ve — bộ trang bị v14
 
+**Current integrated private test: [v19](HUYEN-VE-MOONLIT-COMMAND.md), inheriting
+[v17 campaign UI/equipment and v18 re-equip hotfix](HUYEN-VE-CAMPAIGN-V17.md).**
+v17 uses English item/ability names and grants/equips the full set once in campaign
+for testing. The v14 statements below about no campaign grant are historical.
+
 Ngày 02/11/2026. Đã tạo định nghĩa 5 món, 3 ability riêng, bonus đủ bộ và nối
 trang bị vào nhân vật Huyen Ve trong Custom Battle theo cơ chế native.
 Build/kiểm tra tĩnh đạt; chưa kiểm thử hiển thị hoặc combat trong game.

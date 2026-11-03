@@ -35,7 +35,7 @@ for item in spec['items']:
     item_type = key+'_type'
     category = item['category']
     tables['ancillaries'].append(dict(base, key=key, type=item_type,
-        category=category, unique_to_world='true', unique_to_faction='true',
+        category=category, unique_to_world='false', unique_to_faction='false',
         randomly_dropped='false', can_be_stolen='false', can_be_destroyed='false',
         transferrable='false', uniqueness_score='200'))
     native_type = donor('ancillary_types', 'type', 'wh_main_anc_'+category)
@@ -64,9 +64,9 @@ donors = {
 }
 existing_ids = {r['unique_id'] for r in read('unit_special_abilities')[1]}
 ability_text = {
-    'warden_aura': ('Uy Lệnh Trấn Thủ', 'Leadership +6 for friendly units within 35m. Only active while An Tran Thu is equipped.'),
-    'moon_lantern': ('Ánh Nguyệt Đăng', 'Winds of Magic power recharge rate +15%. Only active while Nguyet Dang is equipped.'),
-    'pha_ta': ('Phá Tà', 'Silences one enemy unit for 15 seconds, preventing spellcasting. 60m range; 2 uses; 120s cooldown. Requires Kiem Tran Da.')
+    'warden_aura': ('Warden Authority', 'Leadership +6 for friendly units within 35m. Only active while the Warden Seal is equipped.'),
+    'moon_lantern': ('Moonlight Radiance', 'Winds of Magic power recharge rate +15%. Only active while the Moon Lantern is equipped.'),
+    'pha_ta': ('Banish Evil', 'Silences one enemy unit for 15 seconds, preventing spellcasting. 60m range; 2 uses; 120s cooldown. Requires the Nightwarden Blade.')
 }
 grant_base = donor('effects', 'effect', 'wh_main_effect_ability_enable_arcane_conduit')
 for index, (suffix, config) in enumerate(spec['abilities'].items()):

@@ -1,6 +1,32 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
-TIẾN ĐỘ HIỆN TẠI [02/11/2026]: Bản tích hợp hiện hành v14: build/huyen-ve-equipment/mc_huyen_ve_v14_native_icons.pack. Lord chính thức Huyen Ve, Warden of Long Vi — Legendary Lord; đã định nghĩa 5 trang bị, 3 ability gắn với item, bonus đủ bộ và link trang bị Custom Battle. Dùng icon có sẵn trong game theo yêu cầu. Build và kiểm tra tĩnh đạt; chưa deploy/chưa xác nhận runtime. Quest nhận từng món chưa triển khai, campaign chưa tự cấp đồ. Việc tiếp theo: kiểm tra bật/tắt từng món trong Custom Battle, hiệu ứng/bonus đủ bộ, rồi triển khai chuỗi nhiệm vụ; chương 3 đã chốt Hero điều tra → quest battle riêng. Model concept03 chưa xuất được file thân local/chưa tích hợp; xem mốc model bên dưới.
+TIẾN ĐỘ HIỆN TẠI [03/11/2026]: Đã rà và đồng bộ toàn bộ goal Huyen Ve (mục 2A, 3, 5, 5A và tài liệu bàn giao), không chỉ chuỗi nhiệm vụ. Private test v19 kế thừa model đã duyệt + native animation fix v16, tên/portrait/test grant v17, re-equip hotfix v18 và thêm Moonlit Command; source/file game có SHA256 khớp theo kiểm tra đọc, chưa xác nhận live launcher/runtime. Đã ghi đủ skill branches, RoR capacity native, model/LOD/kiếm, UI, save compatibility, test còn thiếu và giới hạn private assets. Thiết kế nhiệm vụ đã được người dùng duyệt: 5 nhiệm vụ campaign nhận đủ bộ + 1 quest battle cuối nhận Legendary Hero mới; chưa triển khai, danh tính Lam Anh còn đề xuất. Việc tiếp theo: xác nhận runtime Lord/UI/equip/Moonlit Command, prototype kill counter và Hero lifecycle, rồi triển khai nhiệm vụ theo đặc tả. Lần cập nhật này chỉ sửa tài liệu, không build/deploy/launch game hoặc sửa save.
+
+LỊCH SỬ CÁC MỐC — mô tả trạng thái tại thời điểm ghi; dùng tiến độ hiện tại và checklist bên dưới để tiếp tục công việc.
+
+MỐC DEPLOY TEST ĐÃ ĐƯỢC NGƯỜI DÙNG CHO PHÉP [02/11/2026 23:00]: Đã chép mc_huyen_ve_v15_model_animations.pack vào F:/SteamLibrary/steamapps/common/Total War WARHAMMER III/data/, hash trùng pack đã validate (208050cfcd59f7c7f5ad5dfd7ef619d18883681f271e215bfb7bff5086176fd6). Launcher 20190104-moddata.dat: v15 bật/order4, v14 tắt và file vẫn nguyên; IEE/MIXER/MCT và mọi entry khác không đổi. Backup cấu hình tại build/huyen-ve-deployment/20261102-230047/20190104-moddata.dat; báo cáo latest.json cùng thư mục deployment. Không sửa game pack gốc, Workshop hay save. Đã gọi Steam -applaunch 1142710 để mở launcher phục vụ người dùng test; chưa xác nhận model/runtime trong game. Rollback bằng tắt v15, bật lại v14; không bật đồng thời hai bản.
+
+MỐC MÀN XEM TOÀN BỘ ANIM [02/11/2026]: Đã mở Blender, tạo/lưu huyen-ve-animation-browser.blend ở build/huyen-ve-animation-integration/, viewport model phía trên và Action Editor mở rộng phía dưới, rig được chọn; dropdown HV_* đủ 89 action để tìm/chọn, Space phát/dừng. Live handler tự đổi range/FPS theo clip, đã kiểm thử ATTACK_1 end62 → DEATH_STAND_1 end116; handler chỉ sống trong phiên hiện tại, mở file lại không tự chạy Python. tools/Open-Huyen-Ve-Animation-Browser.py bật lại handler/bố cục khi cần; không thay đổi security settings. Không sửa model/animation keys/pack v15 ở mốc UI này.
+
+MỐC TÍCH HỢP MODEL/ANIMATION V15 [02/11/2026]: Đã build build/huyen-ve-animation-integration/mc_huyen_ve_v15_model_animations.pack (thay bản tích hợp v14 khi test). Dùng đúng thân/tay before-hand-fix và bản sao kiếm người dùng tự căn; mesh/weight thân và bind 96 xương không đổi. Offset kiếm bake vào cả 4 LOD, VMD weapon_2 static không double attach. Nối 83 slot battle qua native fragments, giữ campaign animation table và nối uniform/model mới; thư viện Blender có 89 clip/pose HV_* ở huyen-ve-all-animations.blend. Nhập lại RMV2 kiểm tra 259 pose, sai số lớn nhất khoảng 0.00342 đơn vị; static prop cả 4 LOD đạt. Pack 107 payload, chỉ sửa 3 payload DB sẵn có (man_animation, variant, uniform), thêm 20; stats/item/ability/startpos và các payload v14 khác byte-identical. RPFM không có diagnostic mới/thay đổi (12 nhóm nền giữ nguyên). Chưa deploy/chưa chạy game; chưa khẳng định mọi transition/clipping/FX hoàn hảo. Chi tiết docs/HUYEN-VE-ANIMATION-INTEGRATION.md. Bản rebuilt-hand/grip-fixed đã bị bác bỏ, không dùng; generator cũ đã chặn chạy mặc định để tránh tái tạo tay hỏng.
+
+MỐC XEM ANIMATION SAU KHI CĂN KIẾM [02/11/2026]: Đã tạo và mở build/huyen-ve-model-v1/huyen-ve-manual-sword-attack-preview.blend từ bản sao vị trí người dùng tự căn (huyen-ve-user-sword-placement-20261102-211120.blend), bật chạy lặp QA_attack 0–62 ở 30 fps; viewport theo root. Hash hình học body/kiếm và matrix_basis kiếm giữ nguyên; không dùng grip-fixed, không sửa tay/bones/constraints/keyframe native hoặc các LOD khác. Chỉ chọn clip có sẵn để xem thử, chưa xác nhận cầm kiếm đúng ở mọi frame, chưa export/pack từ bản này. Script tools/Prepare-Huyen-Ve-Manual-Attack.py; báo cáo manual-sword-attack-preview.json.
+
+MỐC ĐÃ NHẬN KIẾM NGƯỜI DÙNG CĂN [02/11/2026 21:11]: Đã chụp transform trực tiếp từ cửa sổ huyen-ve-before-hand-fix.blend chưa lưu, mc_huyen_ve_sword_lod0 tại QA_stand frame 0. So với mốc đúng 20261102-205852-939967: delta object Location X=-0.025209808722138405, Y=-0.0738133043050766, Z=+0.01136432122439146; Rotation XYZ=0 độ, Scale=1. Mesh kiếm không đổi (hash trùng), chỉ dịch object; đã loại trừ pose khi tính matrix weapon_2. Lưu bản sao nguyên trạng vào build/huyen-ve-model-v1/huyen-ve-user-sword-placement-20261102-211120.blend, report sword-manual-adjustment-20261102-211120.json. Chưa sửa tay/body/bones/constraints/các LOD khác hoặc export/pack. Dùng bản sao này và mốc before-hand-fix cho bước sau; tuyệt đối không dùng grip-fixed/bàn tay dựng lại. File before-hand-fix trên đĩa vẫn là bản chưa có thao tác kéo, vì người dùng chưa Ctrl+S; bản sao đã giữ thao tác mới.
+
+ĐÍNH CHÍNH FILE CĂN KIẾM [02/11/2026, YÊU CẦU MỚI NHẤT]: Chỉ dùng build/huyen-ve-model-v1/huyen-ve-before-hand-fix.blend làm nguồn làm việc và so vị trí kiếm. Người dùng bác bỏ grip-fixed vì tay bị hỏng. Mốc đúng đã ghi chỉ đọc: sword-placement-baselines/20261102-205852-939967.json, QA_stand frame 1; latest pointer đã trỏ mốc này. Mốc 20261102-205530-511231.json từ grip-fixed là mốc chọn nhầm, KHÔNG dùng để tính delta cho thao tác tới. Record-Huyen-Ve-Sword-Placement.py mặc định dùng before-hand-fix. Không dựng lại bàn tay, không chuyển thay đổi của grip-fixed sang bản này; chờ người dùng kéo/xoay kiếm và lưu trên before-hand-fix rồi mới so sánh.
+
+MỐC CĂN KIẾM THỦ CÔNG [02/11/2026]: Người dùng phản hồi bản dựng lại bàn tay bị hỏng và chọn tự kéo kiếm vào lòng bàn tay. Không tiếp tục tự dựng/sửa tay trong bước này. Đã ghi mốc chỉ đọc từ file huyen-ve-sword-grip-fixed.blend đã lưu trên đĩa, QA_attack frame 20, tại build/huyen-ve-model-v1/sword-placement-baselines/20261102-205530-511231.json; gồm SHA256 file/mesh, transform local/world, vertex coords, constraint và matrix weapon_2 cho cả 4 LOD. Blender không mở tại lúc ghi mốc. Sau khi người dùng lưu vị trí kiếm mới: đọc đúng file họ chỉnh, so matrix_basis/mesh và loại trừ ảnh hưởng pose để tính delta, trình kết quả rồi áp offset phù hợp cho các LOD; không suy từ Location=(0,0,0) rằng kiếm chưa có offset vì vị trí đã bake vào mesh. Chưa có vị trí do người dùng chỉnh.
+
+MỐC SỬA TAY/KIẾM [02/11/2026]: Đã dựng lại phần bàn tay bị dính của Tripo bằng mesh tác giả, gắn xương ngón native và căn lại giáp cổ tay; điều chỉnh tâm chuôi và kéo dài riêng phần cán/chóp kiếm 30% để hỗ trợ hai tay. Kiểm tra đủ 63 frame QA_attack, 12 pose nhập lại RMV2, đóng gói lại 16 tài nguyên đồ họa và đối chiếu hash. File mới build/huyen-ve-model-v1/huyen-ve-sword-grip-fixed.blend, ảnh cận grip_final_attack.png; đã mở trong Blender và bật clip chém. Bàn tay còn ở mức prototype, tà áo vẫn cần sửa; chưa kiểm thử game/FX, gameplay v14 không đổi.
+
+MỐC SỬA PREVIEW BLENDER [02/11/2026]: File rig đã chuyển mặc định sang Material Preview, nhúng 8 texture PNG vào .blend và mở lại kiểm chứng. Bản xem trước lên màu đúng hơn bản dùng DDS; qa_textured.png là ảnh mới. Chỉ sửa scene Blender, không thay RMV2/DDS/pack hay gameplay. Nếu đang mở file cũ, cần mở lại file đã sửa từ đĩa.
+
+MỐC TÍCH HỢP TRƯỚC ĐÓ [02/11/2026]: Bản tích hợp hiện hành v15: build/huyen-ve-animation-integration/mc_huyen_ve_v15_model_animations.pack (kế thừa trang bị v14, thêm model và bộ animation). Lord chính thức Huyen Ve, Warden of Long Vi — Legendary Lord; đã định nghĩa 5 trang bị, 3 ability gắn với item, bonus đủ bộ và link trang bị Custom Battle. Dùng icon có sẵn trong game theo yêu cầu. Build và kiểm tra tĩnh đạt; đã deploy v15 vào game và bật launcher theo yêu cầu, chưa xác nhận runtime. Quest nhận từng món chưa triển khai, campaign chưa tự cấp đồ. Việc tiếp theo: kiểm tra bật/tắt từng món trong Custom Battle, hiệu ứng/bonus đủ bộ, rồi triển khai chuỗi nhiệm vụ; chương 3 đã chốt Hero điều tra → quest battle riêng. Model concept03 đã có bản rig thử local (giữ tay bản before-hand-fix; đã nhận vị trí kiếm người dùng tự căn và lưu bản sao): thân 24k/14k/8k/4k tam giác, humanoid01e 96 xương, DDS/material WH3 và kiếm riêng weapon_2; scene đủ 89 clip/pose và pack tích hợp ở build/huyen-ve-animation-integration/, 83 slot battle và link campaign native. Còn lỗi ép/kéo/xuyên tà áo ở tư thế sâu, cần sửa topology/weight trước phát hành; đã nối model/animation và chép pack v15 vào game, chưa kiểm thử runtime. Chi tiết docs/HUYEN-VE-ANIMATION-INTEGRATION.md.
+
+MỐC RIG MODEL [02/11/2026]: Đã tạo derivative từ FBX, giữ nguyên nguồn; UV-preserving decimation, căn pose/scale và chuyển weight từ donor Yuan Bo đã pose, giữ bind/hierarchy gốc, tối đa 4/2 ảnh hưởng theo LOD. Kiếm lotus được bake atlas và xuất prop riêng; VMD gắn weapon_2. Kiểm tra file RMV2, đồ thị material/texture và nhập lại ở 12 pose native stand/run/attack/cast; kiểm tra này không thay thế duyệt biến dạng hoặc runtime. Pack chỉ có 16 tài nguyên đồ họa, chưa có DB đổi model Lord, chưa xác nhận FX. Tà áo/quần dính của Tripo vẫn cần sửa kỹ; đây là prototype, chưa đạt chất lượng phát hành.
+
+MỐC MODEL LOCAL [02/11/2026]: Đã kiểm tra FBX trong assets/authored/ancient warrior armor 3d model bằng Blender; 1 mesh, 237.377 vertex, 474.836 tam giác, 1 UV layer; 4 texture PBR đang dùng đều 4096×4096. Không armature/vertex weight/animation. Bản gốc nguyên vẹn; working scene và preview tại build/model-intake/huyen-ve-tripo-20261102/, báo cáo reports/huyen-ve-tripo-intake.json. Bước tiếp theo: tối ưu mesh, căn pose/scale, rig humanoid01e, chuyển texture/material WH3 và lắp kiếm; chưa đổi pack gameplay.
 
 MỐC MODEL TRƯỚC ĐÓ [02/11/2026]: Đã dựng xong bản 3D Public xem thử của concept 03 trên Tripo quốc tế (H3.1, Geometry & Texture), dùng đúng 45 credits, số dư 140→95. Model aaf0a312-0f6a-4ff7-8915-d72a9505c819 có 1,970,610 faces / 1,023,713 vertices theo viewer; đã xoay kiểm tra trước/cạnh/sau và lưu ảnh trong reports/concept03-tripo-*.jpg. Xuất GLB chính thức bị chặn bởi yêu cầu subscription; chưa có file thân local, không mua gói. Kiếm prototype riêng đã có .blend/.glb tại assets/authored/moon-warden/concept03-v1/. Bước tiếp theo: duyệt model, xuất file bằng quyền tài khoản hợp lệ rồi làm sạch/retopo/rig/LOD cho WH3. Chưa thay model trong pack game; gameplay vẫn v11_spell_progression.
 
@@ -54,18 +80,22 @@ A. Nền tảng và mod để chơi/test
   trong report kiểm kê. Header submod hiện chỉ khai báo IEE + MIXER; không suy
   từ việc dùng MCT để khẳng định nó là dependency pack thứ ba của submod.
   Link: https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021
-- Submod hiện hành — mc_huyen_ve_v14_native_icons.pack:
-  build/huyen-ve-equipment/mc_huyen_ve_v14_native_icons.pack.
-  Chỉ bật một bản tích hợp; thay v13/v12/các prototype cũ bằng v14.
-  Định nghĩa 5 item và link Custom Battle đã build, runtime vẫn chờ xác nhận.
+- Submod test tích hợp mới nhất đã ghi nhận deploy — mc_huyen_ve_v19_moonlit_command.pack:
+  build/huyen-ve-v19-moonlit-command/mc_huyen_ve_v19_moonlit_command.pack.
+  Kế thừa model đã duyệt + native animation fix v16, campaign UI/test grant v17,
+  hotfix re-equip v18 và thêm Moonlit Command v19. Chỉ bật một bản tích hợp.
+  Đã đối chiếu SHA256 source với file trong game ngày 03/11/2026: khớp
+  d0364009f4b401b01ec6c1832179f2694fbff855a6ba850a2f4bfff09fbb2c06.
+  Báo cáo deploy ghi v19 bật/v18 tắt; chưa đọc lại launcher đang chạy trong lần rà này.
+  Static validation đạt; runtime tổng thể và các hotfix vẫn chờ xác nhận.
 - Không bắt buộc hiện tại — Custom Lord Creation: Workshop ID 3660806424;
   file fuwuvi_custom_lord_creation.pack, đã có local nhưng chưa tích hợp API.
-  Chỉ xét khi triển khai tạo Lord/class/family tree; không coi là dependency v14.
+  Chỉ xét khi triển khai tạo Lord/class/family tree; không coi là dependency v19.
   Chưa xác định số release semantic; pack hash nằm trong report kiểm kê.
   Link: https://steamcommunity.com/sharedfiles/filedetails/?id=3660806424
 - IEE/MIXER nằm dưới F:\SteamLibrary\steamapps\workshop\content\1142710\<ID>\.
   Load order thực tế và tương thích với mod khác phải kiểm tra trong launcher/game;
-  dependency header không thay thế kiểm thử. Không yêu cầu thêm overhaul để test v14.
+  dependency header không thay thế kiểm thử. Không yêu cầu thêm overhaul để test v19.
 
 B. Công cụ build/kiểm tra dữ liệu
 - RPFM CLI 4.6.3: đọc trực tiếp bằng rpfm_cli.exe --version; công cụ đang dùng
@@ -144,7 +174,7 @@ Trạng thái quan trọng:
 - Lỗi treo đã được người dùng xác nhận sửa thành công ở v2;
   lịch sử chẩn đoán tại docs/PROVINCE-LOADING-FAILURE.md.
 - Baseline campaign đã xác nhận là v3, gồm chia province và Long Vi thành chính I–V.
-  Bản tích hợp hiện hành v14 kế thừa dữ liệu này; chỉ bật một bản submod tích hợp.
+  Bản tích hợp v19 kế thừa dữ liệu này; chỉ bật một bản submod tích hợp.
 - File baseline: build/longvi-tiered/mc_longvi_v3_tiered_capital.pack.
 - Chi tiết build/kiểm tra: docs/LONGVI-TIERED-CAPITAL.md.
 - Xác nhận runtime do người dùng cung cấp: “oke tốt lắm, k lỗi”.
@@ -168,10 +198,14 @@ Trạng thái quan trọng:
 [X] Người dùng cho phép triển khai ngày 01/11/2026: nam, tên tạm, dùng model có sẵn.
 [X] Người dùng xác nhận Moon Warden v2 chạy không lỗi sau khi sửa crash khởi động.
 [X] Người dùng đã chọn được Lord và vào trận Custom Battle từ v4.
-[~] Bản hiện hành v14 có tên chính thức và bộ trang bị; kế thừa progression v11,
-    toàn bộ payload v12 giữ nguyên; chưa xác nhận đầy đủ runtime.
+[~] Bản test tích hợp hiện hành theo báo cáo deploy là v19; source và file game
+    đã đối chiếu hash khớp. Không coi deploy hoặc static checks là runtime đạt.
 [X] Chốt tên chính thức: Huyen Ve, Warden of Long Vi — Legendary Lord (02/11/2026).
-[ ] Chốt ngoại hình cụ thể, chỉ số, cân bằng và mốc mở khóa kỹ năng.
+[X] Người dùng duyệt ngoại hình ngày 03/11/2026: model nguyên đầu/cổ từ Workshop
+    3468491534, mặt không râu và danh sách ẩn/hiện đã lưu trong approved-model.json.
+    Snapshot: build/huyen-ve-model-v2/huyen-ve-approved-20261103.blend.
+    Ngoại hình này thay thế thân concept03/Tripo trong bản tích hợp hiện hành.
+[ ] Chốt cân bằng chỉ số và kiểm thử mốc mở khóa kỹ năng; chưa coi là bản release.
 [~] Đã tích hợp Earth Blood, Dragon's Breath, Flame Storm và sửa bộ phép hỗn hợp.
     V11: campaign mới có Earth Blood 1 + Dragon's Breath 1; Flame Storm yêu cầu
     cả hai đạt cấp 2, không khóa cấp Lord riêng. Custom Battle giữ cấu hình thử phép.
@@ -185,20 +219,51 @@ Trạng thái quan trọng:
     họa tiết trăng, một kiếm; đây là phương án đầu, chưa phải thiết kế được duyệt.
     Ảnh: assets/concepts/moon-warden/moon-warden-front-side-v1.png
     Prompt/công cụ: assets/concepts/moon-warden/concept-v1-prompt.txt (imagegen).
-[~] Đã chuẩn bị concept03 và ảnh đầu vào Tripo; tiếp tục duyệt/chỉnh ngoại hình.
-    Kiếm prototype tách riêng đã có .blend/.glb tại assets/authored/moon-warden/concept03-v1/.
-[~] Đã tạo bản model thử concept03 trên Tripo quốc tế, dùng 45 credits.
-    Đã xem trước/cạnh/sau; xuất GLB chính thức bị yêu cầu subscription,
-    chưa có file thân local và chưa mua gói. Chi tiết docs/CONCEPT03-MODEL.md.
-[ ] Làm sạch mesh/topology, UV/texture, rig/weight và LOD để tích hợp vào WH3.
-[ ] Thử tái sử dụng skeleton/animation tương thích với Yuan Bo dạng người;
-    chỉ làm/chỉnh animation riêng sau khi model hoạt động ổn. Chưa có anim mới.
-    Model đang dùng trong pack vẫn là Yuan Bo dạng người.
-[ ] Kiểm tra vật liệu, LOD, vũ khí, mount, portrait và unit card.
-[ ] Tích hợp Lord với faction, frontend, campaign và battle.
+[X] Lịch sử concept03: đã nhận FBX local, rig/weight humanoid01e, tạo 4 LOD,
+    DDS/VMD và pack v15; không còn trạng thái thiếu file thân local. Giữ nguồn,
+    bản before-hand-fix và kiếm người dùng căn; không dùng rebuilt-hand/grip-fixed.
+    Thân concept03 không phải ngoại hình được chọn hiện nay; không tiếp tục sửa
+    topology/weight thân đó như điều kiện bắt buộc để hoàn thành Lord hiện hành.
+[X] Build model được duyệt vào v16, tái sử dụng LOD gốc 69.142/32.980/23.477/14.859
+    tam giác sau loại phần ẩn; kiểm tra giữ nguyên kênh vertex và head/neck native.
+    Texture mặt không râu DDS có mipmaps; mask rỗng được thay bằng mask trung tính.
+    Kiếm lotus giữ 4 LOD, gắn weapon_2; bỏ offset chỉ dành cho thân concept03.
+[X] Đã kiểm tra preview 89 actions/259 pose và actual evaluated mesh motion;
+    đây là kiểm tra file/Blender, không phải bằng chứng runtime animation.
+[X] Chẩn đoán lỗi T-pose người dùng báo ở v15: custom man_animation không có
+    runtime BIN/ANIMPACK. Candidate v16 fixed dùng hu1e_dlc24_yuan_bo_dragon_jade,
+    loại custom row/TXT không cung cấp runtime lookup. v17–v19 kế thừa bản fixed.
+    Không dùng mc_huyen_ve_v16_approved_model.pack trung gian chưa sửa animation.
+[ ] Xác nhận runtime hết T-pose; idle/run/attack/cast/death, cầm kiếm, clipping,
+    LOD/material/VFX, campaign và battle. Không suy từ Blender thành đã sửa xong.
+[X] V17 đã build portrait từ model đã duyệt và native portrait-settings liên kết
+    army card, faction-leader thumbnail, porthole và Custom Battle portrait.
+[X] V17 đã build sửa tên campaign bị trống bằng direct ASCII name, dùng English
+    item/ability/set names và 71 dòng loc ASCII. Script giới hạn đúng nhân vật.
+[~] V17–v19 đã deploy private test có backup; chưa xác nhận đầy đủ tên/portrait
+    refresh trong save thực, không đánh dấu các sửa UI là runtime hoàn thành.
+[~] Lord đã có tích hợp faction/campaign/Custom Battle; frontend selection còn
+    placeholder của IEE/MIXER, voice kế thừa có thể nhắc Yuan Bo; cần rà nội dung.
 [~] Đã có các nhánh đấu tay đôi, trị an/chống Chaos/tầm xa, kỹ năng bổ trợ Lord
     và tiến trình phép riêng; tiếp tục kiểm thử liên kết, hiệu ứng và cân bằng.
     Nhánh tăng rank khi tuyển quân được hoãn theo yêu cầu.
+[~] Nhánh đấu tay đôi đã build: Moonblade (+8 MA/+15% weapon strength),
+    The Enfeebling Foe, Spirit Leech và Deadly Onslaught; cần test mở khóa/effect.
+[~] Nhánh chỉ huy đã build: Moonlit Order +2/+4 control tại owned province;
+    Bulwark Against Chaos +5/+10 ward save có điều kiện đúng đối thủ Chaos;
+    Moonwatch Marksmen +5/+10% range và Disciplined Volleys +10/+20 reload reduction
+    trên unit sets Cathay đã xác minh. Node hàng 0 từ v8; cần test UI/cộng dồn.
+[~] Skill bổ trợ dùng native Wind Harmony, Ranged Discipline, Army of Renown và
+    Mentor. Army of Renown LL +2/+4/+6 là RoR capacity của quân đoàn, không phải
+    recruit rank; đã đối chiếu vanilla và giữ nguyên theo yêu cầu người dùng.
+[X] V19 đã build/static-check Moonlit Command sau Earth Blood, trước Flame Storm:
+    1 level mua bằng 1 skill point, không tự cấp; preset Custom Battle có để test.
+    Donor Spite of da Bad Moon: +25% base/AP melee damage, +16 bonus vs large,
+    20 giây, 35m, cooldown 90 giây, 0 Winds, unlimited uses; bỏ audio Greenskin.
+    Giữ điều kiện cũ Flame Storm (Breath 2 + Earth Blood 2), chỉ dời node sang tier 3.
+    Static v19: không blocking diagnostic, 9 schema metadata warnings còn ghi nhận.
+[ ] Runtime Moonlit Command: mua/mở skill đúng, button/target/area/duration,
+    damage/bonus vs large/cooldown, cộng dồn với skill/item và không lỗi save cũ.
 [ ] Xác nhận tính duy nhất/immortality, bị thương/hồi phục, lên cấp, end turn,
     save/load và tương thích bản campaign tích hợp trước khi coi là hoàn thành.
 
@@ -221,16 +286,40 @@ Trạng thái quan trọng:
     RPFM roundtrip đạt; giá trị gameplay giữ nguyên so với v13, chỉ đổi icon.
     Pack/manifest: build/huyen-ve-equipment/; validator: tools/Validate-Huyen-Ve-Equipment.py.
 [ ] Test runtime Custom Battle: trang bị, stat, aura, recharge, cooldown, Silence và set bonus.
-[ ] Triển khai nhận từng món qua chuỗi “Mật Lệnh Phương Nam”; campaign hiện chưa cấp đồ.
+[X] V17 đã build và deploy đường cấp/equip cả 5 món một lần để test campaign,
+    có marker từng item và fallback faction turn; đây không phải quest acquisition.
+[~] V18 hotfix lỗi tháo item rồi không equip lại theo báo cáo người dùng:
+    unique_to_world/unique_to_faction của 5 món chuyển false theo donor native;
+    giữ subtype whitelist, transferrable=false, stats và marker chống cấp trùng.
+    Build/static/deploy đạt, v19 kế thừa; nguyên nhân vẫn là giả thuyết, cần
+    người dùng xác nhận tháo/equip lại trên save cũ. Không re-grant hoặc sửa save.
+[X] Người dùng đã chốt phương án nhiệm vụ [03/11/2026]: 5 nhiệm vụ campaign nhận
+    đủ bộ trang bị, chỉ 1 quest battle cuối nhận Legendary Hero mới.
+    Đặc tả hiện hành: docs/HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md.
+    Thay thế các phương án quest battle chương 3–5 trong thiết kế trước.
+[ ] Triển khai nhận từng món qua chuỗi “Mật Lệnh Phương Nam”. Bản test v17 có
+    auto-grant cả bộ; cần tách đường cấp đồ test khỏi bản progression.
     Mốc cấp dự kiến 6/10/14/18/22, cần chốt khi triển khai; chỉ mở chương sau
     khi hoàn thành chương trước, không trao tất cả đồ chỉ vì Lord đã cấp cao.
 [ ] Chương 1: sở hữu Long Vi và Huyen Ve thắng 2 trận → nhận Ngọc Bội.
-[ ] Chương 2: giải cứu thợ rèn/đánh quân cướp, trả 2.000 vàng → nhận Giáp.
-    Chưa chốt đổi chương 2 sang quest battle riêng; không tự suy diễn từ chương 3.
-[ ] Chương 3 (người dùng đã chọn): Hero tới marker điều tra → mở quest battle riêng,
-    Huyen Ve thắng phản đồ → nhận Ấn. Không tạo quân mục tiêu trên campaign.
-[ ] Chương 4: quest battle bảo vệ nghi lễ → nhận Nguyệt Đăng.
-[ ] Chương 5: quest battle phản đồ Cathay + viện quân Chaos → nhận Kiếm Trấn Dạ.
+[ ] Chương 2: chiếm Avauka → nhận Giáp; đã sở hữu thì công nhận ngay.
+    Nếu đồng minh/trung lập giữ: cho đường thương lượng trả 2.000 vàng.
+[ ] Chương 3: Hero độc lập tới marker điều tra → giao hồ sơ tại Long Vi → nhận Ấn.
+    Không quest battle, không tạo quân mục tiêu, không hero action có xác suất.
+[ ] Chương 4: quân đoàn Huyen Ve tích lũy kill → nhận Nguyệt Đăng.
+    Mốc dự kiến 2.000 cá thể ở Ultra, điều chỉnh theo unit size sau kiểm thử.
+    Phải chứng minh đếm đúng quân đoàn, manual/autoresolve và không tính trùng.
+[ ] Chương 5: Huyen Ve về Long Vi, trả 3.000 vàng, xử lý 2 lượt còn giữ thành
+    → nhận Kiếm Trấn Dạ. Lord được rời đi sau khi giao việc; mất thành tạm dừng,
+    lấy lại tiếp tục, không thu phí lần hai. Vàng/số lượt cần playtest cân bằng.
+[ ] Chương 6: sau khi hoàn thành 5 chương, quest battle duy nhất giải cứu và nhận
+    Legendary Hero mới; cấp mở dự kiến 25, không yêu cầu đang equip đủ 5 món.
+    Lam Anh là danh tính đề xuất, chưa chốt tên/model/kit của Hero.
+[ ] Chốt tọa độ campaign IEE, battlefield/catchment, deployment/entry, faction,
+    roster/unit keys/số lượng và timeline viện quân cho battle cuối trước khi build.
+    Hiện chưa có battle Huyen Ve được cấu hình và kiểm chứng (0/1).
+[ ] Prototype vòng đời Hero: spawn đúng một lần, di chuyển/embed/battle,
+    wounded-return và save/load; không phụ thuộc LH dùng chung của vanilla.
 [ ] Kiểm tra trao thưởng đúng một lần, thua/đánh lại, teleport, save/load, Lord bị thương,
     save cấp cao, thiếu tiền, mất Long Vi và xử lý mục tiêu nhiệm vụ bị mất.
 [ ] Đồng bộ ngoại hình trang bị với model 3D sau; equip item hiện chỉ thêm effect/icon.
@@ -285,11 +374,16 @@ Lịch sử lỗi treo đã sửa: docs/PROVINCE-LOADING-FAILURE.md
 Long Vi thành chính I–V, bản v3: docs/LONGVI-TIERED-CAPITAL.md
 Hướng dẫn build/test: docs/BUILD-TEST.md
 Lord và phiên bản tích hợp: docs/LEGENDARY-LORD.md
+Ngoại hình đã duyệt và animation fix v16: docs/HUYEN-VE-APPROVED-MODEL.md
+Tên/portrait/campaign test grant v17 và re-equip v18: docs/HUYEN-VE-CAMPAIGN-V17.md
+Moonlit Command v19 và provenance Army of Renown: docs/HUYEN-VE-MOONLIT-COMMAND.md
 Trang bị và hướng dẫn test Custom Battle: docs/HUYEN-VE-EQUIPMENT.md
-Thiết kế chuỗi nhiệm vụ: docs/HUYEN-VE-EQUIPMENT-IDEA.md
+Thiết kế chuỗi nhiệm vụ hiện hành: docs/HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md
+Đánh giá readiness battle (có ghi thay đổi còn 1 trận): docs/HUYEN-VE-QUEST-BATTLE-READINESS.md
+Ý tưởng trang bị/nhiệm vụ ban đầu (lịch sử): docs/HUYEN-VE-EQUIPMENT-IDEA.md
 Kiểm tra khả thi nhiệm vụ/trang bị: docs/HUYEN-VE-EQUIPMENT-FEASIBILITY.md
 Audit nhiệm vụ faction: docs/FACTION-MISSIONS.md
-Tiến độ model concept03: docs/CONCEPT03-MODEL.md
+Tiến độ model concept03 (lịch sử, đã thay ngoại hình): docs/CONCEPT03-MODEL.md
 Quy tắc làm việc và ngoại lệ được phép: AGENTS.md
 Kiểm kê tool/mod và phiên bản local: mục 2A ở trên; reports/tool-mod-inventory.json
 

@@ -2,66 +2,127 @@
   "subtype": "mc_moon_warden",
   "unit": "mc_moon_warden_human",
   "set_key": "mc_huyen_ve_warden_set",
-  "set_name": "Bảo Khí Trấn Thủ Long Vi",
+  "set_name": "Relics of the Warden of Long Vi",
   "set_ward_save": 5,
-  "campaign_acquisition": "Reserved for sequential quests; no automatic campaign grant",
+  "campaign_acquisition": "Private v17 campaign test: grant and equip the complete set once on campaign load or faction turn",
   "items": [
     {
       "key": "mc_huyen_ve_ngoc_boi_nguyet_anh",
-      "name": "Ngọc Bội Nguyệt Ảnh",
+      "name": "Moonshadow Jade Pendant",
       "category": "talisman",
       "description": "A pale jade pendant bearing a moon above the waters of Long Vi. Its quiet radiance wards the bearer against hostile sorcery.",
       "effects": [
-        ["wh_main_effect_character_stat_ward_save", "character_to_character_own", 5],
-        ["wh_main_effect_character_stat_magic_resistance", "character_to_character_own", 10]
+        [
+          "wh_main_effect_character_stat_ward_save",
+          "character_to_character_own",
+          5
+        ],
+        [
+          "wh_main_effect_character_stat_magic_resistance",
+          "character_to_character_own",
+          10
+        ]
       ]
     },
     {
       "key": "mc_huyen_ve_giap_son_van_long_vi",
-      "name": "Giáp Sơn Văn Long Vi",
+      "name": "Long Vi Mountain-Pattern Armour",
       "category": "armour",
       "description": "Mountain-pattern armour edged in bronze, forged for the defender of Long Vi. Each interlocking plate bears the oath of its maker.",
       "effects": [
-        ["wh_main_effect_character_stat_armour", "character_to_character_own", 25],
-        ["wh_main_effect_character_stat_melee_defence", "character_to_character_own", 5]
+        [
+          "wh_main_effect_character_stat_armour",
+          "character_to_character_own",
+          25
+        ],
+        [
+          "wh_main_effect_character_stat_melee_defence",
+          "character_to_character_own",
+          5
+        ]
       ]
     },
     {
       "key": "mc_huyen_ve_an_tran_thu",
-      "name": "Ấn Trấn Thủ",
+      "name": "Warden's Seal",
       "category": "enchanted_item",
       "description": "The Warden's seal authenticates every order sent from Long Vi. Beneath its authority, wavering soldiers find the resolve to stand.",
       "effects": [
-        ["wh_main_effect_public_order_characters", "character_to_province_own", 2],
-        ["mc_huyen_ve_enable_warden_aura", "character_to_character_own", 1]
+        [
+          "wh_main_effect_public_order_characters",
+          "character_to_province_own",
+          2
+        ],
+        [
+          "mc_huyen_ve_enable_warden_aura",
+          "character_to_character_own",
+          1
+        ]
       ]
     },
     {
       "key": "mc_huyen_ve_nguyet_dang",
-      "name": "Nguyệt Đăng",
+      "name": "Moon Lantern",
       "category": "arcane_item",
       "description": "A small bronze lantern burning with silver light. Its steady flame draws the Winds into harmony around the Warden.",
       "effects": [
-        ["wh2_main_effect_ability_cooldown_spells", "character_to_character_own", -10],
-        ["mc_huyen_ve_enable_moon_lantern", "character_to_character_own", 1]
+        [
+          "wh2_main_effect_ability_cooldown_spells",
+          "character_to_character_own",
+          -10
+        ],
+        [
+          "mc_huyen_ve_enable_moon_lantern",
+          "character_to_character_own",
+          1
+        ]
       ]
     },
     {
       "key": "mc_huyen_ve_kiem_tran_da",
-      "name": "Kiếm Trấn Dạ",
+      "name": "Nightwarden's Blade",
       "category": "weapon",
       "description": "Night is the Warden's watch, not his enemy. This enchanted blade cuts through the workings of those who would turn darkness against Long Vi.",
       "effects": [
-        ["wh_main_effect_character_stat_melee_attack", "character_to_character_own", 8],
-        ["wh_main_effect_character_stat_weapon_strength", "character_to_character_own", 20],
-        ["wh_main_effect_character_stat_enable_magic_attacks", "character_to_character_own", 1],
-        ["mc_huyen_ve_enable_pha_ta", "character_to_character_own", 1]
+        [
+          "wh_main_effect_character_stat_melee_attack",
+          "character_to_character_own",
+          8
+        ],
+        [
+          "wh_main_effect_character_stat_weapon_strength",
+          "character_to_character_own",
+          20
+        ],
+        [
+          "wh_main_effect_character_stat_enable_magic_attacks",
+          "character_to_character_own",
+          1
+        ],
+        [
+          "mc_huyen_ve_enable_pha_ta",
+          "character_to_character_own",
+          1
+        ]
       ]
     }
   ],
   "abilities": {
-    "warden_aura": {"key": "mc_huyen_ve_warden_aura", "radius": 35, "leadership": 6},
-    "moon_lantern": {"key": "mc_huyen_ve_moon_lantern", "mana_regen_mod": 0.15},
-    "pha_ta": {"key": "mc_huyen_ve_pha_ta", "duration": 15, "uses": 2, "cooldown": 120, "range": 60}
+    "warden_aura": {
+      "key": "mc_huyen_ve_warden_aura",
+      "radius": 35,
+      "leadership": 6
+    },
+    "moon_lantern": {
+      "key": "mc_huyen_ve_moon_lantern",
+      "mana_regen_mod": 0.15
+    },
+    "pha_ta": {
+      "key": "mc_huyen_ve_pha_ta",
+      "duration": 15,
+      "uses": 2,
+      "cooldown": 120,
+      "range": 60
+    }
   }
 }
