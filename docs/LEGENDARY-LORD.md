@@ -1,5 +1,48 @@
 # Huyen Ve, Warden of Long Vi — Legendary Lord
 
+## Current status — v19, 2026-11-03
+
+Latest recorded private deployment:
+`build/huyen-ve-v19-moonlit-command/mc_huyen_ve_v19_moonlit_command.pack`.
+Source and installed pack SHA256 were rechecked and match on 2026-11-03:
+`d0364009f4b401b01ec6c1832179f2694fbff855a6ba850a2f4bfff09fbb2c06`.
+Deployment report records v19 enabled and v18 disabled; this documentation audit
+did not reread the live launcher state or run the game. Static validation passed;
+campaign/battle runtime verification remains incomplete.
+
+- Identity: male Huyen Ve, Warden of Long Vi; subtype `mc_moon_warden`, human
+  swordsman replacing Ju Di in new Expanded campaigns; no dragon transformation,
+  no Blood-line branch. Preserves the province/Long Vi v3 baseline.
+- v16: user-approved clean-shaven appearance from Workshop 3468491534, original
+  head/neck and LODs, recorded visibility, lotus sword fitted to native hands.
+  Supersedes the concept03/Tripo body. Donor buffs/flags are not imported;
+  reference-derived graphics remain private and are not cleared for publishing.
+- Animation: v15 T-pose report led to correction of a missing custom runtime
+  animation lookup. Fixed v16 and descendants use native
+  `hu1e_dlc24_yuan_bo_dragon_jade`. Blender playback is not engine verification.
+- v17: scoped direct ASCII campaign-name repair, model-rendered portraits,
+  English item/ability names and one-time campaign grant/equip of all five items
+  for testing. Quest acquisition is not implemented.
+- v18: re-equip hotfix changes only the five items' unique-to-world/faction flags
+  to false; stats, subtype restrictions, non-transferability and grant markers
+  remain. Root cause and runtime repair still need confirmation.
+- v19: Moonlit Command is one purchased skill after Earth Blood, before Flame
+  Storm. Native-derived buff: +25% base/AP melee damage and +16 bonus vs large,
+  35m, 20s, 90s cooldown, no Winds cost. Existing Flame Storm prerequisites remain.
+  Army of Renown +2/+4/+6 is native army RoR capacity and remains unchanged.
+- Approved quest design: five campaign missions for the set, then one quest
+  battle for a new Legendary Hero. No quest battle is retained in chapters 3/5.
+  Lam Anh is a proposed identity; the hero and acquisition chain are not built.
+
+Current checklist: [PROJECT_GOALS.txt](../PROJECT_GOALS.txt).
+Details: [approved model/animation](HUYEN-VE-APPROVED-MODEL.md),
+[campaign UI/re-equip](HUYEN-VE-CAMPAIGN-V17.md),
+[Moonlit Command](HUYEN-VE-MOONLIT-COMMAND.md),
+[approved quest design](HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md).
+
+The version sections below are historical snapshots. Their old pack-selection,
+deployment and no-campaign-grant statements do not override this current status.
+
 ## Native equipment icons — v14 (2026-11-02)
 
 Current integrated build: `build/huyen-ve-equipment/mc_huyen_ve_v14_native_icons.pack`.
