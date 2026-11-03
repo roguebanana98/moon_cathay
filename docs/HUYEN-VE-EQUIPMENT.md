@@ -1,5 +1,9 @@
 # Huyen Ve — bộ trang bị v14
 
+> Thứ tự quest lịch sử trong file này đã được thay bởi
+> [thiết kế campaign hiện hành](HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md): nhận Da Lien
+> + Crimson Moonstone ở chương 2/cấp Huyen Ve 8; chỉ một quest battle sớm.
+
 **Current integrated private test: [v19](HUYEN-VE-MOONLIT-COMMAND.md), inheriting
 [v17 campaign UI/equipment and v18 re-equip hotfix](HUYEN-VE-CAMPAIGN-V17.md).**
 v17 uses English item/ability names and grants/equips the full set once in campaign

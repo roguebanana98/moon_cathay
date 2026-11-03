@@ -1,5 +1,9 @@
 # Huyen Ve — đề xuất bộ trang bị và nhiệm vụ
 
+> Thứ tự quest bên dưới là lịch sử. Thiết kế hiện hành chuyển Da Lien + Crimson
+> Moonstone lên chương 2/cấp Huyen Ve 8, chỉ một quest battle sớm; xem
+> [đặc tả campaign hiện hành](HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md).
+
 Ngày: 02/11/2026. Trang bị đã được người dùng yêu cầu triển khai vào v13 để test;
 chuỗi nhiệm vụ dưới đây chưa triển khai. Xem [trạng thái trang bị](HUYEN-VE-EQUIPMENT.md).
 

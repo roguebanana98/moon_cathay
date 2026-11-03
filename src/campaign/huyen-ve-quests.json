@@ -1,0 +1,100 @@
+{
+  "campaign": "cr_combi_expanded",
+  "faction": "cr_cth_agents_of_the_moon",
+  "lord_subtype": "mc_moon_warden",
+  "state_version": 2,
+  "candidate_version": 25,
+  "implementation_status": "all_six_chapters_implemented_private_test",
+  "enabled_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stages": [
+    {
+      "chapter": 1,
+      "display_level": 6,
+      "mission": "mc_huyen_ve_quest_01",
+      "title": "A Seal in the Moonlight",
+      "kind": "hold_region_and_win_battles",
+      "region": "cr_combi_region_long_vi",
+      "wins": 2,
+      "reward_item": "mc_huyen_ve_ngoc_boi_nguyet_anh",
+      "implemented": true,
+      "runtime_verified": false
+    },
+    {
+      "chapter": 2,
+      "display_level": 8,
+      "mission": "mc_huyen_ve_quest_02",
+      "title": "The Last Moonwatcher",
+      "kind": "rescue_quest_battle",
+      "reward_hero": "mc_da_lien",
+      "reward_hero_display_level": 5,
+      "reward_item": "mc_da_lien_crimson_moonstone",
+      "implemented": true,
+      "readiness": "native_quest_mission_and_dynamic_long_vi_location_override_bound_to_reward_service",
+      "runtime_verified": false
+    },
+    {
+      "chapter": 3,
+      "display_level": 10,
+      "mission": "mc_huyen_ve_quest_03",
+      "title": "Reopen the Southern Road",
+      "kind": "capture_or_negotiate",
+      "region": "cr_combi_region_avauka",
+      "negotiation_cost": 2000,
+      "reward_item": "mc_huyen_ve_giap_son_van_long_vi",
+      "implemented": true,
+      "runtime_verified": false
+    },
+    {
+      "chapter": 4,
+      "display_level": 14,
+      "mission": "mc_huyen_ve_quest_04",
+      "title": "The Counterfeit Seal",
+      "kind": "hero_investigate_then_deliver",
+      "reward_item": "mc_huyen_ve_an_tran_thu",
+      "implemented": true,
+      "runtime_verified": false
+    },
+    {
+      "chapter": 5,
+      "display_level": 18,
+      "mission": "mc_huyen_ve_quest_05",
+      "title": "Feed the Moon Lantern",
+      "kind": "army_entities_killed",
+      "ultra_target": 2000,
+      "reward_item": "mc_huyen_ve_nguyet_dang",
+      "implemented": true,
+      "runtime_verified": false
+    },
+    {
+      "chapter": 6,
+      "display_level": 22,
+      "mission": "mc_huyen_ve_quest_06",
+      "title": "Restore the Nightwarden",
+      "kind": "paid_restoration",
+      "region": "cr_combi_region_long_vi",
+      "cost": 3000,
+      "processing_turns": 2,
+      "reward_item": "mc_huyen_ve_kiem_tran_da",
+      "implemented": true,
+      "runtime_verified": false
+    }
+  ],
+  "release_policy": "Private full-chain test. All six chapters implemented; only the earlier rescue frontend victory has real game verification. Do not claim campaign end-to-end verified until tested.",
+  "kill_unit_set": "mc_huyen_ve_all_army_units",
+  "archive_anchor": "cr_combi_region_leilou",
+  "campaign_script_alias": "main_warhammer",
+  "campaign_initialisation_smoke": {
+    "verified": true,
+    "game_version": "9.0.5",
+    "revision": "r3",
+    "report": "build/huyen-ve-v25-quest-chain/runtime-campaign-smoke-r3.json",
+    "full_playthrough_verified": false
+  }
+}

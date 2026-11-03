@@ -1,0 +1,99 @@
+{
+  "name": "Da Lien",
+  "faction": "cr_cth_agents_of_the_moon",
+  "subtype": "mc_da_lien",
+  "unit": "mc_da_lien_human",
+  "identity": "Living human female wizard, Legendary Hero",
+  "desired_role": [
+    "AOE damage against infantry",
+    "light healing",
+    "armour buffs"
+  ],
+  "appearance_source": {
+    "mod": "Beautiful Neferata",
+    "workshop_id": "3809988722",
+    "usage": "private local visual test"
+  },
+  "battle_animation": "hu1ba_dlc29_vmp_neferata_staff_and_sword",
+  "campaign_animation": "cam_hu1ba_dlc29_vmp_neferata_staff_and_sword",
+  "prototype_framework": "Cathay Alchemist engineer Hero with living-human attributes; custom Moon Arts skill tree, no inherited Metal or Undead kit",
+  "visual_test_spawn": "Historical v20 visual spawn retained in v24 fallback; suppressed by v25 progression flag.",
+  "final_acquisition": "Implemented in v25: chapter 2 after chapter 1 and Huyen Ve level 8; native rescue victory grants Da Lien rank 5 with Crimson Moonstone. No complete-set or level-25 gate. Campaign runtime validation pending.",
+  "quest_reward_design": {
+    "chapter": 2,
+    "required_previous_chapter": 1,
+    "huyen_ve_display_level": 8,
+    "proposed_new_hero_display_level": 5,
+    "new_hero_unspent_level_up_points": 4,
+    "requires_complete_item_set": false,
+    "existing_test_hero": "Recognise subtype; do not duplicate, downgrade or reset XP/skills/items; play mission without granting duplicates",
+    "status": "implemented_v25_private_test_runtime_pending",
+    "documentation": "docs/HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md"
+  },
+  "status": "v25_quest_chain_private_test_deployed_runtime_pending",
+  "documentation": "docs/HUYEN-VE-V25-QUEST-INTEGRATION.md",
+  "custom_battle_test": "Grand Cathay -> Heroes -> Da Lien; level-40 Moon Arts preset with all six spells; Crimson Moonstone Arcane Item selectable",
+  "skill_tree": {
+    "key": "mc_da_lien_skills",
+    "lore_group": "mc_da_lien_moon_arts",
+    "identity": "Yin and celestial magic, with secondary Life healing and armour support",
+    "visible_nodes": 26,
+    "maximum_purchased_points": 51,
+    "starting_spell": "Blossom Wind base, free hidden enable",
+    "spells": [
+      "Blossom Wind",
+      "Earth Blood",
+      "Flesh to Stone",
+      "Storm of Shadows",
+      "Talons of Night",
+      "Comet of Casandora"
+    ],
+    "lore_passive": "Power of Yin",
+    "uniques": [
+      "Moon Scholar",
+      "Silver Ward",
+      "Deep Wells",
+      "Moonlit Grace",
+      "Veil of the Moon",
+      "Lunar Mastery"
+    ],
+    "mentor_display_levels": [
+      30,
+      40,
+      50
+    ],
+    "immortality": "Free via campaign script, no purchased node",
+    "legacy_migration": "Scoped one-time native skill reset per CQI; XP/background/items retained; refund behaviour pending runtime verification",
+    "runtime_verified": false
+  },
+  "signature_item": {
+    "confirmed_concept": "One accompanying magic item: a red gemstone inspired by the gem on Da Lien's chest",
+    "status": "v24_integrated_deployed_runtime_pending",
+    "key": "mc_da_lien_crimson_moonstone",
+    "name": "Crimson Moonstone",
+    "slot": "arcane_item",
+    "owner_subtype": "mc_da_lien",
+    "effects": {
+      "army_winds_reserve_capacity": 5,
+      "self_ward_save_percent": 5,
+      "bound_ability": "Moonlit Renewal: base Earth Blood behaviour, one use per battle, zero Winds, no resurrection"
+    },
+    "acquisition": "v25: grant/equip with confirmed chapter-2 rescue reward; existing Hero/item retained. v24 fallback has the old visual-test grant. Custom Battle equipment remains available.",
+    "equipment_spec": "src/campaign/da-lien-equipment.json",
+    "documentation": "docs/DA-LIEN-V24-MOONSTONE.md",
+    "icon": "ui/battle ui/ability_icons/wh3_dlc29_item_passive_gem_of_blood.png",
+    "icon_revision": "v25_r4_native_Gem_of_Blood"
+  },
+  "approved_appearance": [
+    "Raised rear collar removed",
+    "Subtle warm human skin baked to DDS",
+    "Silver/gold crescent staff head"
+  ],
+  "portrait": {
+    "source": "assets/authored/da-lien/portraits/Da_Lien_user_portrait.png",
+    "manifest": "assets/authored/da-lien/portraits/manifest.json",
+    "revision": "v25_r5",
+    "status": "deployed_private_test",
+    "runtime_verified": false
+  }
+}

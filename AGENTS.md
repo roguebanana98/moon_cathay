@@ -2,22 +2,117 @@
 
 ## Current handoff (2026-11-03)
 
-- Current goals/checklist: PROJECT_GOALS.txt sections 5 and 5A. Current Lord
-  overview: docs/LEGENDARY-LORD.md. Latest recorded private deployment is v19;
-  source and installed pack hashes were rechecked equal. This does not verify
-  live launcher state or game runtime. Version-specific notes below are history.
-- The approved v16 appearance/native animation fix is inherited by v17-v19.
-  Concept03/Tripo is historical, not the selected body for further integration.
-- User approved the revised quest design: five campaign item missions and only
-  one final quest battle for a new LH. Chapter 3 is Hero investigation/report
-  delivery; chapter 5 is paid sword restoration. Older chapter-3/5 quest battle
-  plans are superseded. See docs/HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md.
-- Lam Anh remains a proposed LH identity. Quests and LH are not implemented;
-  the one remaining battle has no validated map/coordinates/roster/timeline yet.
-- This handoff update records documentation state, not new authorization to
-  deploy, launch gameplay, publish or claim pending fixes runtime-confirmed.
+- Latest v25 r7 deployed/enabled; r6 disabled and retained installed rollback. New native pre-first-tick/new-game-only script places existing Huyen Ve commander/army on valid land beside owned Long Vi (player/AI). No direct ESF/save edits; no changes on loading saves. One Lua added, all r6 payloads byte-identical. Ten placement boundary checks plus existing Lua suite pass; actual new-game spawn/camera remains runtime QA. docs/HUYEN-VE-LONG-VI-START.md, src/campaign/huyen-ve-start.json.
+
+- Fantasy longsword preview approved; user then explicitly requested game integration. V25 r6 privately deployed and enabled, r5 disabled and retained as installed rollback (older v24 pack no longer installed). Static sword has four LODs 12000/6000/3000/1200 triangles, 2K DDS PBR/mips, same preview placement/weapon_2. Exact exported RMV2/DDS reimport/render and12 native pose samples pass. Six graphics payloads added/replaced, every unrelated payload byte-identical to r5, diagnostics unchanged. No game runtime sword QA claimed. src/campaign/huyen-ve-sword.json records selection; full builder preserves it. Backup/hash report in quest-chain deployment.json.
+
+- Historical Blender-first step (superseded by approved r6 integration above): Separate scene
+  build/huyen-ve-fantasy-longsword/huyen-ve-fantasy-sword-preview.blend opened;
+  approved body/rig unchanged, old sword hidden/preserved, full 467k-triangle FBX
+  retained with 4K PBR maps. Nine stand/run/attack attachment samples pass. No new
+  game pack/deploy; v25 r5 remains active. Await visual feedback before exporting.
+  See docs/HUYEN-VE-FANTASY-LONGSWORD-PREVIEW.md.
+
+- V25 r5 imports user-supplied Da Lien PNG: five portrait/card PNGs resized to native dimensions. All other payloads byte-identical to r4. Privately deployed after user closed game; r5 on/r4 off, backup/hashes verified. Source/manifest: assets/authored/da-lien/portraits; docs/DA-LIEN-USER-PORTRAIT.md. No runtime portrait QA claimed.
+
+- V25 r4 changes Crimson Moonstone icon to native Gem of Blood artwork at user request. Only ancillary type icon data changed; other DB rows equal, scripts/assets byte-identical. No new runtime QA needed/claimed for this visual reference change.
+
+- User requested integration of the entire six-chapter quest chain and continued
+  work/testing. All six are implemented and privately deployed in v25 r7,
+  mc_huyen_ve_v25_quest_chain_test_r7.pack. R6 is installed/inactive fallback;
+  prototypes and r1/r2 inactive. Other mods unchanged. No public distribution.
+- Gates 6/8/10/14/18/22: Long Vi + two wins -> pendant; only QB rescues Da Lien
+  rank 5 + gem; Avauka or 2000 ransom -> armour; independent Hero archive near
+  Leilou then movement to owned Long Vi -> seal; own army kills -> lantern;
+  Huyen Ve at owned Long Vi pays 3000 once, two later faction turns -> sword.
+  Ownership loss pauses chapter 6; return resumes. No full-set/level25 Hero gate.
+- Version2 scalar save state; migration preserves C1; no duplicate/downgraded
+  Hero/item, wounded Hero markers prevent respawn. Visual test auto grants/spawn
+  suppressed only in progression by saved flag. All previous appearances,
+  animations, caster tree (26 nodes/51 points), Moonstone and CB presets retained.
+- 13 C1 state regressions, 58 full adapter checks, 10 Hero reward scenarios,
+  mocked battle and native generated_battle library boundary contract pass.
+  DB roundtrip, hashes, no new blocking diagnostics/metadata warnings.
+  Custom kill set covers all13 native land classes incl inf_spr/spcl.
+- Live r2 smoke found campaign alias bug: IEE map cr_combi_expanded scripts as
+  main_warhammer. R3 accepts both plus requires Long Vi region, excludes ROC.
+  R3 native campaign initialisation smoke passed; no old visual spawn observed. Do not claim full campaign playthrough.
+- Before campaign QA, all69 user saves copied/hashed. Current restoration status:
+  build/huyen-ve-v25-quest-chain/campaign-smoke-session.json. Do not rerun Prepare
+  while QA active; exit game then use Restore-Quest-Campaign-Smoke.py. All69 original save hashes and intro preference restored after exiting game. User already approved launcher warning Play and
+  game warning Exit; no repeated question needed for the same test flow.
+- Rescue prototype v4 (Amber Bow) won in real engine, Da Lien alive/objectives
+  green; too easy. New v25 enemy targets escort (unverified balance). No waves or
+  timer victory. Fail/death, teleport/return/rewards, kill accounting manual/auto,
+  save/load and six-chapter full playthrough remain runtime QA, not unimplemented.
+  Frontend v4 Continue returned to Trials of Fate; routing remains QA issue.
+- Current sources src/campaign/huyen-ve-quests.json, huyen-ve-rescue-battle.json,
+  da-lien.json and mc_huyen_ve_quest_* Lua; shim quest_campaign.lua inert.
+  Current status docs/HUYEN-VE-V25-QUEST-INTEGRATION.md, PROJECT_GOALS.txt.
+- Game currently9.0.5 (old battle QA9.0.4). Native minor-faction intro/narrative
+  warnings observed on new IEE campaign; do not conflate with own quest errors.
+- Da Lien is living human wizard using private Beautiful Neferata derivative,
+  removed raised collar, warm skin, crescent staff; Moon Arts Yin/Heavens + Life
+  healing/armour, no Undead mechanics. Source Workshop pack read-only.
 
 ## User-authorized exceptions (2026-10-31)
+
+- Da Lien signature item v24 (2026-11-03): user explicitly requested integration
+  of the proposed Crimson Moonstone. Authorizes scoped item/effect/ability DB,
+  native-art references, CB equipment and one-time grant/equip for existing/new
+  Da Lien, with private test deployment over v23 and launcher backup. 14 additive
+  payloads, roundtrip/item gate checks pass; 6 schema enum metadata warnings,
+  zero new blocking diagnostics. Grant/reequip/healing runtime remains pending.
+
+- Da Lien skills v23 (2026-11-03): user approved revised Yin/Heavens direction
+  with Earth Blood/Flesh to Stone, explicitly requested integration for testing
+  and goal update. Authorizes scoped custom tree/effects, CB preset and legacy
+  skill reset via documented native API; private deployment over v22 with backup.
+  Static DB/overcast/gate/roundtrip checks pass; model and other characters remain
+  byte-identical. No direct save edits, public publishing or runtime claims.
+
+- Da Lien appearance integration v22 (2026-11-03): user approved the moon-staff
+  preview and explicitly requested mod integration/game testing. Exported collar
+  removal and static moon prop, converted approved warm material tint to native
+  DDS and deployed v22 over v21 with launcher backup/hash checks. No gameplay
+  payload changes; native rig/animation lookups, Custom Battle and Long Vi spawn
+  remain. Six exported-mesh/native-clip regressions pass; game runtime pending.
+  Earlier scene-only notes below are historical. No public asset redistribution.
+
+- Da Lien moon-staff edit (2026-11-03): user accepted the subtle warm skin and
+  requested replacing only the goblet staff head with a moon symbol. Latest
+  scene: build/da-lien-moon-staff/da-lien-moon-staff.blend. Silver upward crescent
+  with gold edges and wine-enamel/gold connector; original shaft/tassel preserved,
+  all new pieces follow be_prop_5. Keeps collar removal and warm-skin material.
+  Scene only, not exported/deployed; see docs/DA-LIEN-MOON-STAFF.md.
+
+- Da Lien skin tone (2026-11-03): user requested slightly healthier warm/rosy
+  human skin. Latest scene is build/da-lien-skin-warm/da-lien-skin-warm.blend,
+  based on the collar-removed scene. Only a copied body material has a reversible
+  tint node; source texture pixels and other materials/geometry remain unchanged.
+  Must bake/convert this tint before game integration; v21 remains unchanged.
+  See docs/DA-LIEN-SKIN-WARM.md.
+
+- Da Lien collar edit (2026-11-03): user requested removal of only the raised
+  rear collar assembly within Neferata_Outfit_Sleeves_Collar. Preserve sleeves,
+  front choker, other meshes, rig/weights/UVs and source assets. Live unsaved
+  Blender state was saved as a separate before-edit snapshot. Edited scene:
+  build/da-lien-collar-edit/da-lien-collar-removed.blend; see docs/DA-LIEN-COLLAR-EDIT.md.
+  This scene edit has not been exported/deployed over the v21 game appearance.
+
+- Da Lien Custom Battle extension (2026-11-03): user requested Custom Battle
+  animation testing. v21 adds scoped Cathay MP Hero permission, character,
+  names and temporary native Alchemist magic preset, with private deployment
+  over v20 and launcher backup. No new map or final spell-tree implementation.
+
+- Da Lien visual-test integration (2026-11-03): user explicitly requested
+  integration of the selected Beautiful Neferata appearance into the mod and
+  a spawn at Long Vi to inspect it in game. Authorizes private scoped Hero DB,
+  re-keyed reference-derived graphics/portraits, a one-time campaign spawn
+  script and integrated v20 deployment over v19 with launcher backup/hash checks.
+  Keep Beautiful Neferata source pack, native packs, other mods and saves intact.
+  No final custom skill tree, quest acquisition or public redistribution is
+  implied. Use the living Cathay Hero framework, not Neferata's Undead/Lord tree.
 
 - Moonlit Command (2026-11-03): user requested the skill after Earth Blood and
   before Flame Storm, plus a native provenance check of Army of Renown +6.

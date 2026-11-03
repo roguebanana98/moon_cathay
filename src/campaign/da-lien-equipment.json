@@ -1,0 +1,34 @@
+{
+  "subtype": "mc_da_lien",
+  "unit": "mc_da_lien_human",
+  "item": {
+    "key": "mc_da_lien_crimson_moonstone",
+    "name": "Crimson Moonstone",
+    "category": "arcane_item",
+    "description": "The ruby at Da Lien's breast stores the quiet radiance of the moon. In the darkest hour, its light shields its bearer and renews her allies.",
+    "icon": "ui/battle ui/ability_icons/wh3_dlc29_item_passive_gem_of_blood.png",
+    "effects": [
+      ["wh3_main_effect_winds_of_magic_pool_cap", "character_to_force_own_unseen", 5],
+      ["wh_main_effect_character_stat_ward_save", "character_to_character_own", 5],
+      ["mc_da_lien_enable_moonlit_renewal", "character_to_character_own", 1]
+    ]
+  },
+  "ability": {
+    "key": "mc_da_lien_moonlit_renewal",
+    "name": "Moonlit Renewal",
+    "native_donor": "wh3_main_spell_bound_earth_blood",
+    "uses_per_battle": 1,
+    "winds_cost": 0,
+    "native_heal_phase": "wh_dlc05_spell_life_earth_blood",
+    "resurrect": false
+  },
+  "grant": {
+    "faction": "cr_cth_agents_of_the_moon",
+    "marker": "mc_da_lien_crimson_moonstone_v24_granted",
+    "initial_force_equip": true,
+    "check_faction_inventory": true,
+    "repeat_force_equip": false,
+    "custom_battle": true
+  },
+  "runtime_verified": false
+}

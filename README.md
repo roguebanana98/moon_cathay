@@ -2,10 +2,38 @@
 
 Legendary Lord: **Huyen Ve, Warden of Long Vi** (official name, 02/11/2026).
 Latest recorded private test deployment (03/11/2026):
-`build/huyen-ve-v19-moonlit-command/mc_huyen_ve_v19_moonlit_command.pack`.
+`build/huyen-ve-v25-quest-chain/mc_huyen_ve_v25_quest_chain_test_r7.pack`.
+R7 places Huyen Ve and his existing army beside Long Vi at new-campaign creation through a native startup callback. Loaded campaigns are unaffected. File/Lua checks pass; live new-game placement is pending.
+
+R6 replaces Huyen Ve's sword with the approved user fantasy longsword, four LODs and native DDS materials. Exported-model checks pass; in-game appearance remains for testing.
+
+All six [quest chapters](docs/HUYEN-VE-V25-QUEST-INTEGRATION.md) are implemented:
+pendant at 6, Da Lien + Moonstone rescue at 8, armour at 10, Hero investigation/
+seal at 14, army kills/lantern at 18 and paid sword restoration at 22.
+v25 r7 is enabled; r6 is retained inactive for rollback. Old visual-test grants/spawn are
+suppressed in progression. 58 chain tests, 13 chapter-one regressions, 10 Hero
+reward scenarios and battle/native-library tests pass with fake engine boundaries;
+DB roundtrip and diagnostics pass. Native IEE new-campaign smoke confirms the
+controller starts and old visual Hero spawn is suppressed. Full live campaign
+playthrough remains pending; see the integration report for engine QA limits.
+
+The inherited features and historical deployment notes follow.
+Adds [Crimson Moonstone](docs/DA-LIEN-V24-MOONSTONE.md), Da Lien's signature
+Arcane Item: +5 Winds reserve capacity, +5% ward save and one-use bound heal.
+Includes one-time campaign grant/equip and Custom Battle equipment access.
+Adds [Da Lien's Moon Arts skill tree](docs/DA-LIEN-V23-SKILL-TEST.md): six
+Yin/Heavens/Life spells, caster/Hero basics, six uniques, Mentor and scoped
+one-time migration from the old Metal test tree. Runtime testing is pending.
+Includes [Da Lien's approved appearance](docs/DA-LIEN-V22-APPEARANCE.md): removed
+rear collar, warmer human skin DDS and silver/gold moon-staff head.
+Adds [Custom Battle access for Da Lien](docs/DA-LIEN-V21-CUSTOM-BATTLE.md) under
+Grand Cathay → Heroes, now with the six-spell Moon Arts test preset.
+Adds [Da Lien's Hero appearance test](docs/DA-LIEN-V20-VISUAL-TEST.md), spawning
+once near owned Long Vi in v20–v24. v25 uses the chapter-2 quest reward instead.
 Includes the approved appearance/native animation fix, campaign name and portraits,
 five test-granted items, re-equip hotfix and Moonlit Command. Build and installed
-pack SHA256 match; full runtime confirmation is pending. See
+pack SHA256 match; v25 enabled and v24 disabled with launcher backup. Full runtime
+confirmation is pending. See
 [Lord identity and build notes](docs/LEGENDARY-LORD.md).
 
 - [Ngoại hình đã duyệt và animation fix](docs/HUYEN-VE-APPROVED-MODEL.md).
@@ -13,7 +41,8 @@ pack SHA256 match; full runtime confirmation is pending. See
 - [Moonlit Command v19 và Army of Renown native](docs/HUYEN-VE-MOONLIT-COMMAND.md).
 - [Thông số trang bị và cách test Custom Battle](docs/HUYEN-VE-EQUIPMENT.md).
 - [Thiết kế nhiệm vụ đã duyệt](docs/HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md): năm nhiệm vụ
-  campaign nhận item, một quest battle cuối nhận LH mới; chưa triển khai.
+  campaign nhận item, một quest battle sớm chương 2/cấp 8 nhận Da Lien + ngọc;
+  đã tích hợp progression trong v25; cần playthrough campaign thật để xác nhận.
 - [Goal và checklist hiện hành](PROJECT_GOALS.txt).
 
 [Kiểm tra hệ thống nhiệm vụ Agents of the Moon](docs/FACTION-MISSIONS.md)

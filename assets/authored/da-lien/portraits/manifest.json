@@ -1,0 +1,45 @@
+{
+  "source": "assets\\authored\\da-lien\\portraits\\Da_Lien_user_portrait.png",
+  "original_size": [
+    593,
+    1280
+  ],
+  "outputs": {
+    "ui/portraits/units/no_culture/mc_da_lien_0.png": {
+      "size": [
+        60,
+        130
+      ],
+      "sha256": "bd34ec79799dcb88bd74d69501d3c0f396125d90668ddf00560b7c589e9d3a85"
+    },
+    "ui/units/icons/mc_da_lien.png": {
+      "size": [
+        60,
+        130
+      ],
+      "sha256": "bd34ec79799dcb88bd74d69501d3c0f396125d90668ddf00560b7c589e9d3a85"
+    },
+    "ui/portraits/faction_leaders/mc_da_lien_0.png": {
+      "size": [
+        85,
+        115
+      ],
+      "sha256": "ca17f4d13257d62e7c9260e980aa21af868eb4d8929d75afee3451ee1619a80e"
+    },
+    "ui/portraits/portholes/no_culture/mc_da_lien_0.png": {
+      "size": [
+        300,
+        164
+      ],
+      "sha256": "65a26fec6717cd275fe22c4b58fc6268465ee1b4f4e8732e0954e1fb00ba3f05"
+    },
+    "ui/units/minspec_portholes/mc_da_lien_human.png": {
+      "size": [
+        300,
+        164
+      ],
+      "sha256": "65a26fec6717cd275fe22c4b58fc6268465ee1b4f4e8732e0954e1fb00ba3f05"
+    }
+  },
+  "method": "Lanczos; full unit card, head/neck leader crop, centred head on native porthole canvas; no generated pixels or face retouch."
+}

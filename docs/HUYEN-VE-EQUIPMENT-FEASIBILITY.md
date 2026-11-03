@@ -1,5 +1,10 @@
 # Khả thi: Bảo Khí Trấn Thủ Long Vi
 
+> Audit lịch sử cho thiết kế cũ. Tuyến hiện hành có 5 nhiệm vụ campaign nhận
+> item và 1 quest battle sớm chương 2/cấp 8 nhận Da Lien + Crimson Moonstone;
+> xem [đặc tả hiện hành](HUYEN-VE-QUEST-CAMPAIGN-DESIGN.md) và
+> [mức sẵn sàng battle](HUYEN-VE-QUEST-BATTLE-READINESS.md).
+
 Ngày kiểm tra: 02/11/2026. Kết luận: **cả năm chương và năm món đều có đường
 triển khai bằng hệ thống game hiện có; chưa chứng minh hoạt động bằng runtime**.
 Hai quest battle là phần tốn công nhất. Chưa tạo trang bị, mission hay pack mới.
