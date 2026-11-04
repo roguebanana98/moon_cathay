@@ -1,0 +1,3 @@
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/edh_heinrich_cb												
+edh_heinrich_cb	1	1800412610		100	1800412611	edh_heinrich_cb	general	edh_heinrich_cb	ui/portraits/portholes/no_culture/edh_heinrich_cb_0.png	1800412600	wh_main_skill_node_set_emp_general	true

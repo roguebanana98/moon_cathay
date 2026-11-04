@@ -1,0 +1,111 @@
+{
+  "variants": [
+    {
+      "name": "Damsel 01",
+      "slots": [
+        {
+          "slot": "head",
+          "bone": null,
+          "model": "variantmeshes/wh_variantmodels/hu1b/brt/endo_damsel/endo_damsel_head_03.wsmodel"
+        },
+        {
+          "slot": "body",
+          "bone": null,
+          "model": "variantmeshes/wh_variantmodels/hu1b/brt/endo_damsel/endo_damsel_body_02.wsmodel"
+        },
+        {
+          "slot": "weapon_2",
+          "bone": "be_prop_1",
+          "model": "variantmeshes/wh_variantmodels/hu1/brt/brt_props/brt_lords_sword_1h_01.wsmodel"
+        },
+        {
+          "slot": "weapon_5",
+          "bone": "be_prop_5",
+          "model": "variantmeshes/wh_variantmodels/hu1/brt/brt_props/brt_damsel_staff_1h_01.wsmodel"
+        }
+      ]
+    },
+    {
+      "name": "Damsel 02",
+      "slots": [
+        {
+          "slot": "head",
+          "bone": null,
+          "model": "variantmeshes/wh_variantmodels/hu1b/brt/endo_damsel/endo_damsel_head_04.wsmodel"
+        },
+        {
+          "slot": "body",
+          "bone": null,
+          "model": "variantmeshes/wh_variantmodels/hu1b/brt/endo_damsel/endo_damsel_body_02.wsmodel"
+        },
+        {
+          "slot": "weapon_2",
+          "bone": "be_prop_1",
+          "model": "variantmeshes/wh_variantmodels/hu1/brt/brt_props/brt_lords_sword_1h_01.wsmodel"
+        },
+        {
+          "slot": "weapon_5",
+          "bone": "be_prop_5",
+          "model": "variantmeshes/wh_variantmodels/hu1/brt/brt_props/brt_damsel_staff_1h_02.wsmodel"
+        }
+      ]
+    },
+    {
+      "name": "Damsel 03",
+      "slots": [
+        {
+          "slot": "head",
+          "bone": null,
+          "model": "variantmeshes/wh_variantmodels/hu1b/brt/endo_damsel/endo_damsel_head_02.wsmodel"
+        },
+        {
+          "slot": "body",
+          "bone": null,
+          "model": "variantmeshes/wh_variantmodels/hu1b/brt/endo_damsel/endo_damsel_body_01.wsmodel"
+        },
+        {
+          "slot": "weapon_2",
+          "bone": "be_prop_1",
+          "model": "variantmeshes/wh_variantmodels/hu1/brt/brt_props/brt_lords_sword_1h_01.wsmodel"
+        },
+        {
+          "slot": "weapon_5",
+          "bone": "be_prop_5",
+          "model": "variantmeshes/wh_variantmodels/hu1/brt/brt_props/brt_damsel_staff_1h_02.wsmodel"
+        }
+      ]
+    },
+    {
+      "name": "Damsel 04",
+      "slots": [
+        {
+          "slot": "head",
+          "bone": null,
+          "model": "variantmeshes/wh_variantmodels/hu1b/brt/endo_damsel/endo_damsel_head_01.wsmodel"
+        },
+        {
+          "slot": "body",
+          "bone": null,
+          "model": "variantmeshes/wh_variantmodels/hu1b/brt/endo_damsel/endo_damsel_body_01.wsmodel"
+        },
+        {
+          "slot": "weapon_2",
+          "bone": "be_prop_1",
+          "model": "variantmeshes/wh_variantmodels/hu1/brt/brt_props/brt_lords_sword_1h_01.wsmodel"
+        },
+        {
+          "slot": "weapon_5",
+          "bone": "be_prop_5",
+          "model": "variantmeshes/wh_variantmodels/hu1/brt/brt_props/brt_damsel_staff_1h_02.wsmodel"
+        }
+      ]
+    }
+  ],
+  "skeleton": "animations/skeletons/humanoid01b.anim",
+  "pose": "animations/battle/humanoid01b/staff_and_sword/stand/hu1b_sfsw_stand_pose_01.anim",
+  "materials": 10,
+  "textures": 30,
+  "missing_neutral_masks": [
+    "commontextures/default_black.dds"
+  ]
+}

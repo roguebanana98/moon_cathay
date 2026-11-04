@@ -20,3 +20,8 @@ Thumbs.db
 # Large authored sources: add deliberately only after choosing storage policy
 *.blend1
 *.blend2
+
+# Generated RPFM dependency caches
+*.pak1
+*.pak2
+*.pak3

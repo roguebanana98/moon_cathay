@@ -1,0 +1,989 @@
+D:\Warhammer3_Modding\east_sea_charter\weapons_concept03\build_weapons.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.diffuse_color=(*color,1); m.use_nodes=True
+INFO Draco is available, use library at D:\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+22:00:08 | INFO: Starting glTF 2.0 export
+22:00:08 | INFO: Extracting primitive: Heinrich | diamond blade
+22:00:08 | INFO: Primitives created: 2
+22:00:08 | INFO: Extracting primitive: Cylinder.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere.002
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Cylinder
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | acanthus guard relief
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | acanthus guard relief.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | acanthus guard relief.002
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | acanthus guard relief.003
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | acanthus guard relief.004
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | acanthus guard relief.005
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | acanthus guard relief.006
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | acanthus guard relief.007
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | blade hairline inlay
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | blade hairline inlay.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | crossed fine grip wire
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | crossed fine grip wire.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere.079
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere.077
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere.078
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere.080
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | langet
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | langet.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | pommel crown
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | pommel crown.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | swept guard
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sword | swept guard.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Finished glTF 2.0 export in 0.42638492584228516 s
+
+22:00:08 | INFO: Starting glTF 2.0 export
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.002
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.003
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.004
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.005
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.006
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.007
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.008
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.009
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.010
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.011
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.012
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.013
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.014
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.015
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.016
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.017
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.018
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.019
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | breast plumage.020
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | convex enamel shell
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | eagle beak
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere.037
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Sphere.036
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | eagle neck
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | eagle talon
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | eagle talon.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | eagle talon.002
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | eagle talon.003
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | eagle talon.004
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | eagle talon.005
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.002
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.003
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.004
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.005
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.006
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.007
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.008
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.009
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.010
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.011
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.012
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.013
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.014
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.015
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.016
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.017
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.018
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | enamel star.019
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.002
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.003
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.004
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.005
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.006
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.007
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.008
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.009
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.010
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.011
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.012
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.013
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.014
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.015
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.016
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.017
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.018
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | fine feather rachis.019
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | forearm strap
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | hand grip
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Icosphere
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Icosphere.001
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Icosphere.002
+22:00:08 | INFO: Primitives created: 1
+22:00:08 | INFO: Extracting primitive: Shield | inner gold pinstripe
+22:00:08 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | lower filigree
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | lower filigree.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | lower vine
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | lower vine.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.008
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.009
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.010
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.011
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.012
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.013
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.014
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.015
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.016
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.017
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.018
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.019
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.020
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.021
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.022
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.023
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.024
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.025
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.026
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.027
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.028
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.029
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.030
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.031
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.032
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.033
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.034
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.035
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.036
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.037
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.038
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.039
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.040
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | overlapping wing covert.041
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.008
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.009
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.010
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.011
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.012
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.013
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.014
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.015
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.016
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.017
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.018
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.019
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.020
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.021
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.022
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.023
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.024
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.025
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.026
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.027
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.028
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.029
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.030
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.031
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.032
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.033
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.034
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.008
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.009
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.010
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.011
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.012
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.013
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.014
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | pointed solar ray.015
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.008
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.009
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.010
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.011
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.012
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.013
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.014
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.015
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.016
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.017
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.018
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | primary flight feather.019
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | rear cross brace
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | rear cross brace.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.076
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | solid brass perimeter
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.038
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | tail plume
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | tail plume.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | tail plume.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | tail plume.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | tail plume.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | tail plume.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | timber rear rib
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | timber rear rib.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | timber rear rib.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | timber rear rib.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | timber rear rib.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.008
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Shield | vine leaf.009
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Finished glTF 2.0 export in 0.5245311260223389 s
+
+22:00:09 | INFO: Starting glTF 2.0 export
+22:00:09 | INFO: Extracting primitive: Naga 0 | curved neck
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.042
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.040
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.041
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | hood scale
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | hood scale.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | hood scale.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | hood scale.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | hood scale.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | hood scale.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | hood scale.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | hood scale.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.044
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.045
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | mouth slit
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | neck ventral plate
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | neck ventral plate.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | neck ventral plate.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | neck ventral plate.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | neck ventral plate.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 0 | neck ventral plate.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.043
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | curved neck
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.048
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.046
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.047
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | hood scale
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | hood scale.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | hood scale.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | hood scale.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | hood scale.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | hood scale.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | hood scale.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | hood scale.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.050
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.051
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | mouth slit
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | neck ventral plate
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | neck ventral plate.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | neck ventral plate.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | neck ventral plate.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | neck ventral plate.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 1 | neck ventral plate.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.049
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | curved neck
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.054
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.052
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.053
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | hood scale
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | hood scale.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | hood scale.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | hood scale.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | hood scale.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | hood scale.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | hood scale.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | hood scale.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.056
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.057
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | mouth slit
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | neck ventral plate
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | neck ventral plate.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | neck ventral plate.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | neck ventral plate.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | neck ventral plate.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 2 | neck ventral plate.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.055
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | curved neck
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.060
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.058
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.059
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | hood scale
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | hood scale.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | hood scale.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | hood scale.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | hood scale.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | hood scale.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | hood scale.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | hood scale.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.062
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.063
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | mouth slit
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | neck ventral plate
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | neck ventral plate.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | neck ventral plate.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | neck ventral plate.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | neck ventral plate.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 3 | neck ventral plate.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.061
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | curved neck
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.066
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.064
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.065
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | hood scale
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | hood scale.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | hood scale.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | hood scale.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | hood scale.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | hood scale.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | hood scale.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | hood scale.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.068
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.069
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | mouth slit
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | neck ventral plate
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | neck ventral plate.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | neck ventral plate.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | neck ventral plate.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | neck ventral plate.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Naga 4 | neck ventral plate.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.067
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Cylinder.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | blue textile ribbon
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | blue textile ribbon.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.001
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.002
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.008
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.009
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.010
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.011
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.012
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.013
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.014
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.015
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.016
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.017
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.018
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Staff | crown scale.019
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Sphere.039
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Cylinder.003
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Cylinder.004
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Cylinder.005
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Cylinder.006
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Cylinder.007
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Cylinder.008
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Cylinder.009
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.012
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.013
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.014
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.015
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.016
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.017
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.018
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.019
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.020
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.021
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.022
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.023
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.024
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.025
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.026
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.027
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.028
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.029
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.030
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.031
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.032
+22:00:09 | INFO: Primitives created: 1
+22:00:09 | INFO: Extracting primitive: Torus.033
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.034
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.035
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.036
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.037
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.038
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.039
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.040
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.041
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.042
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Torus.043
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Staff | lotus socket petal
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Staff | lotus socket petal.001
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Staff | lotus socket petal.002
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Staff | lotus socket petal.003
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Staff | lotus socket petal.004
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Staff | lotus socket petal.005
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Staff | lotus socket petal.006
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Staff | lotus socket petal.007
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Cylinder.010
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Finished glTF 2.0 export in 0.44637560844421387 s
+
+22:00:10 | INFO: Starting glTF 2.0 export
+22:00:10 | INFO: Extracting primitive: Sariwa | diamond blade
+22:00:10 | INFO: Primitives created: 2
+22:00:10 | INFO: Extracting primitive: Cylinder.012
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Cylinder.011
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sphere.074
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sphere.075
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | acanthus guard relief.008
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | acanthus guard relief.009
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | acanthus guard relief.010
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | acanthus guard relief.011
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | acanthus guard relief.012
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | acanthus guard relief.013
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | acanthus guard relief.014
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | acanthus guard relief.015
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | blade hairline inlay.002
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | blade hairline inlay.003
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | crossed fine grip wire.002
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | crossed fine grip wire.003
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sphere.083
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sphere.081
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sphere.082
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sphere.084
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | langet.002
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | langet.003
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | pommel crown.002
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | pommel crown.003
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | swept guard.002
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Extracting primitive: Sword | swept guard.003
+22:00:10 | INFO: Primitives created: 1
+22:00:10 | INFO: Finished glTF 2.0 export in 0.2688581943511963 s
+
+22:00:11 | INFO: Starting glTF 2.0 export
+22:00:11 | INFO: Extracting primitive: Torus.057
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Torus.058
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | bronze chape
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | bronze mouth
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | chased scroll
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | chased scroll.001
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | chased scroll.002
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | chased scroll.003
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | edge piping
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | edge piping.001
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.001
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.002
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.003
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.004
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.005
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.006
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.007
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.008
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.009
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.010
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.011
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.012
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | floral inlay.013
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | leather shell
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | suspension tab
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Extracting primitive: Scabbard | suspension tab.001
+22:00:11 | INFO: Primitives created: 1
+22:00:11 | INFO: Finished glTF 2.0 export in 0.171525239944458 s
+00:38.734  render           | Saved: 'D:\Warhammer3_Modding\east_sea_charter\weapons_concept03\v2\weapons_front.png'
+
+Info: Saved as "EDH_concept03_weapons.blend"
+BUILD_COMPLETE {"EDH_Heinrich_Sword": {"parts": 28, "triangles": 106324, "uv": "UVMap smart unwrap; materials not baked"}, "EDH_Heinrich_Shield": {"parts": 218, "triangles": 48964, "uv": "UVMap smart unwrap; materials not baked"}, "EDH_Sariwa_Naga_Staff": {"parts": 182, "triangles": 42068, "uv": "UVMap smart unwrap; materials not baked"}, "EDH_Sariwa_Sword": {"parts": 27, "triangles": 106100, "uv": "UVMap smart unwrap; materials not baked"}, "EDH_Sariwa_Scabbard": {"parts": 27, "triangles": 38788, "uv": "UVMap smart unwrap; materials not baked"}}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

@@ -1,0 +1,27 @@
+{
+  "EDH_Heinrich_Sword": {
+    "parts": 29,
+    "triangles": 10072,
+    "uv": "UVMap smart unwrap; materials not baked"
+  },
+  "EDH_Heinrich_Shield": {
+    "parts": 107,
+    "triangles": 21180,
+    "uv": "UVMap smart unwrap; materials not baked"
+  },
+  "EDH_Sariwa_Naga_Staff": {
+    "parts": 161,
+    "triangles": 41716,
+    "uv": "UVMap smart unwrap; materials not baked"
+  },
+  "EDH_Sariwa_Sword": {
+    "parts": 19,
+    "triangles": 6776,
+    "uv": "UVMap smart unwrap; materials not baked"
+  },
+  "EDH_Sariwa_Scabbard": {
+    "parts": 11,
+    "triangles": 3388,
+    "uv": "UVMap smart unwrap; materials not baked"
+  }
+}

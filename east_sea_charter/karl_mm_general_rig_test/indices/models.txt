@@ -1,0 +1,31 @@
+02:22:30 [INFO] Logger initialized.
+02:22:30 [INFO] Sentry Logging support enabled. Starting...
+rigidmodels/battle_props/brt_ladders/brt_wall_ladder01.rigid_model_v2
+rigidmodels/battle_props/brt_ladders/brt_wall_ladder01.wsmodel
+rigidmodels/battle_props/brt_ladders/brt_wall_ladder02.rigid_model_v2
+rigidmodels/battle_props/brt_ladders/brt_wall_ladder02.wsmodel
+rigidmodels/battle_props/brt_ladders/brt_wall_ladder03.rigid_model_v2
+rigidmodels/battle_props/brt_ladders/brt_wall_ladder03.wsmodel
+rigidmodels/battle_props/cst_ladders/cst_wall_ladder_01.rigid_model_v2
+rigidmodels/battle_props/cst_ladders/cst_wall_ladder_01.wsmodel
+rigidmodels/battle_props/def_ladders/def_wall_ladder_01.rigid_model_v2
+rigidmodels/battle_props/emp_ladders/emp_wall_ladder01.rigid_model_v2
+rigidmodels/battle_props/emp_ladders/emp_wall_ladder02.rigid_model_v2
+rigidmodels/battle_props/emp_ladders/emp_wall_ladder03.rigid_model_v2
+rigidmodels/battle_props/glb_ladder_rigid_raise.anim
+rigidmodels/battle_props/glb_ladder_rigid_raise.meta
+rigidmodels/battle_props/glb_ladders/glb_wall_ladder01.rigid_model_v2
+rigidmodels/battle_props/glb_ladders/glb_wall_ladder02.rigid_model_v2
+rigidmodels/battle_props/hef_ladders/hef_wall_ladder_01.rigid_model_v2
+rigidmodels/battle_props/lzd_ladders/lzd_wall_ladder_01.rigid_model_v2
+rigidmodels/battle_props/skv_ladders/skv_wall_ladder_01.rigid_model_v2
+rigidmodels/debuggeometry/cylinder.rigid_model_v2
+rigidmodels/debuggeometry/sphere.rigid_model_v2
+rigidmodels/terrain_props/cst_final_battle_sea_background.wsmodel
+rigidmodels/terrain_props/cst_final_battle_water_plane.wsmodel
+rigidmodels/terrain_props/cst_final_battle_water_wall.wsmodel
+rigidmodels/vfx/paths/vfx_dome_up_anim.anim
+rigidmodels/vfx/paths/vfx_helix_down_anim.anim
+rigidmodels/vfx/paths/vfx_helix_up_anim.anim
+rigidmodels/vfx/paths/vfx_path_circle_anim.anim
+rigidmodels/vfx/paths/vfx_path_helix_anim.anim

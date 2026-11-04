@@ -1,0 +1,123 @@
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:35:27)
+Read blend: "D:\Warhammer3_Modding\east_sea_charter\sariwa_damsel02\Sariwa_Damsel02_Textile_v1.blend"
+Fra:1 Mem:59.77M (Peak 59.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | head | part 0
+Fra:1 Mem:59.77M (Peak 59.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | head | part 1
+Fra:1 Mem:61.80M (Peak 61.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | body | part 0
+Fra:1 Mem:61.80M (Peak 61.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
+Fra:1 Mem:61.81M (Peak 61.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | Naga three-head crown
+Fra:1 Mem:66.31M (Peak 66.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:64.66M (Peak 66.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading endo_damsel_head_02_base_colour.png
+Fra:1 Mem:64.66M (Peak 66.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading endo_damsel_body_02_mask.png
+Fra:1 Mem:160.19M (Peak 160.19M) | Time:00:00.01 | Mem:0.50M, Peak:0.50M | Scene, ViewLayer | Updating Images | Loading brt_damsel_staff_1h_01_normal.png
+Fra:1 Mem:164.21M (Peak 165.22M) | Time:00:00.02 | Mem:1.50M, Peak:1.50M | Scene, ViewLayer | Updating Images | Loading Sariwa | ivory jade bronze textile v1
+Fra:1 Mem:169.19M (Peak 170.21M) | Time:00:00.02 | Mem:2.50M, Peak:2.50M | Scene, ViewLayer | Updating Images | Loading brt_lord_knight_sword_1h_01_base_colour.png
+Fra:1 Mem:169.19M (Peak 170.21M) | Time:00:00.02 | Mem:3.50M, Peak:3.50M | Scene, ViewLayer | Updating Images | Loading brt_lord_knight_sword_1h_01_material_map.png
+Fra:1 Mem:174.19M (Peak 176.21M) | Time:00:00.02 | Mem:5.50M, Peak:5.50M | Scene, ViewLayer | Updating Images | Loading brt_lord_knight_sword_1h_01_normal.png
+Fra:1 Mem:171.19M (Peak 176.21M) | Time:00:00.02 | Mem:5.50M, Peak:5.50M | Scene, ViewLayer | Updating Images | Loading brt_lord_knight_sword_1h_01_mask.png
+Fra:1 Mem:171.19M (Peak 176.21M) | Time:00:00.02 | Mem:5.50M, Peak:5.50M | Scene, ViewLayer | Updating Images | Loading brt_damsel_staff_1h_01_base_colour.png
+Fra:1 Mem:173.18M (Peak 176.21M) | Time:00:00.03 | Mem:11.50M, Peak:11.50M | Scene, ViewLayer | Updating Images | Loading brt_damsel_staff_1h_01_material_map.png
+Fra:1 Mem:172.74M (Peak 197.19M) | Time:00:00.11 | Mem:110.50M, Peak:110.50M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:172.74M (Peak 197.19M) | Time:00:00.11 | Mem:110.50M, Peak:110.50M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:172.74M (Peak 197.19M) | Time:00:00.11 | Mem:110.50M, Peak:110.50M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:172.74M (Peak 197.19M) | Time:00:00.11 | Mem:110.50M, Peak:110.50M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:172.84M (Peak 197.19M) | Time:00:00.11 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:174.03M (Peak 197.19M) | Time:00:00.13 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:174.03M (Peak 197.19M) | Time:00:00.13 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:175.74M (Peak 197.19M) | Time:00:00.13 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:175.74M (Peak 197.19M) | Time:00:00.13 | Mem:112.23M, Peak:112.23M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:175.74M (Peak 197.19M) | Time:00:00.13 | Mem:112.23M, Peak:112.23M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:175.74M (Peak 197.19M) | Time:00:00.13 | Mem:113.45M, Peak:113.45M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:175.74M (Peak 197.19M) | Time:00:00.13 | Mem:114.79M, Peak:116.02M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:175.74M (Peak 197.19M) | Time:00:00.13 | Mem:114.79M, Peak:116.02M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:176.92M (Peak 197.19M) | Time:00:00.13 | Mem:114.79M, Peak:116.02M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:176.92M (Peak 197.19M) | Time:00:00.13 | Mem:115.98M, Peak:116.02M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:176.92M (Peak 197.19M) | Time:00:00.13 | Mem:115.98M, Peak:116.02M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:176.92M (Peak 197.19M) | Time:00:00.13 | Mem:115.98M, Peak:116.02M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:166.93M (Peak 197.19M) | Time:00:00.13 | Mem:105.98M, Peak:116.02M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:166.93M (Peak 197.19M) | Time:00:00.13 | Mem:105.98M, Peak:116.02M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:166.93M (Peak 197.19M) | Time:00:00.13 | Mem:106.06M, Peak:116.02M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:166.93M (Peak 197.19M) | Time:00:00.13 | Mem:106.06M, Peak:116.02M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:167.51M (Peak 197.19M) | Time:00:00.15 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:167.51M (Peak 197.19M) | Time:00:00.15 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:167.52M (Peak 197.19M) | Time:00:00.15 | Mem:106.56M, Peak:116.02M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:167.52M (Peak 197.19M) | Time:00:00.15 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:167.52M (Peak 197.19M) | Time:00:00.15 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:167.52M (Peak 197.19M) | Time:00:00.15 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:167.52M (Peak 197.19M) | Time:00:00.15 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:306.81M (Peak 306.81M) | Time:00:00.35 | Remaining:00:06.30 | Mem:245.82M, Peak:245.82M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:365.40M (Peak 453.30M) | Time:00:12.44 | Mem:245.82M, Peak:245.82M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:365.40M (Peak 453.30M) | Time:00:12.44 | Mem:245.82M, Peak:245.82M | Scene, ViewLayer | Finished
+Saved: 'D:\Warhammer3_Modding\east_sea_charter\sariwa_damsel02\Sariwa_Naga3_full_v2.png'
+Time: 00:12.78 (Saving: 00:00.32)
+
+Fra:1 Mem:62.92M (Peak 62.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | head | part 0
+Fra:1 Mem:62.92M (Peak 62.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | weapon_2 | part 0
+Fra:1 Mem:62.93M (Peak 62.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
+Fra:1 Mem:62.97M (Peak 62.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.002
+Fra:1 Mem:63.10M (Peak 63.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | Naga three-head crown
+Fra:1 Mem:66.31M (Peak 66.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:64.66M (Peak 66.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading brt_damsel_staff_1h_01_mask.png
+Fra:1 Mem:64.66M (Peak 66.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading endo_damsel_head_02_normal.png
+Fra:1 Mem:64.66M (Peak 66.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading endo_damsel_body_02_mask.png
+Fra:1 Mem:140.19M (Peak 140.19M) | Time:00:00.01 | Mem:0.50M, Peak:0.50M | Scene, ViewLayer | Updating Images | Loading brt_damsel_staff_1h_01_normal.png
+Fra:1 Mem:158.19M (Peak 159.20M) | Time:00:00.01 | Mem:1.50M, Peak:1.50M | Scene, ViewLayer | Updating Images | Loading Sariwa | ivory jade bronze textile v1
+Fra:1 Mem:164.18M (Peak 165.20M) | Time:00:00.01 | Mem:2.50M, Peak:2.50M | Scene, ViewLayer | Updating Images | Loading brt_lord_knight_sword_1h_01_base_colour.png
+Fra:1 Mem:165.18M (Peak 166.20M) | Time:00:00.02 | Mem:3.50M, Peak:3.50M | Scene, ViewLayer | Updating Images | Loading brt_lord_knight_sword_1h_01_material_map.png
+Fra:1 Mem:170.19M (Peak 171.20M) | Time:00:00.02 | Mem:4.50M, Peak:4.50M | Scene, ViewLayer | Updating Images | Loading brt_lord_knight_sword_1h_01_normal.png
+Fra:1 Mem:171.19M (Peak 172.20M) | Time:00:00.02 | Mem:5.50M, Peak:5.50M | Scene, ViewLayer | Updating Images | Loading brt_lord_knight_sword_1h_01_mask.png
+Fra:1 Mem:173.20M (Peak 173.20M) | Time:00:00.02 | Mem:5.50M, Peak:5.50M | Scene, ViewLayer | Updating Images | Loading brt_damsel_staff_1h_01_base_colour.png
+Fra:1 Mem:173.19M (Peak 175.20M) | Time:00:00.02 | Mem:7.50M, Peak:7.50M | Scene, ViewLayer | Updating Images | Loading brt_damsel_staff_1h_01_material_map.png
+Fra:1 Mem:172.74M (Peak 191.19M) | Time:00:00.11 | Mem:110.50M, Peak:110.50M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:172.74M (Peak 191.19M) | Time:00:00.12 | Mem:110.50M, Peak:110.50M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:172.74M (Peak 191.19M) | Time:00:00.12 | Mem:110.50M, Peak:110.50M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:172.74M (Peak 191.19M) | Time:00:00.12 | Mem:110.50M, Peak:110.50M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:172.84M (Peak 191.19M) | Time:00:00.12 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:174.03M (Peak 191.19M) | Time:00:00.13 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:174.03M (Peak 191.19M) | Time:00:00.13 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:175.74M (Peak 191.19M) | Time:00:00.13 | Mem:110.51M, Peak:110.51M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:175.74M (Peak 191.19M) | Time:00:00.13 | Mem:112.23M, Peak:112.23M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:175.74M (Peak 191.19M) | Time:00:00.13 | Mem:112.23M, Peak:112.23M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:175.74M (Peak 191.19M) | Time:00:00.13 | Mem:113.45M, Peak:113.45M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:175.74M (Peak 191.19M) | Time:00:00.13 | Mem:114.79M, Peak:116.02M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:175.74M (Peak 191.19M) | Time:00:00.13 | Mem:114.79M, Peak:116.02M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:176.93M (Peak 191.19M) | Time:00:00.13 | Mem:114.79M, Peak:116.02M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:176.93M (Peak 191.19M) | Time:00:00.13 | Mem:115.98M, Peak:116.02M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:176.93M (Peak 191.19M) | Time:00:00.13 | Mem:115.98M, Peak:116.02M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:176.93M (Peak 191.19M) | Time:00:00.13 | Mem:115.98M, Peak:116.02M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:166.93M (Peak 191.19M) | Time:00:00.13 | Mem:105.98M, Peak:116.02M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:166.93M (Peak 191.19M) | Time:00:00.13 | Mem:105.98M, Peak:116.02M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:166.93M (Peak 191.19M) | Time:00:00.13 | Mem:106.06M, Peak:116.02M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:166.93M (Peak 191.19M) | Time:00:00.13 | Mem:106.06M, Peak:116.02M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:167.51M (Peak 191.19M) | Time:00:00.14 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:167.51M (Peak 191.19M) | Time:00:00.14 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:167.52M (Peak 191.19M) | Time:00:00.14 | Mem:106.56M, Peak:116.02M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:167.52M (Peak 191.19M) | Time:00:00.14 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:167.52M (Peak 191.19M) | Time:00:00.14 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:167.52M (Peak 191.19M) | Time:00:00.14 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:167.52M (Peak 191.19M) | Time:00:00.14 | Mem:106.65M, Peak:116.02M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:309.71M (Peak 309.71M) | Time:00:00.45 | Remaining:00:09.47 | Mem:248.72M, Peak:248.72M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:369.53M (Peak 459.25M) | Time:00:15.64 | Mem:248.72M, Peak:248.72M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:369.53M (Peak 459.25M) | Time:00:15.64 | Mem:248.72M, Peak:248.72M | Scene, ViewLayer | Finished
+Saved: 'D:\Warhammer3_Modding\east_sea_charter\sariwa_damsel02\Sariwa_Naga3_detail_v2.png'
+Time: 00:15.87 (Saving: 00:00.22)
+
+Info: Saved as "Sariwa_Damsel02_Naga3_v2.blend"
+NAGA3_READY {"blend": "D:\\Warhammer3_Modding\\east_sea_charter\\sariwa_damsel02\\Sariwa_Damsel02_Naga3_v2.blend", "naga_heads": 3, "crown_vertices": 10182, "crown_triangles": 19472, "native_staff_vertices_before": 554, "lower_shaft_and_grip_unchanged": true, "other_meshes_unchanged": true, "native_constraint_bone": "be_prop_5", "attachment_test_max_error": 0.0, "eyes": "6 jade eyes", "uv_unwrapped": true, "game_deployed": false}
+
+Blender quit

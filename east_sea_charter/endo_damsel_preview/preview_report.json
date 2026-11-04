@@ -1,0 +1,30 @@
+{
+  "variants": [
+    {
+      "variant": "Damsel 01",
+      "mesh_parts": 6,
+      "triangles": 16778,
+      "skeleton_bones": 89
+    },
+    {
+      "variant": "Damsel 02",
+      "mesh_parts": 5,
+      "triangles": 21048,
+      "skeleton_bones": 89
+    },
+    {
+      "variant": "Damsel 03",
+      "mesh_parts": 5,
+      "triangles": 12291,
+      "skeleton_bones": 89
+    },
+    {
+      "variant": "Damsel 04",
+      "mesh_parts": 5,
+      "triangles": 12170,
+      "skeleton_bones": 89
+    }
+  ],
+  "packed_images": 29,
+  "blend": "D:\\Warhammer3_Modding\\east_sea_charter\\endo_damsel_preview\\Endo_Damsel_All_4_Variants.blend"
+}

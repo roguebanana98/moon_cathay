@@ -1,0 +1,8 @@
+02:26:04 [INFO] Logger initialized.
+02:26:04 [INFO] Sentry Logging support enabled. Starting...
+variantmeshes/wh_variantmodels/dlc02_blood_pack/tex/dlc02_arm_stump_base_colour.dds
+variantmeshes/wh_variantmodels/dlc02_blood_pack/tex/dlc02_arm_stump_material_map.dds
+variantmeshes/wh_variantmodels/dlc02_blood_pack/tex/dlc02_arm_stump_normal.dds
+variantmeshes/wh_variantmodels/dlc02_blood_pack/tex/dlc02_waist_stump_base_colour.dds
+variantmeshes/wh_variantmodels/dlc02_blood_pack/tex/dlc02_waist_stump_material_map.dds
+variantmeshes/wh_variantmodels/dlc02_blood_pack/tex/dlc02_waist_stump_normal.dds

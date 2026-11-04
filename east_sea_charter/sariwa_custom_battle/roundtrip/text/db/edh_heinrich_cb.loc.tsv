@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/edh_heinrich_cb.loc		
+units_land_units_onscreen_name_edh_heinrich_cb	Heinrich von Adlerhorst (Test)	true
+land_units_onscreen_name_edh_heinrich_cb	Heinrich von Adlerhorst (Test)	true
+unit_description_short_texts_text_edh_heinrich_cb	Armoured Sword and Shield Lord	true
+unit_description_historical_texts_text_edh_heinrich_cb	Local custom battle test: Karl Franz Reskin - MM body, Empire General skeleton, sword and shield. Temporary General statistics.	true
+agent_subtypes_onscreen_name_edh_heinrich_cb	Heinrich von Adlerhorst	true
+names_name_1800412610	Heinrich	true
+names_name_1800412611	von Adlerhorst	true
+unit_variants_name_edh_heinrich_cb	Heinrich von Adlerhorst (Test)	true

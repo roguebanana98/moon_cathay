@@ -1,0 +1,18 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/edh_sariwa							
+edh_sariwa_node_s06	edh_sariwa_node_s05	0	1	1	0.0000	0.0000	REQUIRED
+edh_sariwa_node_s07	edh_sariwa_node_s05	0	1	1	0.0000	0.0000	REQUIRED
+edh_sariwa_node_s08	edh_sariwa_node_s05	0	1	1	0.0000	0.0000	REQUIRED
+edh_sariwa_node_s09	edh_sariwa_node_s05	0	1	1	0.0000	0.0000	REQUIRED
+edh_sariwa_node_s10	edh_sariwa_node_s06	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+edh_sariwa_node_s10	edh_sariwa_node_s07	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+edh_sariwa_node_s10	edh_sariwa_node_s08	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+edh_sariwa_node_s10	edh_sariwa_node_s09	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+edh_sariwa_node_s13	edh_sariwa_node_s10	0	1	1	0.0000	0.0000	REQUIRED
+edh_sariwa_node_s14	edh_sariwa_node_s10	0	1	1	0.0000	0.0000	REQUIRED
+edh_sariwa_node_s11	edh_sariwa_node_s10	0	1	1	0.0000	0.0000	REQUIRED
+edh_sariwa_node_s12	edh_sariwa_node_s10	0	1	1	0.0000	0.0000	REQUIRED
+edh_sariwa_node_s15	edh_sariwa_node_s13	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+edh_sariwa_node_s15	edh_sariwa_node_s14	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+edh_sariwa_node_s15	edh_sariwa_node_s11	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+edh_sariwa_node_s15	edh_sariwa_node_s12	0	1	1	0.0000	0.0000	SUBSET_REQUIRED

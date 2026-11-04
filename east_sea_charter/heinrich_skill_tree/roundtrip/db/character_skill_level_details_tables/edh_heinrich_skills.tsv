@@ -1,0 +1,17 @@
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;1;db/character_skill_level_details_tables/edh_heinrich_skills						
+		1	edh_heinrich_skill_h52		x	11
+		1	edh_heinrich_skill_h07		x	19
+		1	edh_heinrich_skill_h09		x	11
+		1	edh_heinrich_skill_h13		x	11
+		1	edh_heinrich_skill_h06		x	9
+		1	edh_heinrich_skill_h08		x	29
+		1	edh_heinrich_skill_h03		x	3
+		1	edh_heinrich_skill_h05		x	7
+		1	edh_heinrich_skill_h04		x	5
+		1	edh_heinrich_skill_h01		x	3
+		1	edh_heinrich_skill_h02		x	15
+		2	edh_heinrich_skill_h06		x	19
+		2	edh_heinrich_skill_h08		x	39
+		3	edh_heinrich_skill_h06		x	29
+		3	edh_heinrich_skill_h08		x	49

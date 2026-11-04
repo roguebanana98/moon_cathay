@@ -1,3 +1,5 @@
+LONG VI NGOẠI HÌNH [04/11/2026]: Đã build bản thử v25 r8 thêm mapping model thành lớn Cathay I–V và ruin cho chuỗi nhà chính Long Vi. Dùng prefab native có biến thể cảng; mọi payload r7 giữ nguyên byte. Sáu mapping roundtrip đạt; chưa cài/bật, chưa xác nhận ngoại hình trong game. Xem docs/LONGVI-CITY-VISUAL.md.
+
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
 VỊ TRÍ KHỞI ĐẦU [03/11/2026]: Đã cài/bật v25 r7, r6 tắt/giữ rollback. Thêm startup Lua native pre-first-tick, chỉ campaign mới: đưa chính Huyen Ve và nguyên quân đoàn tới điểm đất hợp lệ cạnh Long Vi đang sở hữu, áp dụng player/AI; không dịch chuyển khi load save. Không sửa ESF/save trực tiếp; mọi payload r6 byte-identical. 10 trường hợp Lua vị trí đầu game và hồi quy quest đạt, chưa xác nhận vị trí/camera trong game. Chi tiết docs/HUYEN-VE-LONG-VI-START.md.

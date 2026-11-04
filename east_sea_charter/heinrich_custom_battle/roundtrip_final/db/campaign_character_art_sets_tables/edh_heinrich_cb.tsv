@@ -1,0 +1,3 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale	prebattle_separation_offset
+#campaign_character_art_sets_tables;7;db/campaign_character_art_sets_tables/edh_heinrich_cb									
+edh_heinrich_cb_art	general				false	true	edh_heinrich_cb	1.0000	0.0000

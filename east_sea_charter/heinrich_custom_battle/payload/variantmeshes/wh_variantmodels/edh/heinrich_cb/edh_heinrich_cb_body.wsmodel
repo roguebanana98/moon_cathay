@@ -1,0 +1,105 @@
+<model version="1">
+	<geometry>variantmeshes/wh_variantmodels/edh/heinrich_cb/edh_heinrich_cb_body.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m00_emp_karl_franz_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m01_emp_karl_franz_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m02_emp_felix_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m04_emp_blazing_sun_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m05_emp_blazing_sun_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m06_emp_blazing_sun_torso_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m00_emp_karl_franz_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m07_emp_blazing_sun_head_04_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="10">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="11">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m09_emp_karl_franz_head_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="12">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="13">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="14">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m10_emp_blazing_sun_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="15">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m11_hef_alastair_head_01_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="16">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m12_hef_alastair_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="17">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="18">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m10_emp_blazing_sun_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="19">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m13_dae_harald_01 - clone_copy - clone_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="20">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m14_dae_harald_01 - clone_copy_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="21">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="22">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="23">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="24">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m14_dae_harald_01 - clone_copy_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="0">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m00_emp_karl_franz_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m01_emp_karl_franz_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m02_emp_felix_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m04_emp_blazing_sun_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m05_emp_blazing_sun_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m06_emp_blazing_sun_torso_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m00_emp_karl_franz_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m07_emp_blazing_sun_head_04_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="10">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="11">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m09_emp_karl_franz_head_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="12">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="13">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="14">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m10_emp_blazing_sun_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="15">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m11_hef_alastair_head_01_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="16">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m12_hef_alastair_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="17">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="18">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m10_emp_blazing_sun_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="19">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m13_dae_harald_01 - clone_copy - clone_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="20">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m14_dae_harald_01 - clone_copy_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="21">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="22">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="23">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="24">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m14_dae_harald_01 - clone_copy_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="0">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m00_emp_karl_franz_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m01_emp_karl_franz_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m02_emp_felix_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m04_emp_blazing_sun_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m05_emp_blazing_sun_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m06_emp_blazing_sun_torso_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m00_emp_karl_franz_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m07_emp_blazing_sun_head_04_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="10">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="11">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m09_emp_karl_franz_head_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="12">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="13">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="14">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m10_emp_blazing_sun_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="15">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m11_hef_alastair_head_01_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="16">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m12_hef_alastair_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="17">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="18">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m10_emp_blazing_sun_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="19">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m13_dae_harald_01 - clone_copy - clone_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="20">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m14_dae_harald_01 - clone_copy_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="21">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="22">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="23">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="24">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m14_dae_harald_01 - clone_copy_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="0">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m00_emp_karl_franz_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m01_emp_karl_franz_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m02_emp_felix_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m04_emp_blazing_sun_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m05_emp_blazing_sun_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m06_emp_blazing_sun_torso_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m00_emp_karl_franz_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m07_emp_blazing_sun_head_04_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="10">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="11">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m09_emp_karl_franz_head_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="12">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="13">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m08_emp_karl_franz_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="14">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m10_emp_blazing_sun_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="15">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m11_hef_alastair_head_01_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="16">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m12_hef_alastair_head_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="17">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m03_emp_felix_head_01_1_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="18">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m10_emp_blazing_sun_head_04_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="19">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m13_dae_harald_01 - clone_copy - clone_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="20">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m14_dae_harald_01 - clone_copy_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="21">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="22">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="23">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m15_dae_harald_01 - clone_copy - clone_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="24">variantmeshes/wh_variantmodels/edh/heinrich_cb/materials/m14_dae_harald_01 - clone_copy_weighted4_alpha_off.xml.material</material>
+	</materials>
+</model>

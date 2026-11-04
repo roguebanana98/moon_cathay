@@ -1,0 +1,1525 @@
+INFO Draco mesh compression is available, use library at D:\Warhammer3_Modding\tooling\model-workbench\blender-4.5.15-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:44:30 | INFO: Starting glTF 2.0 export
+21:44:30 | INFO: Extracting primitive: Heinrich | crossguard
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | diamond blade
+21:44:30 | INFO: Primitives created: 2
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.008
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Heinrich | eagle guard feather.009
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.008
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.009
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.010
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Torus.011
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Cylinder.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Cylinder
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Finished glTF 2.0 export in 0.09247088432312012 s
+
+21:44:30 | INFO: Starting glTF 2.0 export
+21:44:30 | INFO: Extracting primitive: Shield | convex enamel shell
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle beak
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.035
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.037
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.036
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle neck
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle tail
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle tail.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle tail.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle tail.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle tail.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle talon
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle talon.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle talon.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle talon.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle talon.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle talon.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.008
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.009
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.010
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.011
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.012
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.013
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.014
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | eagle wing feather.015
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.008
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.009
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.010
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.011
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.012
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.013
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.014
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | feather quill.015
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | forearm strap
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | hand grip
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Icosphere
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Icosphere.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Icosphere.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.008
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.009
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.010
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.011
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.012
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.013
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.014
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.015
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.016
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.017
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.018
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.019
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.020
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.021
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.022
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.023
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.024
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.025
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.026
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.027
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.028
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.029
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.030
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.031
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.032
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.033
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.034
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | rear cross brace
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | rear cross brace.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | solid brass perimeter
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.038
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.008
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.009
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.010
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | sun ray.011
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | timber rear rib
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | timber rear rib.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | timber rear rib.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | timber rear rib.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Shield | timber rear rib.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Finished glTF 2.0 export in 0.24313116073608398 s
+
+21:44:30 | INFO: Starting glTF 2.0 export
+21:44:30 | INFO: Extracting primitive: Naga 0 | curved neck
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.042
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.040
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.041
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | hood scale
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | hood scale.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | hood scale.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | hood scale.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | hood scale.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | hood scale.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | hood scale.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | hood scale.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.044
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.045
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | mouth slit
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | neck ventral plate
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | neck ventral plate.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | neck ventral plate.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | neck ventral plate.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | neck ventral plate.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 0 | neck ventral plate.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.043
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | curved neck
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.048
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.046
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.047
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | hood scale
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | hood scale.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | hood scale.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | hood scale.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | hood scale.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | hood scale.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | hood scale.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | hood scale.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.050
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.051
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | mouth slit
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | neck ventral plate
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | neck ventral plate.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | neck ventral plate.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | neck ventral plate.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | neck ventral plate.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 1 | neck ventral plate.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.049
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | curved neck
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.054
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.052
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.053
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | hood scale
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | hood scale.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | hood scale.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | hood scale.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | hood scale.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | hood scale.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | hood scale.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | hood scale.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.056
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.057
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | mouth slit
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | neck ventral plate
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | neck ventral plate.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | neck ventral plate.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | neck ventral plate.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | neck ventral plate.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 2 | neck ventral plate.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.055
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | curved neck
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.060
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.058
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.059
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | hood scale
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | hood scale.001
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | hood scale.002
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | hood scale.003
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | hood scale.004
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | hood scale.005
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | hood scale.006
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Naga 3 | hood scale.007
+21:44:30 | INFO: Primitives created: 1
+21:44:30 | INFO: Extracting primitive: Sphere.062
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.063
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 3 | mouth slit
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 3 | neck ventral plate
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 3 | neck ventral plate.001
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 3 | neck ventral plate.002
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 3 | neck ventral plate.003
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 3 | neck ventral plate.004
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 3 | neck ventral plate.005
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.061
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | curved neck
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.066
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.064
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.065
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | hood scale
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | hood scale.001
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | hood scale.002
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | hood scale.003
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | hood scale.004
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | hood scale.005
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | hood scale.006
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | hood scale.007
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.068
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.069
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | mouth slit
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | neck ventral plate
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | neck ventral plate.001
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | neck ventral plate.002
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | neck ventral plate.003
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | neck ventral plate.004
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Naga 4 | neck ventral plate.005
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.067
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.071
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.073
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Staff | bell suspension
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Staff | bell suspension.001
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.002
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Staff | blue textile ribbon
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Staff | blue textile ribbon.001
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.070
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.072
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.044
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.039
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.003
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.004
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.005
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.006
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.007
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.008
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.009
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.012
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.013
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.014
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.015
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.016
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.017
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.018
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.019
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.020
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.021
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.022
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.023
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.024
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.025
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.026
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.027
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.028
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.029
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.030
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.031
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.032
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.033
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.034
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.035
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.036
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.037
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.038
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.039
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.040
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.041
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.042
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.043
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.010
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Finished glTF 2.0 export in 0.3501546382904053 s
+
+21:44:31 | INFO: Starting glTF 2.0 export
+21:44:31 | INFO: Extracting primitive: Sariwa | crossguard
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sariwa | diamond blade
+21:44:31 | INFO: Primitives created: 2
+21:44:31 | INFO: Extracting primitive: Torus.045
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.046
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.047
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.048
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.049
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.050
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.051
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.052
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.053
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.054
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.055
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.056
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.012
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Cylinder.011
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sariwa | naga guard engraving
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.074
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Sphere.075
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Finished glTF 2.0 export in 0.10195803642272949 s
+
+21:44:31 | INFO: Starting glTF 2.0 export
+21:44:31 | INFO: Extracting primitive: Scabbard | belt hanger
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Scabbard | belt hanger.001
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.057
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Torus.058
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Scabbard | bronze chape
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Scabbard | bronze mouth
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Scabbard | engraved chevron
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Scabbard | engraved chevron.001
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Scabbard | engraved chevron.002
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Scabbard | engraved chevron.003
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Extracting primitive: Scabbard | leather shell
+21:44:31 | INFO: Primitives created: 1
+21:44:31 | INFO: Finished glTF 2.0 export in 0.035362958908081055 s
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:35:27)
+Fra:1 Mem:47.73M (Peak 47.73M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | diamond blade
+Fra:1 Mem:47.73M (Peak 47.73M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 00
+Fra:1 Mem:47.73M (Peak 47.73M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 01
+Fra:1 Mem:47.73M (Peak 47.73M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 03
+Fra:1 Mem:47.77M (Peak 47.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 04
+Fra:1 Mem:47.80M (Peak 47.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 06
+Fra:1 Mem:47.85M (Peak 47.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 07
+Fra:1 Mem:47.86M (Peak 47.86M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 09
+Fra:1 Mem:47.89M (Peak 47.89M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 11
+Fra:1 Mem:47.90M (Peak 47.90M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | pommel jade
+Fra:1 Mem:47.92M (Peak 47.92M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.001
+Fra:1 Mem:47.97M (Peak 47.97M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.003
+Fra:1 Mem:48.01M (Peak 48.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.004
+Fra:1 Mem:48.01M (Peak 48.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.007
+Fra:1 Mem:48.02M (Peak 48.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.008
+Fra:1 Mem:48.05M (Peak 48.05M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.009
+Fra:1 Mem:48.08M (Peak 48.08M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | solid brass perimeter
+Fra:1 Mem:48.12M (Peak 48.12M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | convex enamel shell
+Fra:1 Mem:48.12M (Peak 48.12M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.001
+Fra:1 Mem:48.14M (Peak 48.14M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.002
+Fra:1 Mem:48.15M (Peak 48.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.003
+Fra:1 Mem:48.16M (Peak 48.16M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.004
+Fra:1 Mem:48.17M (Peak 48.17M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.005
+Fra:1 Mem:48.18M (Peak 48.18M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.006
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.007
+Fra:1 Mem:48.20M (Peak 48.20M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.008
+Fra:1 Mem:48.22M (Peak 48.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.009
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.010
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.011
+Fra:1 Mem:48.25M (Peak 48.25M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.012
+Fra:1 Mem:48.27M (Peak 48.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.013
+Fra:1 Mem:48.28M (Peak 48.28M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.014
+Fra:1 Mem:48.29M (Peak 48.29M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.015
+Fra:1 Mem:48.35M (Peak 48.35M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.016
+Fra:1 Mem:48.41M (Peak 48.41M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.018
+Fra:1 Mem:48.43M (Peak 48.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.019
+Fra:1 Mem:48.46M (Peak 48.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.020
+Fra:1 Mem:48.40M (Peak 48.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.022
+Fra:1 Mem:48.44M (Peak 48.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.023
+Fra:1 Mem:48.46M (Peak 48.47M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.024
+Fra:1 Mem:48.48M (Peak 48.48M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.026
+Fra:1 Mem:48.49M (Peak 48.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.028
+Fra:1 Mem:48.49M (Peak 48.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.029
+Fra:1 Mem:48.50M (Peak 48.50M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.031
+Fra:1 Mem:48.51M (Peak 48.51M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather
+Fra:1 Mem:48.52M (Peak 48.52M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.001
+Fra:1 Mem:48.53M (Peak 48.53M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.001
+Fra:1 Mem:48.55M (Peak 48.55M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.002
+Fra:1 Mem:48.56M (Peak 48.56M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.002
+Fra:1 Mem:48.57M (Peak 48.57M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.003
+Fra:1 Mem:48.59M (Peak 48.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.003
+Fra:1 Mem:48.62M (Peak 48.62M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.004
+Fra:1 Mem:48.62M (Peak 48.62M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.004
+Fra:1 Mem:48.65M (Peak 48.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.005
+Fra:1 Mem:48.67M (Peak 48.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.005
+Fra:1 Mem:48.68M (Peak 48.68M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.006
+Fra:1 Mem:48.71M (Peak 48.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.007
+Fra:1 Mem:48.73M (Peak 48.73M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon
+Fra:1 Mem:48.71M (Peak 48.73M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.001
+Fra:1 Mem:48.74M (Peak 48.74M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.002
+Fra:1 Mem:48.75M (Peak 48.75M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.008
+Fra:1 Mem:48.74M (Peak 48.75M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.009
+Fra:1 Mem:48.74M (Peak 48.75M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.010
+Fra:1 Mem:48.82M (Peak 48.82M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.011
+Fra:1 Mem:48.86M (Peak 48.86M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.011
+Fra:1 Mem:48.89M (Peak 48.89M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.012
+Fra:1 Mem:48.91M (Peak 48.91M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.012
+Fra:1 Mem:48.91M (Peak 48.91M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.013
+Fra:1 Mem:48.94M (Peak 48.94M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.014
+Fra:1 Mem:48.94M (Peak 48.94M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.014
+Fra:1 Mem:48.95M (Peak 48.95M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.015
+Fra:1 Mem:48.96M (Peak 48.96M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.003
+Fra:1 Mem:48.95M (Peak 48.96M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.005
+Fra:1 Mem:48.96M (Peak 48.96M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle head
+Fra:1 Mem:48.99M (Peak 48.99M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle beak
+Fra:1 Mem:48.99M (Peak 48.99M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle eye
+Fra:1 Mem:49.00M (Peak 49.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail
+Fra:1 Mem:49.02M (Peak 49.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.001
+Fra:1 Mem:49.06M (Peak 49.06M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.002
+Fra:1 Mem:49.07M (Peak 49.07M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.003
+Fra:1 Mem:49.09M (Peak 49.09M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.004
+Fra:1 Mem:49.15M (Peak 49.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | heraldic rock.001
+Fra:1 Mem:49.14M (Peak 49.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | heraldic rock.002
+Fra:1 Mem:49.15M (Peak 49.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun disc
+Fra:1 Mem:49.13M (Peak 49.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.001
+Fra:1 Mem:49.14M (Peak 49.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.003
+Fra:1 Mem:49.14M (Peak 49.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.007
+Fra:1 Mem:49.19M (Peak 49.19M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.008
+Fra:1 Mem:49.19M (Peak 49.19M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.009
+Fra:1 Mem:49.20M (Peak 49.20M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | timber rear rib.001
+Fra:1 Mem:49.21M (Peak 49.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | rear cross brace
+Fra:1 Mem:49.22M (Peak 49.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | hand grip
+Fra:1 Mem:49.23M (Peak 49.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | forearm strap
+Fra:1 Mem:49.26M (Peak 49.26M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blackwood shaft
+Fra:1 Mem:49.27M (Peak 49.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule
+Fra:1 Mem:49.29M (Peak 49.29M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip
+Fra:1 Mem:49.30M (Peak 49.30M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.001
+Fra:1 Mem:49.32M (Peak 49.32M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.002
+Fra:1 Mem:49.34M (Peak 49.34M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.003
+Fra:1 Mem:49.34M (Peak 49.34M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.004
+Fra:1 Mem:49.40M (Peak 49.40M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.005
+Fra:1 Mem:49.43M (Peak 49.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.003
+Fra:1 Mem:49.43M (Peak 49.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.007
+Fra:1 Mem:49.46M (Peak 49.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.008
+Fra:1 Mem:49.53M (Peak 49.53M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.005
+Fra:1 Mem:49.55M (Peak 49.55M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.010
+Fra:1 Mem:49.59M (Peak 49.59M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.011
+Fra:1 Mem:49.60M (Peak 49.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.012
+Fra:1 Mem:49.63M (Peak 49.63M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.013
+Fra:1 Mem:49.66M (Peak 49.66M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid
+Fra:1 Mem:49.68M (Peak 49.68M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.001
+Fra:1 Mem:49.71M (Peak 49.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.002
+Fra:1 Mem:49.72M (Peak 49.72M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.003
+Fra:1 Mem:49.74M (Peak 49.74M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.005
+Fra:1 Mem:49.77M (Peak 49.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.006
+Fra:1 Mem:49.78M (Peak 49.78M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.007
+Fra:1 Mem:49.80M (Peak 49.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.008
+Fra:1 Mem:49.82M (Peak 49.82M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.009
+Fra:1 Mem:49.84M (Peak 49.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.010
+Fra:1 Mem:49.90M (Peak 49.90M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.012
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.013
+Fra:1 Mem:49.95M (Peak 49.95M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.015
+Fra:1 Mem:50.01M (Peak 50.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.016
+Fra:1 Mem:50.03M (Peak 50.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | crown socket
+Fra:1 Mem:50.04M (Peak 50.04M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | curved neck
+Fra:1 Mem:50.06M (Peak 50.06M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | head
+Fra:1 Mem:50.12M (Peak 50.12M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | mouth slit
+Fra:1 Mem:50.13M (Peak 50.13M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | jade eye
+Fra:1 Mem:50.18M (Peak 50.18M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale
+Fra:1 Mem:50.21M (Peak 50.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.003
+Fra:1 Mem:50.23M (Peak 50.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | jade eye.001
+Fra:1 Mem:50.23M (Peak 50.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.005
+Fra:1 Mem:50.23M (Peak 50.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.006
+Fra:1 Mem:50.25M (Peak 50.25M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.007
+Fra:1 Mem:50.26M (Peak 50.26M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate
+Fra:1 Mem:50.27M (Peak 50.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.001
+Fra:1 Mem:50.28M (Peak 50.28M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.003
+Fra:1 Mem:50.30M (Peak 50.30M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.004
+Fra:1 Mem:50.31M (Peak 50.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | curved neck
+Fra:1 Mem:50.32M (Peak 50.32M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.002
+Fra:1 Mem:50.33M (Peak 50.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood inset
+Fra:1 Mem:50.33M (Peak 50.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | head
+Fra:1 Mem:50.35M (Peak 50.35M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | mouth slit
+Fra:1 Mem:50.40M (Peak 50.40M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale
+Fra:1 Mem:50.43M (Peak 50.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.001
+Fra:1 Mem:50.43M (Peak 50.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.002
+Fra:1 Mem:50.44M (Peak 50.44M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | jade eye.001
+Fra:1 Mem:50.45M (Peak 50.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.004
+Fra:1 Mem:50.46M (Peak 50.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.006
+Fra:1 Mem:50.48M (Peak 50.48M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.007
+Fra:1 Mem:50.49M (Peak 50.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.001
+Fra:1 Mem:50.49M (Peak 50.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.002
+Fra:1 Mem:50.51M (Peak 50.51M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.003
+Fra:1 Mem:50.51M (Peak 50.51M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.004
+Fra:1 Mem:50.53M (Peak 50.53M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.005
+Fra:1 Mem:50.54M (Peak 50.54M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood
+Fra:1 Mem:50.55M (Peak 50.55M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | head
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | snout
+Fra:1 Mem:50.57M (Peak 50.57M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | mouth slit
+Fra:1 Mem:50.59M (Peak 50.59M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | jade eye
+Fra:1 Mem:50.62M (Peak 50.62M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.001
+Fra:1 Mem:50.63M (Peak 50.63M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Studio floor
+Fra:1 Mem:50.63M (Peak 50.63M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.003
+Fra:1 Mem:50.63M (Peak 50.63M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt hanger.001
+Fra:1 Mem:50.65M (Peak 50.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | jade eye.001
+Fra:1 Mem:50.67M (Peak 50.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.004
+Fra:1 Mem:50.68M (Peak 50.68M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.005
+Fra:1 Mem:50.68M (Peak 50.68M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.006
+Fra:1 Mem:50.70M (Peak 50.70M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.007
+Fra:1 Mem:50.71M (Peak 50.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate
+Fra:1 Mem:50.71M (Peak 50.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.001
+Fra:1 Mem:50.72M (Peak 50.72M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.003
+Fra:1 Mem:50.73M (Peak 50.73M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.004
+Fra:1 Mem:50.76M (Peak 50.76M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.005
+Fra:1 Mem:50.77M (Peak 50.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | curved neck
+Fra:1 Mem:50.78M (Peak 50.78M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood inset
+Fra:1 Mem:50.81M (Peak 50.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt hanger
+Fra:1 Mem:50.81M (Peak 50.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | head
+Fra:1 Mem:50.82M (Peak 50.82M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | mouth slit
+Fra:1 Mem:50.85M (Peak 50.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale
+Fra:1 Mem:50.86M (Peak 50.86M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.001
+Fra:1 Mem:50.87M (Peak 50.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.002
+Fra:1 Mem:50.88M (Peak 50.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.003
+Fra:1 Mem:50.88M (Peak 50.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | jade eye.001
+Fra:1 Mem:50.90M (Peak 50.90M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.004
+Fra:1 Mem:50.91M (Peak 50.91M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.005
+Fra:1 Mem:50.91M (Peak 50.91M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.006
+Fra:1 Mem:50.93M (Peak 50.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate
+Fra:1 Mem:50.93M (Peak 50.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.002
+Fra:1 Mem:50.95M (Peak 50.95M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.003
+Fra:1 Mem:50.95M (Peak 50.95M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.005
+Fra:1 Mem:50.97M (Peak 50.97M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | curved neck
+Fra:1 Mem:50.98M (Peak 50.99M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood
+Fra:1 Mem:51.01M (Peak 51.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood inset
+Fra:1 Mem:51.01M (Peak 51.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | snout
+Fra:1 Mem:51.04M (Peak 51.04M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | jade eye
+Fra:1 Mem:51.05M (Peak 51.05M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.001
+Fra:1 Mem:51.06M (Peak 51.06M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.002
+Fra:1 Mem:51.08M (Peak 51.08M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | jade eye.001
+Fra:1 Mem:51.09M (Peak 51.09M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.004
+Fra:1 Mem:51.10M (Peak 51.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.005
+Fra:1 Mem:51.11M (Peak 51.11M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.007
+Fra:1 Mem:51.11M (Peak 51.11M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate
+Fra:1 Mem:51.13M (Peak 51.13M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.001
+Fra:1 Mem:51.15M (Peak 51.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.002
+Fra:1 Mem:51.16M (Peak 51.16M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.004
+Fra:1 Mem:51.16M (Peak 51.16M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.005
+Fra:1 Mem:51.17M (Peak 51.17M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell suspension
+Fra:1 Mem:51.18M (Peak 51.18M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bronze bell
+Fra:1 Mem:51.19M (Peak 51.19M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell opening
+Fra:1 Mem:51.20M (Peak 51.20M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blue textile ribbon
+Fra:1 Mem:51.21M (Peak 51.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell suspension.001
+Fra:1 Mem:51.21M (Peak 51.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bronze bell.001
+Fra:1 Mem:51.22M (Peak 51.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell opening.001
+Fra:1 Mem:51.23M (Peak 51.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blue textile ribbon.001
+Fra:1 Mem:51.23M (Peak 51.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | crown jade collar
+Fra:1 Mem:51.24M (Peak 51.24M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | diamond blade
+Fra:1 Mem:51.27M (Peak 51.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | leather grip
+Fra:1 Mem:51.27M (Peak 51.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 00
+Fra:1 Mem:51.30M (Peak 51.30M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 01
+Fra:1 Mem:51.32M (Peak 51.32M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 02
+Fra:1 Mem:51.33M (Peak 51.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 05
+Fra:1 Mem:51.36M (Peak 51.36M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 06
+Fra:1 Mem:51.37M (Peak 51.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 07
+Fra:1 Mem:51.38M (Peak 51.38M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 08
+Fra:1 Mem:51.41M (Peak 51.41M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 09
+Fra:1 Mem:51.43M (Peak 51.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 10
+Fra:1 Mem:51.45M (Peak 51.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 11
+Fra:1 Mem:51.48M (Peak 51.48M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | pommel
+Fra:1 Mem:51.50M (Peak 51.50M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | crossguard
+Fra:1 Mem:51.52M (Peak 51.52M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | naga guard engraving
+Fra:1 Mem:51.53M (Peak 51.53M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | bronze mouth
+Fra:1 Mem:51.64M (Peak 51.64M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | bronze chape
+Fra:1 Mem:51.63M (Peak 51.64M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt suspension ring
+Fra:1 Mem:51.69M (Peak 51.69M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | engraved chevron
+Fra:1 Mem:51.68M (Peak 51.69M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | engraved chevron.003
+Fra:1 Mem:51.83M (Peak 51.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.04 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.04 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.04 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.04 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.04 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.04 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.04 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.04 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.04 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.04 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.04 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:40.90M (Peak 51.83M) | Time:00:00.04 | Mem:0.11M, Peak:0.11M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.05 | Mem:0.65M, Peak:0.65M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.05 | Mem:0.65M, Peak:0.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.05 | Mem:3.19M, Peak:3.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.05 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.05 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.32M, Peak:8.49M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.32M, Peak:8.49M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.05 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.05 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.05 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.05 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.05 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.05 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Sample 0/48
+Fra:1 Mem:266.62M (Peak 266.62M) | Time:00:00.40 | Remaining:00:16.19 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Sample 1/48
+Fra:1 Mem:360.62M (Peak 501.61M) | Time:00:29.57 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Sample 48/48
+Fra:1 Mem:360.62M (Peak 501.61M) | Time:00:29.57 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Finished
+Saved: 'D:\Warhammer3_Modding\east_sea_charter\weapons_concept03\weapons_front.png'
+Time: 00:30.20 (Saving: 00:00.61)
+
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | diamond blade
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 00
+Fra:1 Mem:48.21M (Peak 48.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 01
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 02
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 03
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 04
+Fra:1 Mem:48.27M (Peak 48.27M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 06
+Fra:1 Mem:48.31M (Peak 48.31M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 07
+Fra:1 Mem:48.32M (Peak 48.32M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 08
+Fra:1 Mem:48.32M (Peak 48.32M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 10
+Fra:1 Mem:48.35M (Peak 48.35M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip collar
+Fra:1 Mem:48.36M (Peak 48.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | crossguard
+Fra:1 Mem:48.38M (Peak 48.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.001
+Fra:1 Mem:48.39M (Peak 48.39M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.002
+Fra:1 Mem:48.41M (Peak 48.41M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.003
+Fra:1 Mem:48.45M (Peak 48.45M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.004
+Fra:1 Mem:48.48M (Peak 48.48M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.006
+Fra:1 Mem:48.51M (Peak 48.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.007
+Fra:1 Mem:48.53M (Peak 48.53M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.008
+Fra:1 Mem:48.55M (Peak 48.55M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.009
+Fra:1 Mem:48.59M (Peak 48.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | guard gem
+Fra:1 Mem:48.57M (Peak 48.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | convex enamel shell
+Fra:1 Mem:48.57M (Peak 48.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | solid brass perimeter
+Fra:1 Mem:48.61M (Peak 48.61M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet
+Fra:1 Mem:48.63M (Peak 48.63M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.001
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.002
+Fra:1 Mem:48.65M (Peak 48.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.004
+Fra:1 Mem:48.67M (Peak 48.67M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.005
+Fra:1 Mem:48.68M (Peak 48.68M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.007
+Fra:1 Mem:48.73M (Peak 48.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.008
+Fra:1 Mem:48.69M (Peak 48.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.009
+Fra:1 Mem:48.70M (Peak 48.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.012
+Fra:1 Mem:48.71M (Peak 48.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.013
+Fra:1 Mem:48.73M (Peak 48.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.014
+Fra:1 Mem:48.74M (Peak 48.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.016
+Fra:1 Mem:48.74M (Peak 48.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.018
+Fra:1 Mem:48.77M (Peak 48.77M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.019
+Fra:1 Mem:48.78M (Peak 48.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.021
+Fra:1 Mem:48.79M (Peak 48.79M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.024
+Fra:1 Mem:48.83M (Peak 48.83M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.025
+Fra:1 Mem:48.83M (Peak 48.83M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.027
+Fra:1 Mem:48.85M (Peak 48.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.028
+Fra:1 Mem:48.86M (Peak 48.86M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.029
+Fra:1 Mem:48.87M (Peak 48.87M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.030
+Fra:1 Mem:48.89M (Peak 48.89M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather
+Fra:1 Mem:48.89M (Peak 48.89M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.001
+Fra:1 Mem:48.90M (Peak 48.90M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.001
+Fra:1 Mem:48.91M (Peak 48.91M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.002
+Fra:1 Mem:48.94M (Peak 48.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.002
+Fra:1 Mem:48.97M (Peak 48.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.003
+Fra:1 Mem:49.02M (Peak 49.02M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.003
+Fra:1 Mem:49.02M (Peak 49.02M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.004
+Fra:1 Mem:49.03M (Peak 49.03M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.004
+Fra:1 Mem:49.04M (Peak 49.04M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.005
+Fra:1 Mem:49.05M (Peak 49.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.005
+Fra:1 Mem:49.08M (Peak 49.08M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.006
+Fra:1 Mem:49.08M (Peak 49.08M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.006
+Fra:1 Mem:49.08M (Peak 49.08M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.007
+Fra:1 Mem:49.10M (Peak 49.10M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.007
+Fra:1 Mem:49.12M (Peak 49.12M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon
+Fra:1 Mem:49.12M (Peak 49.12M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.001
+Fra:1 Mem:49.14M (Peak 49.14M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.002
+Fra:1 Mem:49.15M (Peak 49.15M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.008
+Fra:1 Mem:49.16M (Peak 49.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.009
+Fra:1 Mem:49.18M (Peak 49.18M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.009
+Fra:1 Mem:49.21M (Peak 49.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.010
+Fra:1 Mem:49.20M (Peak 49.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.010
+Fra:1 Mem:49.23M (Peak 49.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.011
+Fra:1 Mem:49.23M (Peak 49.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.011
+Fra:1 Mem:49.23M (Peak 49.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.012
+Fra:1 Mem:49.23M (Peak 49.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.012
+Fra:1 Mem:49.24M (Peak 49.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.013
+Fra:1 Mem:49.29M (Peak 49.29M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.015
+Fra:1 Mem:49.29M (Peak 49.29M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.003
+Fra:1 Mem:49.27M (Peak 49.29M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.004
+Fra:1 Mem:49.34M (Peak 49.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.005
+Fra:1 Mem:49.36M (Peak 49.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle neck
+Fra:1 Mem:49.33M (Peak 49.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle head
+Fra:1 Mem:49.34M (Peak 49.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail
+Fra:1 Mem:49.35M (Peak 49.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.001
+Fra:1 Mem:49.36M (Peak 49.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.002
+Fra:1 Mem:49.39M (Peak 49.39M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.004
+Fra:1 Mem:49.39M (Peak 49.39M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | heraldic rock
+Fra:1 Mem:49.44M (Peak 49.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | heraldic rock.002
+Fra:1 Mem:49.43M (Peak 49.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun disc
+Fra:1 Mem:49.47M (Peak 49.47M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray
+Fra:1 Mem:49.47M (Peak 49.47M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.001
+Fra:1 Mem:49.49M (Peak 49.49M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.003
+Fra:1 Mem:49.50M (Peak 49.50M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.004
+Fra:1 Mem:49.49M (Peak 49.50M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.005
+Fra:1 Mem:49.50M (Peak 49.50M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.007
+Fra:1 Mem:49.51M (Peak 49.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.011
+Fra:1 Mem:49.51M (Peak 49.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | timber rear rib
+Fra:1 Mem:49.52M (Peak 49.52M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | timber rear rib.001
+Fra:1 Mem:49.52M (Peak 49.52M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | timber rear rib.003
+Fra:1 Mem:49.54M (Peak 49.54M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | timber rear rib.004
+Fra:1 Mem:49.54M (Peak 49.54M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | rear cross brace
+Fra:1 Mem:49.55M (Peak 49.55M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | rear cross brace.001
+Fra:1 Mem:49.56M (Peak 49.56M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | forearm strap
+Fra:1 Mem:49.56M (Peak 49.56M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blackwood shaft
+Fra:1 Mem:49.58M (Peak 49.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule
+Fra:1 Mem:49.61M (Peak 49.61M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip
+Fra:1 Mem:49.61M (Peak 49.61M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.001
+Fra:1 Mem:49.63M (Peak 49.63M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.002
+Fra:1 Mem:49.64M (Peak 49.64M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.002
+Fra:1 Mem:49.69M (Peak 49.69M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.004
+Fra:1 Mem:49.70M (Peak 49.70M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.003
+Fra:1 Mem:49.71M (Peak 49.71M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.007
+Fra:1 Mem:49.74M (Peak 49.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.004
+Fra:1 Mem:49.75M (Peak 49.75M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.009
+Fra:1 Mem:49.77M (Peak 49.77M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.005
+Fra:1 Mem:49.78M (Peak 49.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.010
+Fra:1 Mem:49.80M (Peak 49.80M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.011
+Fra:1 Mem:49.81M (Peak 49.81M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.006
+Fra:1 Mem:49.83M (Peak 49.83M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.013
+Fra:1 Mem:49.87M (Peak 49.87M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | reinforced grip
+Fra:1 Mem:49.87M (Peak 49.87M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.001
+Fra:1 Mem:49.91M (Peak 49.91M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.002
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.004
+Fra:1 Mem:49.94M (Peak 49.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.006
+Fra:1 Mem:49.97M (Peak 49.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.007
+Fra:1 Mem:49.97M (Peak 49.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.008
+Fra:1 Mem:50.00M (Peak 50.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.009
+Fra:1 Mem:50.03M (Peak 50.03M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.010
+Fra:1 Mem:50.03M (Peak 50.03M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.011
+Fra:1 Mem:50.06M (Peak 50.06M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.012
+Fra:1 Mem:50.06M (Peak 50.06M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.014
+Fra:1 Mem:50.10M (Peak 50.10M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.015
+Fra:1 Mem:50.13M (Peak 50.13M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.016
+Fra:1 Mem:50.13M (Peak 50.13M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | curved neck
+Fra:1 Mem:50.17M (Peak 50.17M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood
+Fra:1 Mem:50.20M (Peak 50.20M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | snout
+Fra:1 Mem:50.23M (Peak 50.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | mouth slit
+Fra:1 Mem:50.24M (Peak 50.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale
+Fra:1 Mem:50.26M (Peak 50.26M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.002
+Fra:1 Mem:50.31M (Peak 50.31M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | jade eye.001
+Fra:1 Mem:50.31M (Peak 50.31M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.005
+Fra:1 Mem:50.32M (Peak 50.32M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.006
+Fra:1 Mem:50.33M (Peak 50.33M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.007
+Fra:1 Mem:50.33M (Peak 50.33M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate
+Fra:1 Mem:50.34M (Peak 50.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.001
+Fra:1 Mem:50.36M (Peak 50.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.002
+Fra:1 Mem:50.37M (Peak 50.37M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.003
+Fra:1 Mem:50.37M (Peak 50.37M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.004
+Fra:1 Mem:50.38M (Peak 50.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.005
+Fra:1 Mem:50.40M (Peak 50.40M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | curved neck
+Fra:1 Mem:50.43M (Peak 50.43M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood inset
+Fra:1 Mem:50.44M (Peak 50.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | head
+Fra:1 Mem:50.46M (Peak 50.46M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | mouth slit
+Fra:1 Mem:50.48M (Peak 50.48M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | jade eye
+Fra:1 Mem:50.51M (Peak 50.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale
+Fra:1 Mem:50.51M (Peak 50.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.003
+Fra:1 Mem:50.52M (Peak 50.52M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.002
+Fra:1 Mem:50.53M (Peak 50.53M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | jade eye.001
+Fra:1 Mem:50.54M (Peak 50.54M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.004
+Fra:1 Mem:50.55M (Peak 50.55M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.006
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.007
+Fra:1 Mem:50.58M (Peak 50.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate
+Fra:1 Mem:50.58M (Peak 50.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.002
+Fra:1 Mem:50.60M (Peak 50.60M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.003
+Fra:1 Mem:50.61M (Peak 50.61M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.005
+Fra:1 Mem:50.63M (Peak 50.63M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | curved neck
+Fra:1 Mem:50.64M (Peak 50.64M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood inset
+Fra:1 Mem:50.64M (Peak 50.64M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | head
+Fra:1 Mem:50.67M (Peak 50.67M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | snout
+Fra:1 Mem:50.67M (Peak 50.67M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | jade eye
+Fra:1 Mem:50.68M (Peak 50.68M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale
+Fra:1 Mem:50.70M (Peak 50.70M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.001
+Fra:1 Mem:50.72M (Peak 50.72M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.003
+Fra:1 Mem:50.72M (Peak 50.72M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | jade eye.001
+Fra:1 Mem:50.74M (Peak 50.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.004
+Fra:1 Mem:50.76M (Peak 50.76M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.006
+Fra:1 Mem:50.77M (Peak 50.77M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.007
+Fra:1 Mem:50.77M (Peak 50.77M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate
+Fra:1 Mem:50.78M (Peak 50.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.001
+Fra:1 Mem:50.80M (Peak 50.80M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.002
+Fra:1 Mem:50.80M (Peak 50.80M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.004
+Fra:1 Mem:50.82M (Peak 50.82M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | curved neck
+Fra:1 Mem:50.85M (Peak 50.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood
+Fra:1 Mem:50.86M (Peak 50.86M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood inset
+Fra:1 Mem:50.87M (Peak 50.87M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | head
+Fra:1 Mem:50.88M (Peak 50.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | snout
+Fra:1 Mem:50.90M (Peak 50.90M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | mouth slit
+Fra:1 Mem:50.90M (Peak 50.90M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale
+Fra:1 Mem:50.92M (Peak 50.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.001
+Fra:1 Mem:50.93M (Peak 50.93M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.002
+Fra:1 Mem:50.93M (Peak 50.93M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.003
+Fra:1 Mem:50.95M (Peak 50.95M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | jade eye.001
+Fra:1 Mem:50.95M (Peak 50.95M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.005
+Fra:1 Mem:50.99M (Peak 50.99M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.006
+Fra:1 Mem:51.00M (Peak 51.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate
+Fra:1 Mem:51.01M (Peak 51.01M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.003
+Fra:1 Mem:51.02M (Peak 51.02M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.004
+Fra:1 Mem:51.03M (Peak 51.03M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | curved neck
+Fra:1 Mem:51.06M (Peak 51.06M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood
+Fra:1 Mem:51.08M (Peak 51.08M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood inset
+Fra:1 Mem:51.08M (Peak 51.08M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | snout
+Fra:1 Mem:51.10M (Peak 51.10M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | mouth slit
+Fra:1 Mem:51.12M (Peak 51.12M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale
+Fra:1 Mem:51.13M (Peak 51.13M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.001
+Fra:1 Mem:51.14M (Peak 51.14M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.002
+Fra:1 Mem:51.15M (Peak 51.15M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | jade eye.001
+Fra:1 Mem:51.16M (Peak 51.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.004
+Fra:1 Mem:51.16M (Peak 51.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.005
+Fra:1 Mem:51.18M (Peak 51.18M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.006
+Fra:1 Mem:51.19M (Peak 51.19M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.007
+Fra:1 Mem:51.19M (Peak 51.19M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.001
+Fra:1 Mem:51.21M (Peak 51.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.002
+Fra:1 Mem:51.22M (Peak 51.22M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.003
+Fra:1 Mem:51.23M (Peak 51.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.004
+Fra:1 Mem:51.25M (Peak 51.25M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell suspension
+Fra:1 Mem:51.26M (Peak 51.26M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bronze bell
+Fra:1 Mem:51.26M (Peak 51.26M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blue textile ribbon
+Fra:1 Mem:51.28M (Peak 51.28M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bronze bell.001
+Fra:1 Mem:51.28M (Peak 51.28M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell opening.001
+Fra:1 Mem:51.28M (Peak 51.28M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blue textile ribbon.001
+Fra:1 Mem:51.28M (Peak 51.28M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
+Fra:1 Mem:51.29M (Peak 51.29M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | crown jade collar
+Fra:1 Mem:51.31M (Peak 51.31M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | diamond blade
+Fra:1 Mem:51.32M (Peak 51.32M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | leather grip
+Fra:1 Mem:51.33M (Peak 51.33M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 00
+Fra:1 Mem:51.34M (Peak 51.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 03
+Fra:1 Mem:51.37M (Peak 51.37M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 04
+Fra:1 Mem:51.38M (Peak 51.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 05
+Fra:1 Mem:51.38M (Peak 51.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 07
+Fra:1 Mem:51.38M (Peak 51.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
+Fra:1 Mem:51.41M (Peak 51.41M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 09
+Fra:1 Mem:51.42M (Peak 51.42M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 10
+Fra:1 Mem:51.45M (Peak 51.46M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 11
+Fra:1 Mem:51.45M (Peak 51.46M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | pommel
+Fra:1 Mem:51.50M (Peak 51.50M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | naga guard engraving
+Fra:1 Mem:51.51M (Peak 51.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | leather shell
+Fra:1 Mem:51.51M (Peak 51.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | bronze mouth
+Fra:1 Mem:51.57M (Peak 51.57M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | bronze chape
+Fra:1 Mem:51.59M (Peak 51.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | engraved chevron
+Fra:1 Mem:51.59M (Peak 51.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | engraved chevron.002
+Fra:1 Mem:51.63M (Peak 51.63M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | engraved chevron.003
+Fra:1 Mem:51.65M (Peak 51.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt suspension ring
+Fra:1 Mem:51.66M (Peak 51.66M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt hanger.001
+Fra:1 Mem:51.68M (Peak 51.68M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt suspension ring.001
+Fra:1 Mem:51.83M (Peak 51.83M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.06 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.06 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.06 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.06 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.06 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:40.90M (Peak 51.83M) | Time:00:00.06 | Mem:0.11M, Peak:0.11M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.06 | Mem:0.65M, Peak:0.65M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.06 | Mem:0.65M, Peak:0.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.06 | Mem:3.19M, Peak:3.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.07 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.07 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.32M, Peak:8.49M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.32M, Peak:8.49M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.07 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.07 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.07 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.07 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:43.26M (Peak 51.83M) | Time:00:00.07 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:43.26M (Peak 51.83M) | Time:00:00.07 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Sample 0/48
+Fra:1 Mem:266.62M (Peak 266.62M) | Time:00:00.45 | Remaining:00:17.47 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Sample 1/48
+Fra:1 Mem:360.62M (Peak 501.61M) | Time:00:30.09 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Sample 48/48
+Fra:1 Mem:360.62M (Peak 501.61M) | Time:00:30.09 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Finished
+Saved: 'D:\Warhammer3_Modding\east_sea_charter\weapons_concept03\weapons_back.png'
+Time: 00:30.44 (Saving: 00:00.33)
+
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | diamond blade
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | leather grip
+Fra:1 Mem:48.20M (Peak 48.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 00
+Fra:1 Mem:48.20M (Peak 48.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 03
+Fra:1 Mem:48.22M (Peak 48.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 04
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 05
+Fra:1 Mem:48.24M (Peak 48.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 06
+Fra:1 Mem:48.28M (Peak 48.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 08
+Fra:1 Mem:48.28M (Peak 48.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | grip binding 11
+Fra:1 Mem:48.29M (Peak 48.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | pommel
+Fra:1 Mem:48.30M (Peak 48.30M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | crossguard
+Fra:1 Mem:48.34M (Peak 48.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather
+Fra:1 Mem:48.38M (Peak 48.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.002
+Fra:1 Mem:48.39M (Peak 48.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.006
+Fra:1 Mem:48.47M (Peak 48.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.007
+Fra:1 Mem:48.49M (Peak 48.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.008
+Fra:1 Mem:48.51M (Peak 48.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | eagle guard feather.009
+Fra:1 Mem:48.52M (Peak 48.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Heinrich | guard gem
+Fra:1 Mem:48.54M (Peak 48.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | convex enamel shell
+Fra:1 Mem:48.55M (Peak 48.55M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | solid brass perimeter
+Fra:1 Mem:48.60M (Peak 48.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet
+Fra:1 Mem:48.62M (Peak 48.62M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.001
+Fra:1 Mem:48.63M (Peak 48.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.002
+Fra:1 Mem:48.66M (Peak 48.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.004
+Fra:1 Mem:48.62M (Peak 48.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.005
+Fra:1 Mem:48.65M (Peak 48.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.006
+Fra:1 Mem:48.66M (Peak 48.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.007
+Fra:1 Mem:48.67M (Peak 48.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.009
+Fra:1 Mem:48.73M (Peak 48.73M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.010
+Fra:1 Mem:48.75M (Peak 48.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.011
+Fra:1 Mem:48.75M (Peak 48.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.012
+Fra:1 Mem:48.76M (Peak 48.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.013
+Fra:1 Mem:48.77M (Peak 48.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.015
+Fra:1 Mem:48.78M (Peak 48.78M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.016
+Fra:1 Mem:48.81M (Peak 48.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.017
+Fra:1 Mem:48.83M (Peak 48.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.018
+Fra:1 Mem:48.80M (Peak 48.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.022
+Fra:1 Mem:48.81M (Peak 48.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.025
+Fra:1 Mem:48.82M (Peak 48.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.027
+Fra:1 Mem:48.83M (Peak 48.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.029
+Fra:1 Mem:48.84M (Peak 48.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | perimeter rivet.030
+Fra:1 Mem:48.85M (Peak 48.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather
+Fra:1 Mem:48.87M (Peak 48.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill
+Fra:1 Mem:48.87M (Peak 48.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.001
+Fra:1 Mem:48.89M (Peak 48.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.001
+Fra:1 Mem:48.89M (Peak 48.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.002
+Fra:1 Mem:48.90M (Peak 48.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.003
+Fra:1 Mem:48.91M (Peak 48.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.003
+Fra:1 Mem:48.93M (Peak 48.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.004
+Fra:1 Mem:48.94M (Peak 48.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.004
+Fra:1 Mem:48.97M (Peak 48.97M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.005
+Fra:1 Mem:48.99M (Peak 48.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.005
+Fra:1 Mem:49.01M (Peak 49.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.006
+Fra:1 Mem:49.07M (Peak 49.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.007
+Fra:1 Mem:49.07M (Peak 49.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.007
+Fra:1 Mem:49.09M (Peak 49.09M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon
+Fra:1 Mem:49.09M (Peak 49.09M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.001
+Fra:1 Mem:49.10M (Peak 49.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.002
+Fra:1 Mem:49.12M (Peak 49.12M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.009
+Fra:1 Mem:49.13M (Peak 49.13M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.009
+Fra:1 Mem:49.14M (Peak 49.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.010
+Fra:1 Mem:49.17M (Peak 49.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.011
+Fra:1 Mem:49.17M (Peak 49.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.011
+Fra:1 Mem:49.18M (Peak 49.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.012
+Fra:1 Mem:49.17M (Peak 49.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.014
+Fra:1 Mem:49.18M (Peak 49.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle wing feather.015
+Fra:1 Mem:49.30M (Peak 49.30M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | feather quill.015
+Fra:1 Mem:49.32M (Peak 49.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle talon.003
+Fra:1 Mem:49.31M (Peak 49.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle breast
+Fra:1 Mem:49.32M (Peak 49.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle head
+Fra:1 Mem:49.32M (Peak 49.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail
+Fra:1 Mem:49.33M (Peak 49.33M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.002
+Fra:1 Mem:49.35M (Peak 49.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | eagle tail.004
+Fra:1 Mem:49.35M (Peak 49.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | heraldic rock
+Fra:1 Mem:49.37M (Peak 49.37M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | heraldic rock.001
+Fra:1 Mem:49.38M (Peak 49.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | heraldic rock.002
+Fra:1 Mem:49.38M (Peak 49.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray
+Fra:1 Mem:49.43M (Peak 49.43M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.001
+Fra:1 Mem:49.47M (Peak 49.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.002
+Fra:1 Mem:49.49M (Peak 49.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.004
+Fra:1 Mem:49.50M (Peak 49.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.005
+Fra:1 Mem:49.51M (Peak 49.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.007
+Fra:1 Mem:49.51M (Peak 49.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | sun ray.008
+Fra:1 Mem:49.50M (Peak 49.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | timber rear rib
+Fra:1 Mem:49.51M (Peak 49.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | timber rear rib.001
+Fra:1 Mem:49.53M (Peak 49.53M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | timber rear rib.003
+Fra:1 Mem:49.53M (Peak 49.53M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | rear cross brace
+Fra:1 Mem:49.54M (Peak 49.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | rear cross brace.001
+Fra:1 Mem:49.55M (Peak 49.55M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shield | hand grip
+Fra:1 Mem:49.58M (Peak 49.58M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blackwood shaft
+Fra:1 Mem:49.60M (Peak 49.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule
+Fra:1 Mem:49.60M (Peak 49.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip
+Fra:1 Mem:49.63M (Peak 49.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.001
+Fra:1 Mem:49.64M (Peak 49.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.002
+Fra:1 Mem:49.66M (Peak 49.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.003
+Fra:1 Mem:49.67M (Peak 49.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.002
+Fra:1 Mem:49.69M (Peak 49.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.004
+Fra:1 Mem:49.70M (Peak 49.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.005
+Fra:1 Mem:49.71M (Peak 49.71M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.006
+Fra:1 Mem:49.72M (Peak 49.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.004
+Fra:1 Mem:49.74M (Peak 49.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.008
+Fra:1 Mem:49.76M (Peak 49.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.009
+Fra:1 Mem:49.76M (Peak 49.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | engraved bronze ferrule.005
+Fra:1 Mem:49.79M (Peak 49.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.010
+Fra:1 Mem:49.81M (Peak 49.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.011
+Fra:1 Mem:49.84M (Peak 49.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | ferrule lip.012
+Fra:1 Mem:49.84M (Peak 49.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | reinforced grip
+Fra:1 Mem:49.87M (Peak 49.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid
+Fra:1 Mem:49.90M (Peak 49.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.001
+Fra:1 Mem:49.90M (Peak 49.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.002
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.003
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.005
+Fra:1 Mem:49.96M (Peak 49.96M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.006
+Fra:1 Mem:49.98M (Peak 49.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.007
+Fra:1 Mem:49.99M (Peak 49.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.008
+Fra:1 Mem:50.00M (Peak 50.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.009
+Fra:1 Mem:50.04M (Peak 50.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.010
+Fra:1 Mem:50.06M (Peak 50.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.011
+Fra:1 Mem:50.07M (Peak 50.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.012
+Fra:1 Mem:50.09M (Peak 50.09M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.015
+Fra:1 Mem:50.12M (Peak 50.12M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.016
+Fra:1 Mem:50.14M (Peak 50.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | grip braid.017
+Fra:1 Mem:50.14M (Peak 50.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | crown socket
+Fra:1 Mem:50.17M (Peak 50.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | curved neck
+Fra:1 Mem:50.20M (Peak 50.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood
+Fra:1 Mem:50.21M (Peak 50.21M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood inset
+Fra:1 Mem:50.23M (Peak 50.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | head
+Fra:1 Mem:50.24M (Peak 50.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | snout
+Fra:1 Mem:50.26M (Peak 50.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | mouth slit
+Fra:1 Mem:50.26M (Peak 50.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale
+Fra:1 Mem:50.28M (Peak 50.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.002
+Fra:1 Mem:50.30M (Peak 50.30M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.002
+Fra:1 Mem:50.31M (Peak 50.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.003
+Fra:1 Mem:50.31M (Peak 50.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | jade eye.001
+Fra:1 Mem:50.33M (Peak 50.33M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.004
+Fra:1 Mem:50.34M (Peak 50.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.005
+Fra:1 Mem:50.36M (Peak 50.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | hood scale.006
+Fra:1 Mem:50.38M (Peak 50.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.001
+Fra:1 Mem:50.38M (Peak 50.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.002
+Fra:1 Mem:50.40M (Peak 50.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.003
+Fra:1 Mem:50.40M (Peak 50.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 0 | neck ventral plate.005
+Fra:1 Mem:50.41M (Peak 50.41M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | curved neck
+Fra:1 Mem:50.44M (Peak 50.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood
+Fra:1 Mem:50.44M (Peak 50.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood inset
+Fra:1 Mem:50.45M (Peak 50.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | head
+Fra:1 Mem:50.45M (Peak 50.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
+Fra:1 Mem:50.46M (Peak 50.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
+Fra:1 Mem:50.46M (Peak 50.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Studio floor
+Fra:1 Mem:50.48M (Peak 50.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt hanger.001
+Fra:1 Mem:50.50M (Peak 50.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale
+Fra:1 Mem:50.51M (Peak 50.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.001
+Fra:1 Mem:50.52M (Peak 50.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.003
+Fra:1 Mem:50.53M (Peak 50.53M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | jade eye.001
+Fra:1 Mem:50.54M (Peak 50.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.004
+Fra:1 Mem:50.57M (Peak 50.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.005
+Fra:1 Mem:50.57M (Peak 50.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | hood scale.007
+Fra:1 Mem:50.60M (Peak 50.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt suspension ring.001
+Fra:1 Mem:50.60M (Peak 50.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate
+Fra:1 Mem:50.61M (Peak 50.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.001
+Fra:1 Mem:50.63M (Peak 50.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.002
+Fra:1 Mem:50.63M (Peak 50.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.004
+Fra:1 Mem:50.65M (Peak 50.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 1 | neck ventral plate.005
+Fra:1 Mem:50.66M (Peak 50.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | curved neck
+Fra:1 Mem:50.67M (Peak 50.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood inset
+Fra:1 Mem:50.68M (Peak 50.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | head
+Fra:1 Mem:50.68M (Peak 50.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | snout
+Fra:1 Mem:50.69M (Peak 50.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | mouth slit
+Fra:1 Mem:50.72M (Peak 50.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale
+Fra:1 Mem:50.73M (Peak 50.73M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.002
+Fra:1 Mem:50.74M (Peak 50.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.003
+Fra:1 Mem:50.74M (Peak 50.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | jade eye.001
+Fra:1 Mem:50.77M (Peak 50.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.004
+Fra:1 Mem:50.79M (Peak 50.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.005
+Fra:1 Mem:50.79M (Peak 50.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | hood scale.007
+Fra:1 Mem:50.81M (Peak 50.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate
+Fra:1 Mem:50.82M (Peak 50.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.001
+Fra:1 Mem:50.82M (Peak 50.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.003
+Fra:1 Mem:50.84M (Peak 50.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 2 | neck ventral plate.004
+Fra:1 Mem:50.85M (Peak 50.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | curved neck
+Fra:1 Mem:50.88M (Peak 50.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood
+Fra:1 Mem:50.88M (Peak 50.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood inset
+Fra:1 Mem:50.90M (Peak 50.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | head
+Fra:1 Mem:50.90M (Peak 50.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | snout
+Fra:1 Mem:50.91M (Peak 50.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | mouth slit
+Fra:1 Mem:50.91M (Peak 50.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | jade eye
+Fra:1 Mem:50.94M (Peak 50.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale
+Fra:1 Mem:50.95M (Peak 50.95M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.001
+Fra:1 Mem:50.96M (Peak 50.96M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.002
+Fra:1 Mem:50.96M (Peak 50.96M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.003
+Fra:1 Mem:50.97M (Peak 50.97M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.004
+Fra:1 Mem:50.99M (Peak 50.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.005
+Fra:1 Mem:51.00M (Peak 51.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | hood scale.006
+Fra:1 Mem:51.00M (Peak 51.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate
+Fra:1 Mem:51.02M (Peak 51.02M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.001
+Fra:1 Mem:51.03M (Peak 51.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.002
+Fra:1 Mem:51.04M (Peak 51.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.003
+Fra:1 Mem:51.05M (Peak 51.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.004
+Fra:1 Mem:51.05M (Peak 51.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 3 | neck ventral plate.005
+Fra:1 Mem:51.06M (Peak 51.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | curved neck
+Fra:1 Mem:51.07M (Peak 51.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood
+Fra:1 Mem:51.09M (Peak 51.09M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood inset
+Fra:1 Mem:51.09M (Peak 51.09M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt hanger
+Fra:1 Mem:51.11M (Peak 51.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | snout
+Fra:1 Mem:51.11M (Peak 51.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | belt suspension ring
+Fra:1 Mem:51.14M (Peak 51.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | mouth slit
+Fra:1 Mem:51.16M (Peak 51.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | jade eye
+Fra:1 Mem:51.17M (Peak 51.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale
+Fra:1 Mem:51.17M (Peak 51.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.001
+Fra:1 Mem:51.18M (Peak 51.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.002
+Fra:1 Mem:51.19M (Peak 51.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.003
+Fra:1 Mem:51.20M (Peak 51.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | jade eye.001
+Fra:1 Mem:51.22M (Peak 51.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.004
+Fra:1 Mem:51.23M (Peak 51.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.005
+Fra:1 Mem:51.23M (Peak 51.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | hood scale.007
+Fra:1 Mem:51.24M (Peak 51.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate
+Fra:1 Mem:51.29M (Peak 51.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.001
+Fra:1 Mem:51.31M (Peak 51.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.003
+Fra:1 Mem:51.31M (Peak 51.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Naga 4 | neck ventral plate.005
+Fra:1 Mem:51.31M (Peak 51.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell suspension
+Fra:1 Mem:51.33M (Peak 51.33M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bronze bell
+Fra:1 Mem:51.34M (Peak 51.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell opening
+Fra:1 Mem:51.35M (Peak 51.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blue textile ribbon
+Fra:1 Mem:51.35M (Peak 51.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell suspension.001
+Fra:1 Mem:51.35M (Peak 51.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bell opening.001
+Fra:1 Mem:51.37M (Peak 51.37M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | bronze bell.001
+Fra:1 Mem:51.38M (Peak 51.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | blue textile ribbon.001
+Fra:1 Mem:51.38M (Peak 51.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | engraved chevron.001
+Fra:1 Mem:51.39M (Peak 51.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Staff | crown jade collar
+Fra:1 Mem:51.41M (Peak 51.41M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | leather grip
+Fra:1 Mem:51.42M (Peak 51.42M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 00
+Fra:1 Mem:51.44M (Peak 51.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 03
+Fra:1 Mem:51.44M (Peak 51.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 04
+Fra:1 Mem:51.47M (Peak 51.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 05
+Fra:1 Mem:51.48M (Peak 51.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 06
+Fra:1 Mem:51.50M (Peak 51.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 07
+Fra:1 Mem:51.50M (Peak 51.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 09
+Fra:1 Mem:51.51M (Peak 51.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 10
+Fra:1 Mem:51.54M (Peak 51.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | grip binding 11
+Fra:1 Mem:51.54M (Peak 51.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | pommel
+Fra:1 Mem:51.57M (Peak 51.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | pommel jade
+Fra:1 Mem:51.60M (Peak 51.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | engraved chevron
+Fra:1 Mem:51.60M (Peak 51.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sariwa | naga guard engraving
+Fra:1 Mem:51.63M (Peak 51.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | leather shell
+Fra:1 Mem:51.63M (Peak 51.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Scabbard | bronze chape
+Fra:1 Mem:51.83M (Peak 51.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:40.13M (Peak 51.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.03 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.03 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.03 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.03 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.03 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:40.22M (Peak 51.83M) | Time:00:00.03 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.03 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.03 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.03 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.03 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:40.30M (Peak 51.83M) | Time:00:00.03 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:40.90M (Peak 51.83M) | Time:00:00.03 | Mem:0.11M, Peak:0.11M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.04 | Mem:0.65M, Peak:0.65M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.04 | Mem:0.65M, Peak:0.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.04 | Mem:3.19M, Peak:3.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.04 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:40.87M (Peak 51.83M) | Time:00:00.04 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:5.95M, Peak:8.49M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.32M, Peak:8.49M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.32M, Peak:8.49M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:43.24M (Peak 51.83M) | Time:00:00.04 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.04 | Mem:8.33M, Peak:8.49M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.04 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:43.25M (Peak 51.83M) | Time:00:00.04 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:43.26M (Peak 51.83M) | Time:00:00.04 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:43.26M (Peak 51.83M) | Time:00:00.04 | Mem:8.41M, Peak:8.49M | Scene, ViewLayer | Sample 0/48
+Fra:1 Mem:266.62M (Peak 266.62M) | Time:00:01.32 | Remaining:00:59.87 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Sample 1/48
+Fra:1 Mem:266.62M (Peak 266.62M) | Time:00:42.12 | Remaining:00:19.12 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Sample 33/48
+Fra:1 Mem:360.62M (Peak 501.61M) | Time:01:16.83 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Sample 48/48
+Fra:1 Mem:360.62M (Peak 501.61M) | Time:01:16.83 | Mem:231.65M, Peak:231.65M | Scene, ViewLayer | Finished
+Saved: 'D:\Warhammer3_Modding\east_sea_charter\weapons_concept03\weapons_materials.png'
+Time: 01:17.30 (Saving: 00:00.45)
+
+
+Info: Saved as "EDH_concept03_weapons.blend"
+BUILD_COMPLETE {"EDH_Heinrich_Sword": {"parts": 29, "triangles": 10072, "uv": "UVMap smart unwrap; materials not baked"}, "EDH_Heinrich_Shield": {"parts": 107, "triangles": 21180, "uv": "UVMap smart unwrap; materials not baked"}, "EDH_Sariwa_Naga_Staff": {"parts": 161, "triangles": 41716, "uv": "UVMap smart unwrap; materials not baked"}, "EDH_Sariwa_Sword": {"parts": 19, "triangles": 6776, "uv": "UVMap smart unwrap; materials not baked"}, "EDH_Sariwa_Scabbard": {"parts": 11, "triangles": 3388, "uv": "UVMap smart unwrap; materials not baked"}}
+
+Blender quit

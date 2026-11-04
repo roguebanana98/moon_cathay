@@ -1,0 +1,54 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/edh_heinrich_skills									
+edh_heinrich_skill_h01	mount_barded_warhorse.png	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	Barded Warhorse	6	false	false	false	0.0000	0
+edh_heinrich_skill_h02	mount_imperial_griffon.png	Once trained to carry a man in battle, Imperial griffons are poised killers and incredibly dedicated to their riders.	Imperial Griffon	15	false	false	false	0.0000	0
+edh_heinrich_skill_h03	character_general_ability.png	This Lord belts out orders and can be heard even across a battlefield smothered in the grim noise of war.	Brass-Lunged	3	false	false	false	0.0000	0
+edh_heinrich_skill_h04	wh_main_lord_abilities_hold_the_line.png		Giữ Vững Đầu Cầu	5	false	false	false	0.0000	0
+edh_heinrich_skill_h05	character_ward_save.png	The relentless drive and fury of the Hammer, harnessed for the protection of this ward’s bearer.	Sigmar’s Ward	7	false	false	false	0.0000	0
+edh_heinrich_skill_h06	character_unit_capacity.png	Their renown shall further elevate the one under whose command they march.	Soldiers of Renown	0	false	false	false	0.0000	0
+edh_heinrich_skill_h07	character_wound_time.png	Who wants to live forever? As it turns out, most beings wouldn't say no…	Immortality	19	false	false	false	0.0000	0
+edh_heinrich_skill_h08	character_experience.png	Having learned much in their long years of service, this character now turns their attention to training others.	Mentor	0	false	false	false	0.0000	0
+edh_heinrich_skill_h09	character_bonus_vs_infantry.png	A veteran of countless battles, this one has a hunger for slaughter and a thirst for blood.	Imperial Training	0	false	false	false	0.0000	0
+edh_heinrich_skill_h10	character_defence.png	One doesn't reach the rank of General without having survived many a battle.	Dạn Dày Viễn Chinh	0	false	false	false	0.0000	0
+edh_heinrich_skill_h11	immune_to_psychology.png	This one's many courageous deeds are celebrated far and wide across the Empire, with many speaking of their might and determination in the very thick of battle.	War Hero	0	false	false	false	0.0000	0
+edh_heinrich_skill_h12	wh_main_character_abilities_heroic_killing_blow.png	The blades of the Empire slice through the enemy like so many knives through so much fleshy butter.	Heroic Killing Blow	0	false	false	false	0.0000	0
+edh_heinrich_skill_h13	character_experience.png	Courage, duty, honour – all meaningless without discipline. This commander demands their troops be perfectly drilled, that they may stand fast against even the darkest of the Empire's foes. 	Drill Instructor	0	false	false	false	0.0000	0
+edh_heinrich_skill_h14	character_charge.png	With their general at its head, the Empire's cavalry charge into battle with great zeal.	Leading the Charge	0	false	false	false	0.0000	0
+edh_heinrich_skill_h15	character_army.png	Having friends in the high places of Imperial society has its benefits. It's always *who* you know...	Người Mang Hiến Chương	0	false	false	false	0.0000	0
+edh_heinrich_skill_h16	character_military_spending.png	This one is loved and respected by their troops, many of whom have come from all over the world to fight at their side.	Uy Danh Phó Vương	0	false	false	false	0.0000	0
+edh_heinrich_skill_h17	character_defence.png	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_hard_to_hit}}	Hard to Hit	0	false	false	false	0.0000	0
+edh_heinrich_skill_h18	character_charge.png	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_devastating_charge}}	Devastating Charge	0	false	false	false	0.0000	0
+edh_heinrich_skill_h19	character_armour.png	Full-Plate armour protects the wearer from head-to-foot. Many such suits are blessed or imbued with arcane abilities.	Thép Nhà Adlerhorst	0	false	false	false	0.0000	0
+edh_heinrich_skill_h20	character_health.png	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_scarred_veteran}}	Scarred Veteran	0	false	false	false	0.0000	0
+edh_heinrich_skill_h21	character_attack.png	A deadly blade is especially lethal when in the hands of this master death-maker, killer and slaughterer!	Deadly Blade	0	false	false	false	0.0000	0
+edh_heinrich_skill_h22	wh_main_character_abilities_foe_seeker.png	 From one bloodied, lifeless corpse to the next, this one is always looking for the next adversary to best.	Foe-Seeker	0	false	false	false	0.0000	0
+edh_heinrich_skill_h23	character_damage.png	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_wound-maker}}	Wound-Maker	0	false	false	false	0.0000	0
+edh_heinrich_skill_h24	character_attack.png	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_blade_master}}	Blade Master	0	false	false	false	0.0000	0
+edh_heinrich_skill_h25	character_morale.png	The iron will and indomitable presence of this leader ensures their followers remain steadfast when facing peril.	Indomitable	0	false	false	false	0.0000	0
+edh_heinrich_skill_h26	character_defence.png	A blade that sings in defence will not let its wielder be penetrated.	Blade Shield	0	false	false	false	0.0000	0
+edh_heinrich_skill_h27	wh_main_character_abilities_deadly_onslaught.png	The war is endless. The cycle of charging, clashing, and bloody hand-to-hand fighting is without end. It will never stop.	Deadly Onslaught	0	false	false	false	0.0000	0
+edh_heinrich_skill_h28	battle_morale.png	There are Lords that radiate power, confidence and fear, inspiring their followers to great or terrible acts.	Inspiring Presence	0	false	false	false	0.0000	0
+edh_heinrich_skill_h29	battle_defence.png	“We march to war for our Emperor, and Sigmar, our saviour and lord.”	Emperor's Finest	0	false	false	false	0.0000	0
+edh_heinrich_skill_h30	battle_charge.png	These steeds are bred for speed and war, but foremost it is their gallop which marks them out.	Speed of Horse	0	false	false	false	0.0000	0
+edh_heinrich_skill_h31	battle_ranged_damage.png	This Lord expects his men to practice the disciplines of the Pistolkorps, and all be expert marksmen.	Pistolkorps	0	false	false	false	0.0000	0
+edh_heinrich_skill_h32	battle_attack.png	Harnessed for war, these great beasts have proven themselves as loyal and powerful champions on the battlefield.	Noble Beasts	0	false	false	false	0.0000	0
+edh_heinrich_skill_h33	battle_ward_save.png	Patrons of great forges and smiths expect, and are rewarded with, tougher and more enduring war machines.	Mighty Forge	0	false	false	false	0.0000	0
+edh_heinrich_skill_h34	battle_ranged_damage.png	Despite what the Dwarfs think, no other race can bring to bear such devastating artillery volleys.	Imperial Gunnery	0	false	false	false	0.0000	0
+edh_heinrich_skill_h35	wh_main_character_abilities_rally.png		Rally!	0	false	false	false	0.0000	0
+edh_heinrich_skill_h36	battle_defence.png	The frontline will either make or break you. Those who survive become the backbone of any army.	Strength of Hardship	0	false	false	false	0.0000	0
+edh_heinrich_skill_h37	battle_ranged_damage.png	The veteran marksman knows the precise range required to land the killing shot.	Sharpshooter	0	false	false	false	0.0000	0
+edh_heinrich_skill_h38	battle_attack.png	Some men grow to relish war, dulled to the pain and living solely for the thrill of the kill.	Taste for Battle	0	false	false	false	0.0000	0
+edh_heinrich_skill_h39	battle_ammo.png	Those in command of ordnance can potentially decide a battle before the melee has even begun.	Artillery Master	0	false	false	false	0.0000	0
+edh_heinrich_skill_h40	wh_main_character_abilities_stand_your_ground.png		Đứng Sau Ta	0	false	false	false	0.0000	0
+edh_heinrich_skill_h41	campaign_movement.png	Those who know the land and its secrets will travel faster and further than the foes who don't.	Route Marcher	0	false	false	false	0.0000	0
+edh_heinrich_skill_h42	campaign_public_order.png	This Lord expects utter obedience from the smallfolk, and has little time for insurrections or petty revolts.	Iron Disciplinarian	0	false	false	false	0.0000	0
+edh_heinrich_skill_h43	campaign_military_spending.png	Revered by the masses, such a celebrated leader will inspire many new recruits.	Leader of Renown	0	false	false	false	0.0000	0
+edh_heinrich_skill_h44	campaign_disaster.png	The presence of this Lord ensures a measure of calm, reducing panic and desertion amongst followers.	Reassuring Presence	0	false	false	false	0.0000	0
+edh_heinrich_skill_h45	campaign_untainted.png	Through our acts, the gods will cleanse the lands.	Fervent	0	false	false	false	0.0000	0
+edh_heinrich_skill_h46	campaign_wound_time.png	It is said that Sigmar would bear a mortal wound and carry on fighting; this champion follows the hallowed Warrior-God.	Irrepressible	0	false	false	false	0.0000	0
+edh_heinrich_skill_h47	campaign_subterfuge.png	"The time to strike is now!"	Lightning Strike	0	false	false	false	0.0000	0
+edh_heinrich_skill_h48	campaign_military_spending.png	A good quartermaster can ration equipment and foodstuffs efficiently, making supplies last longer.	Quartermaster	0	false	false	false	0.0000	0
+edh_heinrich_skill_h49	campaign_replenishment.png	Proficient with figures, this Lord, or his subordinates, can keep his army fulfilled, even in dire circumstances.	Logistician	0	false	false	false	0.0000	0
+edh_heinrich_skill_h50	campaign_ambush.png	Countless conflicts and a keen sense of awareness have made this Lord difficult to entrap.	Alert	0	false	false	false	0.0000	0
+edh_heinrich_skill_h51	campaign_army.png	"Ever thought about joining the Elector's troops, chief? You'd make a good soldier alright."	Headhunter	0	false	false	false	0.0000	0
+edh_heinrich_skill_h52	wh2_dlc10_guardian.png	As a guardian, the Warrioress is sworn to protect everything that Asur hold dear.	Đại Bàng Che Chở	11	false	false	false	0.0000	0

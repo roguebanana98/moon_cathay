@@ -1,0 +1,14 @@
+{
+  "status": "deployed_and_enabled",
+  "target": "F:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\data\\edh_heinrich_custom_battle_v2.pack",
+  "sha256": "efe83119186d776ad0fc6893817554f5c07f5c229a7a982ce6c7b0d150c090dd",
+  "launcher_backup": "D:\\Warhammer3_Modding\\east_sea_charter\\heinrich_custom_battle\\deployment_backup\\20261104-033023\\20190104-moddata.dat",
+  "disabled_previous_test_pack": "edh_heinrich_custom_battle_v1.pack",
+  "other_mod_entries_unchanged": true,
+  "source_workshop_mod_unchanged": true,
+  "saves_modified": false,
+  "unit": "edh_heinrich_cb",
+  "custom_battle_faction": "Empire",
+  "runtime_verified": true,
+  "runtime_scope": "Basic custom-battle loading/model/movement on v1; corrected card and selection on v2. Same gameplay/model payloads."
+}

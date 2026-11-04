@@ -1,0 +1,342 @@
+00:02.094  blend            | Read blend: "D:\Warhammer3_Modding\east_sea_charter\weapons_concept03\EDH_concept03_weapons.blend"
+21:52:46 | INFO: Data are loaded, start creating Blender stuff
+21:52:46 | INFO: Blender create Mesh node Shield | convex enamel shell
+21:52:46 | INFO: Blender create Mesh node Shield | eagle beak
+21:52:46 | INFO: Blender create Mesh node Sphere.035
+21:52:46 | INFO: Blender create Mesh node Sphere.037
+21:52:46 | INFO: Blender create Mesh node Sphere.036
+21:52:46 | INFO: Blender create Mesh node Shield | eagle neck
+21:52:46 | INFO: Blender create Mesh node Shield | eagle tail
+21:52:46 | INFO: Blender create Mesh node Shield | eagle tail.001
+21:52:46 | INFO: Blender create Mesh node Shield | eagle tail.002
+21:52:46 | INFO: Blender create Mesh node Shield | eagle tail.003
+21:52:46 | INFO: Blender create Mesh node Shield | eagle tail.004
+21:52:46 | INFO: Blender create Mesh node Shield | eagle talon
+21:52:46 | INFO: Blender create Mesh node Shield | eagle talon.001
+21:52:46 | INFO: Blender create Mesh node Shield | eagle talon.002
+21:52:46 | INFO: Blender create Mesh node Shield | eagle talon.003
+21:52:46 | INFO: Blender create Mesh node Shield | eagle talon.004
+21:52:46 | INFO: Blender create Mesh node Shield | eagle talon.005
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.001
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.002
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.003
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.004
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.005
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.006
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.007
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.008
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.009
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.010
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.011
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.012
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.013
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.014
+21:52:46 | INFO: Blender create Mesh node Shield | eagle wing feather.015
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.001
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.002
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.003
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.004
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.005
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.006
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.007
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.008
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.009
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.010
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.011
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.012
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.013
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.014
+21:52:46 | INFO: Blender create Mesh node Shield | feather quill.015
+21:52:46 | INFO: Blender create Mesh node Shield | forearm strap
+21:52:46 | INFO: Blender create Mesh node Shield | hand grip
+21:52:46 | INFO: Blender create Mesh node Icosphere
+21:52:46 | INFO: Blender create Mesh node Icosphere.001
+21:52:46 | INFO: Blender create Mesh node Icosphere.002
+21:52:46 | INFO: Blender create Mesh node Sphere.003
+21:52:46 | INFO: Blender create Mesh node Sphere.004
+21:52:46 | INFO: Blender create Mesh node Sphere.005
+21:52:46 | INFO: Blender create Mesh node Sphere.006
+21:52:46 | INFO: Blender create Mesh node Sphere.007
+21:52:46 | INFO: Blender create Mesh node Sphere.008
+21:52:46 | INFO: Blender create Mesh node Sphere.009
+21:52:46 | INFO: Blender create Mesh node Sphere.010
+21:52:46 | INFO: Blender create Mesh node Sphere.011
+21:52:46 | INFO: Blender create Mesh node Sphere.012
+21:52:46 | INFO: Blender create Mesh node Sphere.013
+21:52:46 | INFO: Blender create Mesh node Sphere.014
+21:52:46 | INFO: Blender create Mesh node Sphere.015
+21:52:46 | INFO: Blender create Mesh node Sphere.016
+21:52:46 | INFO: Blender create Mesh node Sphere.017
+21:52:46 | INFO: Blender create Mesh node Sphere.018
+21:52:46 | INFO: Blender create Mesh node Sphere.019
+21:52:46 | INFO: Blender create Mesh node Sphere.020
+21:52:46 | INFO: Blender create Mesh node Sphere.021
+21:52:46 | INFO: Blender create Mesh node Sphere.022
+21:52:46 | INFO: Blender create Mesh node Sphere.023
+21:52:46 | INFO: Blender create Mesh node Sphere.024
+21:52:46 | INFO: Blender create Mesh node Sphere.025
+21:52:46 | INFO: Blender create Mesh node Sphere.026
+21:52:46 | INFO: Blender create Mesh node Sphere.027
+21:52:46 | INFO: Blender create Mesh node Sphere.028
+21:52:46 | INFO: Blender create Mesh node Sphere.029
+21:52:46 | INFO: Blender create Mesh node Sphere.030
+21:52:46 | INFO: Blender create Mesh node Sphere.031
+21:52:46 | INFO: Blender create Mesh node Sphere.032
+21:52:46 | INFO: Blender create Mesh node Sphere.033
+21:52:46 | INFO: Blender create Mesh node Sphere.034
+21:52:46 | INFO: Blender create Mesh node Shield | rear cross brace
+21:52:46 | INFO: Blender create Mesh node Shield | rear cross brace.001
+21:52:46 | INFO: Blender create Mesh node Shield | solid brass perimeter
+21:52:46 | INFO: Blender create Mesh node Sphere.038
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.001
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.002
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.003
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.004
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.005
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.006
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.007
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.008
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.009
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.010
+21:52:46 | INFO: Blender create Mesh node Shield | sun ray.011
+21:52:46 | INFO: Blender create Mesh node Shield | timber rear rib
+21:52:46 | INFO: Blender create Mesh node Shield | timber rear rib.001
+21:52:46 | INFO: Blender create Mesh node Shield | timber rear rib.002
+21:52:46 | INFO: Blender create Mesh node Shield | timber rear rib.003
+21:52:46 | INFO: Blender create Mesh node Shield | timber rear rib.004
+21:52:46 | INFO: glTF import finished in 0.47s
+21:52:46 | INFO: Data are loaded, start creating Blender stuff
+21:52:46 | INFO: Blender create Mesh node Heinrich | crossguard
+21:52:46 | INFO: Blender create Mesh node Heinrich | diamond blade
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.001
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.002
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.003
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.004
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.005
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.006
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.007
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.008
+21:52:46 | INFO: Blender create Mesh node Heinrich | eagle guard feather.009
+21:52:46 | INFO: Blender create Mesh node Torus
+21:52:46 | INFO: Blender create Mesh node Torus.001
+21:52:46 | INFO: Blender create Mesh node Torus.002
+21:52:46 | INFO: Blender create Mesh node Torus.003
+21:52:46 | INFO: Blender create Mesh node Torus.004
+21:52:46 | INFO: Blender create Mesh node Torus.005
+21:52:46 | INFO: Blender create Mesh node Torus.006
+21:52:46 | INFO: Blender create Mesh node Torus.007
+21:52:46 | INFO: Blender create Mesh node Torus.008
+21:52:46 | INFO: Blender create Mesh node Torus.009
+21:52:46 | INFO: Blender create Mesh node Torus.010
+21:52:46 | INFO: Blender create Mesh node Torus.011
+21:52:46 | INFO: Blender create Mesh node Cylinder.001
+21:52:46 | INFO: Blender create Mesh node Sphere.002
+21:52:46 | INFO: Blender create Mesh node Cylinder
+21:52:46 | INFO: Blender create Mesh node Sphere
+21:52:46 | INFO: Blender create Mesh node Sphere.001
+21:52:46 | INFO: glTF import finished in 0.16s
+21:52:47 | INFO: Data are loaded, start creating Blender stuff
+21:52:47 | INFO: Blender create Mesh node Naga 0 | curved neck
+21:52:47 | INFO: Blender create Mesh node Sphere.042
+21:52:47 | INFO: Blender create Mesh node Sphere.040
+21:52:47 | INFO: Blender create Mesh node Sphere.041
+21:52:47 | INFO: Blender create Mesh node Naga 0 | hood scale
+21:52:47 | INFO: Blender create Mesh node Naga 0 | hood scale.001
+21:52:47 | INFO: Blender create Mesh node Naga 0 | hood scale.002
+21:52:47 | INFO: Blender create Mesh node Naga 0 | hood scale.003
+21:52:47 | INFO: Blender create Mesh node Naga 0 | hood scale.004
+21:52:47 | INFO: Blender create Mesh node Naga 0 | hood scale.005
+21:52:47 | INFO: Blender create Mesh node Naga 0 | hood scale.006
+21:52:47 | INFO: Blender create Mesh node Naga 0 | hood scale.007
+21:52:47 | INFO: Blender create Mesh node Sphere.044
+21:52:47 | INFO: Blender create Mesh node Sphere.045
+21:52:47 | INFO: Blender create Mesh node Naga 0 | mouth slit
+21:52:47 | INFO: Blender create Mesh node Naga 0 | neck ventral plate
+21:52:47 | INFO: Blender create Mesh node Naga 0 | neck ventral plate.001
+21:52:47 | INFO: Blender create Mesh node Naga 0 | neck ventral plate.002
+21:52:47 | INFO: Blender create Mesh node Naga 0 | neck ventral plate.003
+21:52:47 | INFO: Blender create Mesh node Naga 0 | neck ventral plate.004
+21:52:47 | INFO: Blender create Mesh node Naga 0 | neck ventral plate.005
+21:52:47 | INFO: Blender create Mesh node Sphere.043
+21:52:47 | INFO: Blender create Mesh node Naga 1 | curved neck
+21:52:47 | INFO: Blender create Mesh node Sphere.048
+21:52:47 | INFO: Blender create Mesh node Sphere.046
+21:52:47 | INFO: Blender create Mesh node Sphere.047
+21:52:47 | INFO: Blender create Mesh node Naga 1 | hood scale
+21:52:47 | INFO: Blender create Mesh node Naga 1 | hood scale.001
+21:52:47 | INFO: Blender create Mesh node Naga 1 | hood scale.002
+21:52:47 | INFO: Blender create Mesh node Naga 1 | hood scale.003
+21:52:47 | INFO: Blender create Mesh node Naga 1 | hood scale.004
+21:52:47 | INFO: Blender create Mesh node Naga 1 | hood scale.005
+21:52:47 | INFO: Blender create Mesh node Naga 1 | hood scale.006
+21:52:47 | INFO: Blender create Mesh node Naga 1 | hood scale.007
+21:52:47 | INFO: Blender create Mesh node Sphere.050
+21:52:47 | INFO: Blender create Mesh node Sphere.051
+21:52:47 | INFO: Blender create Mesh node Naga 1 | mouth slit
+21:52:47 | INFO: Blender create Mesh node Naga 1 | neck ventral plate
+21:52:47 | INFO: Blender create Mesh node Naga 1 | neck ventral plate.001
+21:52:47 | INFO: Blender create Mesh node Naga 1 | neck ventral plate.002
+21:52:47 | INFO: Blender create Mesh node Naga 1 | neck ventral plate.003
+21:52:47 | INFO: Blender create Mesh node Naga 1 | neck ventral plate.004
+21:52:47 | INFO: Blender create Mesh node Naga 1 | neck ventral plate.005
+21:52:47 | INFO: Blender create Mesh node Sphere.049
+21:52:47 | INFO: Blender create Mesh node Naga 2 | curved neck
+21:52:47 | INFO: Blender create Mesh node Sphere.054
+21:52:47 | INFO: Blender create Mesh node Sphere.052
+21:52:47 | INFO: Blender create Mesh node Sphere.053
+21:52:47 | INFO: Blender create Mesh node Naga 2 | hood scale
+21:52:47 | INFO: Blender create Mesh node Naga 2 | hood scale.001
+21:52:47 | INFO: Blender create Mesh node Naga 2 | hood scale.002
+21:52:47 | INFO: Blender create Mesh node Naga 2 | hood scale.003
+21:52:47 | INFO: Blender create Mesh node Naga 2 | hood scale.004
+21:52:47 | INFO: Blender create Mesh node Naga 2 | hood scale.005
+21:52:47 | INFO: Blender create Mesh node Naga 2 | hood scale.006
+21:52:47 | INFO: Blender create Mesh node Naga 2 | hood scale.007
+21:52:47 | INFO: Blender create Mesh node Sphere.056
+21:52:47 | INFO: Blender create Mesh node Sphere.057
+21:52:47 | INFO: Blender create Mesh node Naga 2 | mouth slit
+21:52:47 | INFO: Blender create Mesh node Naga 2 | neck ventral plate
+21:52:47 | INFO: Blender create Mesh node Naga 2 | neck ventral plate.001
+21:52:47 | INFO: Blender create Mesh node Naga 2 | neck ventral plate.002
+21:52:47 | INFO: Blender create Mesh node Naga 2 | neck ventral plate.003
+21:52:47 | INFO: Blender create Mesh node Naga 2 | neck ventral plate.004
+21:52:47 | INFO: Blender create Mesh node Naga 2 | neck ventral plate.005
+21:52:47 | INFO: Blender create Mesh node Sphere.055
+21:52:47 | INFO: Blender create Mesh node Naga 3 | curved neck
+21:52:47 | INFO: Blender create Mesh node Sphere.060
+21:52:47 | INFO: Blender create Mesh node Sphere.058
+21:52:47 | INFO: Blender create Mesh node Sphere.059
+21:52:47 | INFO: Blender create Mesh node Naga 3 | hood scale
+21:52:47 | INFO: Blender create Mesh node Naga 3 | hood scale.001
+21:52:47 | INFO: Blender create Mesh node Naga 3 | hood scale.002
+21:52:47 | INFO: Blender create Mesh node Naga 3 | hood scale.003
+21:52:47 | INFO: Blender create Mesh node Naga 3 | hood scale.004
+21:52:47 | INFO: Blender create Mesh node Naga 3 | hood scale.005
+21:52:47 | INFO: Blender create Mesh node Naga 3 | hood scale.006
+21:52:47 | INFO: Blender create Mesh node Naga 3 | hood scale.007
+21:52:47 | INFO: Blender create Mesh node Sphere.062
+21:52:47 | INFO: Blender create Mesh node Sphere.063
+21:52:47 | INFO: Blender create Mesh node Naga 3 | mouth slit
+21:52:47 | INFO: Blender create Mesh node Naga 3 | neck ventral plate
+21:52:47 | INFO: Blender create Mesh node Naga 3 | neck ventral plate.001
+21:52:47 | INFO: Blender create Mesh node Naga 3 | neck ventral plate.002
+21:52:47 | INFO: Blender create Mesh node Naga 3 | neck ventral plate.003
+21:52:47 | INFO: Blender create Mesh node Naga 3 | neck ventral plate.004
+21:52:47 | INFO: Blender create Mesh node Naga 3 | neck ventral plate.005
+21:52:47 | INFO: Blender create Mesh node Sphere.061
+21:52:47 | INFO: Blender create Mesh node Naga 4 | curved neck
+21:52:47 | INFO: Blender create Mesh node Sphere.066
+21:52:47 | INFO: Blender create Mesh node Sphere.064
+21:52:47 | INFO: Blender create Mesh node Sphere.065
+21:52:47 | INFO: Blender create Mesh node Naga 4 | hood scale
+21:52:47 | INFO: Blender create Mesh node Naga 4 | hood scale.001
+21:52:47 | INFO: Blender create Mesh node Naga 4 | hood scale.002
+21:52:47 | INFO: Blender create Mesh node Naga 4 | hood scale.003
+21:52:47 | INFO: Blender create Mesh node Naga 4 | hood scale.004
+21:52:47 | INFO: Blender create Mesh node Naga 4 | hood scale.005
+21:52:47 | INFO: Blender create Mesh node Naga 4 | hood scale.006
+21:52:47 | INFO: Blender create Mesh node Naga 4 | hood scale.007
+21:52:47 | INFO: Blender create Mesh node Sphere.068
+21:52:47 | INFO: Blender create Mesh node Sphere.069
+21:52:47 | INFO: Blender create Mesh node Naga 4 | mouth slit
+21:52:47 | INFO: Blender create Mesh node Naga 4 | neck ventral plate
+21:52:47 | INFO: Blender create Mesh node Naga 4 | neck ventral plate.001
+21:52:47 | INFO: Blender create Mesh node Naga 4 | neck ventral plate.002
+21:52:47 | INFO: Blender create Mesh node Naga 4 | neck ventral plate.003
+21:52:47 | INFO: Blender create Mesh node Naga 4 | neck ventral plate.004
+21:52:47 | INFO: Blender create Mesh node Naga 4 | neck ventral plate.005
+21:52:47 | INFO: Blender create Mesh node Sphere.067
+21:52:47 | INFO: Blender create Mesh node Sphere.071
+21:52:47 | INFO: Blender create Mesh node Sphere.073
+21:52:47 | INFO: Blender create Mesh node Staff | bell suspension
+21:52:47 | INFO: Blender create Mesh node Staff | bell suspension.001
+21:52:47 | INFO: Blender create Mesh node Cylinder.002
+21:52:47 | INFO: Blender create Mesh node Staff | blue textile ribbon
+21:52:47 | INFO: Blender create Mesh node Staff | blue textile ribbon.001
+21:52:47 | INFO: Blender create Mesh node Sphere.070
+21:52:47 | INFO: Blender create Mesh node Sphere.072
+21:52:47 | INFO: Blender create Mesh node Torus.044
+21:52:47 | INFO: Blender create Mesh node Sphere.039
+21:52:47 | INFO: Blender create Mesh node Cylinder.003
+21:52:47 | INFO: Blender create Mesh node Cylinder.004
+21:52:47 | INFO: Blender create Mesh node Cylinder.005
+21:52:47 | INFO: Blender create Mesh node Cylinder.006
+21:52:47 | INFO: Blender create Mesh node Cylinder.007
+21:52:47 | INFO: Blender create Mesh node Cylinder.008
+21:52:47 | INFO: Blender create Mesh node Cylinder.009
+21:52:47 | INFO: Blender create Mesh node Torus.012
+21:52:47 | INFO: Blender create Mesh node Torus.013
+21:52:47 | INFO: Blender create Mesh node Torus.014
+21:52:47 | INFO: Blender create Mesh node Torus.015
+21:52:47 | INFO: Blender create Mesh node Torus.016
+21:52:47 | INFO: Blender create Mesh node Torus.017
+21:52:47 | INFO: Blender create Mesh node Torus.018
+21:52:47 | INFO: Blender create Mesh node Torus.019
+21:52:47 | INFO: Blender create Mesh node Torus.020
+21:52:47 | INFO: Blender create Mesh node Torus.021
+21:52:47 | INFO: Blender create Mesh node Torus.022
+21:52:47 | INFO: Blender create Mesh node Torus.023
+21:52:47 | INFO: Blender create Mesh node Torus.024
+21:52:47 | INFO: Blender create Mesh node Torus.025
+21:52:47 | INFO: Blender create Mesh node Torus.026
+21:52:47 | INFO: Blender create Mesh node Torus.027
+21:52:47 | INFO: Blender create Mesh node Torus.028
+21:52:47 | INFO: Blender create Mesh node Torus.029
+21:52:47 | INFO: Blender create Mesh node Torus.030
+21:52:47 | INFO: Blender create Mesh node Torus.031
+21:52:47 | INFO: Blender create Mesh node Torus.032
+21:52:47 | INFO: Blender create Mesh node Torus.033
+21:52:47 | INFO: Blender create Mesh node Torus.034
+21:52:47 | INFO: Blender create Mesh node Torus.035
+21:52:47 | INFO: Blender create Mesh node Torus.036
+21:52:47 | INFO: Blender create Mesh node Torus.037
+21:52:47 | INFO: Blender create Mesh node Torus.038
+21:52:47 | INFO: Blender create Mesh node Torus.039
+21:52:47 | INFO: Blender create Mesh node Torus.040
+21:52:47 | INFO: Blender create Mesh node Torus.041
+21:52:47 | INFO: Blender create Mesh node Torus.042
+21:52:47 | INFO: Blender create Mesh node Torus.043
+21:52:47 | INFO: Blender create Mesh node Cylinder.010
+21:52:47 | INFO: glTF import finished in 0.63s
+21:52:47 | INFO: Data are loaded, start creating Blender stuff
+21:52:47 | INFO: Blender create Mesh node Scabbard | belt hanger
+21:52:47 | INFO: Blender create Mesh node Scabbard | belt hanger.001
+21:52:47 | INFO: Blender create Mesh node Torus.057
+21:52:47 | INFO: Blender create Mesh node Torus.058
+21:52:47 | INFO: Blender create Mesh node Scabbard | bronze chape
+21:52:47 | INFO: Blender create Mesh node Scabbard | bronze mouth
+21:52:47 | INFO: Blender create Mesh node Scabbard | engraved chevron
+21:52:47 | INFO: Blender create Mesh node Scabbard | engraved chevron.001
+21:52:47 | INFO: Blender create Mesh node Scabbard | engraved chevron.002
+21:52:47 | INFO: Blender create Mesh node Scabbard | engraved chevron.003
+21:52:47 | INFO: Blender create Mesh node Scabbard | leather shell
+21:52:47 | INFO: glTF import finished in 0.04s
+21:52:47 | INFO: Data are loaded, start creating Blender stuff
+21:52:47 | INFO: Blender create Mesh node Sariwa | crossguard
+21:52:47 | INFO: Blender create Mesh node Sariwa | diamond blade
+21:52:47 | INFO: Blender create Mesh node Torus.045
+21:52:47 | INFO: Blender create Mesh node Torus.046
+21:52:47 | INFO: Blender create Mesh node Torus.047
+21:52:47 | INFO: Blender create Mesh node Torus.048
+21:52:47 | INFO: Blender create Mesh node Torus.049
+21:52:47 | INFO: Blender create Mesh node Torus.050
+21:52:47 | INFO: Blender create Mesh node Torus.051
+21:52:47 | INFO: Blender create Mesh node Torus.052
+21:52:47 | INFO: Blender create Mesh node Torus.053
+21:52:47 | INFO: Blender create Mesh node Torus.054
+21:52:47 | INFO: Blender create Mesh node Torus.055
+21:52:47 | INFO: Blender create Mesh node Torus.056
+21:52:47 | INFO: Blender create Mesh node Cylinder.012
+21:52:47 | INFO: Blender create Mesh node Cylinder.011
+21:52:47 | INFO: Blender create Mesh node Sariwa | naga guard engraving
+21:52:48 | INFO: Blender create Mesh node Sphere.074
+21:52:48 | INFO: Blender create Mesh node Sphere.075
+21:52:48 | INFO: glTF import finished in 0.13s
+VERIFIED: blend collections, mesh UVs and five independently reimported GLB files
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

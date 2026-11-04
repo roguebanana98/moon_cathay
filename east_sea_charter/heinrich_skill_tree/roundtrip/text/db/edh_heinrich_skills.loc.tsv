@@ -1,0 +1,106 @@
+key	text	tooltip
+#Loc;1;text/db/edh_heinrich_skills.loc		
+character_skills_localised_name_edh_heinrich_skill_h01	Barded Warhorse	true
+character_skills_localised_description_edh_heinrich_skill_h01	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	true
+character_skills_localised_name_edh_heinrich_skill_h02	Imperial Griffon	true
+character_skills_localised_description_edh_heinrich_skill_h02	Once trained to carry a man in battle, Imperial griffons are poised killers and incredibly dedicated to their riders.	true
+character_skills_localised_name_edh_heinrich_skill_h03	Brass-Lunged	true
+character_skills_localised_description_edh_heinrich_skill_h03	This Lord belts out orders and can be heard even across a battlefield smothered in the grim noise of war.	true
+character_skills_localised_name_edh_heinrich_skill_h04	Giữ Vững Đầu Cầu	true
+character_skills_localised_description_edh_heinrich_skill_h04		true
+character_skills_localised_name_edh_heinrich_skill_h05	Sigmar’s Ward	true
+character_skills_localised_description_edh_heinrich_skill_h05	The relentless drive and fury of the Hammer, harnessed for the protection of this ward’s bearer.	true
+character_skills_localised_name_edh_heinrich_skill_h06	Soldiers of Renown	true
+character_skills_localised_description_edh_heinrich_skill_h06	Their renown shall further elevate the one under whose command they march.	true
+character_skills_localised_name_edh_heinrich_skill_h07	Immortality	true
+character_skills_localised_description_edh_heinrich_skill_h07	Who wants to live forever? As it turns out, most beings wouldn't say no…	true
+character_skills_localised_name_edh_heinrich_skill_h08	Mentor	true
+character_skills_localised_description_edh_heinrich_skill_h08	Having learned much in their long years of service, this character now turns their attention to training others.	true
+character_skills_localised_name_edh_heinrich_skill_h09	Imperial Training	true
+character_skills_localised_description_edh_heinrich_skill_h09	A veteran of countless battles, this one has a hunger for slaughter and a thirst for blood.	true
+character_skills_localised_name_edh_heinrich_skill_h10	Dạn Dày Viễn Chinh	true
+character_skills_localised_description_edh_heinrich_skill_h10	One doesn't reach the rank of General without having survived many a battle.	true
+character_skills_localised_name_edh_heinrich_skill_h11	War Hero	true
+character_skills_localised_description_edh_heinrich_skill_h11	This one's many courageous deeds are celebrated far and wide across the Empire, with many speaking of their might and determination in the very thick of battle.	true
+character_skills_localised_name_edh_heinrich_skill_h12	Heroic Killing Blow	true
+character_skills_localised_description_edh_heinrich_skill_h12	The blades of the Empire slice through the enemy like so many knives through so much fleshy butter.	true
+character_skills_localised_name_edh_heinrich_skill_h13	Drill Instructor	true
+character_skills_localised_description_edh_heinrich_skill_h13	Courage, duty, honour – all meaningless without discipline. This commander demands their troops be perfectly drilled, that they may stand fast against even the darkest of the Empire's foes. 	true
+character_skills_localised_name_edh_heinrich_skill_h14	Leading the Charge	true
+character_skills_localised_description_edh_heinrich_skill_h14	With their general at its head, the Empire's cavalry charge into battle with great zeal.	true
+character_skills_localised_name_edh_heinrich_skill_h15	Người Mang Hiến Chương	true
+character_skills_localised_description_edh_heinrich_skill_h15	Having friends in the high places of Imperial society has its benefits. It's always *who* you know...	true
+character_skills_localised_name_edh_heinrich_skill_h16	Uy Danh Phó Vương	true
+character_skills_localised_description_edh_heinrich_skill_h16	This one is loved and respected by their troops, many of whom have come from all over the world to fight at their side.	true
+character_skills_localised_name_edh_heinrich_skill_h17	Hard to Hit	true
+character_skills_localised_description_edh_heinrich_skill_h17	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_hard_to_hit}}	true
+character_skills_localised_name_edh_heinrich_skill_h18	Devastating Charge	true
+character_skills_localised_description_edh_heinrich_skill_h18	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_devastating_charge}}	true
+character_skills_localised_name_edh_heinrich_skill_h19	Thép Nhà Adlerhorst	true
+character_skills_localised_description_edh_heinrich_skill_h19	Full-Plate armour protects the wearer from head-to-foot. Many such suits are blessed or imbued with arcane abilities.	true
+character_skills_localised_name_edh_heinrich_skill_h20	Scarred Veteran	true
+character_skills_localised_description_edh_heinrich_skill_h20	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_scarred_veteran}}	true
+character_skills_localised_name_edh_heinrich_skill_h21	Deadly Blade	true
+character_skills_localised_description_edh_heinrich_skill_h21	A deadly blade is especially lethal when in the hands of this master death-maker, killer and slaughterer!	true
+character_skills_localised_name_edh_heinrich_skill_h22	Foe-Seeker	true
+character_skills_localised_description_edh_heinrich_skill_h22	 From one bloodied, lifeless corpse to the next, this one is always looking for the next adversary to best.	true
+character_skills_localised_name_edh_heinrich_skill_h23	Wound-Maker	true
+character_skills_localised_description_edh_heinrich_skill_h23	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_wound-maker}}	true
+character_skills_localised_name_edh_heinrich_skill_h24	Blade Master	true
+character_skills_localised_description_edh_heinrich_skill_h24	{{tr:character_skills_localised_description_wh_main_skill_all_all_self_blade_master}}	true
+character_skills_localised_name_edh_heinrich_skill_h25	Indomitable	true
+character_skills_localised_description_edh_heinrich_skill_h25	The iron will and indomitable presence of this leader ensures their followers remain steadfast when facing peril.	true
+character_skills_localised_name_edh_heinrich_skill_h26	Blade Shield	true
+character_skills_localised_description_edh_heinrich_skill_h26	A blade that sings in defence will not let its wielder be penetrated.	true
+character_skills_localised_name_edh_heinrich_skill_h27	Deadly Onslaught	true
+character_skills_localised_description_edh_heinrich_skill_h27	The war is endless. The cycle of charging, clashing, and bloody hand-to-hand fighting is without end. It will never stop.	true
+character_skills_localised_name_edh_heinrich_skill_h28	Inspiring Presence	true
+character_skills_localised_description_edh_heinrich_skill_h28	There are Lords that radiate power, confidence and fear, inspiring their followers to great or terrible acts.	true
+character_skills_localised_name_edh_heinrich_skill_h29	Emperor's Finest	true
+character_skills_localised_description_edh_heinrich_skill_h29	“We march to war for our Emperor, and Sigmar, our saviour and lord.”	true
+character_skills_localised_name_edh_heinrich_skill_h30	Speed of Horse	true
+character_skills_localised_description_edh_heinrich_skill_h30	These steeds are bred for speed and war, but foremost it is their gallop which marks them out.	true
+character_skills_localised_name_edh_heinrich_skill_h31	Pistolkorps	true
+character_skills_localised_description_edh_heinrich_skill_h31	This Lord expects his men to practice the disciplines of the Pistolkorps, and all be expert marksmen.	true
+character_skills_localised_name_edh_heinrich_skill_h32	Noble Beasts	true
+character_skills_localised_description_edh_heinrich_skill_h32	Harnessed for war, these great beasts have proven themselves as loyal and powerful champions on the battlefield.	true
+character_skills_localised_name_edh_heinrich_skill_h33	Mighty Forge	true
+character_skills_localised_description_edh_heinrich_skill_h33	Patrons of great forges and smiths expect, and are rewarded with, tougher and more enduring war machines.	true
+character_skills_localised_name_edh_heinrich_skill_h34	Imperial Gunnery	true
+character_skills_localised_description_edh_heinrich_skill_h34	Despite what the Dwarfs think, no other race can bring to bear such devastating artillery volleys.	true
+character_skills_localised_name_edh_heinrich_skill_h35	Rally!	true
+character_skills_localised_description_edh_heinrich_skill_h35		true
+character_skills_localised_name_edh_heinrich_skill_h36	Strength of Hardship	true
+character_skills_localised_description_edh_heinrich_skill_h36	The frontline will either make or break you. Those who survive become the backbone of any army.	true
+character_skills_localised_name_edh_heinrich_skill_h37	Sharpshooter	true
+character_skills_localised_description_edh_heinrich_skill_h37	The veteran marksman knows the precise range required to land the killing shot.	true
+character_skills_localised_name_edh_heinrich_skill_h38	Taste for Battle	true
+character_skills_localised_description_edh_heinrich_skill_h38	Some men grow to relish war, dulled to the pain and living solely for the thrill of the kill.	true
+character_skills_localised_name_edh_heinrich_skill_h39	Artillery Master	true
+character_skills_localised_description_edh_heinrich_skill_h39	Those in command of ordnance can potentially decide a battle before the melee has even begun.	true
+character_skills_localised_name_edh_heinrich_skill_h40	Đứng Sau Ta	true
+character_skills_localised_description_edh_heinrich_skill_h40		true
+character_skills_localised_name_edh_heinrich_skill_h41	Route Marcher	true
+character_skills_localised_description_edh_heinrich_skill_h41	Those who know the land and its secrets will travel faster and further than the foes who don't.	true
+character_skills_localised_name_edh_heinrich_skill_h42	Iron Disciplinarian	true
+character_skills_localised_description_edh_heinrich_skill_h42	This Lord expects utter obedience from the smallfolk, and has little time for insurrections or petty revolts.	true
+character_skills_localised_name_edh_heinrich_skill_h43	Leader of Renown	true
+character_skills_localised_description_edh_heinrich_skill_h43	Revered by the masses, such a celebrated leader will inspire many new recruits.	true
+character_skills_localised_name_edh_heinrich_skill_h44	Reassuring Presence	true
+character_skills_localised_description_edh_heinrich_skill_h44	The presence of this Lord ensures a measure of calm, reducing panic and desertion amongst followers.	true
+character_skills_localised_name_edh_heinrich_skill_h45	Fervent	true
+character_skills_localised_description_edh_heinrich_skill_h45	Through our acts, the gods will cleanse the lands.	true
+character_skills_localised_name_edh_heinrich_skill_h46	Irrepressible	true
+character_skills_localised_description_edh_heinrich_skill_h46	It is said that Sigmar would bear a mortal wound and carry on fighting; this champion follows the hallowed Warrior-God.	true
+character_skills_localised_name_edh_heinrich_skill_h47	Lightning Strike	true
+character_skills_localised_description_edh_heinrich_skill_h47	"The time to strike is now!"	true
+character_skills_localised_name_edh_heinrich_skill_h48	Quartermaster	true
+character_skills_localised_description_edh_heinrich_skill_h48	A good quartermaster can ration equipment and foodstuffs efficiently, making supplies last longer.	true
+character_skills_localised_name_edh_heinrich_skill_h49	Logistician	true
+character_skills_localised_description_edh_heinrich_skill_h49	Proficient with figures, this Lord, or his subordinates, can keep his army fulfilled, even in dire circumstances.	true
+character_skills_localised_name_edh_heinrich_skill_h50	Alert	true
+character_skills_localised_description_edh_heinrich_skill_h50	Countless conflicts and a keen sense of awareness have made this Lord difficult to entrap.	true
+character_skills_localised_name_edh_heinrich_skill_h51	Headhunter	true
+character_skills_localised_description_edh_heinrich_skill_h51	"Ever thought about joining the Elector's troops, chief? You'd make a good soldier alright."	true
+character_skills_localised_name_edh_heinrich_skill_h52	Đại Bàng Che Chở	true
+character_skills_localised_description_edh_heinrich_skill_h52	As a guardian, the Warrioress is sworn to protect everything that Asur hold dear.	true

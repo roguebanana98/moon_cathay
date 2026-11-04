@@ -1,0 +1,99 @@
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:35:27)
+Read blend: "D:\Warhammer3_Modding\east_sea_charter\karl_mm_general_rig_test\Karl_MM_on_Empire_General_TEST.blend"
+Fra:1 Mem:107.14M (Peak 107.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_00
+Fra:1 Mem:107.14M (Peak 107.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_01
+Fra:1 Mem:107.15M (Peak 107.15M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_02
+Fra:1 Mem:109.16M (Peak 109.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_04
+Fra:1 Mem:109.17M (Peak 109.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_05
+Fra:1 Mem:109.18M (Peak 109.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_06
+Fra:1 Mem:109.20M (Peak 109.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_08
+Fra:1 Mem:109.20M (Peak 109.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_09
+Fra:1 Mem:109.23M (Peak 109.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.002
+Fra:1 Mem:109.23M (Peak 109.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_10
+Fra:1 Mem:109.48M (Peak 109.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
+Fra:1 Mem:109.68M (Peak 109.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
+Fra:1 Mem:110.06M (Peak 110.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GENERAL_SHIELD_00
+Fra:1 Mem:110.66M (Peak 110.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_14
+Fra:1 Mem:110.84M (Peak 110.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_15
+Fra:1 Mem:111.07M (Peak 111.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_16
+Fra:1 Mem:111.08M (Peak 111.08M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_17
+Fra:1 Mem:111.30M (Peak 111.30M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_18
+Fra:1 Mem:111.53M (Peak 111.53M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_19
+Fra:1 Mem:111.59M (Peak 111.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_20
+Fra:1 Mem:111.86M (Peak 111.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_21
+Fra:1 Mem:111.90M (Peak 111.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_22
+Fra:1 Mem:111.94M (Peak 111.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | MM_KARL_23
+Fra:1 Mem:111.97M (Peak 111.97M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GENERAL_SWORD_00
+Fra:1 Mem:113.35M (Peak 113.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:110.88M (Peak 113.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading emp_karl_franz_body_01_base_colour.dds
+Fra:1 Mem:110.88M (Peak 113.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading emp_blazing_sun_legs_01_material_map.dds
+Fra:1 Mem:216.92M (Peak 216.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading emp_blazing_sun_torso_01_base_colour.dds
+Fra:1 Mem:220.91M (Peak 220.92M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading emp_blazing_sun_torso_01_material_map.dds
+Fra:1 Mem:224.91M (Peak 225.93M) | Time:00:00.05 | Mem:2.00M, Peak:2.00M | Scene, ViewLayer | Updating Images | Loading emp_blazing_sun_torso_01_normal.dds
+Fra:1 Mem:229.92M (Peak 229.92M) | Time:00:00.05 | Mem:2.00M, Peak:2.00M | Scene, ViewLayer | Updating Images | Loading emp_blazing_sun_head_01_base_colour.dds
+Fra:1 Mem:232.91M (Peak 233.92M) | Time:00:00.05 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Images | Loading emp_blazing_sun_head_01_material_map.dds
+Fra:1 Mem:238.92M (Peak 239.93M) | Time:00:00.05 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Images | Loading emp_general_shield_01_normal.dds
+Fra:1 Mem:239.92M (Peak 241.93M) | Time:00:00.06 | Mem:6.00M, Peak:6.00M | Scene, ViewLayer | Updating Images | Loading emp_blazing_sun_head_01_normal.dds
+Fra:1 Mem:237.91M (Peak 241.93M) | Time:00:00.06 | Mem:8.00M, Peak:8.00M | Scene, ViewLayer | Updating Images | Loading emp_blazing_sun_head_01_mask.dds
+Fra:1 Mem:241.91M (Peak 241.93M) | Time:00:00.06 | Mem:8.00M, Peak:8.00M | Scene, ViewLayer | Updating Images | Loading emp_karl_franz_head_01_base_colour.dds
+Fra:1 Mem:257.91M (Peak 259.92M) | Time:00:00.07 | Mem:10.00M, Peak:10.00M | Scene, ViewLayer | Updating Images | Loading emp_karl_franz_head_01_material_map.dds
+Fra:1 Mem:277.92M (Peak 278.93M) | Time:00:00.08 | Mem:11.00M, Peak:11.00M | Scene, ViewLayer | Updating Images | Loading emp_general_shield_01_material_map.dds
+Fra:1 Mem:273.91M (Peak 278.93M) | Time:00:00.08 | Mem:15.00M, Peak:15.00M | Scene, ViewLayer | Updating Images | Loading emp_karl_franz_head_01_normal.dds
+Fra:1 Mem:290.91M (Peak 294.92M) | Time:00:00.10 | Mem:19.00M, Peak:19.00M | Scene, ViewLayer | Updating Images | Loading emp_karl_franz_head_01_mask.dds
+Fra:1 Mem:290.91M (Peak 294.92M) | Time:00:00.10 | Mem:19.00M, Peak:19.00M | Scene, ViewLayer | Updating Images | Loading hef_alastair_head_01_base_colour.dds
+Fra:1 Mem:299.92M (Peak 303.93M) | Time:00:00.11 | Mem:27.00M, Peak:27.00M | Scene, ViewLayer | Updating Images | Loading hef_alastair_head_01_material_map.dds
+Fra:1 Mem:298.91M (Peak 303.93M) | Time:00:00.11 | Mem:28.00M, Peak:28.00M | Scene, ViewLayer | Updating Images | Loading emp_general_shield_01_base_colour.dds
+Fra:1 Mem:299.91M (Peak 303.93M) | Time:00:00.11 | Mem:32.00M, Peak:32.00M | Scene, ViewLayer | Updating Images | Loading hef_alastair_head_01_normal.dds
+Fra:1 Mem:307.92M (Peak 307.92M) | Time:00:00.12 | Mem:32.00M, Peak:32.00M | Scene, ViewLayer | Updating Images | Loading hef_alastair_head_01_mask.dds
+Fra:1 Mem:308.92M (Peak 312.93M) | Time:00:00.14 | Mem:36.00M, Peak:36.00M | Scene, ViewLayer | Updating Images | Loading dae_harald_hammerstorm_01_base_colour.dds
+Fra:1 Mem:323.91M (Peak 324.92M) | Time:00:00.14 | Mem:37.00M, Peak:37.00M | Scene, ViewLayer | Updating Images | Loading emp_general_sword_1h_01_mask.dds
+Fra:1 Mem:328.92M (Peak 329.93M) | Time:00:00.15 | Mem:38.00M, Peak:38.00M | Scene, ViewLayer | Updating Images | Loading emp_general_sword_1h_01_normal.dds
+Fra:1 Mem:324.91M (Peak 329.93M) | Time:00:00.15 | Mem:42.00M, Peak:42.00M | Scene, ViewLayer | Updating Images | Loading dae_harald_hammerstorm_01_material_map.dds
+Fra:1 Mem:341.91M (Peak 345.92M) | Time:00:00.15 | Mem:46.00M, Peak:46.00M | Scene, ViewLayer | Updating Images | Loading dae_harald_hammerstorm_01_normal.dds
+Fra:1 Mem:389.93M (Peak 390.94M) | Time:00:00.16 | Mem:47.00M, Peak:47.00M | Scene, ViewLayer | Updating Images | Loading emp_general_sword_1h_01_material_map.dds
+Fra:1 Mem:391.93M (Peak 395.94M) | Time:00:00.18 | Mem:51.00M, Peak:51.00M | Scene, ViewLayer | Updating Images | Loading dae_harald_hammerstorm_01_mask.dds
+Fra:1 Mem:390.92M (Peak 395.94M) | Time:00:00.18 | Mem:52.00M, Peak:52.00M | Scene, ViewLayer | Updating Images | Loading emp_general_sword_1h_01_base_colour.dds
+Fra:1 Mem:364.70M (Peak 487.95M) | Time:00:00.28 | Mem:265.00M, Peak:265.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:364.70M (Peak 487.95M) | Time:00:00.28 | Mem:265.00M, Peak:265.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:364.70M (Peak 487.95M) | Time:00:00.28 | Mem:265.00M, Peak:265.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:364.70M (Peak 487.95M) | Time:00:00.28 | Mem:265.00M, Peak:265.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:364.82M (Peak 487.95M) | Time:00:00.28 | Mem:265.04M, Peak:265.04M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:364.82M (Peak 487.95M) | Time:00:00.28 | Mem:265.04M, Peak:265.04M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:364.82M (Peak 487.95M) | Time:00:00.28 | Mem:265.04M, Peak:265.04M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:364.82M (Peak 487.95M) | Time:00:00.28 | Mem:265.04M, Peak:265.04M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:364.82M (Peak 487.95M) | Time:00:00.28 | Mem:265.04M, Peak:265.04M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:364.82M (Peak 487.95M) | Time:00:00.28 | Mem:265.04M, Peak:265.04M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:364.83M (Peak 487.95M) | Time:00:00.28 | Mem:265.05M, Peak:265.05M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:364.83M (Peak 487.95M) | Time:00:00.28 | Mem:265.05M, Peak:265.05M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:364.83M (Peak 487.95M) | Time:00:00.28 | Mem:265.05M, Peak:265.05M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:366.41M (Peak 487.95M) | Time:00:00.31 | Mem:265.05M, Peak:265.05M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:366.41M (Peak 487.95M) | Time:00:00.31 | Mem:265.05M, Peak:265.05M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:368.58M (Peak 487.95M) | Time:00:00.31 | Mem:265.05M, Peak:265.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:368.58M (Peak 487.95M) | Time:00:00.31 | Mem:267.21M, Peak:267.21M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:368.58M (Peak 487.95M) | Time:00:00.31 | Mem:267.21M, Peak:267.21M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:368.58M (Peak 487.95M) | Time:00:00.31 | Mem:268.06M, Peak:268.06M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:368.58M (Peak 487.95M) | Time:00:00.32 | Mem:268.98M, Peak:269.83M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:368.58M (Peak 487.95M) | Time:00:00.32 | Mem:268.98M, Peak:269.83M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:369.51M (Peak 487.95M) | Time:00:00.32 | Mem:268.98M, Peak:269.83M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:369.51M (Peak 487.95M) | Time:00:00.32 | Mem:269.92M, Peak:269.92M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:369.51M (Peak 487.95M) | Time:00:00.32 | Mem:269.92M, Peak:269.92M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:369.51M (Peak 487.95M) | Time:00:00.32 | Mem:269.92M, Peak:269.92M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:369.51M (Peak 487.95M) | Time:00:00.32 | Mem:269.92M, Peak:269.92M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:369.51M (Peak 487.95M) | Time:00:00.32 | Mem:269.92M, Peak:269.92M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:369.51M (Peak 487.95M) | Time:00:00.32 | Mem:270.00M, Peak:270.00M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:369.51M (Peak 487.95M) | Time:00:00.32 | Mem:270.00M, Peak:270.00M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:374.20M (Peak 487.95M) | Time:00:00.36 | Mem:274.68M, Peak:274.68M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:374.20M (Peak 487.95M) | Time:00:00.36 | Mem:274.68M, Peak:274.68M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:374.20M (Peak 487.95M) | Time:00:00.36 | Mem:274.60M, Peak:274.68M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:374.20M (Peak 487.95M) | Time:00:00.36 | Mem:274.69M, Peak:274.69M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:374.20M (Peak 487.95M) | Time:00:00.36 | Mem:274.69M, Peak:274.69M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:374.20M (Peak 487.95M) | Time:00:00.36 | Mem:274.69M, Peak:274.69M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:374.20M (Peak 487.95M) | Time:00:00.36 | Mem:274.69M, Peak:274.69M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:379.09M (Peak 487.95M) | Time:00:00.39 | Remaining:00:01.09 | Mem:279.45M, Peak:279.45M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:381.09M (Peak 487.95M) | Time:00:01.77 | Mem:279.45M, Peak:279.45M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:381.09M (Peak 487.95M) | Time:00:01.77 | Mem:279.45M, Peak:279.45M | Scene, ViewLayer | Finished
+Saved: 'D:\Warhammer3_Modding\east_sea_charter\heinrich_custom_battle\heinrich_portrait.png'
+Time: 00:01.91 (Saving: 00:00.13)
+
+
+Blender quit

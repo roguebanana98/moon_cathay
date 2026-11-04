@@ -1,0 +1,14 @@
+{
+  "blend": "D:\\Warhammer3_Modding\\east_sea_charter\\sariwa_damsel02\\Sariwa_Damsel02_Naga3_v2.blend",
+  "naga_heads": 3,
+  "crown_vertices": 10182,
+  "crown_triangles": 19472,
+  "native_staff_vertices_before": 554,
+  "lower_shaft_and_grip_unchanged": true,
+  "other_meshes_unchanged": true,
+  "native_constraint_bone": "be_prop_5",
+  "attachment_test_max_error": 0.0,
+  "eyes": "6 jade eyes",
+  "uv_unwrapped": true,
+  "game_deployed": false
+}

@@ -1,0 +1,23 @@
+{
+  "installed_game_version": "9.0.5",
+  "v1": {
+    "custom_battle_listing": true,
+    "selected_and_recruited": true,
+    "battle_loaded": true,
+    "model_and_textures_visible": true,
+    "native_sword_shield_visible": true,
+    "movement_command_completed": true,
+    "portrait_card_fallback_observed": true
+  },
+  "v2": {
+    "enabled_mod_confirmed_in_game_log": true,
+    "custom_battle_empire_lord_visible": true,
+    "selected_lord_name": "Heinrich von Adlerhorst (Test)",
+    "army_card_portrait_correct": true,
+    "lord_selected_in_army_setup": true
+  },
+  "combat_completed": false,
+  "mounted_variants_tested": false,
+  "campaign_tested": false,
+  "handoff": "Game left in Skirmish vs A.I. Army Setup with Heinrich selected; press Start Battle to test."
+}

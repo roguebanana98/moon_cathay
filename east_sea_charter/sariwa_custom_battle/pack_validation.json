@@ -1,0 +1,2212 @@
+{
+  "status": "static_checks_passed",
+  "pack": "D:\\Warhammer3_Modding\\east_sea_charter\\sariwa_custom_battle\\edh_heinrich_sariwa_v4.pack",
+  "sha256": "0ef0b3d05dc9599013c31a5014a1e5bd3d24d5e4cc75a34cde53a5c418957239",
+  "previous_pack": "D:\\Warhammer3_Modding\\east_sea_charter\\heinrich_skill_tree\\edh_heinrich_v3_skill_tree.pack",
+  "unit": "edh_sariwa",
+  "faction": "wh_main_emp_empire",
+  "subtype": "edh_sariwa",
+  "skill_set": "edh_sariwa_skill_node_set",
+  "skill_count": 21,
+  "donor": "wh_main_brt_cha_damsel_0",
+  "native_animation_table": "hu1b_bretonnian_staff_and_sword",
+  "payloads": [
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/edh_sariwa_body_mask.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/edh_sariwa_jade_mask.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/edh_sariwa_mask.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/edh_sariwa_naga_base_colour.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/edh_sariwa_naga_material_map.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/edh_sariwa_normal.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/edh_sariwa_staff_base_colour.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/edh_sariwa_body_base_colour_v1.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_head.rigid_model_v2",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/e2d6fba7_endo_damsel_head_02_base_colour.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/82807ce0_endo_damsel_head_02_material_map.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/d04f3a08_endo_damsel_head_02_normal.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/head_endo_damsel_head_02_weighted4_alpha_off.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/31c99aad_endo_damsel_hair_01_base_colour.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/6b1177b0_endo_damsel_hair_01_material_map.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/d77f38d0_endo_damsel_hair_01_normal.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/head_endo_damsel_hair_01_weighted4_alpha_on.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/head_endo_damsel_head_02_2_weighted2_alpha_off.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/head_endo_damsel_hair_01_2_weighted2_alpha_on.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_head.wsmodel",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_body.rigid_model_v2",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/2e1ef179_endo_damsel_body_02_material_map.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/8a78dd87_endo_damsel_body_02_normal.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/body_endo_damsel_body_02_weighted4_alpha_off.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/body_endo_damsel_body_02_2_weighted2_alpha_off.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_body.wsmodel",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_sword.rigid_model_v2",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/f541637b_brt_lord_knight_sword_1h_01_base_colour.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/378cce96_brt_lord_knight_sword_1h_01_material_map.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/c570df83_brt_lord_knight_sword_1h_01_normal.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/sword_brt_lord_knight_sword_1h_01_alpha_off.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_sword.wsmodel",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_staff.rigid_model_v2",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/71aaa951_brt_damsel_staff_1h_01_material_map.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/tex/0ffe7e4e_brt_damsel_staff_1h_01_normal.dds",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/staff_brt_damsel_staff_1h_01_alpha_off.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_staff.wsmodel",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_naga.rigid_model_v2",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/naga_brt_damsel_staff_1h_01_alpha_off.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_naga.wsmodel",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_naga_jade.rigid_model_v2",
+    "variantmeshes/wh_variantmodels/edh/sariwa/materials/naga_jade_brt_damsel_staff_1h_01_alpha_off.xml.material",
+    "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_naga_jade.wsmodel",
+    "variantmeshes/variantmeshdefinitions/edh_sariwa.variantmeshdefinition",
+    "db/main_units_tables/edh_sariwa",
+    "db/land_units_tables/edh_sariwa",
+    "db/unit_variants_tables/edh_sariwa",
+    "db/variants_tables/edh_sariwa",
+    "db/agent_uniforms_tables/edh_sariwa",
+    "db/units_custom_battle_permissions_tables/edh_sariwa",
+    "db/campaign_character_art_sets_tables/edh_sariwa",
+    "db/campaign_character_arts_tables/edh_sariwa",
+    "db/agent_subtypes_tables/edh_sariwa",
+    "db/names_tables/edh_sariwa",
+    "db/battle_set_piece_armies_characters_tables/edh_sariwa",
+    "db/units_to_groupings_military_permissions_tables/edh_sariwa",
+    "db/unit_description_historical_texts_tables/edh_sariwa",
+    "db/unit_description_short_texts_tables/edh_sariwa",
+    "db/land_units_to_unit_abilites_junctions_tables/edh_sariwa",
+    "db/special_ability_groups_to_units_junctions_tables/edh_sariwa",
+    "db/character_skills_tables/edh_sariwa",
+    "db/character_skill_nodes_tables/edh_sariwa",
+    "db/character_skill_node_sets_tables/edh_sariwa",
+    "db/character_skill_node_set_items_tables/edh_sariwa",
+    "db/character_skill_node_links_tables/edh_sariwa",
+    "db/character_skill_level_to_effects_junctions_tables/edh_sariwa",
+    "db/character_skill_utilization_hints_junctions_tables/edh_sariwa",
+    "db/character_skill_level_details_tables/edh_sariwa",
+    "db/battle_set_piece_armies_characters_skillsets_tables/edh_sariwa",
+    "db/battle_set_piece_armies_characters_skillsets_skills_tables/edh_sariwa",
+    "text/db/edh_sariwa.loc",
+    "ui/portraits/units/no_culture/edh_sariwa_0.png",
+    "ui/portraits/units/portrait_settings__edh_sariwa.bin",
+    "ui/portraits/portholes/no_culture/edh_sariwa_0.png",
+    "ui/portraits/portholes/portrait_settings__edh_sariwa.bin",
+    "ui/units/icons/edh_sariwa.png",
+    "ui/units/minspec_portholes/edh_sariwa.png"
+  ],
+  "rows": {
+    "main_units": [
+      {
+        "unit": "edh_sariwa",
+        "additional_building_requirement": "",
+        "campaign_cap": "0",
+        "caste": "hero",
+        "create_time": "1",
+        "is_naval": "false",
+        "land_unit": "edh_sariwa",
+        "num_men": "1",
+        "multiplayer_cap": "1",
+        "multiplayer_cost": "250",
+        "naval_unit": "wh_main_shp_transport",
+        "num_ships": "1",
+        "min_men_per_ship": "1",
+        "max_men_per_ship": "1",
+        "recruitment_cost": "1000",
+        "upkeep_cost": "250",
+        "weight": "light",
+        "resource_requirement": "",
+        "special_edition_mask": "0",
+        "in_encyclopedia": "false",
+        "audio_voiceover_culture": "wh_main_vo_culture_Bretonnian",
+        "ui_unit_group_land": "wizard_heavens",
+        "tier": "0",
+        "is_high_threat": "true",
+        "porthole_camera": "emp_general_foot",
+        "mount": "",
+        "use_hitpoints_in_campaign": "true",
+        "porthole_composite_scene": "",
+        "melee_cp": "250.0000",
+        "missile_cp": "0.0000",
+        "can_siege": "false",
+        "audio_voiceover_culture_override": "vo_culture_None",
+        "restrict_xp_gain_in_campaign": "true",
+        "audio_voiceover_actor_group": "wh_dlc03_vo_actor_Bretonnian_Damsel",
+        "food_cost": "0",
+        "has_spoken_vo": "true",
+        "is_monstrous": "false",
+        "multiplayer_qb_cap": "1",
+        "vo_is_dragon": "false",
+        "vo_is_dinosaur": "false",
+        "optional_ui_element": "",
+        "barrier_health": "0.0000",
+        "can_be_bribed": "true",
+        "point_allowance_weight": "1",
+        "is_renown": "false"
+      }
+    ],
+    "land_units": [
+      {
+        "key": "edh_sariwa",
+        "accuracy": "10",
+        "armour": "wh2_main_leather_15",
+        "campaign_action_points": "2100",
+        "category": "inf_melee",
+        "charge_bonus": "15",
+        "class": "com",
+        "historical_description_text": "edh_sariwa",
+        "man_animation": "hu1b_bretonnian_staff_and_sword",
+        "man_entity": "wh2_dlc16_infantry_standard_fast_hero_blood_dismembers_low_kb_resist",
+        "melee_attack": "34",
+        "melee_defence": "22",
+        "morale": "55",
+        "bonus_hit_points": "3412",
+        "mount": "",
+        "num_mounts": "0",
+        "primary_melee_weapon": "wh_main_brt_sword_caster_hero",
+        "primary_missile_weapon": "",
+        "rank_depth": "1",
+        "shield": "none",
+        "short_description_text": "edh_sariwa",
+        "spacing": "wh_main_infantry",
+        "training_level": "trained",
+        "articulated_record": "",
+        "engine": "",
+        "is_male": "false",
+        "visibility_spotting_range_min": "40.0000",
+        "visibility_spotting_range_max": "1500.0000",
+        "attribute_group": "wh_main_brt_cha_damsel_0",
+        "spot_dist_tree": "60",
+        "spot_dist_scrub": "80",
+        "reload": "0",
+        "selection_vo": "vo_sel_default",
+        "selected_vo_secondary": "vo_sel_generic",
+        "selected_vo_tertiary": "vo_sel_culture",
+        "hiding_scalar": "1.0000",
+        "ground_stat_effect_group": "small",
+        "secondary_ammo": "0",
+        "primary_ammo": "0",
+        "damage_mod_flame": "0",
+        "damage_mod_magic": "0",
+        "num_engines": "0",
+        "damage_mod_physical": "0",
+        "damage_mod_missile": "15",
+        "damage_mod_all": "0",
+        "ai_usage_group": "mage_highvalue",
+        "can_skirmish": "false",
+        "can_brace": "true",
+        "mounted_draughts": "false",
+        "sync_locomotion": "false",
+        "capture_tier": "high",
+        "key_building_capture_tier": "high",
+        "score_capture_tier": "domination_characters",
+        "harmony_amplification_type": "",
+        "first_person": "",
+        "ar_unit_category": "skirmish",
+        "healing_power": "1.0000",
+        "spell_mastery": "1.0000",
+        "infinite_secondary_ammo": "false",
+        "default_guard_mode": "false"
+      }
+    ],
+    "unit_variants": [
+      {
+        "faction": "",
+        "unit": "edh_sariwa",
+        "name": "edh_sariwa",
+        "variant": "edh_sariwa",
+        "unit_card": "edh_sariwa"
+      }
+    ],
+    "variants": [
+      {
+        "variant_name": "edh_sariwa",
+        "tech_folder": "",
+        "variant_filename": "edh_sariwa",
+        "low_poly_filename": "",
+        "mount_scale": "1.0000",
+        "scale": "1.1500",
+        "scale_variation": "0.0500",
+        "super_low_poly_filename": ""
+      }
+    ],
+    "agent_uniforms": [
+      {
+        "uniform_name": "edh_sariwa_uniform",
+        "filename": "edh_sariwa",
+        "battle_filename": "edh_sariwa",
+        "campaign_porthole_filename": "edh_sariwa",
+        "campaign_politician_filename": "",
+        "campaign_override_skeleton": ""
+      }
+    ],
+    "units_custom_battle_permissions": [
+      {
+        "faction": "wh_main_emp_empire",
+        "general_unit": "false",
+        "unit": "edh_sariwa",
+        "siege_unit_attacker": "true",
+        "siege_unit_defender": "true",
+        "general_portrait": "ui/portraits/portholes/no_culture/edh_sariwa_0.png",
+        "general_uniform": "edh_sariwa_uniform",
+        "set_piece_character": "edh_sariwa",
+        "campaign_exclusive": "false",
+        "armory_item_set": "",
+        "supports_upgrades": "false"
+      }
+    ],
+    "campaign_character_art_sets": [
+      {
+        "art_set_id": "edh_sariwa_art",
+        "agent_type": "wizard",
+        "culture": "",
+        "subculture": "",
+        "faction": "",
+        "is_custom": "false",
+        "is_male": "false",
+        "agent_subtype": "edh_sariwa",
+        "campaign_map_scale": "1.0000",
+        "prebattle_separation_offset": "0.0000"
+      }
+    ],
+    "campaign_character_arts": [
+      {
+        "id": "1800412700",
+        "art_set_id": "edh_sariwa_art",
+        "level": "0",
+        "age": "0",
+        "portrait": "",
+        "season": "none",
+        "uniform": "edh_sariwa_uniform",
+        "card": "",
+        "info": "",
+        "sea_uniform": "wh_main_campaign_brt_ship_light",
+        "navy_uniform": "wh_main_campaign_brt_ship_heavy",
+        "land_animation": "cam_hu1b_bretonnian_staff_and_sword",
+        "sea_animation": "cam_light_ship_01",
+        "navy_animation": "cam_heavy_ship_01",
+        "land_animation_vfx_filter": "0",
+        "sea_animation_vfx_filter": "0",
+        "navy_animation_vfx_filter": "0"
+      }
+    ],
+    "agent_subtypes": [
+      {
+        "key": "edh_sariwa",
+        "auto_generate": "false",
+        "is_caster": "true",
+        "small_icon": "ui/campaign ui/agents/wh_main_lore_heavens.png",
+        "associated_unit_override": "edh_sariwa",
+        "audio_voiceover_actor_group": "wh_dlc03_vo_actor_Bretonnian_Damsel",
+        "show_in_ui": "true",
+        "cap": "1",
+        "has_female_name": "true",
+        "can_gain_xp": "true",
+        "loyalty_is_applicable": "false",
+        "contributes_to_agent_cap": "false",
+        "recruitment_category": "",
+        "magic_lore": "",
+        "names_group": "",
+        "can_be_loaned": "false",
+        "recruitable": "false",
+        "saving_settings": "cannot_be_loaded_in_campaign",
+        "audio_vo_culture_override": "",
+        "spam_click_vo_enabled": "false",
+        "can_equip_ancillaries": "true",
+        "cost": "750",
+        "recruitment_button_active_icon_path": "",
+        "recruitment_button_background_icon_path": "",
+        "audio_force_contextual_vo": "false"
+      }
+    ],
+    "names": [
+      {
+        "id": "1800412710",
+        "names_group": "names_brt_bretonnia",
+        "type": "forename",
+        "gender": "f",
+        "frequency": "0"
+      },
+      {
+        "id": "1800412711",
+        "names_group": "names_brt_bretonnia",
+        "type": "family_name",
+        "gender": "f",
+        "frequency": "0"
+      }
+    ],
+    "battle_set_piece_armies_characters": [
+      {
+        "character_name": "edh_sariwa",
+        "character_level": "1",
+        "forename": "1800412710",
+        "magic_lore": "wh_main_lore_heavens",
+        "num_men": "100",
+        "surname": "1800412711",
+        "unit_type": "edh_sariwa",
+        "agent_type": "wizard",
+        "agent_subtype": "edh_sariwa",
+        "portrait": "ui/portraits/portholes/no_culture/edh_sariwa_0.png",
+        "character_model": "1800412700",
+        "skillset": "edh_sariwa_skill_node_set",
+        "male": "false"
+      }
+    ],
+    "units_to_groupings_military_permissions": [
+      {
+        "unit": "edh_sariwa",
+        "military_group": "wh_main_group_empire"
+      }
+    ],
+    "unit_description_historical_texts": [
+      {
+        "key": "edh_sariwa"
+      }
+    ],
+    "unit_description_short_texts": [
+      {
+        "key": "edh_sariwa"
+      }
+    ],
+    "land_units_to_unit_abilites_junctions": [
+      {
+        "ability": "wh3_main_unit_passive_single_entity",
+        "land_unit": "edh_sariwa",
+        "culture": "*"
+      },
+      {
+        "ability": "wh_main_hero_passive_aura_of_the_lady",
+        "land_unit": "edh_sariwa",
+        "culture": "*"
+      },
+      {
+        "ability": "wh_main_lord_passive_the_blessing_of_the_lady_unit_upgrade",
+        "land_unit": "edh_sariwa",
+        "culture": "*"
+      },
+      {
+        "ability": "wh2_main_character_passive_grand_arcane_conduit",
+        "land_unit": "edh_sariwa",
+        "culture": "*"
+      }
+    ],
+    "special_ability_groups_to_units_junctions": [
+      {
+        "ability_group": "wh_main_lore_heavens",
+        "unit": "edh_sariwa",
+        "group_page_order": "0"
+      }
+    ],
+    "character_skills": [
+      {
+        "key": "edh_sariwa_skill_s01",
+        "image_path": "wh_main_hero_passive_aura_of_the_lady.png",
+        "localised_description": "Acolytes too are blessed by the Lady's spirit, enabling them to resist magical attacks.",
+        "localised_name": "Hào Quang Người Giữ Đền",
+        "unlocked_at_rank": "11",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s02",
+        "image_path": "character_ward_save.png",
+        "localised_description": "From the verdant depths, the Lady rises to protect the faithful.",
+        "localised_name": "Áo Choàng Lời Thề",
+        "unlocked_at_rank": "7",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s03",
+        "image_path": "character_wound_time.png",
+        "localised_description": "Who wants to live forever? As it turns out, most beings wouldn't say no…",
+        "localised_name": "Immortality",
+        "unlocked_at_rank": "19",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s04",
+        "image_path": "character_experience.png",
+        "localised_description": "{{tr:character_skills_localised_description_wh3_main_skill_all_mentor_lord}}",
+        "localised_name": "Mentor",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s05",
+        "image_path": "wh_main_spell_heavens_harmonic_convergence.png",
+        "localised_description": "",
+        "localised_name": "Điềm Lành Đền Cổ",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s06",
+        "image_path": "wh_main_lore_passive_roiling_skies.png",
+        "localised_description": "",
+        "localised_name": "Bầu Trời Của Ngọc Xà",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s07",
+        "image_path": "wh_main_spell_heavens_wind_blast.png",
+        "localised_description": "",
+        "localised_name": "Hơi Thở Naga",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s08",
+        "image_path": "wh_main_spell_heavens_curse_of_the_midnight_wind.png",
+        "localised_description": "",
+        "localised_name": "Lời Nguyền Đền Rắn",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s09",
+        "image_path": "wh_main_spell_heavens_urannons_thunderbolt.png",
+        "localised_description": "",
+        "localised_name": "Lôi Kích Ngọc Xà",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s10",
+        "image_path": "wh_main_character_passive_evasion.png",
+        "localised_description": "",
+        "localised_name": "Evasion",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s11",
+        "image_path": "wh_main_spell_heavens_comet_of_casandora.png",
+        "localised_description": "",
+        "localised_name": "Thiên Thạch Đền Cổ",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s12",
+        "image_path": "wh_main_spell_heavens_chain_lightning.png",
+        "localised_description": "",
+        "localised_name": "Ngũ Xà Lôi Quang",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s13",
+        "image_path": "character_magic.png",
+        "localised_description": "By stabbing a staff or some arcane conduit into the ground, an accomplished magic-user can earth or tether the Winds and hopefully reduce a chance of miscasting.",
+        "localised_name": "Earthing",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s14",
+        "image_path": "character_magic.png",
+        "localised_description": "A few magic-users have the ability to store the Winds of Magic for later use, increasing their spellcasting power when it really counts.",
+        "localised_name": "Magical Reserves",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s15",
+        "image_path": "wh_main_character_abilities_arcane_conduit.png",
+        "localised_description": "",
+        "localised_name": "Mạch Phép Đền Cổ",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s16",
+        "image_path": "campaign_replenishment.png",
+        "localised_description": "Those in the army can find succour or be replenished by the power of this champion.",
+        "localised_name": "Replenish Troops",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s17",
+        "image_path": "campaign_untainted.png",
+        "localised_description": "The locals take notice and will be inspired or frightened into action.",
+        "localised_name": "Cleanse Corruption",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s18",
+        "image_path": "campaign_technology.png",
+        "localised_description": "Oft-times, though you may have much, what you want the most is what your rivals have; such envy focuses the mind and creativity.",
+        "localised_name": "Steal Technology",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s19",
+        "image_path": "campaign_wound_time.png",
+        "localised_description": "Such a champion will not bend or break, but slay in their Lord's name.",
+        "localised_name": "Wound",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s20",
+        "image_path": "campaign_movement.png",
+        "localised_description": "To sow discord and confuse the enemy, sending them down the wrong route or befuddling their senses.",
+        "localised_name": "Block Army",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      },
+      {
+        "key": "edh_sariwa_skill_s21",
+        "image_path": "campaign_military_spending.png",
+        "localised_description": "An expert in their craft, this Hero knows all the mistakes that can be made and how to best avoid making them.",
+        "localised_name": "Specialist",
+        "unlocked_at_rank": "0",
+        "is_background_skill": "false",
+        "is_female_only_background_skill": "false",
+        "is_male_only_background_skill": "false",
+        "background_weighting": "0.0000",
+        "influence_cost": "0"
+      }
+    ],
+    "character_skill_nodes": [
+      {
+        "key": "edh_sariwa_node_s01",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s01",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s02",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s02",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s03",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s03",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "29",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s04",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s04",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "30",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s05",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s05",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s06",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s06",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s07",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s08",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s09",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "4",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s10",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s10",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "5",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "4",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s11",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "6",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s12",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s12",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "7",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s13",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s13",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "8",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s14",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s14",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "9",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s15",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s15",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "10",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "4",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s16",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s16",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s17",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s17",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s18",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s18",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s19",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s19",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s20",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s20",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "4",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      {
+        "key": "edh_sariwa_node_s21",
+        "campaign_key": "",
+        "character_skill_key": "edh_sariwa_skill_s21",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "5",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      }
+    ],
+    "character_skill_node_sets": [
+      {
+        "key": "edh_sariwa_skill_node_set",
+        "agent_key": "wizard",
+        "for_army": "false",
+        "faction_key": "",
+        "subculture": "",
+        "for_navy": "false",
+        "campaign_key": "",
+        "agent_subtype_key": "edh_sariwa"
+      }
+    ],
+    "character_skill_node_set_items": [
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s03",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s04",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh3_main_agent_action_scaling",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s16",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s17",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s18",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s19",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s20",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s21",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_campaign_actions_dummy",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_02",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_03",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_04",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_05",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_06",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_07",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_08",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_09",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_10",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_innate_11",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s05",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s06",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s07",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s08",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s09",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s10",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s13",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s14",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s11",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s12",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s15",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "wh_main_skill_node_brt_damsel_magic1_dummy",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s02",
+        "mod_disabled": "false"
+      },
+      {
+        "set": "edh_sariwa_skill_node_set",
+        "item": "edh_sariwa_node_s01",
+        "mod_disabled": "false"
+      }
+    ],
+    "character_skill_node_links": [
+      {
+        "child_key": "edh_sariwa_node_s06",
+        "parent_key": "edh_sariwa_node_s05",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s07",
+        "parent_key": "edh_sariwa_node_s05",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s08",
+        "parent_key": "edh_sariwa_node_s05",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s09",
+        "parent_key": "edh_sariwa_node_s05",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s10",
+        "parent_key": "edh_sariwa_node_s06",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "SUBSET_REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s10",
+        "parent_key": "edh_sariwa_node_s07",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "SUBSET_REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s10",
+        "parent_key": "edh_sariwa_node_s08",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "SUBSET_REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s10",
+        "parent_key": "edh_sariwa_node_s09",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "SUBSET_REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s13",
+        "parent_key": "edh_sariwa_node_s10",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s14",
+        "parent_key": "edh_sariwa_node_s10",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s11",
+        "parent_key": "edh_sariwa_node_s10",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s12",
+        "parent_key": "edh_sariwa_node_s10",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s15",
+        "parent_key": "edh_sariwa_node_s13",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "SUBSET_REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s15",
+        "parent_key": "edh_sariwa_node_s14",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "SUBSET_REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s15",
+        "parent_key": "edh_sariwa_node_s11",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "SUBSET_REQUIRED"
+      },
+      {
+        "child_key": "edh_sariwa_node_s15",
+        "parent_key": "edh_sariwa_node_s12",
+        "initial_descent_tiers": "0",
+        "parent_link_position": "1",
+        "child_link_position": "1",
+        "parent_link_position_offset": "0.0000",
+        "child_link_position_offset": "0.0000",
+        "link_type": "SUBSET_REQUIRED"
+      }
+    ],
+    "character_skill_level_to_effects_junctions": [
+      {
+        "character_skill_key": "edh_sariwa_skill_s15",
+        "effect_key": "wh_dlc08_effect_ability_enable_greater_arcane_conduit",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s16",
+        "effect_key": "wh2_main_effect_agent_action_assist_army_replenish_troops_buff",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "3.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s16",
+        "effect_key": "wh2_main_effect_agent_action_assist_army_replenish_troops_buff",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "6.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s16",
+        "effect_key": "wh2_main_effect_agent_action_assist_army_replenish_troops_buff",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "9.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s19",
+        "effect_key": "wh2_main_effect_agent_action_hinder_agent_wound_buff",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "5.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s19",
+        "effect_key": "wh2_main_effect_agent_action_hinder_agent_wound_buff",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "12.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s19",
+        "effect_key": "wh2_main_effect_agent_action_hinder_agent_wound_buff",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "21.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s20",
+        "effect_key": "wh2_main_effect_agent_action_hinder_army_block_army_buff",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "-3.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s20",
+        "effect_key": "wh2_main_effect_agent_action_hinder_army_block_army_buff",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-8.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s20",
+        "effect_key": "wh2_main_effect_agent_action_hinder_army_block_army_buff",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-15.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s18",
+        "effect_key": "wh2_main_effect_agent_action_hinder_settlement_steal_technology_buff",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "3.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s18",
+        "effect_key": "wh2_main_effect_agent_action_hinder_settlement_steal_technology_buff",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "6.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s18",
+        "effect_key": "wh2_main_effect_agent_action_hinder_settlement_steal_technology_buff",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "10.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s17",
+        "effect_key": "wh2_main_effect_agent_action_passive_spread_corruption_buff",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s17",
+        "effect_key": "wh3_main_effect_agent_action_passive_spread_corruption_reduction_effect",
+        "level": "1",
+        "effect_scope": "character_to_province_any",
+        "value": "-1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s17",
+        "effect_key": "wh2_main_effect_agent_action_passive_spread_corruption_buff",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "2.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s17",
+        "effect_key": "wh3_main_effect_agent_action_passive_spread_corruption_reduction_effect",
+        "level": "2",
+        "effect_scope": "character_to_province_any",
+        "value": "-2.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s17",
+        "effect_key": "wh2_main_effect_agent_action_passive_spread_corruption_buff",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "3.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s17",
+        "effect_key": "wh3_main_effect_agent_action_passive_spread_corruption_reduction_effect",
+        "level": "3",
+        "effect_scope": "character_to_province_any",
+        "value": "-3.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s21",
+        "effect_key": "wh_main_effect_agent_action_cost_mod",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "-10.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s21",
+        "effect_key": "wh_main_effect_agent_action_success_chance",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s21",
+        "effect_key": "wh_main_effect_agent_action_cost_mod",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-20.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s21",
+        "effect_key": "wh_main_effect_agent_action_success_chance",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "3.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s21",
+        "effect_key": "wh_main_effect_agent_action_cost_mod",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-40.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s21",
+        "effect_key": "wh_main_effect_agent_action_success_chance",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "6.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s03",
+        "effect_key": "wh2_main_effect_grant_immortality_hero",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s04",
+        "effect_key": "wh3_main_effect_character_xp_share_generic_herotext",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "15.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s04",
+        "effect_key": "wh3_main_effect_character_xp_share_generic_herotext",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "30.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s04",
+        "effect_key": "wh3_main_effect_character_xp_share_generic_herotext",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "50.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s10",
+        "effect_key": "wh_main_effect_ability_enable_evasion",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s13",
+        "effect_key": "wh_main_effect_character_stat_miscast",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "-15.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s14",
+        "effect_key": "wh3_main_effect_winds_of_magic_pool_cap",
+        "level": "1",
+        "effect_scope": "character_to_force_own_unseen",
+        "value": "5.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s05",
+        "effect_key": "wh2_main_effect_ability_overcast_harmonic_convergence",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s05",
+        "effect_key": "wh_main_effect_ability_cooldown_harmonic_convergence",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "-30.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s05",
+        "effect_key": "wh2_main_effect_ability_miscast_harmonic_convergence_upgraded",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-15.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s05",
+        "effect_key": "wh2_main_effect_ability_overcast_harmonic_convergence",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s05",
+        "effect_key": "wh2_main_effect_ability_wom_cost_harmonic_convergence",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s05",
+        "effect_key": "wh2_main_effect_ability_wom_cost_harmonic_convergence_upgraded",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-2.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s05",
+        "effect_key": "wh_main_effect_ability_cooldown_harmonic_convergence",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-50.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "effect_key": "wh_main_effect_ability_enable_wind_blast",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "effect_key": "wh2_main_effect_ability_overcast_wind_blast",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "effect_key": "wh_main_effect_ability_cooldown_wind_blast",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-30.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "effect_key": "wh2_main_effect_ability_miscast_wind_blast_upgraded",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-15.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "effect_key": "wh2_main_effect_ability_overcast_wind_blast",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "effect_key": "wh2_main_effect_ability_wom_cost_wind_blast",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "effect_key": "wh2_main_effect_ability_wom_cost_wind_blast_upgraded",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-2.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s07",
+        "effect_key": "wh_main_effect_ability_cooldown_wind_blast",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-50.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s06",
+        "effect_key": "wh_main_effect_ability_enable_roiling_skies",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "effect_key": "wh_main_effect_ability_enable_curse_of_the_midnight_wind",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "effect_key": "wh2_main_effect_ability_overcast_curse_of_the_midnight_wind",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "effect_key": "wh_main_effect_ability_cooldown_curse_of_the_midnight_wind",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-30.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "effect_key": "wh2_main_effect_ability_miscast_curse_of_the_midnight_wind_upgraded",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-15.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "effect_key": "wh2_main_effect_ability_overcast_curse_of_the_midnight_wind",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "effect_key": "wh2_main_effect_ability_wom_cost_curse_of_the_midnight_wind",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-2.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "effect_key": "wh2_main_effect_ability_wom_cost_curse_of_the_midnight_wind_upgraded",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-3.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s08",
+        "effect_key": "wh_main_effect_ability_cooldown_curse_of_the_midnight_wind",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-50.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "effect_key": "wh_main_effect_ability_enable_urannons_thunderbolt",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "effect_key": "wh2_main_effect_ability_overcast_urannons_thunderbolt",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "effect_key": "wh_main_effect_ability_cooldown_urannons_thunderbolt",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-30.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "effect_key": "wh2_main_effect_ability_miscast_urannons_thunderbolt_upgraded",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-15.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "effect_key": "wh2_main_effect_ability_overcast_urannons_thunderbolt",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "effect_key": "wh2_main_effect_ability_wom_cost_urannons_thunderbolt",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-2.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "effect_key": "wh2_main_effect_ability_wom_cost_urannons_thunderbolt_upgraded",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-2.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s09",
+        "effect_key": "wh_main_effect_ability_cooldown_urannons_thunderbolt",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-50.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "effect_key": "wh_main_effect_ability_enable_comet_of_casandora",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "effect_key": "wh2_main_effect_ability_overcast_comet_of_casandora",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "effect_key": "wh_main_effect_ability_cooldown_comet_of_casandora",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-30.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "effect_key": "wh2_main_effect_ability_miscast_comet_of_casandora_upgraded",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-15.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "effect_key": "wh2_main_effect_ability_overcast_comet_of_casandora",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "effect_key": "wh2_main_effect_ability_wom_cost_comet_of_casandora",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-2.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "effect_key": "wh2_main_effect_ability_wom_cost_comet_of_casandora_upgraded",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-4.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s11",
+        "effect_key": "wh_main_effect_ability_cooldown_comet_of_casandora",
+        "level": "3",
+        "effect_scope": "character_to_character_own",
+        "value": "-50.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s12",
+        "effect_key": "wh_main_effect_ability_enable_chain_lightning",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s12",
+        "effect_key": "wh2_main_effect_ability_wom_cost_chain_lightning",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-3.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s12",
+        "effect_key": "wh_main_effect_ability_cooldown_chain_lightning",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "-50.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s12",
+        "effect_key": "wh_main_effect_ability_enable_chain_lightning",
+        "level": "2",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s02",
+        "effect_key": "wh_main_effect_character_stat_missile_resistance",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "10.0000"
+      },
+      {
+        "character_skill_key": "edh_sariwa_skill_s01",
+        "effect_key": "wh_main_effect_ability_enable_aura_of_the_lady",
+        "level": "1",
+        "effect_scope": "character_to_character_own",
+        "value": "1.0000"
+      }
+    ],
+    "character_skill_utilization_hints_junctions": [
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s15"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s16"
+      },
+      {
+        "hint": "USELESS_ALWAYS",
+        "key": "edh_sariwa_skill_s19"
+      },
+      {
+        "hint": "USELESS_ALWAYS",
+        "key": "edh_sariwa_skill_s20"
+      },
+      {
+        "hint": "USELESS_ALWAYS",
+        "key": "edh_sariwa_skill_s18"
+      },
+      {
+        "hint": "USELESS_ALWAYS",
+        "key": "edh_sariwa_skill_s21"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s03"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s10"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s13"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s14"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s05"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s07"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s06"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s08"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s09"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s11"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s12"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s02"
+      },
+      {
+        "hint": "USEFUL_ALWAYS",
+        "key": "edh_sariwa_skill_s01"
+      }
+    ],
+    "character_skill_level_details": [
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "1",
+        "skill_key": "edh_sariwa_skill_s01",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "11"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "1",
+        "skill_key": "edh_sariwa_skill_s02",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "7"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "1",
+        "skill_key": "edh_sariwa_skill_s03",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "19"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "1",
+        "skill_key": "edh_sariwa_skill_s04",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "29"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "2",
+        "skill_key": "edh_sariwa_skill_s04",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "39"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "3",
+        "skill_key": "edh_sariwa_skill_s04",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "49"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "2",
+        "skill_key": "edh_sariwa_skill_s16",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "4"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "3",
+        "skill_key": "edh_sariwa_skill_s16",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "9"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "2",
+        "skill_key": "edh_sariwa_skill_s17",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "4"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "3",
+        "skill_key": "edh_sariwa_skill_s17",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "9"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "2",
+        "skill_key": "edh_sariwa_skill_s18",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "4"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "3",
+        "skill_key": "edh_sariwa_skill_s18",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "9"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "2",
+        "skill_key": "edh_sariwa_skill_s19",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "4"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "3",
+        "skill_key": "edh_sariwa_skill_s19",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "9"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "2",
+        "skill_key": "edh_sariwa_skill_s20",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "4"
+      },
+      {
+        "campaign_key": "",
+        "faction_key": "",
+        "level": "3",
+        "skill_key": "edh_sariwa_skill_s20",
+        "subculture_key": "",
+        "image_path": "x",
+        "unlocked_at_rank": "9"
+      }
+    ],
+    "battle_set_piece_armies_characters_skillsets": [
+      {
+        "key": "edh_sariwa_skill_node_set"
+      }
+    ],
+    "battle_set_piece_armies_characters_skillsets_skills": [
+      {
+        "skill": "wh2_main_skill_all_hero_assist_army_scouting",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "240"
+      },
+      {
+        "skill": "wh2_main_skill_all_hero_assist_army_scouting",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "250"
+      },
+      {
+        "skill": "wh2_main_skill_all_hero_assist_army_scouting",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "260"
+      },
+      {
+        "skill": "wh2_main_skill_all_hero_hinder_army_assault_unit",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "100"
+      },
+      {
+        "skill": "wh2_main_skill_all_hero_hinder_army_assault_unit",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "70"
+      },
+      {
+        "skill": "wh2_main_skill_all_hero_hinder_army_assault_unit",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "90"
+      },
+      {
+        "skill": "edh_sariwa_skill_s18",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "160"
+      },
+      {
+        "skill": "edh_sariwa_skill_s18",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "170"
+      },
+      {
+        "skill": "edh_sariwa_skill_s18",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "190"
+      },
+      {
+        "skill": "wh2_main_skill_all_hero_passive_boost_income",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "120"
+      },
+      {
+        "skill": "wh2_main_skill_all_hero_passive_boost_income",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "130"
+      },
+      {
+        "skill": "wh2_main_skill_all_hero_passive_boost_income",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "150"
+      },
+      {
+        "skill": "edh_sariwa_skill_s10",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "210"
+      },
+      {
+        "skill": "edh_sariwa_skill_s13",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "230"
+      },
+      {
+        "skill": "edh_sariwa_skill_s14",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "280"
+      },
+      {
+        "skill": "edh_sariwa_skill_s15",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "410"
+      },
+      {
+        "skill": "edh_sariwa_skill_s05",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "10"
+      },
+      {
+        "skill": "edh_sariwa_skill_s07",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "20"
+      },
+      {
+        "skill": "edh_sariwa_skill_s07",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "60"
+      },
+      {
+        "skill": "wh_main_skill_all_magic_heavens_03_roiling_skies",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "80"
+      },
+      {
+        "skill": "edh_sariwa_skill_s06",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "80"
+      },
+      {
+        "skill": "edh_sariwa_skill_s08",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "110"
+      },
+      {
+        "skill": "edh_sariwa_skill_s08",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "140"
+      },
+      {
+        "skill": "edh_sariwa_skill_s09",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "180"
+      },
+      {
+        "skill": "edh_sariwa_skill_s09",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "200"
+      },
+      {
+        "skill": "edh_sariwa_skill_s11",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "310"
+      },
+      {
+        "skill": "edh_sariwa_skill_s11",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "350"
+      },
+      {
+        "skill": "edh_sariwa_skill_s12",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "360"
+      },
+      {
+        "skill": "edh_sariwa_skill_s12",
+        "skillset_key": "edh_sariwa_skill_node_set",
+        "sort_order": "380"
+      }
+    ]
+  },
+  "source_to_private_skill": {
+    "wh_main_skill_brt_wizard_unique_damsel_aura_of_the_lady": "edh_sariwa_skill_s01",
+    "wh_main_skill_brt_all_unique_ladys_mantle": "edh_sariwa_skill_s02",
+    "wh2_main_skill_all_immortality_hero": "edh_sariwa_skill_s03",
+    "wh3_main_skill_all_mentor_hero": "edh_sariwa_skill_s04",
+    "wh_main_skill_all_magic_heavens_01_harmonic_convergence": "edh_sariwa_skill_s05",
+    "wh_main_skill_all_magic_heavens_03_rolling_skies": "edh_sariwa_skill_s06",
+    "wh_main_skill_all_magic_heavens_02_wind_blast": "edh_sariwa_skill_s07",
+    "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind": "edh_sariwa_skill_s08",
+    "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt": "edh_sariwa_skill_s09",
+    "wh_main_skill_all_magic_all_06_evasion": "edh_sariwa_skill_s10",
+    "wh_main_skill_all_magic_heavens_09_comet_of_casandora": "edh_sariwa_skill_s11",
+    "wh_main_skill_all_magic_heavens_10_chain_lightning": "edh_sariwa_skill_s12",
+    "wh_main_skill_all_magic_all_07_earthing": "edh_sariwa_skill_s13",
+    "wh_main_skill_all_magic_all_08_power_drain": "edh_sariwa_skill_s14",
+    "wh2_dlc14_skilll_all_magic_all_greater_arcane_conduit": "edh_sariwa_skill_s15",
+    "wh2_main_skill_all_hero_assist_army_replenish_troops": "edh_sariwa_skill_s16",
+    "wh2_main_skill_all_hero_passive_spread_corruption": "edh_sariwa_skill_s17",
+    "wh2_main_skill_all_hero_hinder_settlement_steal_technology": "edh_sariwa_skill_s18",
+    "wh2_main_skill_all_hero_hinder_agent_wound": "edh_sariwa_skill_s19",
+    "wh2_main_skill_all_hero_hinder_army_block_army": "edh_sariwa_skill_s20",
+    "wh2_main_skill_all_hero_reduce_action_cost": "edh_sariwa_skill_s21"
+  },
+  "model_assets": {
+    "head": "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_head.wsmodel",
+    "body": "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_body.wsmodel",
+    "sword": "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_sword.wsmodel",
+    "staff": "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_staff.wsmodel",
+    "naga": "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_naga.wsmodel",
+    "naga_jade": "variantmeshes/wh_variantmodels/edh/sariwa/edh_sariwa_naga_jade.wsmodel"
+  },
+  "skeleton": "humanoid01b",
+  "native_clips_tested": 11,
+  "base_heinrich_payloads_preserved": true,
+  "deployed": true,
+  "runtime_verified": false,
+  "blocking_diagnostics": 0,
+  "schema_metadata_warning_count": 24,
+  "deployment_target": "F:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\data\\edh_heinrich_sariwa_v4.pack"
+}

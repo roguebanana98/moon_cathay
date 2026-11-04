@@ -1,0 +1,184 @@
+{
+  "table": "hu1b_bretonnian_staff_and_sword",
+  "tables": [
+    "hu1b_bretonnian_staff_and_sword"
+  ],
+  "fragments": [
+    "animations/database/battle/fragments/hu1b_bretonnian_base.txt",
+    "animations/database/battle/fragments/hu1b_bretonnian_staff_and_sword.txt"
+  ],
+  "clips": [
+    {
+      "slot": "PORTHOLE_STAND_AFFIRMATIVE",
+      "path": "animations/battle/humanoid01b/unarmed/porthole/hu1b_un_porthole_affimative_01.anim"
+    },
+    {
+      "slot": "PORTHOLE_STAND_IDLE",
+      "path": "animations/battle/humanoid01b/unarmed/porthole/hu1b_un_porthole_idle_01.anim"
+    },
+    {
+      "slot": "STAND",
+      "path": "animations/battle/humanoid01b/sword_and_shield/stand/hu1b_sws_stand_01.anim"
+    },
+    {
+      "slot": "ATTACK_1",
+      "path": "animations/battle/humanoid01b/sword_and_shield/attacks/hu1b_sws_attack_01.anim"
+    },
+    {
+      "slot": "ATTACK_2",
+      "path": "animations/battle/humanoid01b/sword_and_shield/attacks/hu1b_sws_attack_05.anim"
+    },
+    {
+      "slot": "ATTACK_3",
+      "path": "animations/battle/humanoid01b/sword_and_shield/attacks/hu1b_sws_attack_03.anim"
+    },
+    {
+      "slot": "ATTACK_4",
+      "path": "animations/battle/humanoid01b/sword_and_shield/attacks/hu1b_sws_attack_04.anim"
+    },
+    {
+      "slot": "CAST_SPELL_FORWARD_LONG",
+      "path": "animations/battle/humanoid01b/staff_and_sword/spell_casting/hu1b_sfsw_cast_long_01.anim"
+    },
+    {
+      "slot": "CAST_SPELL_FORWARD_MEDIUM",
+      "path": "animations/battle/humanoid01b/staff_and_sword/spell_casting/hu1b_sfsw_cast_medium_01.anim"
+    },
+    {
+      "slot": "CAST_SPELL_FORWARD_SHORT",
+      "path": "animations/battle/humanoid01b/staff_and_sword/spell_casting/hu1b_sfsw_cast_short_01.anim"
+    },
+    {
+      "slot": "CAST_SPELL_UP_LONG",
+      "path": "animations/battle/humanoid01b/staff_and_sword/spell_casting/hu1b_sfsw_cast_up_long_01.anim"
+    },
+    {
+      "slot": "CAST_SPELL_UP_MEDIUM",
+      "path": "animations/battle/humanoid01b/staff_and_sword/spell_casting/hu1b_sfsw_cast_up_medium_01.anim"
+    },
+    {
+      "slot": "CAST_SPELL_UP_SHORT",
+      "path": "animations/battle/humanoid01b/staff_and_sword/spell_casting/hu1b_sfsw_cast_up_short_01.anim"
+    },
+    {
+      "slot": "COMBAT_IDLE_1",
+      "path": "animations/battle/humanoid01b/sword_and_shield/combat_idles/hu1b_sws_combat_idle_01.anim"
+    },
+    {
+      "slot": "COMBAT_IDLE_2",
+      "path": "animations/battle/humanoid01b/sword_and_shield/combat_idles/hu1b_sws_combat_idle_02.anim"
+    },
+    {
+      "slot": "COMBAT_IDLE_3",
+      "path": "animations/battle/humanoid01b/sword_and_shield/combat_idles/hu1b_sws_combat_idle_03.anim"
+    },
+    {
+      "slot": "DEATH_STAND_1",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_small_death_back_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_10",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_death_left_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_11",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_death_right_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_12",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_death_right_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_13",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_death_left_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_14",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_death_front_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_15",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_death_back_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_2",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_small_death_back_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_3",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_small_death_back_03.anim"
+    },
+    {
+      "slot": "DEATH_STAND_4",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_small_death_front_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_5",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_small_death_front_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_6",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_small_death_left_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_7",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_small_death_right_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_8",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_death_back_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_9",
+      "path": "animations/battle/humanoid01b/sword_and_shield/deaths/hu1b_sws_death_front_01.anim"
+    },
+    {
+      "slot": "JUMPING_ATTACK_1",
+      "path": "animations/battle/humanoid01b/sword_and_shield/attacks/hu1b_sws_jumping_attack_01.anim"
+    },
+    {
+      "slot": "JUMPING_ATTACK_2",
+      "path": "animations/battle/humanoid01b/sword_and_shield/attacks/hu1b_sws_jumping_attack_02.anim"
+    },
+    {
+      "slot": "MOVING_ATTACK_1",
+      "path": "animations/battle/humanoid01b/sword_and_shield/attacks/hu1b_sws_moving_attack_01.anim"
+    },
+    {
+      "slot": "MOVING_ATTACK_2",
+      "path": "animations/battle/humanoid01b/sword_and_shield/attacks/hu1b_sws_moving_attack_02.anim"
+    },
+    {
+      "slot": "RUN_1",
+      "path": "animations/battle/humanoid01b/sword_and_shield/locomotion/hu1b_sws_run_03.anim"
+    },
+    {
+      "slot": "RUN_2",
+      "path": "animations/battle/humanoid01b/sword_and_shield/locomotion/hu1b_sws_run_02.anim"
+    },
+    {
+      "slot": "STAND_IDLE_1",
+      "path": "animations/battle/humanoid01b/sword_and_shield/stand/hu1b_sws_stand_idle_01.anim"
+    },
+    {
+      "slot": "STAND_IDLE_2",
+      "path": "animations/battle/humanoid01b/sword_and_shield/stand/hu1b_sws_stand_idle_02.anim"
+    },
+    {
+      "slot": "STAND_IDLE_3",
+      "path": "animations/battle/humanoid01b/sword_and_shield/stand/hu1b_sws_stand_idle_03.anim"
+    },
+    {
+      "slot": "STAND_IDLE_4",
+      "path": "animations/battle/humanoid01b/sword_and_shield/stand/hu1b_sws_stand_idle_04.anim"
+    },
+    {
+      "slot": "STAND_IDLE_5",
+      "path": "animations/battle/humanoid01b/sword_and_shield/stand/hu1b_sws_stand_idle_05.anim"
+    },
+    {
+      "slot": "WALK_1",
+      "path": "animations/battle/humanoid01b/sword_and_shield/locomotion/hu1b_sws_walk_03.anim"
+    }
+  ]
+}

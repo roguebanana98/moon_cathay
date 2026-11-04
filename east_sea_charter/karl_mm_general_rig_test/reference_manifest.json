@@ -1,0 +1,584 @@
+{
+  "mod": "F:\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3728324408\\Karl Franz Reskin - MM.pack",
+  "mod_sha256": "4993d9187ffdcb956ebd5d99ffa1c275d826a65231d957b07752a8f780755473",
+  "skeleton": "humanoid01",
+  "table": {
+    "Entries": [
+      {
+        "Export": true,
+        "Type": "Fragment",
+        "Value": "hu1_empire_base"
+      },
+      {
+        "Export": true,
+        "Type": "Fragment",
+        "Value": "hu1_empire_sword_and_shield"
+      }
+    ],
+    "Properties": {
+      "IsComplete": false,
+      "IsNewCavalryTech": false,
+      "IsSimpleFlight": false,
+      "LocomotionGraphPath": "animations/locomotion_graphs/entity_locomotion_graph.xml",
+      "MountTableName": "",
+      "SkeletonName": "humanoid01",
+      "SlotTemplateName": "only_climbs",
+      "TableName": "hu1_empire_sword_and_shield",
+      "Tags": [],
+      "UnMountTableName": ""
+    },
+    "Version": 3
+  },
+  "fragments": [
+    "animations/database/battle/fragments/hu1_empire_base.txt",
+    "animations/database/battle/fragments/hu1_empire_sword_and_shield.txt"
+  ],
+  "clips": [
+    {
+      "slot": "CHARIOT_DRIVER_STAND",
+      "path": "animations/skeletons/humanoid01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_10",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_front_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_11",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_front_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_12",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_left_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_03.anim"
+    },
+    {
+      "slot": "DEATH_STAND_4",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_front_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_5",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_front_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_6",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_left_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_7",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_right_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_8",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_back_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_9",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_back_02.anim"
+    },
+    {
+      "slot": "PORTHOLE_STAND_AFFIRMATIVE",
+      "path": "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_affirmative_01.anim"
+    },
+    {
+      "slot": "PORTHOLE_STAND_IDLE",
+      "path": "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_idle_01.anim"
+    },
+    {
+      "slot": "RUN_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_run_01_slow.anim"
+    },
+    {
+      "slot": "RUN_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_run_01.anim"
+    },
+    {
+      "slot": "STAND",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_IDLE_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_IDLE_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_IDLE_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_IDLE_4",
+      "path": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_02.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_IDLE_5",
+      "path": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_03.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_RUN",
+      "path": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_run_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_STEP_BACKWARD",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_STEP_FORWARD",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_fwd_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_STEP_LEFT",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_STEP_RIGHT",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_TURN_LEFT_180",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_TURN_LEFT_45",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_TURN_LEFT_90",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_TURN_RIGHT_180",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_TURN_RIGHT_45",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_TURN_RIGHT_90",
+      "path": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anim"
+    },
+    {
+      "slot": "STAND_NO_WEAPON_WALK",
+      "path": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.anim"
+    },
+    {
+      "slot": "WALK_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.anim"
+    },
+    {
+      "slot": "WALK_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_02.anim"
+    },
+    {
+      "slot": "ATTACK_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_01.anim"
+    },
+    {
+      "slot": "ATTACK_10",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_06.anim"
+    },
+    {
+      "slot": "ATTACK_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_07.anim"
+    },
+    {
+      "slot": "ATTACK_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_04.anim"
+    },
+    {
+      "slot": "ATTACK_4",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_05.anim"
+    },
+    {
+      "slot": "ATTACK_5",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_01.anim"
+    },
+    {
+      "slot": "ATTACK_6",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_07.anim"
+    },
+    {
+      "slot": "ATTACK_7",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_04.anim"
+    },
+    {
+      "slot": "ATTACK_8",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_attack_05.anim"
+    },
+    {
+      "slot": "COMBAT_IDLE_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/combat_idles/hu1_sws_combat_idle_01.anim"
+    },
+    {
+      "slot": "COMBAT_IDLE_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/combat_idles/hu1_sws_combat_idle_02.anim"
+    },
+    {
+      "slot": "COMBAT_IDLE_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/combat_idles/hu1_sws_combat_idle_03.anim"
+    },
+    {
+      "slot": "DEATH_STAND_13",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_left_02.anim"
+    },
+    {
+      "slot": "DEATH_STAND_14",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_right_01.anim"
+    },
+    {
+      "slot": "DEATH_STAND_15",
+      "path": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_right_02.anim"
+    },
+    {
+      "slot": "HIT_REACTION_STAND_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/reactions/hu1_sws_reaction_back_01.anim"
+    },
+    {
+      "slot": "HIT_REACTION_STAND_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/reactions/hu1_sws_reaction_back_02.anim"
+    },
+    {
+      "slot": "HIT_REACTION_STAND_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/reactions/hu1_sws_reaction_forward_01.anim"
+    },
+    {
+      "slot": "HIT_REACTION_STAND_4",
+      "path": "animations/battle/humanoid01/sword_and_shield/reactions/hu1_sws_reaction_forward_02.anim"
+    },
+    {
+      "slot": "HIT_REACTION_STAND_5",
+      "path": "animations/battle/humanoid01/sword_and_shield/reactions/hu1_sws_reaction_left_01.anim"
+    },
+    {
+      "slot": "HIT_REACTION_STAND_6",
+      "path": "animations/battle/humanoid01/sword_and_shield/reactions/hu1_sws_reaction_left_02.anim"
+    },
+    {
+      "slot": "HIT_REACTION_STAND_7",
+      "path": "animations/battle/humanoid01/sword_and_shield/reactions/hu1_sws_reaction_right_01.anim"
+    },
+    {
+      "slot": "HIT_REACTION_STAND_8",
+      "path": "animations/battle/humanoid01/sword_and_shield/reactions/hu1_sws_reaction_right_02.anim"
+    },
+    {
+      "slot": "JUMPING_ATTACK_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_jumping_attack_01.anim"
+    },
+    {
+      "slot": "JUMPING_ATTACK_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_jumping_attack_02.anim"
+    },
+    {
+      "slot": "JUMPING_ATTACK_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_jumping_attack_03.anim"
+    },
+    {
+      "slot": "MOVING_ATTACK_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_moving_attack_01.anim"
+    },
+    {
+      "slot": "MOVING_ATTACK_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_moving_attack_02.anim"
+    },
+    {
+      "slot": "MOVING_ATTACK_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/attacks/hu1_sws_moving_attack_03.anim"
+    },
+    {
+      "slot": "RUN_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_run_02.anim"
+    },
+    {
+      "slot": "RUN_SHIELD_UP_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/shield_up/hu1_sws_shield_up_run_01.anim"
+    },
+    {
+      "slot": "STAND_IDLE_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim"
+    },
+    {
+      "slot": "STAND_IDLE_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim"
+    },
+    {
+      "slot": "STAND_IDLE_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_01.anim"
+    },
+    {
+      "slot": "STAND_IDLE_4",
+      "path": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_02.anim"
+    },
+    {
+      "slot": "STAND_IDLE_5",
+      "path": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_03.anim"
+    },
+    {
+      "slot": "STAND_SHIELD_UP",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anim"
+    },
+    {
+      "slot": "STAND_SHIELD_UP_IDLE_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim"
+    },
+    {
+      "slot": "STAND_SHIELD_UP_IDLE_2",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim"
+    },
+    {
+      "slot": "STAND_SHIELD_UP_IDLE_3",
+      "path": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_03.anim"
+    },
+    {
+      "slot": "WALK_SHIELD_UP_1",
+      "path": "animations/battle/humanoid01/sword_and_shield/shield_up/hu1_sws_shield_up_walk_01.anim"
+    }
+  ],
+  "textures": {
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_head_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_head_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_head_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_head_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_legs_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_legs_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_legs_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_torso_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_torso_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_torso_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_blazing_sun/tex/emp_blazing_sun_torso_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_felix/tex/emp_felix_body_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_felix/tex/emp_felix_body_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_felix/tex/emp_felix_body_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_felix/tex/emp_felix_body_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_felix/tex/emp_felix_head_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_felix/tex/emp_felix_head_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_felix/tex/emp_felix_head_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_felix/tex/emp_felix_head_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_body_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_body_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_body_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_body_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_cape_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_cape_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_cape_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_cape_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_head_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_head_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_head_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_head_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_legs_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_legs_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_legs_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_generals/tex/emp_generals_legs_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_karl_franz/tex/emp_karl_franz_body_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_karl_franz/tex/emp_karl_franz_body_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_karl_franz/tex/emp_karl_franz_body_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_karl_franz/tex/emp_karl_franz_body_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_karl_franz/tex/emp_karl_franz_head_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_karl_franz/tex/emp_karl_franz_head_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_karl_franz/tex/emp_karl_franz_head_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_karl_franz/tex/emp_karl_franz_head_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_general_shield_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_general_shield_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_general_shield_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_general_shield_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_general_sword_1h_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_general_sword_1h_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_general_sword_1h_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_general_sword_1h_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_karl_franz_hammer_2h_01_base_colour.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_karl_franz_hammer_2h_01_mask.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_karl_franz_hammer_2h_01_material_map.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1/emp/emp_props/tex/emp_karl_franz_hammer_2h_01_normal.dds": [
+      "variants_dds4.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1c/chs/chs_archaon/head/tex/chs_archaon_head_01_base_colour.dds": [
+      "variants_dds5.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1c/chs/chs_archaon/head/tex/chs_archaon_head_01_mask.dds": [
+      "variants_dds5.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1c/chs/chs_archaon/head/tex/chs_archaon_head_01_material_map.dds": [
+      "variants_dds5.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1c/chs/chs_archaon/head/tex/chs_archaon_head_01_normal.dds": [
+      "variants_dds5.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1c/dae/dae_harald_hammerstorm/tex/dae_harald_hammerstorm_01_base_colour.dds": [
+      "variants_dds5.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1c/dae/dae_harald_hammerstorm/tex/dae_harald_hammerstorm_01_mask.dds": [
+      "variants_dds5.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1c/dae/dae_harald_hammerstorm/tex/dae_harald_hammerstorm_01_material_map.dds": [
+      "variants_dds5.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1c/dae/dae_harald_hammerstorm/tex/dae_harald_hammerstorm_01_normal.dds": [
+      "variants_dds5.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_cape_01_base_colour.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_cape_01_mask.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_cape_01_material_map.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_cape_01_normal.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_head_01_base_colour.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_head_01_mask.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_head_01_material_map.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_head_01_normal.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_legs_01_base_colour.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_legs_01_mask.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_legs_01_material_map.dds": [
+      "variants_dds7.pack"
+    ],
+    "variantmeshes/wh_variantmodels/hu1d/hef/hef_alastair/tex/hef_alastair_legs_01_normal.dds": [
+      "variants_dds7.pack"
+    ]
+  },
+  "missing_textures": [
+    "commontextures/lava_breakup_mask.dds"
+  ]
+}

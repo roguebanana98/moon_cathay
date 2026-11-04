@@ -1,0 +1,22 @@
+{
+  "blend": "D:\\Warhammer3_Modding\\east_sea_charter\\sariwa_damsel02\\Sariwa_Damsel02_Textile_v1.blend",
+  "texture": "D:\\Warhammer3_Modding\\east_sea_charter\\sariwa_damsel02\\textures\\edh_sariwa_body_base_colour_v1.png",
+  "base_variant": "Damsel 02",
+  "body": "endo_damsel_body_02",
+  "head": "endo_damsel_head_04",
+  "mesh_parts": 5,
+  "bones": 89,
+  "mesh_uv_weight_fingerprints_before": {
+    "Damsel 02 | body | part 0": "13220c3b7ea1c93376b4b261f5cafc1eaaa52ea800099723341de49e1502e350",
+    "Damsel 02 | head | part 0": "c944ff6d8e2e88d4b60cc763e5bb45ac6ccbe99d9b0dd59160372a124ebbf77a",
+    "Damsel 02 | head | part 1": "72120e8cb6fc56e67003c0a9e7983c2b6f4f9491c7f0825b21ebdeed8a7df584",
+    "Damsel 02 | weapon_2 | part 0": "0460c3744ae8d6d7dbeb3f89955fdb985f7ceec82c4de2af9106f0b2fdddb346",
+    "Damsel 02 | weapon_5 | part 0": "5007cb917ca19e2557ea26f0eca6b43ac220444f45b6a2339ec3be8adee8e0f3"
+  },
+  "mesh_uv_weights_unchanged": true,
+  "texture_size": [
+    2048,
+    2048
+  ],
+  "game_deployed": false
+}

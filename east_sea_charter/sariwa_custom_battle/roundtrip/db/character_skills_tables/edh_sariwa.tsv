@@ -1,0 +1,23 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/edh_sariwa									
+edh_sariwa_skill_s01	wh_main_hero_passive_aura_of_the_lady.png	Acolytes too are blessed by the Lady's spirit, enabling them to resist magical attacks.	Hào Quang Người Giữ Đền	11	false	false	false	0.0000	0
+edh_sariwa_skill_s02	character_ward_save.png	From the verdant depths, the Lady rises to protect the faithful.	Áo Choàng Lời Thề	7	false	false	false	0.0000	0
+edh_sariwa_skill_s03	character_wound_time.png	Who wants to live forever? As it turns out, most beings wouldn't say no…	Immortality	19	false	false	false	0.0000	0
+edh_sariwa_skill_s04	character_experience.png	{{tr:character_skills_localised_description_wh3_main_skill_all_mentor_lord}}	Mentor	0	false	false	false	0.0000	0
+edh_sariwa_skill_s05	wh_main_spell_heavens_harmonic_convergence.png		Điềm Lành Đền Cổ	0	false	false	false	0.0000	0
+edh_sariwa_skill_s06	wh_main_lore_passive_roiling_skies.png		Bầu Trời Của Ngọc Xà	0	false	false	false	0.0000	0
+edh_sariwa_skill_s07	wh_main_spell_heavens_wind_blast.png		Hơi Thở Naga	0	false	false	false	0.0000	0
+edh_sariwa_skill_s08	wh_main_spell_heavens_curse_of_the_midnight_wind.png		Lời Nguyền Đền Rắn	0	false	false	false	0.0000	0
+edh_sariwa_skill_s09	wh_main_spell_heavens_urannons_thunderbolt.png		Lôi Kích Ngọc Xà	0	false	false	false	0.0000	0
+edh_sariwa_skill_s10	wh_main_character_passive_evasion.png		Evasion	0	false	false	false	0.0000	0
+edh_sariwa_skill_s11	wh_main_spell_heavens_comet_of_casandora.png		Thiên Thạch Đền Cổ	0	false	false	false	0.0000	0
+edh_sariwa_skill_s12	wh_main_spell_heavens_chain_lightning.png		Ngũ Xà Lôi Quang	0	false	false	false	0.0000	0
+edh_sariwa_skill_s13	character_magic.png	By stabbing a staff or some arcane conduit into the ground, an accomplished magic-user can earth or tether the Winds and hopefully reduce a chance of miscasting.	Earthing	0	false	false	false	0.0000	0
+edh_sariwa_skill_s14	character_magic.png	A few magic-users have the ability to store the Winds of Magic for later use, increasing their spellcasting power when it really counts.	Magical Reserves	0	false	false	false	0.0000	0
+edh_sariwa_skill_s15	wh_main_character_abilities_arcane_conduit.png		Mạch Phép Đền Cổ	0	false	false	false	0.0000	0
+edh_sariwa_skill_s16	campaign_replenishment.png	Those in the army can find succour or be replenished by the power of this champion.	Replenish Troops	0	false	false	false	0.0000	0
+edh_sariwa_skill_s17	campaign_untainted.png	The locals take notice and will be inspired or frightened into action.	Cleanse Corruption	0	false	false	false	0.0000	0
+edh_sariwa_skill_s18	campaign_technology.png	Oft-times, though you may have much, what you want the most is what your rivals have; such envy focuses the mind and creativity.	Steal Technology	0	false	false	false	0.0000	0
+edh_sariwa_skill_s19	campaign_wound_time.png	Such a champion will not bend or break, but slay in their Lord's name.	Wound	0	false	false	false	0.0000	0
+edh_sariwa_skill_s20	campaign_movement.png	To sow discord and confuse the enemy, sending them down the wrong route or befuddling their senses.	Block Army	0	false	false	false	0.0000	0
+edh_sariwa_skill_s21	campaign_military_spending.png	An expert in their craft, this Hero knows all the mistakes that can be made and how to best avoid making them.	Specialist	0	false	false	false	0.0000	0

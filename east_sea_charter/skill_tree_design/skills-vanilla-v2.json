@@ -1,0 +1,4228 @@
+{
+  "h": [
+    {
+      "key": "wh_main_skill_emp_lord_unique_general_barded_warhorse",
+      "original": "Barded Warhorse",
+      "name": "Barded Warhorse",
+      "group": "Kỹ năng chung & thú cưỡi",
+      "source": "General of the Empire",
+      "description": "A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "mount_barded_warhorse.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_unique_general_barded_warhorse",
+          "effect_key": "wh_main_effect_enable_mount_barded_warhorse",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_unique_07",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_unique_general_barded_warhorse",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh_main_skill_emp_lord_unique_general_imperial_griffon",
+      "original": "Imperial Griffon",
+      "name": "Imperial Griffon",
+      "group": "Kỹ năng chung & thú cưỡi",
+      "source": "General of the Empire",
+      "description": "Once trained to carry a man in battle, Imperial griffons are poised killers and incredibly dedicated to their riders.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "mount_imperial_griffon.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_unique_general_imperial_griffon",
+          "effect_key": "wh_main_effect_enable_mount_imperial_griffon",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_unique_03",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_unique_general_imperial_griffon",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh_main_skill_all_lord_battle_brass-lunged",
+      "original": "Brass-Lunged",
+      "name": "Brass-Lunged",
+      "group": "Kỹ năng chung & thú cưỡi",
+      "source": "General of the Empire",
+      "description": "This Lord belts out orders and can be heard even across a battlefield smothered in the grim noise of war.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_general_ability.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_lord_battle_brass-lunged",
+          "effect_key": "wh_main_effect_character_stat_leadership_aura_size",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "25.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_unique_05",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_lord_battle_brass-lunged",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "4",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh_main_skill_emp_lord_battle_hold_the_line",
+      "original": "Hold the Line!",
+      "name": "Giữ Vững Đầu Cầu",
+      "group": "Kỹ năng chung & thú cưỡi",
+      "source": "General of the Empire",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_lord_abilities_hold_the_line.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_battle_hold_the_line",
+          "effect_key": "wh_main_effect_ability_enable_hold_the_line",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_unique_06",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_battle_hold_the_line",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "5",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh_main_skill_emp_all_unique_sigmars_ward",
+      "original": "Sigmar’s Ward",
+      "name": "Sigmar’s Ward",
+      "group": "Kỹ năng chung & thú cưỡi",
+      "source": "General of the Empire",
+      "description": "The relentless drive and fury of the Hammer, harnessed for the protection of this ward’s bearer.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_ward_save.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_all_unique_sigmars_ward",
+          "effect_key": "wh_main_effect_character_stat_missile_resistance",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_unique_04",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_all_unique_sigmars_ward",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "7",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh3_main_skill_all_army_of_renown_lord",
+      "original": "Soldiers of Renown",
+      "name": "Soldiers of Renown",
+      "group": "Kỹ năng chung & thú cưỡi",
+      "source": "General of the Empire",
+      "description": "Their renown shall further elevate the one under whose command they march.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_unit_capacity.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_main_skill_all_army_of_renown_lord",
+          "effect_key": "wh3_main_effect_recruitment_cap_ror_units",
+          "level": "1",
+          "effect_scope": "character_to_force_own_alt_text",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_army_of_renown_lord",
+          "effect_key": "wh3_main_effect_recruitment_cap_ror_units",
+          "level": "2",
+          "effect_scope": "character_to_force_own_alt_text",
+          "value": "2.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_army_of_renown_lord",
+          "effect_key": "wh3_main_effect_recruitment_cap_ror_units",
+          "level": "3",
+          "effect_scope": "character_to_force_own_alt_text",
+          "value": "3.0000"
+        }
+      ],
+      "node": {
+        "key": "wh3_main_skill_node_all_army_of_renown_lord",
+        "campaign_key": "",
+        "character_skill_key": "wh3_main_skill_all_army_of_renown_lord",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "28",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_main_skill_all_immortality_lord",
+      "original": "Immortality",
+      "name": "Immortality",
+      "group": "Kỹ năng chung & thú cưỡi",
+      "source": "General of the Empire",
+      "description": "Who wants to live forever? As it turns out, most beings wouldn't say no…",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_wound_time.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_main_skill_all_immortality_lord",
+          "effect_key": "wh2_main_effect_grant_immortality_lord",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh3_dlc24_skill_generic_immortality_lord",
+        "campaign_key": "",
+        "character_skill_key": "wh2_main_skill_all_immortality_lord",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "29",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh3_main_skill_all_mentor_lord",
+      "original": "Mentor",
+      "name": "Mentor",
+      "group": "Kỹ năng chung & thú cưỡi",
+      "source": "General of the Empire",
+      "description": "Having learned much in their long years of service, this character now turns their attention to training others.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_experience.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_lord",
+          "effect_key": "wh3_main_effect_character_campaign_experience_mod",
+          "level": "1",
+          "effect_scope": "general_to_character_own_forcewide_heroes_only",
+          "value": "20.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_lord",
+          "effect_key": "wh3_main_effect_character_xp_share_generic_lordtext",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_lord",
+          "effect_key": "wh3_main_effect_character_campaign_experience_mod",
+          "level": "2",
+          "effect_scope": "general_to_character_own_forcewide_heroes_only",
+          "value": "35.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_lord",
+          "effect_key": "wh3_main_effect_character_xp_share_generic_lordtext",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "30.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_lord",
+          "effect_key": "wh3_main_effect_character_campaign_experience_mod",
+          "level": "3",
+          "effect_scope": "general_to_character_own_forcewide_heroes_only",
+          "value": "50.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_lord",
+          "effect_key": "wh3_main_effect_character_xp_share_generic_lordtext",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "50.0000"
+        }
+      ],
+      "node": {
+        "key": "wh3_dlc24_skill_node_all_mentor_lord",
+        "campaign_key": "",
+        "character_skill_key": "wh3_main_skill_all_mentor_lord",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "30",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh3_dlc25_skill_emp_lord_general_special_1",
+      "original": "Imperial Training",
+      "name": "Imperial Training",
+      "group": "Chuyên môn General · giữ lựa chọn loại trừ gốc",
+      "source": "General of the Empire",
+      "description": "A veteran of countless battles, this one has a hunger for slaughter and a thirst for blood.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_bonus_vs_infantry.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_1",
+          "effect_key": "wh_main_effect_character_stat_bonus_vs_infantry",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "20.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_1",
+          "effect_key": "wh_main_effect_character_stat_melee_attack",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "7.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_1",
+          "effect_key": "wh_main_effect_character_stat_melee_defence",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "7.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_special_01",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_1",
+        "faction_key": "",
+        "indent": "1",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh3_dlc25_skill_emp_lord_general_special_2",
+      "original": "Survival Instincts",
+      "name": "Dạn Dày Viễn Chinh",
+      "group": "Chuyên môn General · giữ lựa chọn loại trừ gốc",
+      "source": "General of the Empire",
+      "description": "One doesn't reach the rank of General without having survived many a battle.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_defence.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_2",
+          "effect_key": "wh2_main_effect_replenishment_lords",
+          "level": "1",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "20.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_2",
+          "effect_key": "wh_main_effect_character_stat_missile_block",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_2",
+          "effect_key": "wh_main_effect_character_wound_recovery_time_mod",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "-1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_special_02",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_2",
+        "faction_key": "",
+        "indent": "1",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_special_02",
+          "parent_key": "wh_main_skill_node_emp_lord_special_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh3_dlc25_skill_emp_lord_general_special_3",
+      "original": "War Hero",
+      "name": "War Hero",
+      "group": "Chuyên môn General · giữ lựa chọn loại trừ gốc",
+      "source": "General of the Empire",
+      "description": "This one's many courageous deeds are celebrated far and wide across the Empire, with many speaking of their might and determination in the very thick of battle.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "immune_to_psychology.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_3",
+          "effect_key": "wh_main_effect_attribute_enable_immune_to_psychology",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_3",
+          "effect_key": "wh_main_effect_character_stat_unit_health",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_special_03",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_3",
+        "faction_key": "",
+        "indent": "1",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_special_03",
+          "parent_key": "wh_main_skill_node_emp_lord_special_02",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh3_dlc25_skill_emp_lord_general_special_4",
+      "original": "Heroic Killing Blow",
+      "name": "Heroic Killing Blow",
+      "group": "Chuyên môn General · giữ lựa chọn loại trừ gốc",
+      "source": "General of the Empire",
+      "description": "The blades of the Empire slice through the enemy like so many knives through so much fleshy butter.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_character_abilities_heroic_killing_blow.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_4",
+          "effect_key": "wh_main_effect_ability_enable_heroic_killing_blow",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_4",
+          "effect_key": "wh_main_effect_character_stat_weapon_strength",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_special_04",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_4",
+        "faction_key": "",
+        "indent": "1",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_special_04",
+          "parent_key": "wh_main_skill_node_emp_lord_special_03",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh3_dlc25_skill_emp_lord_general_special_5",
+      "original": "Drill Instructor",
+      "name": "Drill Instructor",
+      "group": "Chỉ huy General · giữ lựa chọn loại trừ gốc",
+      "source": "General of the Empire",
+      "description": "Courage, duty, honour – all meaningless without discipline. This commander demands their troops be perfectly drilled, that they may stand fast against even the darkest of the Empire's foes. ",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_experience.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_5",
+          "effect_key": "wh3_dlc20_effect_xp_gain_all_units",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "20.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_5",
+          "effect_key": "wh_main_effect_force_stat_vigour_loss_reduction",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "-15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_special_05",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_5",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh3_dlc25_skill_emp_lord_general_special_6",
+      "original": "Leading the Charge",
+      "name": "Leading the Charge",
+      "group": "Chỉ huy General · giữ lựa chọn loại trừ gốc",
+      "source": "General of the Empire",
+      "description": "With their general at its head, the Empire's cavalry charge into battle with great zeal.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_charge.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_6",
+          "effect_key": "wh3_main_effect_stat_charge_bonus_add_cavalry",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_6",
+          "effect_key": "wh_main_effect_force_all_campaign_movement_range",
+          "level": "1",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "8.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_6",
+          "effect_key": "wh_main_effect_force_stat_speed_cavalry",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_special_06",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_6",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_special_06",
+          "parent_key": "wh_main_skill_node_emp_lord_special_05",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh3_dlc25_skill_emp_lord_general_special_7",
+      "original": "Statesman",
+      "name": "Người Mang Hiến Chương",
+      "group": "Chỉ huy General · giữ lựa chọn loại trừ gốc",
+      "source": "General of the Empire",
+      "description": "Having friends in the high places of Imperial society has its benefits. It's always *who* you know...",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_army.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_7",
+          "effect_key": "wh_main_effect_force_all_campaign_recruitment_cost_all",
+          "level": "1",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "-10.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_7",
+          "effect_key": "wh_main_effect_force_all_campaign_replenishment_rate",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "5.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_7",
+          "effect_key": "wh_main_effect_unit_recruitment_points",
+          "level": "1",
+          "effect_scope": "force_to_province_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_special_07",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_7",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_special_07",
+          "parent_key": "wh_main_skill_node_emp_lord_special_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh3_dlc25_skill_emp_lord_general_special_8",
+      "original": "Leader of Men",
+      "name": "Uy Danh Phó Vương",
+      "group": "Chỉ huy General · giữ lựa chọn loại trừ gốc",
+      "source": "General of the Empire",
+      "description": "This one is loved and respected by their troops, many of whom have come from all over the world to fight at their side.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_military_spending.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_8",
+          "effect_key": "wh_main_effect_force_all_campaign_upkeep",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "-5.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_8",
+          "effect_key": "wh_main_effect_force_stat_leadership",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_special_08",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc25_skill_emp_lord_general_special_8",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_special_08",
+          "parent_key": "wh_main_skill_node_emp_lord_special_07",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_all_self_hard_to_hit_starter",
+      "original": "Hard to Hit",
+      "name": "Hard to Hit",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "{{tr:character_skills_localised_description_wh_main_skill_all_all_self_hard_to_hit}}",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_defence.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_all_self_hard_to_hit_starter",
+          "effect_key": "wh_main_effect_character_stat_melee_defence",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "5.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_01",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_all_self_hard_to_hit_starter",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_dlc11_skill_all_lord_self_devastating_charge",
+      "original": "Devastating Charge",
+      "name": "Devastating Charge",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "{{tr:character_skills_localised_description_wh_main_skill_all_all_self_devastating_charge}}",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_charge.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_devastating_charge",
+          "effect_key": "wh_main_effect_character_stat_charge_bonus_add",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_devastating_charge",
+          "effect_key": "wh_main_effect_character_stat_charge_bonus_add",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "30.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_02",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_all_lord_self_devastating_charge",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_02",
+          "parent_key": "wh_main_skill_node_emp_lord_self_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_all_lord_self_full_plate_armour",
+      "original": "Full Plate Armour",
+      "name": "Thép Nhà Adlerhorst",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "Full-Plate armour protects the wearer from head-to-foot. Many such suits are blessed or imbued with arcane abilities.",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_armour.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_full_plate_armour",
+          "effect_key": "wh_main_effect_character_stat_armour",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "7.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_full_plate_armour",
+          "effect_key": "wh_main_effect_character_stat_armour",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_03",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_all_lord_self_full_plate_armour",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_03",
+          "parent_key": "wh_main_skill_node_emp_lord_self_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_all_lord_self_scarred_veteran",
+      "original": "Scarred Veteran",
+      "name": "Scarred Veteran",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "{{tr:character_skills_localised_description_wh_main_skill_all_all_self_scarred_veteran}}",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_health.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_scarred_veteran",
+          "effect_key": "wh_main_effect_character_stat_unit_health",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "7.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_scarred_veteran",
+          "effect_key": "wh_main_effect_character_stat_unit_health",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_04",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_all_lord_self_scarred_veteran",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_04",
+          "parent_key": "wh_main_skill_node_emp_lord_self_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_all_lord_self_deadly_blade",
+      "original": "Deadly Blade",
+      "name": "Deadly Blade",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "A deadly blade is especially lethal when in the hands of this master death-maker, killer and slaughterer!",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_attack.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_deadly_blade",
+          "effect_key": "wh_main_effect_character_stat_melee_attack",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_deadly_blade",
+          "effect_key": "wh_main_effect_character_stat_melee_attack",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "12.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_05",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_all_lord_self_deadly_blade",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "4",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_05",
+          "parent_key": "wh_main_skill_node_emp_lord_self_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_all_self_foe-seeker",
+      "original": "Foe-Seeker",
+      "name": "Foe-Seeker",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": " From one bloodied, lifeless corpse to the next, this one is always looking for the next adversary to best.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_character_abilities_foe_seeker.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_all_self_foe-seeker",
+          "effect_key": "wh_main_effect_ability_enable_foe-seeker",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_06",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_all_self_foe-seeker",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "5",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "4",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_06",
+          "parent_key": "wh_main_skill_node_emp_lord_self_02",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_06",
+          "parent_key": "wh_main_skill_node_emp_lord_self_03",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_06",
+          "parent_key": "wh_main_skill_node_emp_lord_self_04",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_06",
+          "parent_key": "wh_main_skill_node_emp_lord_self_05",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_all_lord_self_wound-maker",
+      "original": "Wound-Maker",
+      "name": "Wound-Maker",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "{{tr:character_skills_localised_description_wh_main_skill_all_all_self_wound-maker}}",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_damage.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_wound-maker",
+          "effect_key": "wh_main_effect_character_stat_weapon_strength",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "10.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_wound-maker",
+          "effect_key": "wh_main_effect_character_stat_weapon_strength",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "20.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_07",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_all_lord_self_wound-maker",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "6",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_07",
+          "parent_key": "wh_main_skill_node_emp_lord_self_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_all_lord_self_blade_master",
+      "original": "Blade Master",
+      "name": "Blade Master",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "{{tr:character_skills_localised_description_wh_main_skill_all_all_self_blade_master}}",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_attack.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_blade_master",
+          "effect_key": "wh_main_effect_character_stat_melee_attack",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_blade_master",
+          "effect_key": "wh_main_effect_character_stat_melee_attack",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "12.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_08",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_all_lord_self_blade_master",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "7",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_08",
+          "parent_key": "wh_main_skill_node_emp_lord_self_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_all_lord_self_self_indomitable",
+      "original": "Indomitable",
+      "name": "Indomitable",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "The iron will and indomitable presence of this leader ensures their followers remain steadfast when facing peril.",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_morale.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_self_indomitable",
+          "effect_key": "wh_main_effect_character_stat_leadership",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_self_indomitable",
+          "effect_key": "wh_main_effect_character_stat_leadership",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "12.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_09",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_all_lord_self_self_indomitable",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "8",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_09",
+          "parent_key": "wh_main_skill_node_emp_lord_self_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_all_lord_self_blade_shield",
+      "original": "Blade Shield",
+      "name": "Blade Shield",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "A blade that sings in defence will not let its wielder be penetrated.",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_defence.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_blade_shield",
+          "effect_key": "wh_main_effect_character_stat_melee_defence",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_all_lord_self_blade_shield",
+          "effect_key": "wh_main_effect_character_stat_melee_defence",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "12.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_10",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_all_lord_self_blade_shield",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "9",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_10",
+          "parent_key": "wh_main_skill_node_emp_lord_self_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_all_self_deadly_onslaught",
+      "original": "Deadly Onslaught",
+      "name": "Deadly Onslaught",
+      "group": "Cận chiến · ưu tiên chống chịu",
+      "source": "General of the Empire",
+      "description": "The war is endless. The cycle of charging, clashing, and bloody hand-to-hand fighting is without end. It will never stop.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_character_abilities_deadly_onslaught.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_all_self_deadly_onslaught",
+          "effect_key": "wh_main_effect_ability_enable_deadly_onslaught",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_self_11",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_all_self_deadly_onslaught",
+        "faction_key": "",
+        "indent": "3",
+        "tier": "10",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "4",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_11",
+          "parent_key": "wh_main_skill_node_emp_lord_self_07",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_11",
+          "parent_key": "wh_main_skill_node_emp_lord_self_08",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_11",
+          "parent_key": "wh_main_skill_node_emp_lord_self_09",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_self_11",
+          "parent_key": "wh_main_skill_node_emp_lord_self_10",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_lord_battle_inspiring_presence",
+      "original": "Inspiring Presence",
+      "name": "Inspiring Presence",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "There are Lords that radiate power, confidence and fear, inspiring their followers to great or terrible acts.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_morale.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_lord_battle_inspiring_presence",
+          "effect_key": "wh_main_effect_agent_action_outcome_parent_army_xp_gain",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "75.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_battle_inspiring_presence",
+          "effect_key": "wh_main_effect_character_stat_aura_leadership_effect",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "5.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_01",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_lord_battle_inspiring_presence",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_emperors_finest",
+      "original": "Emperor's Finest",
+      "name": "Emperor's Finest",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "“We march to war for our Emperor, and Sigmar, our saviour and lord.”",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_defence.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_emperors_finest",
+          "effect_key": "wh2_dlc11_effect_force_stat_melee_defence_emp_spearmen_swordsmen_flagellants_halberdier",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_emperors_finest",
+          "effect_key": "wh2_dlc11_effect_force_stat_melee_attack_emp_spearmen_swordsmen_flagellants_halberdier",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_emperors_finest",
+          "effect_key": "wh2_dlc11_effect_force_stat_melee_defence_emp_spearmen_swordsmen_flagellants_halberdier",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_emperors_finest",
+          "effect_key": "wh2_dlc11_effect_force_stat_melee_attack_emp_spearmen_swordsmen_flagellants_halberdier",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_emperors_finest",
+          "effect_key": "wh2_dlc11_effect_force_stat_melee_defence_emp_spearmen_swordsmen_flagellants_halberdier",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_02",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_emperors_finest",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_02",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_speed_of_horse",
+      "original": "Speed of Horse",
+      "name": "Speed of Horse",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "These steeds are bred for speed and war, but foremost it is their gallop which marks them out.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_charge.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_speed_of_horse",
+          "effect_key": "wh2_dlc11_effect_force_stat_charge_bonus_add_emp_empire_knights_reiksguard_knights_of_the_blazing_sun",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_speed_of_horse",
+          "effect_key": "wh2_dlc11_effect_force_stat_charge_bonus_add_emp_empire_knights_reiksguard_knights_of_the_blazing_sun",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_speed_of_horse",
+          "effect_key": "wh3_dlc25_effect_force_stat_speed_empire_knights_reiksguard_knights_of_the_blazing_sun",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "5.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_speed_of_horse",
+          "effect_key": "wh2_dlc11_effect_force_stat_charge_bonus_add_emp_empire_knights_reiksguard_knights_of_the_blazing_sun",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "9.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_speed_of_horse",
+          "effect_key": "wh3_dlc25_effect_force_stat_speed_empire_knights_reiksguard_knights_of_the_blazing_sun",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_03",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_speed_of_horse",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_03",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_pistolkorps",
+      "original": "Pistolkorps",
+      "name": "Pistolkorps",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "This Lord expects his men to practice the disciplines of the Pistolkorps, and all be expert marksmen.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_ranged_damage.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_pistolkorps",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_damage_emp_free_company_crossbowmen_handgunners_pistoliers_outriders",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_pistolkorps",
+          "effect_key": "wh2_dlc11_effect_force_stat_ammunition_emp_missile_infantry_cavalry",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_pistolkorps",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_damage_emp_free_company_crossbowmen_handgunners_pistoliers_outriders",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_pistolkorps",
+          "effect_key": "wh2_dlc11_effect_force_stat_ammunition_emp_missile_infantry_cavalry",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "20.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_pistolkorps",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_damage_emp_free_company_crossbowmen_handgunners_pistoliers_outriders",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "8.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_04",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_pistolkorps",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_04",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh3_dlc29_skill_emp_army_buff_noble_beasts",
+      "original": "Noble Beasts",
+      "name": "Noble Beasts",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "Harnessed for war, these great beasts have proven themselves as loyal and powerful champions on the battlefield.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_attack.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_dlc29_skill_emp_army_buff_noble_beasts",
+          "effect_key": "wh3_dlc29_effect_force_stat_melee_attack_demigryphs_hunting_hounds",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc29_skill_emp_army_buff_noble_beasts",
+          "effect_key": "wh3_dlc29_effect_force_stat_melee_attack_demigryphs_hunting_hounds",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc29_skill_emp_army_buff_noble_beasts",
+          "effect_key": "wh3_dlc29_effect_force_stat_speed_demigryphs_hunting_hounds",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "5.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc29_skill_emp_army_buff_noble_beasts",
+          "effect_key": "wh3_dlc29_effect_force_stat_melee_attack_demigryphs_hunting_hounds",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh3_dlc29_skill_emp_army_buff_noble_beasts",
+          "effect_key": "wh3_dlc29_effect_force_stat_speed_demigryphs_hunting_hounds",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_05",
+        "campaign_key": "",
+        "character_skill_key": "wh3_dlc29_skill_emp_army_buff_noble_beasts",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "4",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_05",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_mighty_forge",
+      "original": "Mighty Forge",
+      "name": "Mighty Forge",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "Patrons of great forges and smiths expect, and are rewarded with, tougher and more enduring war machines.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_ward_save.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_mighty_forge",
+          "effect_key": "wh2_dlc11_effect_force_stat_ward_save_war_wagon_steam_tank_luminark",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "7.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_mighty_forge",
+          "effect_key": "wh2_dlc11_effect_force_stat_reload_time_reduction_emp_war_wagon_steam_tank_luminark",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_mighty_forge",
+          "effect_key": "wh2_dlc11_effect_force_stat_ward_save_war_wagon_steam_tank_luminark",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "11.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_mighty_forge",
+          "effect_key": "wh2_dlc11_effect_force_stat_reload_time_reduction_emp_war_wagon_steam_tank_luminark",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "8.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_mighty_forge",
+          "effect_key": "wh2_dlc11_effect_force_stat_ward_save_war_wagon_steam_tank_luminark",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_06",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_mighty_forge",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "5",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_06",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_imperial_gunnery",
+      "original": "Imperial Gunnery",
+      "name": "Imperial Gunnery",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "Despite what the Dwarfs think, no other race can bring to bear such devastating artillery volleys.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_ranged_damage.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_imperial_gunnery",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_damage_emp_artillery",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_imperial_gunnery",
+          "effect_key": "wh2_dlc11_effect_force_stat_ammunition_emp_artillery",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_imperial_gunnery",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_damage_emp_artillery",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_imperial_gunnery",
+          "effect_key": "wh2_dlc11_effect_force_stat_ammunition_emp_artillery",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "20.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_imperial_gunnery",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_damage_emp_artillery",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "8.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_07",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_imperial_gunnery",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "6",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_07",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_lord_battle_rally",
+      "original": "Rally!",
+      "name": "Rally!",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_character_abilities_rally.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_lord_battle_rally",
+          "effect_key": "wh_main_effect_ability_enable_rally",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_08",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_lord_battle_rally",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "7",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "6",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_08",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_02",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_08",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_03",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_08",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_04",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_08",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_05",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_08",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_08",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_07",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_strength_of_hardship",
+      "original": "Strength of Hardship",
+      "name": "Strength of Hardship",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "The frontline will either make or break you. Those who survive become the backbone of any army.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_defence.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_strength_of_hardship",
+          "effect_key": "wh2_dlc11_effect_force_stat_armour_emp_greatswords_spearmen_swordsmen_flagellants_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_strength_of_hardship",
+          "effect_key": "wh2_dlc11_effect_force_stat_physical_resistance_increase_emp_greatswords_spearmen_swordsmen_flagellants_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_strength_of_hardship",
+          "effect_key": "wh2_dlc11_effect_skill_melee_defence_increase_emp_greatswords_spearmen_swordsmen_flagellants_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "5.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_09",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_strength_of_hardship",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "8",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_09",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_08",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_sharpshooter",
+      "original": "Sharpshooter",
+      "name": "Sharpshooter",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "The veteran marksman knows the precise range required to land the killing shot.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_ranged_damage.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_sharpshooter",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_damage_emp_free_company_crossbowmen_handgunners_pistoliers_outriders_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "12.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_sharpshooter",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_resistance_emp_free_company_huntsmen_crossbowmen_handgunners_pistoliers_outriders_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "15.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_sharpshooter",
+          "effect_key": "wh2_dlc11_effect_skill_reload_increase_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_10",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_sharpshooter",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "9",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_10",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_08",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_taste_for_battle",
+      "original": "Taste for Battle",
+      "name": "Taste for Battle",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "Some men grow to relish war, dulled to the pain and living solely for the thrill of the kill.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_attack.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_taste_for_battle",
+          "effect_key": "wh2_dlc11_effect_force_stat_melee_attack_emp_knights_demigryphs_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "5.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_taste_for_battle",
+          "effect_key": "wh2_dlc11_effect_skill_morale_increase_emp_knights_demigryphs_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "5.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_taste_for_battle",
+          "effect_key": "wh3_dlc25_effect_skill_charge_bonus_emp_knights_demigryphs_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "12.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_11",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_taste_for_battle",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "10",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_11",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_08",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc11_skill_emp_army_buff_artillery_master",
+      "original": "Artillery Master",
+      "name": "Artillery Master",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "Those in command of ordnance can potentially decide a battle before the melee has even begun.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "battle_ammo.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_artillery_master",
+          "effect_key": "wh2_dlc11_effect_force_stat_ammunition_emp_artillery_war_machine_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "20.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_artillery_master",
+          "effect_key": "wh2_dlc11_effect_force_stat_missile_damage_increase_emp_artillery_war_wagon_steam_tank_luminark_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "12.0000"
+        },
+        {
+          "character_skill_key": "wh2_dlc11_skill_emp_army_buff_artillery_master",
+          "effect_key": "wh2_dlc11_effect_force_stat_reload_time_reduction_emp_artillery_war_wagon_steam_tank_luminark_rank7",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_12",
+        "campaign_key": "",
+        "character_skill_key": "wh2_dlc11_skill_emp_army_buff_artillery_master",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "11",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_12",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_08",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_lord_battle_stand_your_ground",
+      "original": "Stand Your Ground!",
+      "name": "Đứng Sau Ta",
+      "group": "Quân đội Empire",
+      "source": "General of the Empire",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_character_abilities_stand_your_ground.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_lord_battle_stand_your_ground",
+          "effect_key": "wh_main_effect_ability_disable_rally",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_battle_stand_your_ground",
+          "effect_key": "wh_main_effect_ability_enable_stand_your_ground",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_battle_13",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_lord_battle_stand_your_ground",
+        "faction_key": "",
+        "indent": "4",
+        "tier": "12",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "1",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_13",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_09",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_13",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_10",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_13",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_11",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_battle_13",
+          "parent_key": "wh_main_skill_node_emp_lord_battle_12",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_lord_campaign_route_marcher",
+      "original": "Route Marcher",
+      "name": "Route Marcher",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "Those who know the land and its secrets will travel faster and further than the foes who don't.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_movement.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_route_marcher",
+          "effect_key": "wh_main_effect_agent_movement_range_mod",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "5.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_01",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_lord_campaign_route_marcher",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh_main_skill_emp_lord_campaign_iron_disciplinarian",
+      "original": "Iron Disciplinarian",
+      "name": "Iron Disciplinarian",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "This Lord expects utter obedience from the smallfolk, and has little time for insurrections or petty revolts.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_public_order.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_iron_disciplinarian",
+          "effect_key": "wh_main_effect_public_order_characters",
+          "level": "1",
+          "effect_scope": "character_to_province_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_iron_disciplinarian",
+          "effect_key": "wh_main_effect_public_order_characters",
+          "level": "2",
+          "effect_scope": "character_to_province_own",
+          "value": "2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_iron_disciplinarian",
+          "effect_key": "wh_main_effect_public_order_characters",
+          "level": "3",
+          "effect_scope": "character_to_province_own",
+          "value": "3.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_02",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_campaign_iron_disciplinarian",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_02",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_emp_lord_campaign_leader_of_renown",
+      "original": "Leader of Renown",
+      "name": "Leader of Renown",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "Revered by the masses, such a celebrated leader will inspire many new recruits.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_military_spending.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_leader_of_renown",
+          "effect_key": "wh_main_effect_force_all_campaign_recruitment_cost_all",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "-5.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_leader_of_renown",
+          "effect_key": "wh_main_effect_force_all_campaign_recruitment_cost_all",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "-10.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_leader_of_renown",
+          "effect_key": "wh_main_effect_force_all_campaign_recruitment_cost_all",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "-15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_03",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_campaign_leader_of_renown",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_03",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_lord_all_campaign_reassuring_presence",
+      "original": "Reassuring Presence",
+      "name": "Reassuring Presence",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "The presence of this Lord ensures a measure of calm, reducing panic and desertion amongst followers.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_disaster.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_lord_all_campaign_reassuring_presence",
+          "effect_key": "wh_main_effect_force_army_campaign_attrition_all_resistance",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "-10.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_lord_all_campaign_reassuring_presence",
+          "effect_key": "wh_main_effect_force_army_campaign_attrition_all_resistance",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "-20.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_lord_all_campaign_reassuring_presence",
+          "effect_key": "wh_main_effect_force_army_campaign_attrition_all_resistance",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "-30.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_04",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_lord_all_campaign_reassuring_presence",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_04",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_emp_lord_campaign_fervent",
+      "original": "Fervent",
+      "name": "Fervent",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "Through our acts, the gods will cleanse the lands.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_untainted.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_fervent",
+          "effect_key": "wh3_main_effect_corruption_reduction_characters",
+          "level": "1",
+          "effect_scope": "character_to_province_any",
+          "value": "-1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_fervent",
+          "effect_key": "wh3_main_effect_corruption_reduction_characters",
+          "level": "2",
+          "effect_scope": "character_to_province_any",
+          "value": "-2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_fervent",
+          "effect_key": "wh3_main_effect_corruption_reduction_characters",
+          "level": "3",
+          "effect_scope": "character_to_province_any",
+          "value": "-3.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_05",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_campaign_fervent",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "4",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_05",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_lord_campaign_irrepressible",
+      "original": "Irrepressible",
+      "name": "Irrepressible",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "It is said that Sigmar would bear a mortal wound and carry on fighting; this champion follows the hallowed Warrior-God.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_wound_time.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_irrepressible",
+          "effect_key": "wh2_main_effect_replenishment_lords",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "30.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_irrepressible",
+          "effect_key": "wh3_main_effect_character_campaign_experience_mod",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_irrepressible",
+          "effect_key": "wh_main_effect_character_wound_recovery_time_mod",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "-1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_06",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_lord_campaign_irrepressible",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "5",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "4",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_06",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_02",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_06",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_03",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_06",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_04",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_06",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_05",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_lord_campaign_lightning_strike",
+      "original": "Lightning Strike",
+      "name": "Lightning Strike",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "The time to strike is now!",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_subterfuge.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_opposing_reinforcement_time_percentage_mod",
+          "level": "1",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "25.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_own_reinforcement_time_percentage_mod",
+          "level": "1",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "-10.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_reinforcement_adjustment_budget",
+          "level": "1",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "250.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_opposing_reinforcement_time_percentage_mod",
+          "level": "2",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "50.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_own_reinforcement_time_percentage_mod",
+          "level": "2",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "-20.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_reinforcement_adjustment_budget",
+          "level": "2",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "600.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_opposing_reinforcement_time_percentage_mod",
+          "level": "3",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "50.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_own_reinforcement_time_percentage_mod",
+          "level": "3",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "-30.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh3_main_effect_reinforcement_adjustment_budget",
+          "level": "3",
+          "effect_scope": "general_to_force_own_unseen",
+          "value": "1000.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+          "effect_key": "wh_main_effect_conquest_enable_night_battles",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_07",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_lord_campaign_lightning_strike",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "6",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_07",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_emp_lord_campaign_quartermaster",
+      "original": "Quartermaster",
+      "name": "Quartermaster",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "A good quartermaster can ration equipment and foodstuffs efficiently, making supplies last longer.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_military_spending.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_quartermaster",
+          "effect_key": "wh_main_effect_force_all_campaign_upkeep",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "-3.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_quartermaster",
+          "effect_key": "wh_main_effect_force_all_campaign_upkeep",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "-6.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_quartermaster",
+          "effect_key": "wh_main_effect_force_all_campaign_upkeep",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "-10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_08",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_campaign_quartermaster",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "7",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_08",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_emp_lord_campaign_logistician",
+      "original": "Logistician",
+      "name": "Logistician",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "Proficient with figures, this Lord, or his subordinates, can keep his army fulfilled, even in dire circumstances.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_replenishment.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_logistician",
+          "effect_key": "wh_main_effect_force_all_campaign_replenishment_rate",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_logistician",
+          "effect_key": "wh_main_effect_force_all_campaign_replenishment_rate",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "4.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_logistician",
+          "effect_key": "wh_main_effect_force_all_campaign_replenishment_rate",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_09",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_campaign_logistician",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "8",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_09",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_lord_campaign_alert",
+      "original": "Alert",
+      "name": "Alert",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "Countless conflicts and a keen sense of awareness have made this Lord difficult to entrap.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_ambush.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_alert",
+          "effect_key": "wh_main_effect_force_army_campaign_ambush_defence_success_chance",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_alert",
+          "effect_key": "wh_main_effect_force_army_campaign_ambush_defence_success_chance",
+          "level": "2",
+          "effect_scope": "general_to_force_own",
+          "value": "16.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_alert",
+          "effect_key": "wh_main_effect_general_mod_tunnel_interception_chance",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "5.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_alert",
+          "effect_key": "wh_main_effect_force_army_campaign_ambush_defence_success_chance",
+          "level": "3",
+          "effect_scope": "general_to_force_own",
+          "value": "30.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_lord_campaign_alert",
+          "effect_key": "wh_main_effect_general_mod_tunnel_interception_chance",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_10",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_lord_campaign_alert",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "9",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_10",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_emp_lord_campaign_headhunter",
+      "original": "Headhunter",
+      "name": "Headhunter",
+      "group": "Chiến dịch · đoàn viễn chinh",
+      "source": "General of the Empire",
+      "description": "Ever thought about joining the Elector's troops, chief? You'd make a good soldier alright.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_army.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_headhunter",
+          "effect_key": "wh_main_effect_agent_movement_range_mod",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "5.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_headhunter",
+          "effect_key": "wh_main_effect_force_all_campaign_experience_base_all",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_headhunter",
+          "effect_key": "wh_main_effect_force_all_campaign_upkeep",
+          "level": "1",
+          "effect_scope": "general_to_force_own",
+          "value": "-8.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_emp_lord_campaign_headhunter",
+          "effect_key": "wh_main_effect_unit_recruitment_points",
+          "level": "1",
+          "effect_scope": "force_to_province_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_emp_lord_campaign_11",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_emp_lord_campaign_headhunter",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "10",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "4",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_11",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_07",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_11",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_08",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_11",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_09",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_emp_lord_campaign_11",
+          "parent_key": "wh_main_skill_node_emp_lord_campaign_10",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc10_skill_hef_handmaiden_protector_2",
+      "original": "Guardian",
+      "name": "Đại Bàng Che Chở",
+      "group": "Bổ sung từ class khác",
+      "source": "High Elf Handmaiden",
+      "description": "As a guardian, the Warrioress is sworn to protect everything that Asur hold dear.",
+      "ranks": 1,
+      "note": "Skill bổ sung. Đề xuất mở cấp 11 theo skill nguồn; 1 bậc. Dùng nguyên Guardian, áp dụng theo đối tượng gốc, không giới hạn riêng Sariwa.",
+      "image_path": "wh2_dlc10_guardian.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc10_skill_hef_handmaiden_protector_2",
+          "effect_key": "wh2_dlc10_effect_ability_enable_guardian",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": null,
+      "links": []
+    }
+  ],
+  "s": [
+    {
+      "key": "wh_main_skill_brt_wizard_unique_damsel_aura_of_the_lady",
+      "original": "Aura of the Lady",
+      "name": "Hào Quang Người Giữ Đền",
+      "group": "Bảo hộ & kỹ năng chung",
+      "source": "Damsel (Heavens)",
+      "description": "Acolytes too are blessed by the Lady's spirit, enabling them to resist magical attacks.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_hero_passive_aura_of_the_lady.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_brt_wizard_unique_damsel_aura_of_the_lady",
+          "effect_key": "wh_main_effect_ability_enable_aura_of_the_lady",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_unique_04",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_brt_wizard_unique_damsel_aura_of_the_lady",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh_main_skill_brt_all_unique_ladys_mantle",
+      "original": "Lady’s Mantle",
+      "name": "Áo Choàng Lời Thề",
+      "group": "Bảo hộ & kỹ năng chung",
+      "source": "Damsel (Heavens)",
+      "description": "From the verdant depths, the Lady rises to protect the faithful.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_ward_save.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_brt_all_unique_ladys_mantle",
+          "effect_key": "wh_main_effect_character_stat_missile_resistance",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_unique_03",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_brt_all_unique_ladys_mantle",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_main_skill_all_immortality_hero",
+      "original": "Immortality",
+      "name": "Immortality",
+      "group": "Bảo hộ & kỹ năng chung",
+      "source": "Damsel (Heavens)",
+      "description": "Who wants to live forever? As it turns out, most beings wouldn't say no…",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_wound_time.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_main_skill_all_immortality_hero",
+          "effect_key": "wh2_main_effect_grant_immortality_hero",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh3_dlc24_skill_generic_immortality_hero",
+        "campaign_key": "",
+        "character_skill_key": "wh2_main_skill_all_immortality_hero",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "29",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh3_main_skill_all_mentor_hero",
+      "original": "Mentor",
+      "name": "Mentor",
+      "group": "Bảo hộ & kỹ năng chung",
+      "source": "Damsel (Heavens)",
+      "description": "{{tr:character_skills_localised_description_wh3_main_skill_all_mentor_lord}}",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_experience.png",
+      "effects": [
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_hero",
+          "effect_key": "wh3_main_effect_character_xp_share_generic_herotext",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "15.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_hero",
+          "effect_key": "wh3_main_effect_character_xp_share_generic_herotext",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "30.0000"
+        },
+        {
+          "character_skill_key": "wh3_main_skill_all_mentor_hero",
+          "effect_key": "wh3_main_effect_character_xp_share_generic_herotext",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "50.0000"
+        }
+      ],
+      "node": {
+        "key": "wh3_dlc24_skill_node_all_mentor_hero",
+        "campaign_key": "",
+        "character_skill_key": "wh3_main_skill_all_mentor_hero",
+        "faction_key": "",
+        "indent": "0",
+        "tier": "30",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+      "original": "Harmonic Convergence",
+      "name": "Điềm Lành Đền Cổ",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_spell_heavens_harmonic_convergence.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+          "effect_key": "wh2_main_effect_ability_overcast_harmonic_convergence",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+          "effect_key": "wh_main_effect_ability_cooldown_harmonic_convergence",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "-30.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+          "effect_key": "wh2_main_effect_ability_miscast_harmonic_convergence_upgraded",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-15.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+          "effect_key": "wh2_main_effect_ability_overcast_harmonic_convergence",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+          "effect_key": "wh2_main_effect_ability_wom_cost_harmonic_convergence",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+          "effect_key": "wh2_main_effect_ability_wom_cost_harmonic_convergence_upgraded",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+          "effect_key": "wh_main_effect_ability_cooldown_harmonic_convergence",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-50.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_01",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_heavens_01_harmonic_convergence",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh_main_skill_all_magic_heavens_03_rolling_skies",
+      "original": "Roiling Skies",
+      "name": "Bầu Trời Của Ngọc Xà",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_lore_passive_roiling_skies.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_03_rolling_skies",
+          "effect_key": "wh_main_effect_ability_enable_roiling_skies",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_02",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_heavens_03_rolling_skies",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_02",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+      "original": "Wind Blast",
+      "name": "Hơi Thở Naga",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_spell_heavens_wind_blast.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+          "effect_key": "wh_main_effect_ability_enable_wind_blast",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+          "effect_key": "wh2_main_effect_ability_overcast_wind_blast",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+          "effect_key": "wh_main_effect_ability_cooldown_wind_blast",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-30.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+          "effect_key": "wh2_main_effect_ability_miscast_wind_blast_upgraded",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-15.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+          "effect_key": "wh2_main_effect_ability_overcast_wind_blast",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+          "effect_key": "wh2_main_effect_ability_wom_cost_wind_blast",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+          "effect_key": "wh2_main_effect_ability_wom_cost_wind_blast_upgraded",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+          "effect_key": "wh_main_effect_ability_cooldown_wind_blast",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-50.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_03",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_heavens_02_wind_blast",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_03",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+      "original": "Curse of the Midnight Wind",
+      "name": "Lời Nguyền Đền Rắn",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_spell_heavens_curse_of_the_midnight_wind.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+          "effect_key": "wh_main_effect_ability_enable_curse_of_the_midnight_wind",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+          "effect_key": "wh2_main_effect_ability_overcast_curse_of_the_midnight_wind",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+          "effect_key": "wh_main_effect_ability_cooldown_curse_of_the_midnight_wind",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-30.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+          "effect_key": "wh2_main_effect_ability_miscast_curse_of_the_midnight_wind_upgraded",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-15.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+          "effect_key": "wh2_main_effect_ability_overcast_curse_of_the_midnight_wind",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+          "effect_key": "wh2_main_effect_ability_wom_cost_curse_of_the_midnight_wind",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+          "effect_key": "wh2_main_effect_ability_wom_cost_curse_of_the_midnight_wind_upgraded",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-3.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+          "effect_key": "wh_main_effect_ability_cooldown_curse_of_the_midnight_wind",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-50.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_04",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_heavens_04_curse_of_the_midnight_wind",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_04",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+      "original": "Urannon's Thunderbolt",
+      "name": "Lôi Kích Ngọc Xà",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_spell_heavens_urannons_thunderbolt.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+          "effect_key": "wh_main_effect_ability_enable_urannons_thunderbolt",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+          "effect_key": "wh2_main_effect_ability_overcast_urannons_thunderbolt",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+          "effect_key": "wh_main_effect_ability_cooldown_urannons_thunderbolt",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-30.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+          "effect_key": "wh2_main_effect_ability_miscast_urannons_thunderbolt_upgraded",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-15.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+          "effect_key": "wh2_main_effect_ability_overcast_urannons_thunderbolt",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+          "effect_key": "wh2_main_effect_ability_wom_cost_urannons_thunderbolt",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+          "effect_key": "wh2_main_effect_ability_wom_cost_urannons_thunderbolt_upgraded",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+          "effect_key": "wh_main_effect_ability_cooldown_urannons_thunderbolt",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-50.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_05",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_heavens_05_urannons_thunderbolt",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "4",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_05",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_01",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_magic_all_06_evasion",
+      "original": "Evasion",
+      "name": "Evasion",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_character_passive_evasion.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_all_06_evasion",
+          "effect_key": "wh_main_effect_ability_enable_evasion",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_06",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_all_06_evasion",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "5",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "4",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_06",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_02",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_06",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_03",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_06",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_04",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_06",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_05",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+      "original": "Comet of Casandora",
+      "name": "Thiên Thạch Đền Cổ",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_spell_heavens_comet_of_casandora.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+          "effect_key": "wh_main_effect_ability_enable_comet_of_casandora",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+          "effect_key": "wh2_main_effect_ability_overcast_comet_of_casandora",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+          "effect_key": "wh_main_effect_ability_cooldown_comet_of_casandora",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-30.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+          "effect_key": "wh2_main_effect_ability_miscast_comet_of_casandora_upgraded",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-15.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+          "effect_key": "wh2_main_effect_ability_overcast_comet_of_casandora",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+          "effect_key": "wh2_main_effect_ability_wom_cost_comet_of_casandora",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-2.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+          "effect_key": "wh2_main_effect_ability_wom_cost_comet_of_casandora_upgraded",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-4.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+          "effect_key": "wh_main_effect_ability_cooldown_comet_of_casandora",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-50.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_09",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_heavens_09_comet_of_casandora",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "6",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_09",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_magic_heavens_10_chain_lightning",
+      "original": "Chain Lightning",
+      "name": "Ngũ Xà Lôi Quang",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 2,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "wh_main_spell_heavens_chain_lightning.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_10_chain_lightning",
+          "effect_key": "wh_main_effect_ability_enable_chain_lightning",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_10_chain_lightning",
+          "effect_key": "wh2_main_effect_ability_wom_cost_chain_lightning",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-3.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_10_chain_lightning",
+          "effect_key": "wh_main_effect_ability_cooldown_chain_lightning",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-50.0000"
+        },
+        {
+          "character_skill_key": "wh_main_skill_all_magic_heavens_10_chain_lightning",
+          "effect_key": "wh_main_effect_ability_enable_chain_lightning",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_10",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_heavens_10_chain_lightning",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "7",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_10",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_magic_all_07_earthing",
+      "original": "Earthing",
+      "name": "Earthing",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "By stabbing a staff or some arcane conduit into the ground, an accomplished magic-user can earth or tether the Winds and hopefully reduce a chance of miscasting.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_magic.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_all_07_earthing",
+          "effect_key": "wh_main_effect_character_stat_miscast",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "-15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_07",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_all_07_earthing",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "8",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_07",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh_main_skill_all_magic_all_08_power_drain",
+      "original": "Magical Reserves",
+      "name": "Magical Reserves",
+      "group": "Phép thuật · Heavens",
+      "source": "Damsel (Heavens)",
+      "description": "A few magic-users have the ability to store the Winds of Magic for later use, increasing their spellcasting power when it really counts.",
+      "ranks": 1,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "character_magic.png",
+      "effects": [
+        {
+          "character_skill_key": "wh_main_skill_all_magic_all_08_power_drain",
+          "effect_key": "wh3_main_effect_winds_of_magic_pool_cap",
+          "level": "1",
+          "effect_scope": "character_to_force_own_unseen",
+          "value": "5.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_08",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_all_08_power_drain",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "9",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_08",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_06",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_dlc14_skilll_all_magic_all_greater_arcane_conduit",
+      "original": "Greater Arcane Conduit",
+      "name": "Mạch Phép Đền Cổ",
+      "group": "Phép thuật · Heavens",
+      "source": "High Elf Archmage (Heavens)",
+      "description": "Dùng nguyên tooltip và thông số của skill nguồn.",
+      "ranks": 1,
+      "note": "Thay Arcane Conduit bằng Greater Arcane Conduit; giữ cửa mở cuối nhánh phép của Damsel. Không nhận cả hai.",
+      "image_path": "wh_main_character_abilities_arcane_conduit.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_dlc14_skilll_all_magic_all_greater_arcane_conduit",
+          "effect_key": "wh_dlc08_effect_ability_enable_greater_arcane_conduit",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_magic1_11",
+        "campaign_key": "",
+        "character_skill_key": "wh_main_skill_all_magic_all_11_arcane_conduit",
+        "faction_key": "",
+        "indent": "2",
+        "tier": "10",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "4",
+        "visible_in_ui": "true"
+      },
+      "links": [
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_11",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_07",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_11",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_08",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_11",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_09",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        },
+        {
+          "child_key": "wh_main_skill_node_brt_damsel_magic1_11",
+          "parent_key": "wh_main_skill_node_brt_damsel_magic1_10",
+          "initial_descent_tiers": "0",
+          "parent_link_position": "1",
+          "child_link_position": "1",
+          "parent_link_position_offset": "0.0000",
+          "child_link_position_offset": "0.0000",
+          "link_type": "SUBSET_REQUIRED"
+        }
+      ]
+    },
+    {
+      "key": "wh2_main_skill_all_hero_assist_army_replenish_troops",
+      "original": "Replenish Troops",
+      "name": "Replenish Troops",
+      "group": "Chiến dịch · học giả Khuresh",
+      "source": "Damsel (Heavens)",
+      "description": "Those in the army can find succour or be replenished by the power of this champion.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_replenishment.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_assist_army_replenish_troops",
+          "effect_key": "wh2_main_effect_agent_action_assist_army_replenish_troops_buff",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "3.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_assist_army_replenish_troops",
+          "effect_key": "wh2_main_effect_agent_action_assist_army_replenish_troops_buff",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_assist_army_replenish_troops",
+          "effect_key": "wh2_main_effect_agent_action_assist_army_replenish_troops_buff",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "9.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_campaign_01",
+        "campaign_key": "",
+        "character_skill_key": "wh2_main_skill_all_hero_assist_army_replenish_troops",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "0",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_main_skill_all_hero_passive_spread_corruption",
+      "original": "Cleanse Corruption",
+      "name": "Cleanse Corruption",
+      "group": "Chiến dịch · học giả Khuresh",
+      "source": "Damsel (Heavens)",
+      "description": "The locals take notice and will be inspired or frightened into action.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_untainted.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_passive_spread_corruption",
+          "effect_key": "wh2_main_effect_agent_action_passive_spread_corruption_buff",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_passive_spread_corruption",
+          "effect_key": "wh3_main_effect_agent_action_passive_spread_corruption_reduction_effect",
+          "level": "1",
+          "effect_scope": "character_to_province_any",
+          "value": "-1.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_passive_spread_corruption",
+          "effect_key": "wh2_main_effect_agent_action_passive_spread_corruption_buff",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "2.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_passive_spread_corruption",
+          "effect_key": "wh3_main_effect_agent_action_passive_spread_corruption_reduction_effect",
+          "level": "2",
+          "effect_scope": "character_to_province_any",
+          "value": "-2.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_passive_spread_corruption",
+          "effect_key": "wh2_main_effect_agent_action_passive_spread_corruption_buff",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "3.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_passive_spread_corruption",
+          "effect_key": "wh3_main_effect_agent_action_passive_spread_corruption_reduction_effect",
+          "level": "3",
+          "effect_scope": "character_to_province_any",
+          "value": "-3.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_campaign_02",
+        "campaign_key": "",
+        "character_skill_key": "wh2_main_skill_all_hero_passive_spread_corruption",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "1",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_main_skill_all_hero_hinder_settlement_steal_technology",
+      "original": "Steal Technology",
+      "name": "Steal Technology",
+      "group": "Chiến dịch · học giả Khuresh",
+      "source": "Damsel (Heavens)",
+      "description": "Oft-times, though you may have much, what you want the most is what your rivals have; such envy focuses the mind and creativity.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_technology.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_settlement_steal_technology",
+          "effect_key": "wh2_main_effect_agent_action_hinder_settlement_steal_technology_buff",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "3.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_settlement_steal_technology",
+          "effect_key": "wh2_main_effect_agent_action_hinder_settlement_steal_technology_buff",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "6.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_settlement_steal_technology",
+          "effect_key": "wh2_main_effect_agent_action_hinder_settlement_steal_technology_buff",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "10.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_campaign_03",
+        "campaign_key": "",
+        "character_skill_key": "wh2_main_skill_all_hero_hinder_settlement_steal_technology",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "2",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_main_skill_all_hero_hinder_agent_wound",
+      "original": "Wound",
+      "name": "Wound",
+      "group": "Chiến dịch · học giả Khuresh",
+      "source": "Damsel (Heavens)",
+      "description": "Such a champion will not bend or break, but slay in their Lord's name.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_wound_time.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_agent_wound",
+          "effect_key": "wh2_main_effect_agent_action_hinder_agent_wound_buff",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "5.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_agent_wound",
+          "effect_key": "wh2_main_effect_agent_action_hinder_agent_wound_buff",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "12.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_agent_wound",
+          "effect_key": "wh2_main_effect_agent_action_hinder_agent_wound_buff",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "21.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_campaign_04",
+        "campaign_key": "",
+        "character_skill_key": "wh2_main_skill_all_hero_hinder_agent_wound",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "3",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_main_skill_all_hero_hinder_army_block_army",
+      "original": "Block Army",
+      "name": "Block Army",
+      "group": "Chiến dịch · học giả Khuresh",
+      "source": "Damsel (Heavens)",
+      "description": "To sow discord and confuse the enemy, sending them down the wrong route or befuddling their senses.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_movement.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_army_block_army",
+          "effect_key": "wh2_main_effect_agent_action_hinder_army_block_army_buff",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "-3.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_army_block_army",
+          "effect_key": "wh2_main_effect_agent_action_hinder_army_block_army_buff",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-8.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_hinder_army_block_army",
+          "effect_key": "wh2_main_effect_agent_action_hinder_army_block_army_buff",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-15.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_campaign_05",
+        "campaign_key": "",
+        "character_skill_key": "wh2_main_skill_all_hero_hinder_army_block_army",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "4",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    },
+    {
+      "key": "wh2_main_skill_all_hero_reduce_action_cost",
+      "original": "Specialist",
+      "name": "Specialist",
+      "group": "Chiến dịch · học giả Khuresh",
+      "source": "Damsel (Heavens)",
+      "description": "An expert in their craft, this Hero knows all the mistakes that can be made and how to best avoid making them.",
+      "ranks": 3,
+      "note": "Giữ cấp mở, số bậc và điều kiện nối của cây gốc.",
+      "image_path": "campaign_military_spending.png",
+      "effects": [
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_reduce_action_cost",
+          "effect_key": "wh_main_effect_agent_action_cost_mod",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "-10.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_reduce_action_cost",
+          "effect_key": "wh_main_effect_agent_action_success_chance",
+          "level": "1",
+          "effect_scope": "character_to_character_own",
+          "value": "1.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_reduce_action_cost",
+          "effect_key": "wh_main_effect_agent_action_cost_mod",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "-20.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_reduce_action_cost",
+          "effect_key": "wh_main_effect_agent_action_success_chance",
+          "level": "2",
+          "effect_scope": "character_to_character_own",
+          "value": "3.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_reduce_action_cost",
+          "effect_key": "wh_main_effect_agent_action_cost_mod",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "-40.0000"
+        },
+        {
+          "character_skill_key": "wh2_main_skill_all_hero_reduce_action_cost",
+          "effect_key": "wh_main_effect_agent_action_success_chance",
+          "level": "3",
+          "effect_scope": "character_to_character_own",
+          "value": "6.0000"
+        }
+      ],
+      "node": {
+        "key": "wh_main_skill_node_brt_damsel_campaign_06",
+        "campaign_key": "",
+        "character_skill_key": "wh2_main_skill_all_hero_reduce_action_cost",
+        "faction_key": "",
+        "indent": "5",
+        "tier": "5",
+        "subculture": "",
+        "points_on_creation": "0",
+        "required_num_parents": "0",
+        "visible_in_ui": "true"
+      },
+      "links": []
+    }
+  ]
+}

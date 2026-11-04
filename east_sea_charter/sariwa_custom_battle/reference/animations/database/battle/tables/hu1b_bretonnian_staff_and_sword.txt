@@ -1,0 +1,28 @@
+{
+    "Entries": [
+        {
+            "Export": true,
+            "Type": "Fragment",
+            "Value": "hu1b_bretonnian_base"
+        },
+        {
+            "Export": true,
+            "Type": "Fragment",
+            "Value": "hu1b_bretonnian_staff_and_sword"
+        }
+    ],
+    "Properties": {
+        "IsComplete": false,
+        "IsNewCavalryTech": false,
+        "IsSimpleFlight": false,
+        "LocomotionGraphPath": "animations/locomotion_graphs/entity_locomotion_graph.xml",
+        "MountTableName": "",
+        "SkeletonName": "humanoid01b",
+        "SlotTemplateName": "Default",
+        "TableName": "hu1b_bretonnian_staff_and_sword",
+        "Tags": [
+        ],
+        "UnMountTableName": ""
+    },
+    "Version": 3
+}

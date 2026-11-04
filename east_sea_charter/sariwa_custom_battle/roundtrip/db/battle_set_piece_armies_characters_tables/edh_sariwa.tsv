@@ -1,0 +1,3 @@
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/edh_sariwa												
+edh_sariwa	1	1800412710	wh_main_lore_heavens	100	1800412711	edh_sariwa	wizard	edh_sariwa	ui/portraits/portholes/no_culture/edh_sariwa_0.png	1800412700	edh_sariwa_skill_node_set	false

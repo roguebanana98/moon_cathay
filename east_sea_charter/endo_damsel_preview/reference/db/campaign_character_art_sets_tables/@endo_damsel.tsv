@@ -1,0 +1,14 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale	prebattle_separation_offset
+#campaign_character_art_sets_tables;7;db/campaign_character_art_sets_tables/@endo_damsel									
+endo_art_set_brt_damsel_03	wizard				false	false	wh_dlc07_brt_damsel_beasts	1.0000	0.0000
+endo_art_set_brt_damsel_03_heavens	wizard				false	false	wh_main_brt_damsel_heavens	1.0000	0.0000
+endo_art_set_brt_damsel_03_life	wizard				false	false	wh_dlc07_brt_damsel_life	1.0000	0.0000
+endo_art_set_brt_damsel_04	wizard				false	false	wh_dlc07_brt_damsel_beasts	1.0000	0.0000
+endo_art_set_brt_damsel_04_heavens	wizard				false	false	wh_main_brt_damsel_heavens	1.0000	0.0000
+endo_art_set_brt_damsel_04_life	wizard				false	false	wh_dlc07_brt_damsel_life	1.0000	0.0000
+endo_art_set_brt_damsel_01	wizard				false	false	wh_dlc07_brt_damsel_beasts	1.0000	0.0000
+endo_art_set_brt_damsel_01_heavens	wizard				false	false	wh_main_brt_damsel_heavens	1.0000	0.0000
+endo_art_set_brt_damsel_01_life	wizard				false	false	wh_dlc07_brt_damsel_life	1.0000	0.0000
+endo_art_set_brt_damsel_02	wizard				false	false	wh_dlc07_brt_damsel_beasts	1.0000	0.0000
+endo_art_set_brt_damsel_02_heavens	wizard				false	false	wh_main_brt_damsel_heavens	1.0000	0.0000
+endo_art_set_brt_damsel_02_life	wizard				false	false	wh_dlc07_brt_damsel_life	1.0000	0.0000

@@ -1,0 +1,2500 @@
+{
+    "Properties": {
+        "Combined": false,
+        "FragmentName": "hu1_empire_base",
+        "SkeletonName": "humanoid01"
+    },
+    "SlotData": {
+        "CHARIOT_DRIVER_MOVE": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/skeletons/humanoid01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/skeletons/humanoid01.{mzip8a}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "CHARIOT_DRIVER_STAND": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/skeletons/humanoid01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/skeletons/humanoid01.{mzip8a}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "CLIMB_DOWN_LADDER": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_down_03.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_down_03.{1p2hr2e}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "CLIMB_OFF_LADDER_WALL": {
+            "Config": {
+                "BlendInTime": 0.20000000298023224,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_off_ladder_wall_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_off_ladder_wall_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_off_ladder_wall_01.{1xjuvv0}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "CLIMB_UP_LADDER": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_up_03.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_up_03.{1hhacyn}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "CLIMB_UP_STAIRS": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_off_ladder_wall_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_off_ladder_wall_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/climb_ladder/hu1_un_climb_off_ladder_wall_01.{1xjuvv0}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_1": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_01.{11pwzf6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_10": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_front_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_front_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_front_01.{b0ofyj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_11": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_left_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_left_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_left_01.{17x33v0}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_12": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_right_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_right_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_right_01.{18y8te4}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_2": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_03.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_03.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_back_03.{i252h7}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_3": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_front_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_front_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_front_01.{1qvljgg}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_4": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_front_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_front_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_front_02.{1j84xp1}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_5": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_left_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_left_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_left_01.{16j5glu}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_6": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_left_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_left_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_left_01.{16j5glu}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_7": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_right_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_right_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_right_01.{smhdxj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_8": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_right_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_right_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_small_death_right_01.{smhdxj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DEATH_STAND_9": {
+            "Config": {
+                "BlendInTime": 0.10000000149011612,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_back_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_back_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/deaths/hu1_sws_death_back_01.{zrzpzg}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DOCK_EQUIPMENT_BACK": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/docking/hu1_dock_back_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/docking/hu1_dock_back_1.{1dc3kzy}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DOCK_EQUIPMENT_LEFT_HAND": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/docking/hu1_dock_left_hand_1.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/docking/hu1_dock_left_hand_1.anm.meta",
+                        "animations/audio/battle/humanoid01/docking/hu1_dock_left_hand_1.{ddukr5}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DOCK_EQUIPMENT_LEFT_WAIST": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/docking/hu1_dock_left_waist_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/docking/hu1_dock_left_waist_1.{1ycpvdx}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DOCK_EQUIPMENT_RIGHT_HAND": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/docking/hu1_dock_right_hand_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/docking/hu1_dock_right_hand_1.{2gu937}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "DOCK_EQUIPMENT_RIGHT_WAIST": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/docking/hu1_dock_right_waist_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/docking/hu1_dock_right_waist_1.{t1dcl7}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_FIRING_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                },
+                "#03": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                },
+                "#04": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                },
+                "#05": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_FIRING_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                },
+                "#03": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                },
+                "#04": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                },
+                "#05": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_cover_ears_1.{1i8am6z}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_FIRING_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.{1c67q1e}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.{1c67q1e}.snd.meta"
+                    ]
+                },
+                "#03": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.{1c67q1e}.snd.meta"
+                    ]
+                },
+                "#04": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.{1c67q1e}.snd.meta"
+                    ]
+                },
+                "#05": {
+                    "animation": "animations/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helstorm_crew/hu1_un_helstorm_order_and_cover_1.{1c67q1e}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_FIRING_IDLE_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.{1fsr0x6}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.{1oorbn6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_FIRING_IDLE_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.{1fsr0x6}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.{1oorbn6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_FIRING_IDLE_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.{1fsr0x6}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.{1oorbn6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_LOADING_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_1.{1go4t59}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_point_right_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_point_right_1.{1y6ilo3}.snd.meta"
+                    ]
+                },
+                "#03": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_2.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_2.{1hoydy7}.snd.meta"
+                    ]
+                },
+                "#04": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_02.{hxhpsq}.snd.meta"
+                    ]
+                },
+                "#05": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_2.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_2.{1hoydy7}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_LOADING_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_point_left_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_point_left_1.{2x9jia}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_2.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_2.{1hoydy7}.snd.meta"
+                    ]
+                },
+                "#03": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_clap_and_order_2.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_clap_and_order_2.{h4cvfl}.snd.meta"
+                    ]
+                },
+                "#04": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_helblaster_look_left_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_helblaster_look_left_1.{duujum}.snd.meta"
+                    ]
+                },
+                "#05": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_bending_down_1.{1go4t59}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_LOADING_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_point_ahead_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_point_ahead_1.{1voujht}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_clap_and_order_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_clap_and_order_1.{ia6xmb}.snd.meta"
+                    ]
+                },
+                "#03": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_clap_and_order_2.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_clap_and_order_2.{h4cvfl}.snd.meta"
+                    ]
+                },
+                "#04": {
+                    "animation": "animations/battle/humanoid01/unarmed/helblaster_crew/hu1_un_point_ahead_1.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/helblaster_crew/hu1_un_point_ahead_1.{1voujht}.snd.meta"
+                    ]
+                },
+                "#05": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_01.{1901yix}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_LOADING_IDLE_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.{1fsr0x6}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.{1oorbn6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_LOADING_IDLE_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.{1fsr0x6}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.{1oorbn6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "ENGINE_CREW_LOADING_IDLE_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.{1fsr0x6}.snd.meta"
+                    ]
+                },
+                "#02": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.{1oorbn6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_ANGRY": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_angry_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_angry_01.{15he3m3}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_ANGRY_BLINK": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_angry_blink_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_angry_blink_01.{kcum02}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_ANGRY_SCREAM": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_angry_scream_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_angry_scream_01.{hwqdsl}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_DEAD": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_dead_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_dead_01.{1sjq0tx}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_DEAD2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_dead_02.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_dead_02.{1hmdm5m}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_DEATH_SCREAM": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_death_scream_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_death_scream_01.{21d852}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_RELAX": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_relax_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_relax_01.{1h48ple}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_RELAX_BLINK": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_relax_blink_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_relax_blink_01.{14gu6w}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FACE_POSE_WORRIED": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/face/hu1_face_pose_worried_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/face/hu1_face_pose_worried_01.{1sqimka}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FALL_CONTROLLED1": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_controlled_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_controlled_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_controlled_01.{1a40oi2}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FALL_FLAILING1": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_flailing_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_flailing_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_flailing_01.{z36dq7}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "FALL_TUMBLING1": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_tumbling_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_tumbling_01.{1d5o64b}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "HAND_POSE_CLENCH": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/hands/hu1_hand_pose_clench.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/hands/hu1_hand_pose_clench.{1jefafo}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "HAND_POSE_CUSTOM_1": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/hands/hu1_hand_pose_holdpistol_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/hands/hu1_hand_pose_holdpistol_01.anm.meta",
+                        "animations/audio/battle/humanoid01/hands/hu1_hand_pose_holdpistol_01.{1a8iw14}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "HAND_POSE_CUSTOM_2": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/hands/hu1_hand_pose_holdrifle_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/hands/hu1_hand_pose_holdrifle_01.{zlgwj9}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "HAND_POSE_GRIP": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/hands/hu1_hand_pose_grip.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/hands/hu1_hand_pose_grip.{1upmod7}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "HAND_POSE_HALF_OPEN": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/hands/hu1_crossbow_hand_pose/hu1_hand_pose_open_crossbow.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/hands/hu1_crossbow_hand_pose/hu1_hand_pose_open_crossbow.{pml1un}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "HAND_POSE_RELAX": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/hands/hu1_hand_pose_relax_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/hands/hu1_hand_pose_relax_01.anm.meta",
+                        "animations/audio/battle/humanoid01/hands/hu1_hand_pose_relax_01.{sxu3bp}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "JUMP1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.{2v95es}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "JUMP_ACROSS": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.{2v95es}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "KNOCKED_FLYING_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_flailing_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_flailing_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_flailing_01.{z36dq7}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "KNOCKED_FLYING_LANDED_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 15,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_death_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_death_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_death_01.{qgxez}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "LAND_DEATH_1": {
+            "Config": {
+                "BlendInTime": 0.5,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_death_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_death_01.{1k6z0na}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "LAND_ON_SPOT": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_on_the_spot_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_on_the_spot_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_on_the_spot_01.{1nmaodu}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "LAND_WITH_MOVEMENT": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_01.{1akfpj8}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PERSISTENT_METADATA_ALIVE": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/skeletons/reference_poses/humanoid01.anim",
+                    "metadata": [
+                        "animations/battle/persistent/hu1_empire_base_persistent_metadata_alive_0.anm.meta",
+                        "animations/audio/skeletons/reference_poses/humanoid01.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PORTHOLE_AFFIRMATIVE": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_affirmative_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_affirmative_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/porthole/hu1_un_porthole_affirmative_01.{1i6xxxr}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PORTHOLE_IDLE": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/porthole/hu1_un_porthole_idle_01.{3dl1ek}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PORTHOLE_STAND_AFFIRMATIVE": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_affirmative_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_affirmative_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/porthole/hu1_un_porthole_affirmative_01.{1i6xxxr}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PORTHOLE_STAND_IDLE": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/porthole/hu1_un_porthole_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/porthole/hu1_un_porthole_idle_01.{3dl1ek}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_BACKWARDS_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.{1bcintk}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_BACKWARDS_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.{8b8cvr}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_BACKWARDS_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.{8b8cvr}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_FORWARDS_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.{m7mmll}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_FORWARDS_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.{jq1knq}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_FORWARDS_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.{jq1knq}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_READY_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.{2c1ogj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_READY_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.{2c1ogj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_READY_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.{2c1ogj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_STEP_LEFT_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.{1nofw7p}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_STEP_LEFT_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.{1nofw7p}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_STEP_LEFT_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.{1nofw7p}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_STEP_RIGHT_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.{134dyd8}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_STEP_RIGHT_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.{134dyd8}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "PUSH_ENGINE_STEP_RIGHT_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.{134dyd8}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "RAMP_JUMP_FALLING1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_controlled_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_controlled_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_fall_controlled_01.{1a40oi2}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "RAMP_JUMP_LANDING1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_on_the_spot_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_on_the_spot_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_land_on_the_spot_01.{1nmaodu}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "RAMP_JUMP_TAKEOFF1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.anm.meta",
+                        "animations/audio/battle/humanoid01/unarmed/jumps_falls/hu1_un_jump_01.{2v95es}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "RUN_1": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/spear/locomotion/hu1_sp_run_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/spear/locomotion/hu1_sp_run_01.{1se4jg0}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "RUN_2": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/spear/locomotion/hu1_sp_run_02.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/spear/locomotion/hu1_sp_run_02.{154yin6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword/stand/hu1_sw_stand_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.{2c1ogj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_01.{2c1ogj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_IDLE_1": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_01.{1fsr0x6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_IDLE_2": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/stand/hu1_sws_stand_idle_02.{1oorbn6}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_IDLE_3": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_01.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_01.{s1ahzj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_IDLE_4": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_02.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_02.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_02.{hxhpsq}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_IDLE_5": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_03.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_03.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/celebrate/hu1_sws_celebrate_03.{19he23a}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_RUN": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_run_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_run_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_run_01.{1m6wol5}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_STEP_BACKWARD": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.{8b8cvr}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_STEP_FORWARD": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_fwd_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_fwd_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_fwd_01.{19mgbe5}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_STEP_LEFT": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.{1nofw7p}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_STEP_RIGHT": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.{134dyd8}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_TURN_LEFT_180": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.{18s14gw}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_TURN_LEFT_45": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.{c7oue}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_TURN_LEFT_90": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.{18s14gw}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_TURN_RIGHT_180": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.{1thn85i}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_TURN_RIGHT_45": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.{14zcbg3}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_TURN_RIGHT_90": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.{1thn85i}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STAND_NO_WEAPON_WALK": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 0,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/locomotion/hu1_sws_walk_01.{jq1knq}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STEP_BACKWARD_SHIELD_UP": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90_shield_up.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_bwd_01.{67pij}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STEP_FORWARD_SHIELD_UP": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_fwd_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90_shield_up.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_fwd_01.{1fc5ab5}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STEP_LEFT_SHIELD_UP": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90_shield_up.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_left_01.{1hhy6rj}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "STEP_RIGHT_SHIELD_UP": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90_shield_up.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_step_right_01.{c494r9}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "TURN_LEFT_SHIELD_UP_180": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90_shield_up.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.{c7oue}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "TURN_LEFT_SHIELD_UP_90": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90_shield_up.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90.{c7oue}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "TURN_RIGHT_SHIELD_UP_180": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90_shield_up.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.{l6qqn4}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "TURN_RIGHT_SHIELD_UP_90": {
+            "Config": {
+                "BlendInTime": 0.30000001192092896,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 63,
+                "Ignore": false,
+                "SelectionWeight": 1,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.anim",
+                    "metadata": [
+                        "animations/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_left_90_shield_up.anm.meta",
+                        "animations/audio/battle/humanoid01/sword_and_shield/movement/hu1_sws_turn_right_90.{l6qqn4}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "WALK_1": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/spear/locomotion/hu1_sp_walk_01.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/spear/locomotion/hu1_sp_walk_01.{17shkdz}.snd.meta"
+                    ]
+                }
+            }
+        },
+        "WALK_2": {
+            "Config": {
+                "BlendInTime": 0,
+                "Comment": "",
+                "Disable": false,
+                "EquipmentDisplay": 47,
+                "Ignore": false,
+                "SelectionWeight": 0,
+                "SingleFrameVariant": false
+            },
+            "Entries": {
+                "#01": {
+                    "animation": "animations/battle/humanoid01/spear/locomotion/hu1_sp_walk_02.anim",
+                    "metadata": [
+                        "",
+                        "animations/audio/battle/humanoid01/spear/locomotion/hu1_sp_walk_02.{1qkm12d}.snd.meta"
+                    ]
+                }
+            }
+        }
+    },
+    "Version": 1
+}

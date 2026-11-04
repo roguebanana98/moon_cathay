@@ -1,0 +1,17 @@
+<div id="edh-vanilla-review">
+<style>
+#edh-vanilla-review .groups{display:grid;gap:20px;margin-top:16px}#edh-vanilla-review .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-top:8px}#edh-vanilla-review .skill{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;white-space:normal}#edh-vanilla-review img{width:48px;height:48px;object-fit:contain}#edh-vanilla-review .detail{margin-top:8px}#edh-vanilla-review pre{white-space:pre-wrap;overflow-wrap:anywhere}#edh-vanilla-review h3{margin-top:12px}
+</style>
+<div class="nav nav-pills" role="tablist" aria-label="Nhân vật">
+<button class="nav-link active" id="ev-h" type="button" role="tab" aria-controls="ev-h-panel" aria-selected="true">Heinrich</button>
+<button class="nav-link" id="ev-s" type="button" role="tab" aria-controls="ev-s-panel" aria-selected="false">Sariwa</button>
+</div>
+<div id="ev-h-panel" role="tabpanel" aria-labelledby="ev-h"><div class="groups" data-hero="h"></div></div>
+<div id="ev-s-panel" role="tabpanel" aria-labelledby="ev-s" hidden><div class="groups" data-hero="s"></div></div>
+<script>
+(()=>{const root=document.getElementById('edh-vanilla-review');const data=__DATA__;
+for(const hero of ['h','s']){const target=root.querySelector('[data-hero="'+hero+'"]');const groups=[...new Set(data[hero].map(x=>x.group))];for(const group of groups){const section=document.createElement('section');const title=document.createElement('h3');title.textContent=group;section.append(title);const grid=document.createElement('div');grid.className='skills';const detail=document.createElement('div');detail.className='detail';detail.setAttribute('aria-live','polite');for(const s of data[hero].filter(x=>x.group===group)){const b=document.createElement('button');b.type='button';b.className='btn skill';b.setAttribute('aria-pressed','false');const img=document.createElement('img');img.src=s.icon;img.alt='';const name=document.createElement('span');name.textContent=s.name;const original=document.createElement('span');original.className='text-small';original.textContent=s.original;b.append(img,name,original);b.onclick=()=>{root.querySelectorAll('.skill').forEach(x=>x.setAttribute('aria-pressed','false'));root.querySelectorAll('.detail').forEach(x=>x.replaceChildren());b.setAttribute('aria-pressed','true');const p=document.createElement('p');p.textContent=s.original+' → '+s.name+' · '+s.source+' · '+s.ranks+' bậc';const note=document.createElement('p');note.textContent=s.note;const text=document.createElement('p');text.textContent='Mô tả gốc: '+s.description;detail.append(p,note,text);if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{character:hero,skill:s.key}}).catch(()=>{});};grid.append(b);}section.append(grid,detail);target.append(section);}}
+})();
+</script>
+</div>
+

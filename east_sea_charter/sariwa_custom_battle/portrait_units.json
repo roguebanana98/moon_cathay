@@ -1,0 +1,44 @@
+{
+  "version": 4,
+  "entries": [
+    {
+      "id": "edh_sariwa_art",
+      "camera_settings_head": {
+        "z": 0.8,
+        "y": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "distance": 0.0,
+        "theta": 0.0,
+        "phi": 0.0,
+        "fov": 30.0,
+        "skeleton_node": ""
+      },
+      "camera_settings_body": {
+        "z": 4.5,
+        "y": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "distance": 0.0,
+        "theta": 0.0,
+        "phi": 0.0,
+        "fov": 30.0,
+        "skeleton_node": ""
+      },
+      "variants": [
+        {
+          "filename": "edh_sariwa",
+          "file_diffuse": "ui/portraits/units/no_culture/edh_sariwa_0.png",
+          "file_mask_1": "",
+          "file_mask_2": "",
+          "file_mask_3": "",
+          "season": "none",
+          "level": 0,
+          "age": 0,
+          "politician": false,
+          "faction_leader": false
+        }
+      ]
+    }
+  ]
+}

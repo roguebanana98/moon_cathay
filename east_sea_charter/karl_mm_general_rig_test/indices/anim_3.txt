@@ -1,0 +1,3 @@
+02:22:30 [INFO] Logger initialized.
+02:22:30 [INFO] Sentry Logging support enabled. Starting...
+animations/animation_culture_packs/default__3.animpack

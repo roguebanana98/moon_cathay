@@ -1,0 +1,10 @@
+{
+  "status": "deployed_and_enabled",
+  "target": "F:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\data\\edh_heinrich_sariwa_v4.pack",
+  "sha256": "0ef0b3d05dc9599013c31a5014a1e5bd3d24d5e4cc75a34cde53a5c418957239",
+  "disabled_previous_pack": "edh_heinrich_v3_skill_tree.pack",
+  "launcher_backup": "D:\\Warhammer3_Modding\\east_sea_charter\\sariwa_custom_battle\\deployment_backup\\20261104-084001\\20190104-moddata.dat",
+  "other_mod_entries_unchanged": true,
+  "campaign_saves_modified": false,
+  "runtime_campaign_tree_verified": false
+}

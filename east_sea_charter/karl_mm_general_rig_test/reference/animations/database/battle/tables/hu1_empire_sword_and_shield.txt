@@ -1,0 +1,28 @@
+{
+    "Entries": [
+        {
+            "Export": true,
+            "Type": "Fragment",
+            "Value": "hu1_empire_base"
+        },
+        {
+            "Export": true,
+            "Type": "Fragment",
+            "Value": "hu1_empire_sword_and_shield"
+        }
+    ],
+    "Properties": {
+        "IsComplete": false,
+        "IsNewCavalryTech": false,
+        "IsSimpleFlight": false,
+        "LocomotionGraphPath": "animations/locomotion_graphs/entity_locomotion_graph.xml",
+        "MountTableName": "",
+        "SkeletonName": "humanoid01",
+        "SlotTemplateName": "only_climbs",
+        "TableName": "hu1_empire_sword_and_shield",
+        "Tags": [
+        ],
+        "UnMountTableName": ""
+    },
+    "Version": 3
+}

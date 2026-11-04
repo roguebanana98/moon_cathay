@@ -1,0 +1,4 @@
+agent_subtype	ancillary
+#ancillaries_included_agent_subtypes_tables;0;db/ancillaries_included_agent_subtypes_tables/edh_heinrich_skills	
+edh_heinrich_cb	wh_main_anc_mount_emp_general_barded_warhorse
+edh_heinrich_cb	wh_main_anc_mount_emp_general_imperial_griffon

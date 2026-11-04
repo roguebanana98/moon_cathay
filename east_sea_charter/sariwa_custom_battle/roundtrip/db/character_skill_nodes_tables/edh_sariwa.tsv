@@ -1,0 +1,23 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/edh_sariwa									
+edh_sariwa_node_s01		edh_sariwa_skill_s01		0	2		0	0	true
+edh_sariwa_node_s02		edh_sariwa_skill_s02		0	3		0	0	true
+edh_sariwa_node_s03		edh_sariwa_skill_s03		0	29		0	0	true
+edh_sariwa_node_s04		edh_sariwa_skill_s04		0	30		0	0	true
+edh_sariwa_node_s05		edh_sariwa_skill_s05		2	0		0	0	true
+edh_sariwa_node_s06		edh_sariwa_skill_s06		2	1		0	0	true
+edh_sariwa_node_s07		edh_sariwa_skill_s07		2	2		0	0	true
+edh_sariwa_node_s08		edh_sariwa_skill_s08		2	3		0	0	true
+edh_sariwa_node_s09		edh_sariwa_skill_s09		2	4		0	0	true
+edh_sariwa_node_s10		edh_sariwa_skill_s10		2	5		0	4	true
+edh_sariwa_node_s11		edh_sariwa_skill_s11		2	6		0	0	true
+edh_sariwa_node_s12		edh_sariwa_skill_s12		2	7		0	0	true
+edh_sariwa_node_s13		edh_sariwa_skill_s13		2	8		0	0	true
+edh_sariwa_node_s14		edh_sariwa_skill_s14		2	9		0	0	true
+edh_sariwa_node_s15		edh_sariwa_skill_s15		2	10		0	4	true
+edh_sariwa_node_s16		edh_sariwa_skill_s16		5	0		0	0	true
+edh_sariwa_node_s17		edh_sariwa_skill_s17		5	1		0	0	true
+edh_sariwa_node_s18		edh_sariwa_skill_s18		5	2		0	0	true
+edh_sariwa_node_s19		edh_sariwa_skill_s19		5	3		0	0	true
+edh_sariwa_node_s20		edh_sariwa_skill_s20		5	4		0	0	true
+edh_sariwa_node_s21		edh_sariwa_skill_s21		5	5		0	0	true
