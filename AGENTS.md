@@ -2,6 +2,20 @@
 
 ## Current handoff (2026-11-03)
 
+- Explicit editable-model Git backup (2026-11-21): user clarified that the
+  current model MUST be uploaded, not just code. This authorizes tracking the
+  reference-derived editable checkpoint and its packed textures at
+  assets/working/moonshadow-assassin/alchemist-11-working.blend, as a scoped
+  exception to prior no-third-party-assets-in-Git guidance. Source is latest
+  user-saved weapon v3, original SHA 677949771e154bc6b348bbb92e6849e056d0011a48bfb685ecc34b9c131a8bd6.
+  Earlier claim that v3 was already fully packed was incorrect: portability
+  audit found external image references. New tracked copy explicitly packs all
+  used textures, no linked libraries, compressed .blend ~95 MB; local original
+  remains unchanged. User pose/visibility/material edits preserved. Portable
+  version and SHA are in adjacent portability.json. Clone users continue from
+  this tracked file; do not regenerate over it. Still no target animation or
+  game deployment approval implied by this backup request.
+
 - Assassin appearance checkpoint (2026-11-21): user asked to SAVE the current
   model for later work, not integrate or animate yet. Live Blender Save completed
   on alchemist-11-khainite-dagger-and-handbow-v3.blend, including latest user

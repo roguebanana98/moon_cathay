@@ -1,0 +1,10 @@
+{
+  "source": "build\\alchemist-11-khainite-weapons\\alchemist-11-khainite-dagger-and-handbow-v3.blend",
+  "portable_scene": "assets\\working\\moonshadow-assassin\\alchemist-11-working.blend",
+  "sha256": "4ec5b0d4fe5597b0a97f7e111836460b6cd1ab76acb625d136a3706ebfaa0d25",
+  "bytes": 95257792,
+  "all_used_file_images_packed": true,
+  "linked_libraries": 0,
+  "source_working_file_unchanged": true,
+  "game_integration_pending": true
+}

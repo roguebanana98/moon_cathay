@@ -8,6 +8,13 @@ are recorded in `build/alchemist-11-khainite-weapons/resume-latest.json`.
 Working file:
 `build/alchemist-11-khainite-weapons/alchemist-11-khainite-dagger-and-handbow-v3.blend`
 
+Portable Git checkpoint (explicitly requested by the user):
+`assets/working/moonshadow-assassin/alchemist-11-working.blend`.
+Use this tracked copy after cloning on another machine. All used image textures
+are now packed and no external Blender libraries are linked. Packing changed
+neither model geometry nor the saved user edits; original local working file is
+retained unchanged. See adjacent README and portability.json for version/hash.
+
 - More Alchemists variant 11, native humanoid01e body/rig.
 - Reversible black clothing shader, preserved red/gold ornament and grey hood.
 - Native Khainite dagger in right hand, native handbow in left hand.
