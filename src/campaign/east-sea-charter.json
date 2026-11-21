@@ -1,0 +1,15 @@
+{
+  "display_name": "East Sea Charter",
+  "faction_key": "mixer_emp_vaults_gigasdongo",
+  "framework": "Unused, landless Empire placeholder already registered in MIXER/IEE startpos; retains its technical key and ID, receives a new campaign identity. Do not combine with a mod activating this same placeholder.",
+  "subculture": "wh_main_sc_emp_empire",
+  "capital": "cr_combi_region_dai_loa",
+  "regions": ["cr_combi_region_dai_loa", "cr_combi_region_preenn"],
+  "previous_owner": "cr_cth_agents_of_the_moon",
+  "previous_owner_capital": "cr_combi_region_long_vi",
+  "new_campaign_only": true,
+  "leader_subtype": "edh_heinrich_cb",
+  "leader_note": "Heinrich von Adlerhorst: Legendary Lord and faction leader, confirmed by user on 2026-11-11. Existing private model and skill tree retained.",
+  "starting_hero": {"subtype":"edh_sariwa", "agent":"wizard", "spawn":"Independent beside Heinrich's starting army; new campaigns only; one saved instance"},
+  "army": ["wh_main_emp_inf_swordsmen", "wh_main_emp_inf_swordsmen", "wh_main_emp_inf_spearmen_1", "wh_main_emp_inf_spearmen_1", "wh_main_emp_inf_crossbowmen", "wh_main_emp_inf_crossbowmen"]
+}

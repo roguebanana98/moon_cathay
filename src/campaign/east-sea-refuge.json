@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "home_faction": "mixer_emp_vaults_gigasdongo",
+  "host_faction": "cr_cth_agents_of_the_moon",
+  "characters": ["edh_heinrich_cb", "edh_sariwa"],
+  "join_incident": "edh_charter_moon_sanctuary",
+  "return_incident": "edh_charter_homecoming",
+  "automatic": true,
+  "transfer_api": "cm:reassign_character(character_cqi, destination_faction_cqi), used in native wh3_dlc29_archaon_subjugation.lua and wh3_dlc29_nag_mortarchs.lua",
+  "identity": "Persist original family-member CQIs and resolve current character CQIs; never spawn or clone the two characters",
+  "progression": "Do not modify XP, skill points, traits, equipment or recovery timers",
+  "armies": "If Heinrich is active, appoint a native generic replacement to preserve the source faction's army before transferring Heinrich alone",
+  "recovery": "Wounded characters retain recovery state; unavailable interfaces leave transfer pending for load/round/turn reconciliation",
+  "third_party_ownership": "Never take characters from a faction other than Home or Moon",
+  "runtime_test": "Deferred at user's earlier request; do not launch the game"
+}

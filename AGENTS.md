@@ -2,6 +2,121 @@
 
 ## Current handoff (2026-11-03)
 
+- Assassin appearance checkpoint (2026-11-21): user asked to SAVE the current
+  model for later work, not integrate or animate yet. Live Blender Save completed
+  on alchemist-11-khainite-dagger-and-handbow-v3.blend, including latest user
+  changes. Authoritative resume path/hash/immutable backup are recorded in
+  build/alchemist-11-khainite-weapons/resume-latest.json. Use THIS saved v3 or its
+  checkpoint, never regenerate from the build script over the user's edits.
+  More Alchemists variant 11, black cloth shader, red/gold details and grey hood,
+  Khainite dagger right/handbow left. Native humanoid01e target rig/body retained;
+  only native humanoid01d reference stand used to resolve prop grip transforms.
+  Target animation/game export remain pending. Keep all user-hidden parts and
+  per-view-layer visibility: open full scene, do NOT append all objects (which
+  loses hide flags). V1/V2 weapon files are superseded bad attachment/visibility
+  previews. See docs/MOONSHADOW-APPEARANCE-CHECKPOINT.md. Do not deploy this scene.
+
+- Moonshadow recruitment revision (2026-11-21): user rejected the new Hideout
+  for balance and explicitly requested recruitment at Celestial Tower. V6
+  mc_moonshadow_heroes_v6_celestial_tower.pack replaces v5. All seven Hideout
+  definition tables and its loc rows removed. Add recruitment and +1 capacity
+  to existing magic_tower_1/2/3 (Celestial Tower/Observatory/Beacon), with native
+  Region.Owner.RecordKey context restricting both effects to Moon faction.
+  +1 at every upgrade, no cumulative +2/+3. No native construction/name/cost or
+  Astromancer changes. Character/skill/graphic/spawn payloads byte-identical to
+  v5. Authorizes scoped private deployment replacing v5 with launcher backup;
+  old pack retained/disabled, unrelated entries and saves untouched. Reports:
+  build/moonshadow-celestial-tower/build-report.json and deployment.json.
+  No game launch; engine recruitment/context/cap behavior remains unverified.
+
+- Moonshadow Heroes (2026-11-21): user approved BOTH a recruitable assassin line
+  and Da Anh as a starting Legendary Hero, using a native temporary model until
+  the user selects appearances. Scoped faction-only subtype/unit/art/skill DB,
+  tier-III Moonshadow Hideout, new-game-only independent spawn, ASCII English
+  localization and private additive deployment are authorized. Intact native
+  Khainite Assassin model/rig/animations; no head graft, imported donor pack or
+  custom runtime animation key. See docs/MOONSHADOW-HEROES.md and authoritative
+  build/moonshadow-heroes/build-report.json + deployment.json. Existing packs,
+  launcher entries, saves and Workshop/native files must remain unchanged.
+  Static and mocked Lua checks do not establish engine runtime behavior. Game
+  testing remains deferred; do not launch the game for this task.
+  DEPLOYED/ENABLED additive mc_moonshadow_heroes_v5.pack; all four previously
+  active local packs and launcher records unchanged. Static DB/loc/skill graph,
+  native compiled battle/campaign animation lookups and 17 mocked spawn cases
+  pass. RPFM has 14 schema metadata warnings, zero blocking diagnostics. No
+  game launch or engine runtime claims. Da Anh requires a NEW campaign; regular
+  assassins recruit via the faction-only Hideout at settlement tier III (+1 cap).
+
+- Playable East Sea Charter (2026-11-18): user asked to select/play the faction.
+  v5 `edh_east_sea_charter_playable_v5.pack` exposes original MIXER character
+  ID 186992224 via supported frontend enable/major/name/unit-preview APIs.
+  Three additive payloads; all v4 campaign/startpos/refuge/model/skill payloads
+  byte-identical. Heinrich portrait/subtype; native Karl Franz selection scene
+  temporarily reused. New IEE campaign / The Empire; existing saves not converted.
+  Actual MIXER library Lua contract and DB roundtrip/diagnostics checks; no game
+  testing, human campaign startup not runtime-verified. Deployment authoritative
+  in build/east-sea-playable/deployment.json; docs/EAST-SEA-PLAYABLE.md. v5 replaces
+  v4, retaining the latter disabled. Character-assets pack remains enabled.
+
+- Refuge/homecoming extension (2026-11-18): user requested Heinrich and Sariwa
+  DEPLOYED: v4 enabled locally, v3 retained/disabled. Latest IEE fingerprint
+  differs from v3; targeted review preserves original mod startpos, faction-key
+  resolution avoids CQI renumbering. See build/east-sea-refuge/dependency-review.json;
+  full updated-IEE/runtime compatibility remains unverified. No game/save changes.
+  User requested they
+  automatically join Agents of the Moon when East Sea Charter dies, then return
+  when Home revives. New additive v4 `edh_east_sea_charter_refuge_v4.pack`; v3 is
+  the byte-preserved base. Source `edh_east_sea_charter_refuge.lua` +
+  `src/campaign/east-sea-refuge.json`; two automatic incidents and Cathay subtype/
+  military permissions. Native reassign_character on original CQI/FM identities,
+  no character clones, faction revival, XP/skill/inventory rebuilds. Pending
+  wounded/partial transfers reconciled on load/round/turn. Return detaches an
+  active Heinrich using a Cathay Magistrate replacement so Moon keeps its army.
+  No transfers from third-party factions; no event until both ownerships confirm.
+  15 mocked Lua scenarios/39 assertions pass; six additive payloads, DB/loc
+  roundtrip, all v3 payloads identical, no unexpected diagnostics. In-game native
+  reassignment/timing/inventory/recruitment remain UNVERIFIED; user still has
+  game testing deferred, DO NOT launch. Deployment status/hashes are recorded in
+  `build/east-sea-refuge/deployment.json`. Docs `docs/EAST-SEA-REFUGE.md`.
+
+- Heinrich/Sariwa campaign integration (2026-11-11): user clarified Heinrich is
+  Legendary Lord, faction leader/army commander. Sariwa temporarily spawns as an
+  independent Hero beside his initial army. `edh_east_sea_charter_characters_v3.pack`
+  enabled, territorial v2 disabled; existing graphics/tree v4 remains enabled.
+  Static leader replacement preserves IDs 515/2454, government post and force;
+  named immortal flags, private art/unit/tree/name changes only. Sariwa native
+  create_agent wizard, saved duplicate guard, new-game-only. DB/loc roundtrip,
+  exact record reversal, unchanged territorial payloads, 22 Lua cases pass.
+  User explicitly said "chưa cần test" after launch: QA process stopped before
+  any campaign was selected/created. NO runtime claims for this integration.
+  Do not resume in-game testing without further user instruction. QA restoration
+  status in `build/east-sea-characters/qa-session.json`; all original saves must
+  remain hash-identical, intro option restored. Docs `docs/EAST-SEA-CHARACTERS.md`.
+
+- East Sea Charter (2026-11-10): user requested Dai Loa + Preenn be transferred
+  from Agents of the Moon to a new Empire faction, and approved the name East Sea
+  Charter. Private add-on `edh_east_sea_charter_faction_v2.pack` deployed/enabled
+  ahead of r8. Uses landless MIXER slot `mixer_emp_vaults_gigasdongo`, retains its
+  technical key/index; incompatible with another mod activating that slot.
+  New IEE campaigns only, native pre-first-tick transfer; Dai Loa capital, Moon
+  capital Long Vi. Existing General repositioned/renamed Expedition Commander,
+  six native Empire units added. AI faction for now, not frontend-playable;
+  Heinrich/Sariwa campaign spawning remains separate. Native campaign reached:
+  diplomacy shows East Sea Charter / The Empire / 2 settlements, Preenn tooltip
+  confirms ownership; Huyen Ve remains at Long Vi. Read-only native save audit
+  confirms exactly the requested ownership and both capitals, eight-unit field
+  army and two garrisons. Game exited; all 88 original save hashes verified and
+  QA save retained outside user save folder. No engine reload/end-turn test.
+  Reports in `build/east-sea-faction/`. Docs `docs/EAST-SEA-CHARTER-FACTION.md`.
+  Native campaign/save tested v1. Steam then updated MIXER at Nov10 01:11 local
+  (manifest 5077045964861114283), resolving its 301 orphan survival army-unit rows
+  with 35 restored parent records. V2 removes the obsolete v1 zero-row workaround;
+  all other gameplay/startpos/script/loc payloads are byte-identical to tested v1.
+  Faction DB in new MIXER is byte-identical. V1 retained/disabled. Initial
+  campaign native intro/narrative warnings persist (already known), not the new
+  transfer script. 88 save files backed up/hashed before QA. Never rerun Prepare
+  during an active QA session; restore only after exiting the game.
+
 - Latest v25 r7 deployed/enabled; r6 disabled and retained installed rollback. New native pre-first-tick/new-game-only script places existing Huyen Ve commander/army on valid land beside owned Long Vi (player/AI). No direct ESF/save edits; no changes on loading saves. One Lua added, all r6 payloads byte-identical. Ten placement boundary checks plus existing Lua suite pass; actual new-game spawn/camera remains runtime QA. docs/HUYEN-VE-LONG-VI-START.md, src/campaign/huyen-ve-start.json.
 
 - Fantasy longsword preview approved; user then explicitly requested game integration. V25 r6 privately deployed and enabled, r5 disabled and retained as installed rollback (older v24 pack no longer installed). Static sword has four LODs 12000/6000/3000/1200 triangles, 2K DDS PBR/mips, same preview placement/weapon_2. Exact exported RMV2/DDS reimport/render and12 native pose samples pass. Six graphics payloads added/replaced, every unrelated payload byte-identical to r5, diagnostics unchanged. No game runtime sword QA claimed. src/campaign/huyen-ve-sword.json records selection; full builder preserves it. Backup/hash report in quest-chain deployment.json.

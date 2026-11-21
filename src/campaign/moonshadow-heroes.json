@@ -1,0 +1,48 @@
+{
+  "faction": "cr_cth_agents_of_the_moon",
+  "generic": {
+    "name": "Moonshadow Assassin",
+    "subtype": "mc_moonshadow_assassin",
+    "agent": "spy",
+    "starting_capacity": 0,
+    "recruitment_cost": 1000,
+    "upkeep": 250,
+    "building": "wh3_main_cth_magic_tower_1",
+    "upgrade_buildings": ["wh3_main_cth_magic_tower_2", "wh3_main_cth_magic_tower_3"],
+    "capacity_per_building": 1,
+    "actions": ["Assassinate", "Assault Units", "Assault Garrison", "Damage Building", "Scout Settlement", "Increase Mobility"]
+  },
+  "legendary": {
+    "name": "Da Anh, The Moon's Hidden Blade",
+    "subtype": "mc_da_anh",
+    "acquisition": "Once beside the existing Huyen Ve army, at first tick of a new IE/IEE campaign",
+    "independent_on_campaign_map": true,
+    "immortal": true,
+    "counts_towards_generic_capacity": false,
+    "random_recruitment": false,
+    "personal_skills": ["Moonshadow Veil", "Silent Execution", "Sever the Supply Lines"],
+    "personal_skill_display_ranks": [6, 12, 8],
+    "existing_save_auto_spawn": false
+  },
+  "building": {
+    "name": "Celestial Tower",
+    "chain": "wh3_main_cth_magic_tower",
+    "required_settlement_tier": 3,
+    "new_building": false,
+    "native_building_costs_and_effects_unchanged": true,
+    "assassin_effects_faction_exclusive": true,
+    "owner_context": "Region.Owner.RecordKey == \"cr_cth_agents_of_the_moon\"",
+    "capacity_per_building_at_all_three_levels": 1,
+    "capacity_stacks_on_upgrade": false,
+    "removed_custom_building": "mc_moonshadow_hideout_3"
+  },
+  "appearance": {
+    "status": "temporary_native_model_pending_user_selection",
+    "source": "Khainite Assassin",
+    "battle_animation": "hu1d_elf_sword_and_handbow",
+    "campaign_animation": "cam_hero_hu1d_elf_sword_and_handbow",
+    "notes": "Original matching model/rig/animations, sword and handbow; no head graft or custom animation database. New appearance to be selected by user."
+  },
+  "validation": "DB/loc roundtrip, native compiled animation lookups, skill graph and 17 mocked spawn scenarios; engine runtime pending",
+  "documentation": "docs/MOONSHADOW-HEROES.md"
+}
