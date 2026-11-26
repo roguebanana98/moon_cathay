@@ -1,5 +1,6 @@
 {
   "name": "Divine Wing Guard",
+  "storage": "ordinary_git_binary_at_current_revision",
   "status": "saved_blender_animation_preview_not_game_integrated",
   "scene": "assets/working/divine-wing-guard/divine-wing-guard-working.blend",
   "sha256": "3a649c18551828fd16510a4e7f0ee8ceb76bedc606f25e4d5bc257eca98b0711",

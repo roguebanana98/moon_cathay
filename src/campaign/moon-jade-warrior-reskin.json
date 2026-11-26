@@ -9,6 +9,7 @@
   "enabled_in_launcher": false,
   "runtime_verified": false,
   "pack_name": "mc_moon_jade_warriors_reskin_v1.pack",
+  "git_storage": "ordinary_binary_no_lfs_for_jade_models_or_pack",
   "pack_sha256": "3809a4b684c0e9b3f3b1183ed9fb1d799bb7a05195bf8e91deb675932b02952e",
   "distribution": "releases/moon-jade-warriors-reskin-v1",
   "build_report": "assets/working/moon-jade-warriors/reports/pack.json",

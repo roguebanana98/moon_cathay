@@ -1,6 +1,7 @@
 # Moon Jade Warriors — approved editable checkpoints
 
-Run `git lfs pull` after cloning. These are complete, byte-identical saved scenes,
+These files are stored directly in ordinary Git; no LFS download is needed for
+the Jade models or mod pack. These are complete, byte-identical saved scenes,
 including packed textures; open the full file in Blender 5.2.2 or compatible newer
 Blender. Do not append every object into a fresh scene or regenerate over edits.
 
@@ -18,11 +19,11 @@ Blender. Do not append every object into a fresh scene or regenerate over edits.
 `checkpoint.json` records exact byte counts and SHA256 values. Read-only reopening
 results are in `reports/portable-scenes.json`; other reports are portable copies
 using `PROJECT_ROOT`/`GAME_ROOT` placeholders. Previews and user reference images
-are included beside the scenes. The pack itself is tracked through Git LFS at
+are included beside the scenes. The pack itself is stored directly in Git at
 `releases/moon-jade-warriors-reskin-v1/mc_moon_jade_warriors_reskin_v1.pack`.
 
 The user explicitly requested backing up current source, models and mod to Git
-on 26 November 2026. This is a scoped exception for these authored checkpoints
+on 26 November 2026, then requested avoiding unnecessary LFS use. This is a scoped exception for these authored checkpoints
 and the resulting reskin pack. Raw native/Workshop extraction, machine config,
 temporary bake caches and unrelated build history remain outside Git.
 

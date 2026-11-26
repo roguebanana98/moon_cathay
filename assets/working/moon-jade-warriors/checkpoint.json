@@ -1,5 +1,6 @@
 {
   "approved_date": "2026-11-26",
+  "storage": "ordinary_git_binaries_at_current_revision",
   "authorization": "User explicitly requested pushing all current work, including models and mod pack, to Git.",
   "files": [
     {

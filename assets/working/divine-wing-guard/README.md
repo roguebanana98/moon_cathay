@@ -1,8 +1,9 @@
 # Divine Wing Guard — editable checkpoint
 
 Open `divine-wing-guard-working.blend` in Blender 5.2.2 or a compatible newer
-version. The file is tracked through Git LFS; after cloning, run `git lfs pull`
-if it is still a small text pointer rather than the 36,903,322-byte Blender file.
+version. The 36,903,322-byte file is now stored directly in ordinary Git following
+the user's request to avoid unnecessary LFS use. Current checkouts need no LFS
+download for this scene. Older commits still contain its historical LFS pointer.
 
 This is the full scene saved from the user's live animation review on
 26 November 2026, at frame 496. It includes Jade Warriors armour/head/sword/shield,

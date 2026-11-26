@@ -24,11 +24,13 @@ Warrior reskin project, not Divine Wing Guard and not the deferred Zhao work.
 ## Editable checkpoints
 
 The user explicitly requested Git backup of models and mod after the build.
-Authoritative portable checkpoints are now tracked through Git LFS in
+Authoritative portable checkpoints are now stored directly in ordinary Git in
 `assets/working/moon-jade-warriors/`: `moon-jade-warriors-working.blend` (seven
 variants), `moon-jade-warrior-animation-review.blend` (single model) and
 `moon-jade-exported-assets-review.blend` (actual game-asset reimport). Exact hashes
-and byte counts are in adjacent `checkpoint.json`. Run `git lfs pull` after clone.
+and byte counts are in adjacent `checkpoint.json`. The user subsequently requested
+avoiding unnecessary LFS; these scenes and the pack need no LFS download at the
+current revision. Historical LFS objects have not been purged from GitHub storage.
 The completed pack is tracked at
 `releases/moon-jade-warriors-reskin-v1/mc_moon_jade_warriors_reskin_v1.pack`.
 

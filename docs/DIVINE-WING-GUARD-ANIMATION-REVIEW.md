@@ -97,12 +97,14 @@ Checkpoint hiện ở build bị ignore. Không suy mốc lưu thành mọi chuy
 Người dùng yêu cầu đẩy model vừa lưu lên Git. Bản đầy đủ scene đã được sao chép
 byte-identical từ checkpoint vào:
 
-`assets/working/divine-wing-guard/divine-wing-guard-working.blend` (Git LFS).
+`assets/working/divine-wing-guard/divine-wing-guard-working.blend`.
 
 SHA256 `3a649c18551828fd16510a4e7f0ee8ceb76bedc606f25e4d5bc257eca98b0711`,
 36.903.322 byte; 32 image packed, không linked library hoặc image ngoài.
 Metadata portable và hướng dẫn nằm tại `checkpoint.json`/`README.md` cạnh file.
-Sau clone dùng file tracked này; nếu còn là pointer nhỏ, chạy `git lfs pull`.
+Theo yêu cầu tiếp theo về chi phí, file này hiện lưu trực tiếp trong Git thường;
+clone revision hiện tại không cần LFS cho Divine Wing Guard. Các revision cũ vẫn
+có pointer LFS và object đã upload chưa được xóa khỏi storage GitHub.
 
 Mốc này thay thế ghi chú chỉ lưu local ở trên đối với đúng checkpoint này.
 Full scene giữ visibility của donor/rig/studio và toàn bộ animation/material.

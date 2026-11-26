@@ -1,4 +1,4 @@
-"""Exact approved scene/pack backup, with portable metadata for Git LFS."""
+"""Exact approved scene/pack backup, with portable metadata for ordinary Git."""
 import json,hashlib,shutil
 from pathlib import Path
 R=Path(__file__).resolve().parents[1];A=R/'assets/working/moon-jade-warriors';P=R/'releases/moon-jade-warriors-reskin-v1';A.mkdir(parents=True,exist_ok=True);P.mkdir(parents=True,exist_ok=True)
@@ -30,4 +30,5 @@ shutil.copy2(R/'build/moon-jade-approved-variants/moon-jade-seven-variants.png',
 refs=A/'references';refs.mkdir(exist_ok=True)
 for source,name in [('build/deer-jade-model05-reference-dao/user-dao-reference.png','dao-reference.png'),('build/deer-jade-model05-chen-shield/chen-calligraphy-reference.png','chen-calligraphy-reference.png')]:shutil.copy2(R/source,refs/name)
 checkpoint=dict(approved_date='2026-11-26',authorization='User explicitly requested pushing all current work, including models and mod pack, to Git.',files=entries,game_pack_enabled=False,runtime_verified=False,source_workshop_item='2965749119',source_pack_not_required_by_built_mod=True,game_dependency='!cr_immortal_empires_expanded.pack',scope='Agents of the Moon Jade Warriors sword and shield only; seven source head options',preserve_full_scenes=True)
+checkpoint['storage']='ordinary_git_binaries_at_current_revision'
 (A/'checkpoint.json').write_text(json.dumps(checkpoint,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(entries,indent=2))
