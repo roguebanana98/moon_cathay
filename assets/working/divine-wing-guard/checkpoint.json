@@ -1,0 +1,68 @@
+{
+  "name": "Divine Wing Guard",
+  "status": "saved_blender_animation_preview_not_game_integrated",
+  "scene": "assets/working/divine-wing-guard/divine-wing-guard-working.blend",
+  "sha256": "3a649c18551828fd16510a4e7f0ee8ceb76bedc606f25e4d5bc257eca98b0711",
+  "bytes": 36903322,
+  "saved_at_utc": "2026-11-26T05:35:43.299332+00:00",
+  "saved_from": "build/divine-wing-guard-animation/divine-wing-guard-animation-review-v2.blend",
+  "source_checkpoint": "build/divine-wing-guard-checkpoints/20261126T053543Z/divine-wing-guard-saved.blend",
+  "blender_version": "5.2.2 LTS",
+  "packed_file_images": 32,
+  "external_image_dependencies": 0,
+  "linked_libraries": 0,
+  "frame": 496,
+  "frame_range": [
+    1,
+    626
+  ],
+  "timeline_markers": [
+    {
+      "name": "01 TAKE OFF",
+      "frame": 1
+    },
+    {
+      "name": "02 FLIGHT",
+      "frame": 83
+    },
+    {
+      "name": "03 HOVER",
+      "frame": 203
+    },
+    {
+      "name": "04 AIR ATTACK",
+      "frame": 293
+    },
+    {
+      "name": "05 LANDING",
+      "frame": 379
+    },
+    {
+      "name": "06 GROUND STAND",
+      "frame": 437
+    },
+    {
+      "name": "07 SWORD ATTACK A",
+      "frame": 497
+    },
+    {
+      "name": "08 SWORD ATTACK B",
+      "frame": 549
+    }
+  ],
+  "full_scene_visibility_materials_weights_and_actions_preserved": true,
+  "preview_rigs": [
+    "humanoid01e body",
+    "humanoid16c wings"
+  ],
+  "game_ready_rig": false,
+  "game_integrated": false,
+  "runtime_verified": false,
+  "known_limits": [
+    "Two preview rigs, not a final game export rig",
+    "Folded feathers may overlap shoulders/head",
+    "Air attack uses spear choreography with current sword grip"
+  ],
+  "documentation": "docs/DIVINE-WING-GUARD-ANIMATION-REVIEW.md",
+  "user_authorized_model_git_backup": true
+}

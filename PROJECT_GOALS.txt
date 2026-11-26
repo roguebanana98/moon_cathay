@@ -1,6 +1,8 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
-TIẾN ĐỘ HIỆN TẠI [26/11/2026 — ZHAO YIXUAN / PHỤC HỒI BUILD]: Đã lưu bản thiết kế đầy đủ tại docs/ZHAO-YIXUAN-SHUGENGAN-SKILL-PROPOSAL.md: pháp sư/chỉ huy nền Shugengan Yin, cận chiến yếu hơn nhưng nhanh hơn, 6 phép Moon/nước/lửa, đầy đủ nhánh và cấp mở. Người dùng đã yêu cầu tích hợp, sau đó yêu cầu ưu tiên cập nhật goal và backup Git trước. CHƯA TÍCH HỢP VÀO MOD: chưa sửa DB/Lua/model, build, deploy hoặc chạy game. V34 trong bàn giao vẫn giữ cây/chỉ số WWD, chưa có pack v34 để kiểm tra trực tiếp trên máy này. Game 9.0.5/WWD đã đọc tại H:\SteamLibrary; WWD khác hash nguồn cũ. Audit build: script là chuỗi tăng dần v34 <- v33 <- v32 và các bản trước, không phải clean build; repo thiếu pack nền, một số scene người dùng chỉnh, render và dữ liệu trung gian trong build/reference. Có source và một số checkpoint model đã theo Git, nên có thể nghiên cứu tái dựng chức năng nhưng chưa thể bảo đảm khôi phục chính xác v34. Ưu tiên tìm pack v32/v33/v34 hoặc backup build; nếu không có thì lập quy trình tái dựng, phục hồi/duyệt ngoại hình và validate lại trước khi sửa Zhao. Script v35 Moon Arts cũ khác thiết kế vừa chốt, không chạy trực tiếp hoặc bỏ hash guard. Mount và migration save cũ còn phải chốt. Các mục lịch sử bên dưới chưa được rà soát lại toàn bộ.
+TIẾN ĐỘ HIỆN TẠI [26/11/2026 — DIVINE WING GUARD ĐÃ LƯU]: Theo yêu cầu người dùng đã Save trực tiếp scene animation-review-v2 đang mở, giữ trạng thái hiện tại frame496/bố cục/visibility/material/animation, và tạo checkpoint nguyên scene riêng. Tiếp tục từ build/divine-wing-guard-animation/divine-wing-guard-animation-review-v2.blend; bản snapshot và SHA256 ở build/divine-wing-guard-checkpoints/resume-latest.json. Đã mở lại bản checkpoint kiểm tra: 32 texture nhúng, không image ngoài/linked library, đủ8marker/2action review. CHƯA TÍCH HỢP GAME: hai rig preview riêng, cánh gập còn có thể chồng vai/đầu, đòn không trung nguồn giáo đang cầm kiếm; không coi yêu cầu lưu là duyệt xuất game hoặc mọi animation hoàn thiện. Không export/deploy/mở game; người dùng đã yêu cầu backup model lên Git: bản đầy đủ scene và 32 texture packed được sao chép byte-identical vào assets/working/divine-wing-guard/divine-wing-guard-working.blend (Git LFS), metadata tại assets/working/divine-wing-guard/checkpoint.json; clone tiếp tục từ file tracked này. Không chạy generator đè bản đã lưu; giữ nguyên static checkpoint/các cửa sổ khác. Chi tiết docs/DIVINE-WING-GUARD-ANIMATION-REVIEW.md. Zhao vẫn để sau theo yêu cầu.
+
+MỐC ZHAO / PHỤC HỒI BUILD [26/11/2026 — ZHAO YIXUAN / PHỤC HỒI BUILD]: Đã lưu bản thiết kế đầy đủ tại docs/ZHAO-YIXUAN-SHUGENGAN-SKILL-PROPOSAL.md: pháp sư/chỉ huy nền Shugengan Yin, cận chiến yếu hơn nhưng nhanh hơn, 6 phép Moon/nước/lửa, đầy đủ nhánh và cấp mở. Người dùng đã yêu cầu tích hợp, sau đó yêu cầu ưu tiên cập nhật goal và backup Git trước. CHƯA TÍCH HỢP VÀO MOD: chưa sửa DB/Lua/model, build, deploy hoặc chạy game. V34 trong bàn giao vẫn giữ cây/chỉ số WWD, chưa có pack v34 để kiểm tra trực tiếp trên máy này. Game 9.0.5/WWD đã đọc tại H:\SteamLibrary; WWD khác hash nguồn cũ. Audit build: script là chuỗi tăng dần v34 <- v33 <- v32 và các bản trước, không phải clean build; repo thiếu pack nền, một số scene người dùng chỉnh, render và dữ liệu trung gian trong build/reference. Có source và một số checkpoint model đã theo Git, nên có thể nghiên cứu tái dựng chức năng nhưng chưa thể bảo đảm khôi phục chính xác v34. Ưu tiên tìm pack v32/v33/v34 hoặc backup build; nếu không có thì lập quy trình tái dựng, phục hồi/duyệt ngoại hình và validate lại trước khi sửa Zhao. Script v35 Moon Arts cũ khác thiết kế vừa chốt, không chạy trực tiếp hoặc bỏ hash guard. Mount và migration save cũ còn phải chốt. Các mục lịch sử bên dưới chưa được rà soát lại toàn bộ.
 
 MOONSHADOW — ĐỔI NƠI TUYỂN [21/11/2026]: Theo yêu cầu cân bằng mới, v6 bỏ toàn bộ định nghĩa Moonshadow Hideout, chuyển tuyển Moonshadow Assassin sang Celestial Tower và giữ khi nâng Celestial Observatory/Celestial Beacon. Mỗi công trình +1 giới hạn ở cả ba cấp, không cộng dồn qua nâng cấp. Điều kiện Region.Owner.RecordKey chỉ áp dụng cho Agents of the Moon; chi phí/tên/slot/effect Astromancer gốc giữ nguyên. Mọi payload nhân vật, skill, đồ họa và spawn Da Anh byte-identical v5. Báo cáo hiện hành: build/moonshadow-celestial-tower/build-report.json và deployment.json; docs/MOONSHADOW-HEROES.md. Không mở game; tuyển/context/giới hạn trong engine chưa xác nhận. Mốc công trình riêng v5 bên dưới là lịch sử, đã bị thay thế.
 
@@ -199,6 +201,27 @@ Trạng thái quan trọng:
 [ ] Thiết kế roster: bộ binh, kỵ binh, tầm xa, pháo binh và đơn vị đặc biệt.
 [ ] Thiết lập tuyển quân, công trình, giới hạn unit và cân bằng kinh tế.
 [ ] Kiểm tra faction frontend, campaign và custom battle.
+
+4A. DIVINE WING GUARD — PREVIEW NGOẠI HÌNH [26/11/2026]
+[X] Chốt mục tiêu Onyx Crowmen và tên Divine Wing Guard (Thánh Dực Quân).
+[X] Người dùng chọn giáp Jade Warriors và cánh trắng, chỉ xem Blender trước.
+[X] Đã tạo scene riêng có texture packed; render trước/sau đã xem.
+    Scene: build/divine-wing-guard-preview/divine-wing-guard-preview-packed.blend.
+    Chi tiết: docs/DIVINE-WING-GUARD-PREVIEW.md.
+[~] Assembly ngoại hình giữ hai rig native; chưa là model xuất game hoàn chỉnh.
+[X] Theo yêu cầu đã dựng animation review v2, 8 đoạn/626 frame và mở playback Blender.
+    Xem docs/DIVINE-WING-GUARD-ANIMATION-REVIEW.md; chỉ preview, chưa engine QA.
+[~] Cánh gập còn có thể chồng vùng vai/đầu, đòn không trung nguồn giáo đang cầm kiếm.
+[X] Người dùng yêu cầu giữ/lưu model: đã Save scene live v2 và tạo snapshot riêng.
+[X] Theo yêu cầu backup Git, đã chuẩn bị bản editable có texture packed trong
+    assets/working/divine-wing-guard/divine-wing-guard-working.blend (LFS),
+    hash trùng checkpoint live; có README/checkpoint.json để tiếp tục sau clone.
+    Resume pointer/hash: build/divine-wing-guard-checkpoints/resume-latest.json.
+    Checkpoint mở lại: 32 image packed, không linked library, 8 marker, frame496.
+[~] Đây là mốc đã lưu để tiếp tục, chưa phải duyệt hoàn thiện mọi chuyển động.
+[ ] Death, clipping còn lại và runtime chưa kiểm chứng; chưa tích hợp game.
+[ ] Rig/export/game integration chỉ làm ở bước sau khi được yêu cầu.
+    Không có thay đổi gameplay/pack/launcher/save trong mốc preview này.
 
 5. LEGENDARY LORD, MODEL VÀ SKILL TREE
 [X] Chốt yêu cầu cơ bản cho Legendary Lord mới của Agents of the Moon

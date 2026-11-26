@@ -7,3 +7,4 @@
 *.png binary
 *.blend binary
 assets/working/moon-casters/moon-casters-models.blend filter=lfs diff=lfs merge=lfs -text
+assets/working/divine-wing-guard/divine-wing-guard-working.blend filter=lfs diff=lfs merge=lfs -text
