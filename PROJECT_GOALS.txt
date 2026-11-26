@@ -1,5 +1,93 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
+TÊN ROSTER CATHAY / ĐẠI VIỆT — ĐÃ DUYỆT [26/11/2026]
+[X] Người dùng duyệt toàn bộ bảng dưới đây sau khi rà trang bị, vai trò và cấp tinh nhuệ của 29 đơn vị thường, 7 đơn vị danh tiếng và 1 đơn vị triệu hồi. Chưa gồm lord/hero.
+[X] Peasant dùng Levy; Jade Warriors dùng Thánh Dực Nghĩa Dũng / Sacred Wing Loyalists; Celestial Dragon dùng Thánh Dực Quân / Sacred Wing Guard; Onyx Crowmen chỉ dùng The Skywing Guard.
+[ ] Áp dụng tên vào mod: CHƯA THỰC HIỆN. Bản duyệt này chỉ là thiết kế tên; chưa sửa localization/DB/Lua, chỉ số, tuyển quân, model, pack hoặc launcher. Chưa tích hợp model The Skywing Guard vào game.
+    Tên có quân hiệu lịch sử làm gốc: Thánh Dực Quân, Thánh Dực Nghĩa Dũng, Thiết Đột, Thần Lôi, Thần Điện. Phân cấp Jade/Celestial và ghép các quân hiệu với trang bị Cathay là quy ước chuyển thể cho mod, không phải khẳng định biên chế lịch sử giống game.
+    Thánh Dực Nghĩa Dũng có sử liệu ở trận Bạch Đằng; ghi chú cũ gọi tên này là sáng tạo là sai. Thần Lôi/Thần Điện được đổi từ hai quân Hỏa Đồng; không khẳng định lịch sử chia đúng súng ghém/súng dài. Hỏa Cầu Binh và Liên Châu Hỏa Tiễn là tên ghép dựa trên hỏa khí có tư liệu. Các tên linh thú, khí cụ, RoR còn lại là sáng tạo/mô tả; Phù Đổng Thiên Kỵ lấy cảm hứng truyền thuyết, không phải quân hiệu lịch sử.
+    Đây là bảng tên được duyệt mới nhất, thay các bảng đề xuất trước trong hội thoại. Giữ tên file/checkpoint divine-wing-guard và các mốc lịch sử để không đứt đường dẫn.
+
+BỘ BINH CẬN CHIẾN — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Peasant Long Spearmen | Dân Binh Trường Thương | Levy Spearmen
+Jade Warriors | Thánh Dực Nghĩa Dũng (Đao–Khiên) | Sacred Wing Loyalists (Sword & Shield)
+Jade Warriors (Halberds) | Thánh Dực Nghĩa Dũng (Trường Kích) | Sacred Wing Loyalists (Halberds)
+Celestial Dragon Guard | Thánh Dực Quân (Trường Kích) | Sacred Wing Guard (Halberds)
+
+CUNG THỦ VÀ NỎ THỦ — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Peasant Archers | Dân Binh Cung Thủ | Levy Archers
+Jade Warrior Crossbows | Thánh Dực Nghĩa Dũng (Nỏ) | Sacred Wing Loyalists (Crossbows)
+Jade Warrior Crossbows (Shields) | Thánh Dực Nghĩa Dũng (Nỏ–Khiên) | Sacred Wing Loyalists (Crossbows & Shields)
+Celestial Dragon Crossbows | Thánh Dực Quân (Nỏ) | Sacred Wing Guard (Crossbows)
+
+BỘ BINH HỎA KHÍ — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Iron Hail Gunners | Thần Lôi Quân (Đạn Ghém) | Divine Thunder Gunners (Blunderbusses)
+Crane Gunners | Thần Điện Quân (Trọng Súng) | Divine Lightning Gunners (Heavy Guns)
+Nan-Gau Grenadiers | Hỏa Cầu Binh | Firebomb Grenadiers
+    Iron Hail: blunderbuss đạn ghém, tầm gần. Crane: súng dài theo tổ, có khiên, bắn xa xuyên giáp. Grenadiers: ném quả nổ/bom choáng, không phải bộ binh bắn súng.
+
+HỔ NHÂN — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Tiger Warriors | Hổ Nhân Song Phủ | Tiger Warriors (Dual Axes)
+Iron Claw Tiger Warriors | Thiết Trảo Hổ Vệ | Ironclaw Tiger Guard
+Tiger Warrior Stalkers | Hổ Nhân Phục Kích (Phi Luân) | Tiger Stalkers (Throwing Discs)
+    Song phủ đánh bộ binh; Thiết Trảo là cận vệ Hổ Nhân giáp nặng dùng guandao; Stalkers giáp nhẹ dùng đĩa ném/phục kích. Không đổi thành quân người hoặc cung thủ.
+
+KỴ BINH — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Peasant Horsemen | Dân Binh Kỵ Mã | Levy Horsemen
+Jade Lancers | Thiết Đột Quân | Ironclad Lancers
+Great Longma Riders | Thánh Dực Thiên Kỵ | Sacred Wing Sky Lancers
+    Peasant: kỵ nhẹ trinh sát/đánh vòng, không thêm cung vào trang bị hiện tại. Jade Lancers: giáp nặng, thương/khiên, ngựa thường. Longma thuộc Celestial Host, là kỵ binh bay tinh nhuệ nên dùng họ Thánh Dực.
+
+QUÂN BAY VÀ LINH THÚ — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Onyx Crowmen | The Skywing Guard | The Skywing Guard
+Great Moon Bird | Nguyệt Hỏa Linh Điểu | Moonfire Spirit Bird
+Celestial Lion | Thiên Dực Sư | Celestial Winged Lion
+Jade Lion | Ngọc Sư Hộ Pháp | Jade Guardian Lion
+Jet Lion | Huyền Sư Trấn Pháp | Black Spellbane Lion
+    Onyx là mục tiêu thay model lính giáp có cánh đã preview, chưa tích hợp. Moon Bird: chim khổng lồ mang lửa bạc. Celestial Lion: sư tử sống có cánh. Jade/Jet: tượng sư tử hoạt hóa, lần lượt hỗ trợ phép/khắc phép; không tự đổi thành kỳ lân/nghê khác hình dáng.
+
+TƯỢNG CHIẾN BINH VÀ ANH LINH — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Terracotta Sentinel | Hộ Quốc Thần Tướng | Guardian of the Realm
+Ancestral Warriors | Anh Linh Vệ Quốc | Ancestral Defenders
+    Sentinel là tượng chiến binh khổng lồ hoạt hóa; Ancestral là linh hồn chiến binh triệu hồi, không gộp hai bản chất này.
+
+PHÁO BINH — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Grand Cannons | Thần Cơ Sang Pháo | Divine Engine Cannons
+Fire Rain Rocket Battery | Liên Châu Hỏa Tiễn | Volley Rocket Battery
+
+KHÍ CỤ CHIẾN TRANH — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Sky Lantern | Thiên Đăng Vọng Tiêu | Skywatch Lantern
+Sky-junk | Hỏa Tiễn Thiên Chu | Rocket Skyship
+Wu Xing War Compass | Ngũ Hành Linh Xa | Five Elements Arcane Chariot
+Zhangu War Drum | Chấn Thiên Chiến Cổ | Heaven-Shaking War Drum
+    Lantern: khí cầu quan sát/chỉ huy có súng; Junk: chiến thuyền bay mang hỏa tiễn; Compass: khí cụ phép trên xe; Drum: xe trống hỗ trợ đội hình/tinh thần. Không gọi trống da hiện tại là trống đồng Đông Sơn nếu chưa đổi model.
+
+ĐƠN VỊ DANH TIẾNG (RoR) — Cathay | Tên đề xuất đã duyệt | Tiếng Anh
+Bandits of the Silver Road (Peasant Archers) | Ngân Lộ Cung Phỉ | Silver Road Outlaw Archers
+The Dune Dragons (Celestial Dragon Guard) | Thánh Dực Trấn Sa | Sacred Wing Sandwardens
+The Grace of Quai Yin (Celestial Dragon Crossbows) | Thánh Dực Nguyệt Hỏa | Sacred Wing Moonfire Crossbows
+Righteous Lances of Wei-Jin (Great Longma Riders) | Phù Đổng Thiên Kỵ | Phu Dong Sky Lancers
+The Green Guardian (Terracotta Sentinel) | Bích Sắc Hộ Quốc Thần Tướng | Verdant Guardian of the Realm
+Empress Crowmen (Onyx Crowmen) | Imperial Skywing Guard | Imperial Skywing Guard
+The Jade War Drum (Zhangu War Drum) | Ngọc Cổ Chấn Thiên | Heaven-Shaking Jade War Drum
+    Bandits giữ bản chất quân phỉ; Grace dùng tên lửa xanh nên bỏ Kim Quang; Green Guardian màu xanh không đồng nghĩa làm bằng ngọc. Không dùng lại các tên RoR cũ đã thay thế.
+
+NGUỒN ĐỐI CHIẾU BẢNG ĐÃ DUYỆT
+- Dữ liệu native: reference/local/moon-jade-native/db và text/db (local_en.pack: land_units, unit_description_historical_texts, unit_description_short_texts, unit_description_strengths_weaknesses_texts). Đây là reference local/ignored, không phải asset cần upload.
+- Thánh Dực Nghĩa Dũng / Bạch Đằng: https://baotanglichsu.vn/vi/Articles/3096/71341/tran-thuy-chien-bach-djang-nhung-manh-ghep.html
+- Thánh Dực / quân Trần: https://tapchiqptd.vn/vi/nghien-cuu-tim-hieu/quyet-sach-sang-suot-cua-vuong-trieu-nha-tran-trong-su-nghiep-dung-nuoc-va-giu-nuoc/19281.html
+- Thần Lôi / Thần Điện: https://lib.dangnho.com/sach/dai-viet-su-ky-toan-thu/chuong/ban-ky-toan-thu-11-nha-hau-le-1433-1459
+- Thiết Đột / vệ kỵ binh: https://vietales.vn/story-details?lang=en&slug=truyen-thong-luc-luong-vu-trang-le-so-quan-thiet-dot-0
+- Hỏa khí: https://baotanglichsu.vn/vi/Articles/2001/66550/10-hoa-khi-djang-gom-cua-quan-djoi-djai-viet.html
+- Thần cơ sang pháo: https://baotanglichsu.vn/vi/Articles/3096/16435/vu-khi-viet-nam-khien-giac-phuong-bac-khiep-via-1.html
+- Hổ Nhân: https://community.creative-assembly.com/total-war/total-war-warhammer/blogs/97
+- Linh thú Cathay: https://community.creative-assembly.com/total-war/total-war-warhammer/blogs/2
+- Sư tử / nghê Việt Nam: https://baotanglichsu.vn/vi/Articles/4002/68895/trung-bay-chuyen-dje-linh-vat-viet-nam.html
+- Phù Đổng / ngựa thần: https://baotanglichsu.vn/vi/Articles/3096/11704/chi-tiet-thanh-giong-cuoi-ngua-bay-len-troi-gan-giong-nhau.html
+KẾT THÚC BẢNG TÊN ROSTER ĐÃ DUYỆT
+
+JADE FAMILY V2 — ĐỦ5LOẠI [26/11/2026]: Theo yêu cầu4loạiJadecònlạidùngchungmodelngười, đãbuild mc_moon_jade_warriors_reskin_v2_family.pack99,709,378bytes,SHA256 9d711a7f571501f3c67a80b4f6d68da1b453f2a20d29c7e8e8248ddb68ba3ee1;copydata+dist/moon-jade-warriors-reskin-v2. Đủ kiếm-khiên,kích,nỏ,nỏ-khiên,JadeLancers riêngMoon, cùngbody05/chegáy/giàynâu/7heads. Bonloạimớichỉthayngườivàđầu,giữvũkhí/kiếmphụ/khiên/ngựavàanimgốc;khôngđổiChỉsố/tuyểnquân/factionkhác. Toànbộmodel/texture/dao-khiênv1 giữbyte-identical;chỉ2DBpayloadđổi+4VMDmới. Blender18clip/54khung/all7heads+mountedrender vàRPFMroundtrip/0diagnosticspassed. CHƯABẬT/CHƯATESTGAME;dùngv2thayv1,khôngbậtcảhai. Reportsscene build/moon-jade-reskin-v2;docs/MOON-JADE-WARRIOR-APPROVED-RESKIN.md. KhôngthêmLFS/khôngpushGit/khôngchỉnhlauncher.
+
 CHÍNH SÁCH GIT — TRÁNH LFS KHÔNG CẦN THIẾT [26/11/2026]: Theo yêu cầu người dùng, chuyển pack Jade99.7MB,3scene Jade và scene Divine Wing Guard36.9MB sang binary Git thường tại đúngđườngdẫntracked, giữbyte/hash. Clone hiện tại khôngcần LFSpull cho5file này. Chỉ scene Moon Casters374MB vẫnLFS vìvượtgiớihạn100MiB/filecủaGitHub. Khôngrewritehistory/forcepush/xóarepo; cácobjectLFSđãuploadtrướcđóvẫncòntrênremote nênchưagiảiphóngquotaLFS. CácghichúLFS cũbêndưới làlịchsử. Model/mod/launcher/gamekhôngthayđổi.
 
 GIT BACKUP JADE WARRIOR [26/11/2026]: Người dùng yêu cầu đẩy tất cả source/model/mod lên Git. Theo dõi3scene đầy đủ qua Git LFS tại assets/working/moon-jade-warriors: bộ7biếnthể, single animationreview và actualexportedassetsreview; hash/bytes ở checkpoint.json và audit portable-scenes. Pack hoàn chỉnh99,690,815bytes cũng theo LFS ở releases/moon-jade-warriors-reskin-v1/mc_moon_jade_warriors_reskin_v1.pack; SHA256 3809a4b684c0e9b3f3b1183ed9fb1d799bb7a05195bf8e91deb675932b02952e. Clone chạy git lfs pull, mở nguyên scene tracked; không tái sinh đè. Tài liệu/source/tools/previews/reference đi cùng; native/Workshop extracts/cache/config vẫnignored. Mốc no-Git-upload bên dưới đã được usercho phép supersede đúng cáccheckpoint/packnày. Modchưabậtlauncher/chưatestgame; backupkhôngthayđổiphạmvireskin.
@@ -210,8 +298,9 @@ Trạng thái quan trọng:
 [ ] Thiết lập tuyển quân, công trình, giới hạn unit và cân bằng kinh tế.
 [ ] Kiểm tra faction frontend, campaign và custom battle.
 
-4A. DIVINE WING GUARD — PREVIEW NGOẠI HÌNH [26/11/2026]
-[X] Chốt mục tiêu Onyx Crowmen và tên Divine Wing Guard (Thánh Dực Quân).
+4A. THE SKYWING GUARD — PREVIEW NGOẠI HÌNH [26/11/2026]
+[X] Chốt mục tiêu Onyx Crowmen: The Skywing Guard. Chỉ dùng tên này, không dùng tên Thánh Dực Quân; thay tên Divine Wing Guard trước đây theo yêu cầu ngày 26/11/2026.
+    Chỉ cập nhật tên trong Project Goals; chưa đổi tên hoặc tích hợp model vào mod. Giữ nguyên đường dẫn checkpoint divine-wing-guard và các mốc lịch sử.
 [X] Người dùng chọn giáp Jade Warriors và cánh trắng, chỉ xem Blender trước.
 [X] Đã tạo scene riêng có texture packed; render trước/sau đã xem.
     Scene: build/divine-wing-guard-preview/divine-wing-guard-preview-packed.blend.
