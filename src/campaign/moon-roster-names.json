@@ -1,0 +1,80 @@
+{
+  "faction": "cr_cth_agents_of_the_moon",
+  "disabled_native_recruitment": [
+    "wh3_main_cth_astromancer",
+    "wh3_main_cth_alchemist",
+    "wh3_main_cth_dragon_blooded_shugengan_yin",
+    "wh3_main_cth_dragon_blooded_shugengan_yang"
+  ],
+  "moonshadow_assassin_recruitment": {
+    "buildings": [
+      "wh3_main_cth_jade_barracks_2",
+      "wh3_main_cth_jade_barracks_3"
+    ],
+    "capacity_per_building": 1,
+    "old_tower_effects_removed": true,
+    "native_building_balance_unchanged": true
+  },
+  "names": {
+    "group": "names_mc_agents_of_the_moon_vietnamese",
+    "dataset": "src/data/agents-of-the-moon-vietnamese-names.json",
+    "csv": "src/data/agents-of-the-moon-vietnamese-names.csv",
+    "statistics": {
+      "surnames": 50,
+      "male_given_names": 152,
+      "female_given_names": 283,
+      "unisex_given_names": 14,
+      "records": 499,
+      "distinct_full_name_combinations": 22450
+    },
+    "order": "family_name then forename",
+    "language": "Vietnamese ASCII",
+    "explicit_custom_subtypes": [
+      "Luke_cth_master_engineer",
+      "mc_moonshadow_assassin",
+      "mc_pyromancer",
+      "mc_astral_weaver",
+      "mc_tidecaller",
+      "mc_moonveil_adept",
+      "mc_assault_general",
+      "mc_bastion_general",
+      "mc_mooncourt_lord"
+    ],
+    "existing_character_names_unchanged": true,
+    "fixed_legendary_names_unchanged": true
+  },
+  "pack": "mc_moonshadow_heroes_v34_yuan_bo_lord.pack",
+  "runtime_verified": false,
+  "empty_celestial_general_tab": {
+    "status": "native_category_hosts_wwd_gallery20_lord",
+    "hidden": false,
+    "unsafe_ui_script_disabled": true
+  },
+  "recruitment_tabs": {
+    "shugengan": {
+      "category": "wh3_main_cth_dragon_blooded_shugengan",
+      "subtypes": [
+        "mc_bastion_general",
+        "mc_assault_general"
+      ],
+      "native_tab_count": 1,
+      "native_shugengan_subtypes_disabled_for_moon": true
+    },
+    "celestial_general": {
+      "category": "wh3_dlc24_cth_celestial_general",
+      "subtypes": [
+        "mc_mooncourt_lord"
+      ],
+      "gallery_model": 20
+    },
+    "private_bastion_tab_removed": true,
+    "private_assault_tab_removed": true,
+    "shared_native_labels_unchanged": true,
+    "ui_hiding_script": false
+  },
+  "building_preview_fix": {
+    "version": 30,
+    "report": "build/moon-v30-building-previews/pack-validation.json",
+    "runtime_verified": false
+  }
+}

@@ -1,0 +1,72 @@
+-- The native category can remain visible even with both CG subtypes disabled.
+-- Hide only its recruitment button for the local Moon player, never globally.
+local FACTION = "cr_cth_agents_of_the_moon"
+local CATEGORY = "wh3_dlc24_cth_celestial_general"
+local opened = false
+local queued = false
+local function is_moon() return cm:get_local_faction_name(true) == FACTION end
+local function lord_list()
+    local parent = find_uicomponent(core:get_ui_root(), "character_panel",
+        "character_panel_info_holder", "lords_and_agents_holder", "lord_parent")
+    if not parent or not parent:Visible() then return nil end
+    return find_uicomponent(parent, "list_box")
+end
+local function title(key, fallback)
+    local value = common.get_localised_string("agent_recruitment_categories_onscreen_name_" .. key)
+    return value and value ~= "" and value or fallback
+end
+local function matches(button, key, label)
+    local id = button:Id()
+    if id == key or id:find(key, 1, true) then return true end
+    local text = find_uicomponent(button, "label")
+    return text and text:GetStateText() == label
+end
+local function apply()
+    if not opened or not is_moon() then return end
+    local list = lord_list()
+    if not list then return end
+    local hidden_selected = false
+    local assault, bastion
+    local native_title = title(CATEGORY, "Celestial General")
+    local assault_title = title("mc_assault_general", "Assault General")
+    local bastion_title = title("mc_bastion_general", "Bastion General")
+    for i = 0, list:ChildCount() - 1 do
+        local button = UIComponent(list:Find(i))
+        if matches(button, CATEGORY, native_title) then
+            local state = button:CurrentState()
+            hidden_selected = hidden_selected or state == "down" or state:find("selected", 1, true) ~= nil
+            button:SetVisible(false)
+        elseif matches(button, "mc_assault_general", assault_title) then
+            assault = button
+        elseif matches(button, "mc_bastion_general", bastion_title) then
+            bastion = button
+        end
+    end
+    -- If the empty native category was the default selection, open a real one.
+    if hidden_selected then
+        local replacement = assault or bastion
+        if replacement then replacement:SimulateLClick() end
+    end
+end
+local function refresh()
+    if queued or not opened or not is_moon() then return end
+    queued = true
+    cm:callback(function() queued = false; apply() end, 0.1)
+end
+core:add_listener("mc_moon_hide_cg_open", "PanelOpenedCampaign",
+    function(context) return context.string == "character_panel" end,
+    function()
+        opened = true
+        if not is_moon() then return end
+        -- The native callback populates dynamic lord buttons after panel creation.
+        for _, delay in ipairs({0.1, 0.4, 1.0}) do cm:callback(apply, delay) end
+    end, true)
+core:add_listener("mc_moon_hide_cg_close", "PanelClosedCampaign",
+    function(context) return context.string == "character_panel" end,
+    function() opened = false end, true)
+core:add_listener("mc_moon_hide_cg_refresh", "ComponentLClickUp",
+    function() return opened and is_moon() end, refresh, true)
+cm:add_first_tick_callback(function()
+    opened = lord_list() ~= nil
+    refresh()
+end)

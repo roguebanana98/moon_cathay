@@ -1,0 +1,203 @@
+{
+  "faction": "cr_cth_agents_of_the_moon",
+  "status": "integrated_private_v33_lord_roster",
+  "classification": "two_regular_recruitable_lord_types",
+  "game_integrated": true,
+  "generals": [
+    {
+      "key": "mc_assault_general",
+      "name": "Assault General",
+      "role": "Break enemy formations and lead assaults",
+      "body": "WWD gallery model08; preserve the user's current mesh visibility and edits",
+      "weapon": "WWD gallery model09 long polearm",
+      "offhand_sword": "Retained as a hidden alternative; native two-handed spear animation needs the other hand on the shaft",
+      "skeleton": "humanoid01b",
+      "animation": "hu1b_elf_2handed_spear",
+      "skill_base": "Celestial General",
+      "stats_and_personal_skills": "Six native special skills; private names only. Assault replaces Bulwark of Wei-Jin with native Deadly Onslaught; native exclusive choices retained.",
+      "campaign_animation": "cam_hu1b_bretonnian_staff_and_sword",
+      "stats": {
+        "armour": 90,
+        "melee_attack": 65,
+        "melee_defence": 35,
+        "charge_bonus": 45
+      },
+      "harmony": "yang",
+      "mounts": [
+        {
+          "key": "mc_assault_general_warhorse",
+          "name": "White Warhorse",
+          "unlock_level": 4,
+          "battle_animation": "hu1b_dlc16_hr1_warhorse_spear_bow",
+          "campaign_animation": "cam_hu1b_bretonnian_hr1_warhorse_staff_and_sword"
+        },
+        {
+          "key": "mc_assault_general_great_stag",
+          "name": "Great Stag",
+          "unlock_level": 14,
+          "battle_animation": "hu1b_dlc16_st1_great_stag_spear_bow",
+          "campaign_animation": "cam_hero_hu1b_dlc16_st1_great_stag_spear_bow"
+        }
+      ],
+      "special_skills": [
+        {
+          "key": "mc_assault_general_native_skill_1",
+          "name": "Lunar Command",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_1"
+        },
+        {
+          "key": "mc_assault_general_native_skill_2",
+          "name": "Moonlit Onslaught",
+          "native_source": "wh_main_skill_all_all_self_deadly_onslaught"
+        },
+        {
+          "key": "mc_assault_general_native_skill_3",
+          "name": "Might of the Moon",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_3"
+        },
+        {
+          "key": "mc_assault_general_native_skill_4",
+          "name": "Moonfall Charge",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_4"
+        },
+        {
+          "key": "mc_assault_general_native_skill_5",
+          "name": "Lunar Impact",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_5"
+        },
+        {
+          "key": "mc_assault_general_native_skill_6",
+          "name": "Unyielding Advance",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_6"
+        }
+      ],
+      "campaign_appearance": {
+        "female_art": "mc_assault_general_art",
+        "male_art": "mc_assault_general_art_male",
+        "uniform": "mc_assault_general_uniform",
+        "filename": "mc_assault_general",
+        "campaign_porthole_filename": "mc_assault_general",
+        "campaign_politician_filename": "mc_assault_general",
+        "existing_save_rebinding": true,
+        "script": "src/script/campaign/mod/mc_assault_campaign_appearance.lua",
+        "scope": "Agents of the Moon only; main_warhammer and cr_combi_expanded"
+      },
+      "recruitment_category": "wh3_main_cth_dragon_blooded_shugengan"
+    },
+    {
+      "key": "mc_bastion_general",
+      "name": "Bastion General",
+      "role": "Hold the battle line and lead defensive formations",
+      "body": "WWD gallery model01; preserve current mesh visibility",
+      "weapon": "Native Celestial General hammer shaft with Guan Yu guandao blade; aligned to native strike axis",
+      "palette": "Black armour borders and white scale fields, matching model08; original human skin colours preserved",
+      "skeleton": "humanoid01e",
+      "animation": "hu1e_dlc24_celestial_general",
+      "skill_base": "Celestial General",
+      "stats_and_personal_skills": "Six native special skills; private names only. Assault replaces Bulwark of Wei-Jin with native Deadly Onslaught; native exclusive choices retained.",
+      "campaign_animation": "cam_lord_hu1e_dlc24_celestial_general",
+      "stats": {
+        "armour": 110,
+        "melee_attack": 55,
+        "melee_defence": 50,
+        "charge_bonus": 20
+      },
+      "harmony": "yin",
+      "mounts": [
+        {
+          "key": "mc_bastion_general_warhorse",
+          "name": "Warhorse",
+          "unlock_level": 4,
+          "battle_animation": "hu1e_dlc24_hr1_warhorse_celestial_general",
+          "campaign_animation": "cam_lord_hu1e_dlc24_hr1_warhorse_celestial_general"
+        },
+        {
+          "key": "mc_bastion_general_longma",
+          "name": "Jade Longma",
+          "unlock_level": 9,
+          "battle_animation": "hu1e_dlc24_hr1_longma_celestial_general",
+          "campaign_animation": "cam_lord_hu1e_dlc24_hr1_warhorse_celestial_general"
+        },
+        {
+          "key": "mc_bastion_general_celestial_lion",
+          "name": "Celestial Lion",
+          "unlock_level": 15,
+          "battle_animation": "hu1e_dlc24_bc2_celestial_lion_celestial_general",
+          "campaign_animation": "cam_lord_hu1e_dlc24_bc2_celestial_lion_celestial_general"
+        }
+      ],
+      "special_skills": [
+        {
+          "key": "mc_bastion_general_native_skill_1",
+          "name": "Lunar Command",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_1"
+        },
+        {
+          "key": "mc_bastion_general_native_skill_2",
+          "name": "Moonlit Bulwark",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_2"
+        },
+        {
+          "key": "mc_bastion_general_native_skill_3",
+          "name": "Might of the Moon",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_3"
+        },
+        {
+          "key": "mc_bastion_general_native_skill_4",
+          "name": "Moonfall Charge",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_4"
+        },
+        {
+          "key": "mc_bastion_general_native_skill_5",
+          "name": "Lunar Impact",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_5"
+        },
+        {
+          "key": "mc_bastion_general_native_skill_6",
+          "name": "Unyielding Advance",
+          "native_source": "wh3_dlc24_skill_cth_celestial_general_unique_6"
+        }
+      ],
+      "recruitment_category": "wh3_main_cth_dragon_blooded_shugengan"
+    }
+  ],
+  "private_preview": "build/moon-generals-preview/moon-generals-assault-polearm-connected.blend",
+  "source_checkpoint": "build/moon-generals-preview/user-edited-gallery-source.blend",
+  "pack": "mc_moonshadow_heroes_v34_yuan_bo_lord.pack",
+  "custom_battle_faction": "wh3_main_cth_cathay_mp",
+  "foot_only": false,
+  "runtime_verified": false,
+  "empty_celestial_general_tab": {
+    "status": "native_category_hosts_wwd_gallery20_lord",
+    "hidden": false,
+    "unsafe_ui_script_disabled": true
+  },
+  "recruitment_tabs": {
+    "shugengan": {
+      "category": "wh3_main_cth_dragon_blooded_shugengan",
+      "subtypes": [
+        "mc_bastion_general",
+        "mc_assault_general"
+      ],
+      "native_tab_count": 1,
+      "native_shugengan_subtypes_disabled_for_moon": true
+    },
+    "celestial_general": {
+      "category": "wh3_dlc24_cth_celestial_general",
+      "subtypes": [
+        "mc_mooncourt_lord"
+      ],
+      "gallery_model": 20
+    },
+    "private_bastion_tab_removed": true,
+    "private_assault_tab_removed": true,
+    "shared_native_labels_unchanged": true,
+    "ui_hiding_script": false
+  },
+  "building_preview_fix": {
+    "version": 30,
+    "report": "build/moon-v30-building-previews/pack-validation.json",
+    "runtime_verified": false
+  },
+  "additional_lord": "src/campaign/mooncourt-lord.json"
+}

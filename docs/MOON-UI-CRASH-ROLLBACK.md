@@ -1,0 +1,9 @@
+# Runtime UI crash rollback - 2026-11-22
+
+User reports a native crash when selecting Huyen Ve's campaign army. The run loaded combined v28. Latest script log contains the first UI-component validation failures at152.8s in mc_moon_hide_celestial_general_tab.lua: matches/apply and later lord_list. Following errors affect native campaign UI and Custom Lord Creation, ending in the18:16:17 native minidump. The stack text is unsymbolicated, so the exact native crash cause is not proven; the new UI callback is an observed failure and the first change to remove. Earlier narrative/intro warnings are separate and are not changed here.
+
+Re-enabled the exact v26 pack and disabled v28. Binary payload comparison proves that the only removed payload is the tab-hiding Lua; every v26 payload is byte-identical in v28. This retains Vietnamese names, barracks tier2/3 Assassin recruitment, native caster recruitment restrictions, Moonveil and all earlier hero/lord/model/skill fixes. Existing saves are not edited. Native Celestial General recruitment remains blocked, but its empty tab may reappear.
+
+The failed source Lua and mock-only harness are retained with .disabled extensions. Four obsolete v27/v28 build/deploy tools now refuse to execute. Do not restore this callback, simulated clicks, or deferred native UI traversal based solely on mock tests; they did not model the live UI lifecycle.
+
+Native game/Workshop pack files and unrelated launcher settings remain unchanged. The exact enabled pack hash and launcher backup are in rollback.json. Relevant logs and crash stack text are copied here before the next run can replace them. No debugger was attached and no game was launched after rollback. A fresh game restart and selecting the same army in the same save is still required to determine whether removing the UI patch resolves the crash. Do not claim runtime success before that check.

@@ -1,0 +1,47 @@
+{
+  "mc_pyromancer": {
+    "template": "wh_main_skill_node_set_emp_bright_wizard",
+    "native_group": "wh_main_lore_fire",
+    "group_name": "Lore of Fire",
+    "starter": "wh_main_skill_all_magic_fire_dummy_fireball",
+    "skills": [
+      ["wh_main_skill_all_magic_fire_01_fireball", "Fireball"],
+      ["wh_main_skill_all_magic_fire_04_kindleflame", "Kindleflame"],
+      ["wh_main_skill_all_magic_fire_02_cascading_fire-cloak", "Ember Cloak"],
+      ["wh_main_skill_all_magic_fire_03_flaming_sword_of_rhuin", "Flameforged Blade"],
+      ["wh_main_skill_all_magic_fire_05_the_burning_head", "Blazing Wrath"],
+      ["wh_main_skill_all_magic_fire_09_piercing_bolts_of_burning", "Rain of Embers"],
+      ["wh_main_skill_all_magic_fire_10_flame_storm", "Inferno"]
+    ]
+  },
+  "mc_tidecaller": {
+    "template": "wh2_dlc11_skill_node_set_cst_fleet_captain_deep",
+    "native_group": "wh2_dlc11_lore_deep",
+    "group_name": "Lore of the Tides",
+    "starter": "wh2_dlc11_skill_all_magic_deep_dummy_spiteful_shot",
+    "skills": [
+      ["wh2_dlc11_skill_all_magic_deep_01_spiteful_shot", "Blessing of the Tides"],
+      ["wh_dlc05_skill_magic_life_life_bloom", "Restorative Flow"],
+      ["wh2_dlc11_skill_all_magic_deep_02_tidecall", "Tidecall"],
+      ["wh_dlc05_skill_magic_life_wizard_earth_blood", "Restorative Waters"],
+      ["wh2_dlc11_skill_all_magic_deep_05_fog_of_the_damned", "Sea Mist"],
+      ["wh2_dlc11_skill_all_magic_deep_09_krakens_pull", "Maelstrom"],
+      ["wh_dlc05_skill_magic_life_wizard_regrowth", "Renewing Tide"]
+    ]
+  },
+  "mc_astral_weaver": {
+    "template": "wh3_main_skill_node_set_cth_dragon_blooded_shugengan_yin",
+    "native_group": "wh3_main_lore_of_yin",
+    "group_name": "Lore of the Moon",
+    "starter": "wh3_main_skill_cth_magic_yin_dummy_cloak_of_jet",
+    "skills": [
+      ["wh3_main_skill_cth_magic_yin_01_cloak_of_jet", "Veil of the Moon"],
+      ["wh3_main_skill_cth_magic_yin_05_power_of_yin", "Lunar Ascendancy"],
+      ["wh3_main_skill_cth_magic_yin_02_storm_of_shadows", "Lunar Snare"],
+      ["wh3_main_skill_cth_magic_yin_03_blossom_wind", "Astral Gale"],
+      ["wh3_main_skill_cth_magic_yin_04_missile_mirror", "Moonlit Mirror"],
+      ["wh3_main_skill_cth_magic_yin_07_talons_of_night", "Grasp of the Eclipse"],
+      ["wh3_main_skill_cth_magic_yin_08_ancestral_warriors", "Lunar Guardians"]
+    ]
+  }
+}

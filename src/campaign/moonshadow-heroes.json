@@ -7,10 +7,19 @@
     "starting_capacity": 0,
     "recruitment_cost": 1000,
     "upkeep": 250,
-    "building": "wh3_main_cth_magic_tower_1",
-    "upgrade_buildings": ["wh3_main_cth_magic_tower_2", "wh3_main_cth_magic_tower_3"],
+    "building": "wh3_main_cth_jade_barracks_2",
+    "upgrade_buildings": [
+      "wh3_main_cth_jade_barracks_3"
+    ],
     "capacity_per_building": 1,
-    "actions": ["Assassinate", "Assault Units", "Assault Garrison", "Damage Building", "Scout Settlement", "Increase Mobility"]
+    "actions": [
+      "Assassinate",
+      "Assault Units",
+      "Assault Garrison",
+      "Damage Building",
+      "Scout Settlement",
+      "Increase Mobility"
+    ]
   },
   "legendary": {
     "name": "Da Anh, The Moon's Hidden Blade",
@@ -20,29 +29,240 @@
     "immortal": true,
     "counts_towards_generic_capacity": false,
     "random_recruitment": false,
-    "personal_skills": ["Moonshadow Veil", "Silent Execution", "Sever the Supply Lines"],
-    "personal_skill_display_ranks": [6, 12, 8],
-    "existing_save_auto_spawn": false
+    "personal_skills": [
+      "Moonshadow Veil",
+      "Sever the Supply Lines",
+      "Moonlit Prey",
+      "The Last Shadow"
+    ],
+    "personal_skill_display_ranks": [
+      6,
+      8,
+      12,
+      20
+    ],
+    "existing_save_auto_spawn": false,
+    "starting_movement": "Full normal action points once after spawn; no skill or movement-range bonus",
+    "existing_turn_one_save_movement_repair": true,
+    "custom_battle": {
+      "enabled": true,
+      "faction": "wh3_main_cth_cathay_mp",
+      "menu": "Grand Cathay > Heroes",
+      "signature_skill_preset": [
+        "Moonshadow Veil",
+        "Moonlit Prey",
+        "The Last Shadow"
+      ],
+      "character_level": 40,
+      "campaign_unaffected": true
+    }
   },
   "building": {
-    "name": "Celestial Tower",
-    "chain": "wh3_main_cth_magic_tower",
-    "required_settlement_tier": 3,
+    "name": "Cathay infantry barracks, tier II and higher",
+    "chain": "wh3_main_cth_jade_barracks",
+    "required_settlement_tier": 2,
     "new_building": false,
     "native_building_costs_and_effects_unchanged": true,
     "assassin_effects_faction_exclusive": true,
     "owner_context": "Region.Owner.RecordKey == \"cr_cth_agents_of_the_moon\"",
-    "capacity_per_building_at_all_three_levels": 1,
     "capacity_stacks_on_upgrade": false,
-    "removed_custom_building": "mc_moonshadow_hideout_3"
+    "removed_custom_building": "mc_moonshadow_hideout_3",
+    "capacity_per_building_at_both_levels": 1,
+    "recruitment_starts_at_building_tier": 2,
+    "former_chain": "wh3_main_cth_magic_tower",
+    "assassin_effects_removed_from_former_chain": true
   },
   "appearance": {
-    "status": "temporary_native_model_pending_user_selection",
+    "status": "moonshadow_v7_and_da_anh_v11_deployed",
     "source": "Khainite Assassin",
     "battle_animation": "hu1d_elf_sword_and_handbow",
     "campaign_animation": "cam_hero_hu1d_elf_sword_and_handbow",
-    "notes": "Original matching model/rig/animations, sword and handbow; no head graft or custom animation database. New appearance to be selected by user."
+    "notes": "Original matching model/rig/animations, sword and handbow; no head graft or custom animation database. New appearance to be selected by user.",
+    "da_anh": {
+      "source_model": "Celestial Concubines body01 head01, approved black outfit and closed chest",
+      "authoring_checkpoint": "assets/working/da-anh/da-anh-dagger-handbow-approved.blend",
+      "authoring_skeleton": "humanoid01e",
+      "runtime_skeleton": "humanoid01d",
+      "battle_animation": "hu1d_elf_sword_and_handbow",
+      "campaign_animation": "cam_hero_hu1d_elf_sword_and_handbow",
+      "weapons": [
+        "Dark Society Death Squad knife01",
+        "native Khainite handbow with corrected grip"
+      ],
+      "runtime_verified": false
+    }
   },
   "validation": "DB/loc roundtrip, native compiled animation lookups, skill graph and 17 mocked spawn scenarios; engine runtime pending",
-  "documentation": "docs/MOONSHADOW-HEROES.md"
+  "documentation": "docs/MOONSHADOW-MOON-SKILLS-V12.md",
+  "skills": {
+    "version": 12,
+    "language": "English ASCII",
+    "theme": "Agents of the Moon: moonlight, shadows, covert operations",
+    "shared_renames": [
+      {
+        "original": "wh2_main_skill_def_spy_unbreakable",
+        "key": "mc_moon_skill_moonbound_oath",
+        "name": "Moonbound Oath"
+      },
+      {
+        "original": "wh2_main_skill_def_generic_ward_of_khaine",
+        "key": "mc_moon_skill_lunar_aegis",
+        "name": "Lunar Aegis"
+      },
+      {
+        "original": "wh2_main_skill_all_immortality_hero",
+        "key": "mc_moon_skill_eternal_vigil",
+        "name": "Eternal Vigil"
+      },
+      {
+        "original": "wh3_main_skill_all_mentor_hero",
+        "key": "mc_moon_skill_teachings_of_the_moon",
+        "name": "Teachings of the Moon"
+      },
+      {
+        "original": "wh2_main_skill_def_spy_poison_1",
+        "key": "mc_moon_skill_moonshade_venom",
+        "name": "Moonshade Venom"
+      },
+      {
+        "original": "wh2_main_skill_def_spy_poison_2",
+        "key": "mc_moon_skill_heartseeker_venom",
+        "name": "Heartseeker Venom"
+      },
+      {
+        "original": "wh2_main_skill_def_spy_poison_3",
+        "key": "mc_moon_skill_night_lotus",
+        "name": "Night Lotus"
+      },
+      {
+        "original": "wh2_main_skill_def_combat_dance_of_death",
+        "key": "mc_moon_skill_moonblade_dance",
+        "name": "Moonblade Dance"
+      },
+      {
+        "original": "wh_main_skill_all_spy_self_gutter_fighter_2",
+        "key": "mc_moon_skill_close_quarters_training",
+        "name": "Close-Quarters Training"
+      },
+      {
+        "original": "wh_main_skill_all_spy_self_elusive",
+        "key": "mc_moon_skill_elusive_shadow",
+        "name": "Elusive Shadow"
+      },
+      {
+        "original": "wh_main_skill_all_spy_self_precise_2",
+        "key": "mc_moon_skill_measured_strikes",
+        "name": "Measured Strikes"
+      },
+      {
+        "original": "wh_main_skill_all_spy_self_survivalist_2",
+        "key": "mc_moon_skill_twilight_endurance",
+        "name": "Twilight Endurance"
+      },
+      {
+        "original": "wh2_main_skill_def_spy_shroud_of_darkness",
+        "key": "mc_moon_skill_mantle_of_the_moon",
+        "name": "Mantle of the Moon"
+      },
+      {
+        "original": "wh_main_skill_all_spy_self_fleet-footed",
+        "key": "mc_moon_skill_silent_footsteps",
+        "name": "Silent Footsteps"
+      },
+      {
+        "original": "wh_main_skill_all_spy_self_opportunist",
+        "key": "mc_moon_skill_exploit_the_opening",
+        "name": "Exploit the Opening"
+      },
+      {
+        "original": "wh_main_skill_all_spy_self_counter-striker_2",
+        "key": "mc_moon_skill_reprisal",
+        "name": "Reprisal"
+      },
+      {
+        "original": "wh_main_skill_all_spy_self_bloody_blade",
+        "key": "mc_moon_skill_moonforged_blade",
+        "name": "Moonforged Blade"
+      },
+      {
+        "original": "wh2_main_skill_skv_trophy_heads_assassin",
+        "key": "mc_moon_skill_moonshadow_execution",
+        "name": "Moonshadow Execution"
+      },
+      {
+        "original": "wh2_main_skill_def_assassin_missile_range_hawk_eyed",
+        "key": "mc_moon_skill_moonlit_sight",
+        "name": "Moonlit Sight"
+      },
+      {
+        "original": "wh_dlc05_skill_wef_general_personal_buff_missile_damage",
+        "key": "mc_moon_skill_moonpiercer_bolts",
+        "name": "Moonpiercer Bolts"
+      },
+      {
+        "original": "wh2_main_skill_def_combat_deadeye",
+        "key": "mc_moon_skill_unerring_aim",
+        "name": "Unerring Aim"
+      },
+      {
+        "original": "wh2_main_skill_all_hero_assist_army_increase_mobility",
+        "key": "mc_moon_skill_hidden_paths",
+        "name": "Hidden Paths"
+      },
+      {
+        "original": "wh2_main_skill_all_hero_hinder_settlement_assault_garrison",
+        "key": "mc_moon_skill_sabotage_the_watch",
+        "name": "Sabotage the Watch"
+      },
+      {
+        "original": "wh2_main_skill_all_hero_hinder_agent_assassinate",
+        "key": "mc_moon_skill_silent_elimination",
+        "name": "Silent Elimination"
+      },
+      {
+        "original": "wh2_main_skill_all_hero_hinder_army_assault_units",
+        "key": "mc_moon_skill_strike_from_the_shadows",
+        "name": "Strike from the Shadows"
+      },
+      {
+        "original": "wh2_main_skill_all_hero_reduce_action_cost",
+        "key": "mc_moon_skill_covert_preparation",
+        "name": "Covert Preparation"
+      },
+      {
+        "original": "wh2_main_skill_all_hero_hinder_settlement_damage_building",
+        "key": "mc_moon_skill_sabotage_the_foundations",
+        "name": "Sabotage the Foundations"
+      }
+    ],
+    "native_shared_effects_and_ranks_preserved": true,
+    "da_anh_abilities": [
+      {
+        "key": "mc_da_anh_moonlit_prey",
+        "name": "Moonlit Prey",
+        "display_rank": 12,
+        "replaces": "Silent Execution",
+        "target": "Enemy lord or hero",
+        "range_m": 100,
+        "duration_seconds": 20,
+        "cooldown_seconds": 90,
+        "melee_defence_add": -15,
+        "speed_multiplier": 0.8
+      },
+      {
+        "key": "mc_da_anh_last_shadow_ability",
+        "name": "The Last Shadow",
+        "display_rank": 20,
+        "requires_skill": "Moonlit Prey",
+        "target": "Self",
+        "duration_seconds": 10,
+        "cooldown_seconds": 120,
+        "melee_base_damage_multiplier": 1.5,
+        "melee_ap_damage_multiplier": 1.5,
+        "melee_defence_add": -15
+      }
+    ],
+    "save_migration_verified": false
+  },
+  "generated_names_group": "names_mc_agents_of_the_moon_vietnamese"
 }

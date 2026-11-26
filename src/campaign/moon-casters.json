@@ -1,0 +1,129 @@
+{
+  "faction": "cr_cth_agents_of_the_moon",
+  "agent_type": "wizard",
+  "models": [
+    {
+      "key": "mc_pyromancer",
+      "name": "Pyromancer",
+      "source_model": 1,
+      "wsmodel": "variantmeshes/wh_variantmodels/mc_moon_casters/mc_pyromancer.wsmodel",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_pyromancer.variantmeshdefinition",
+      "palette": "black / dark red",
+      "subtype": "mc_pyromancer",
+      "unit": "mc_pyromancer_human",
+      "skill_node_set": "mc_pyromancer_skills"
+    },
+    {
+      "key": "mc_astral_weaver",
+      "name": "Astral Weaver",
+      "source_model": 2,
+      "wsmodel": "variantmeshes/wh_variantmodels/mc_moon_casters/mc_astral_weaver.wsmodel",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_astral_weaver.variantmeshdefinition",
+      "palette": "black / silver",
+      "subtype": "mc_astral_weaver",
+      "unit": "mc_astral_weaver_human",
+      "skill_node_set": "mc_astral_weaver_skills"
+    },
+    {
+      "key": "mc_tidecaller",
+      "name": "Tidecaller",
+      "source_model": 3,
+      "wsmodel": "variantmeshes/wh_variantmodels/mc_moon_casters/mc_tidecaller.wsmodel",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_tidecaller.variantmeshdefinition",
+      "palette": "navy / silver",
+      "subtype": "mc_tidecaller",
+      "unit": "mc_tidecaller_human",
+      "skill_node_set": "mc_tidecaller_skills"
+    }
+  ],
+  "buildings": [
+    "wh3_main_cth_magic_tower_1",
+    "wh3_main_cth_magic_tower_2",
+    "wh3_main_cth_magic_tower_3"
+  ],
+  "capacity": "Shared native Astromancer wizard pool; no new capacity effects",
+  "costs": "Native foot Astromancer recruitment and upkeep values",
+  "names_language": "English ASCII",
+  "spell_design": "Approved native spell mechanics, icon and VFX unchanged; private English skill/ability names. Six spells and one lore passive per hero.",
+  "general_skills": "Existing campaign/innate/resistance/support nodes retained; added native Evasion, Earthing, Magical Reserves and Arcane Conduit in each magic line. No custom invented skills.",
+  "battle_animation": "hu1e_mage_storm_dragon",
+  "campaign_animation": "cam_hu1e_mage_storm_dragon",
+  "checkpoint": "assets/working/moon-casters/checkpoint.json",
+  "documentation": "docs/MOON-CASTER-SUPPORT-V23.md",
+  "custom_battle": {
+    "enabled": true,
+    "faction": "wh3_main_cth_cathay_mp",
+    "menu": "Grand Cathay > Heroes",
+    "spell_lists_pending": false,
+    "spell_presets_enabled": true,
+    "tidecaller_display_group": "mc_tidecaller_lore_combined",
+    "tidecaller_single_spell_page": true,
+    "tidecaller_healing_spells": [
+      "Restorative Waters",
+      "Renewing Tide"
+    ]
+  },
+  "spell_specification": "src/campaign/moon-caster-spells.json",
+  "starting_spells": {
+    "mc_pyromancer": "Fireball",
+    "mc_tidecaller": "Blessing of the Tides",
+    "mc_astral_weaver": "Veil of the Moon"
+  },
+  "hero_classification": "Regular recruitable heroes, not unique or legendary",
+  "multiple_recruits_per_subtype": true,
+  "subtype_unique_cap": -1,
+  "unit_campaign_cap": -1,
+  "recruitment_limit": "Existing shared wizard capacity, recruitment pool and normal campaign rules",
+  "astromancer_support": {
+    "skills": [
+      {
+        "native_skill": "wh3_cp1_skill_cth_astromancer_attuned_to_the_elements",
+        "skill": "mc_moon_caster_support_attuned_to_the_elements",
+        "name": "Attuned to the Moon"
+      },
+      {
+        "native_skill": "wh3_cp1_skill_cth_astromancer_martial_interests",
+        "skill": "mc_moon_caster_support_martial_interests",
+        "name": "Martial Discipline"
+      },
+      {
+        "native_skill": "wh3_cp1_skill_cth_astromancer_master_advisor",
+        "skill": "mc_moon_caster_support_master_advisor",
+        "name": "Counsel of the Moon"
+      },
+      {
+        "native_skill": "wh3_cp1_skill_cth_astromancer_celestial_syphon",
+        "skill": "mc_moon_caster_support_celestial_syphon",
+        "name": "Lunar Conduit"
+      },
+      {
+        "native_skill": "wh3_cp1_skill_cth_astromancer_astromantic_ward",
+        "skill": "mc_moon_caster_support_astromantic_ward",
+        "name": "Moonlit Warding"
+      },
+      {
+        "native_skill": "wh3_cp1_skill_cth_astromancer_heavenly_bonds",
+        "skill": "mc_moon_caster_support_heavenly_bonds",
+        "name": "Moonbound Beasts"
+      },
+      {
+        "native_skill": "wh3_cp1_skill_cth_astromancer_peerless_astromancy",
+        "skill": "mc_moon_caster_support_peerless_astromancy",
+        "name": "Mastery of the Moon"
+      }
+    ],
+    "shared_by": [
+      "mc_pyromancer",
+      "mc_tidecaller",
+      "mc_astral_weaver"
+    ],
+    "native_mechanics_icons_rank_gates_unchanged": true,
+    "heavens_cooldown_skill_omitted": true,
+    "army_support_choice": "Choose one of Moonlit Warding, Moonbound Beasts, Mastery of the Moon; native exclusivity retained",
+    "conduit_prerequisites": "Attuned to the Moon, then Martial Discipline and Counsel of the Moon; original subset threshold2 retained",
+    "skill_points_per_level_unchanged": true,
+    "existing_tree_unchanged": true
+  },
+  "combined_pack": "mc_moonshadow_heroes_v23_caster_support.pack",
+  "runtime_verified": false
+}

@@ -1,0 +1,21 @@
+{
+  "blend": "da-anh-dagger-handbow-approved.blend",
+  "sha256": "92178bbf7c70379d6ce72b98dac8a7a71506dace28aa9b56cca437ab877374d1",
+  "source": "D:\\Warhammer3_Modding\\moon_cathay\\build\\da-anh-moonshadow-animation-trial\\da-anh-moonshadow-handbow-native-grip-fixed.blend",
+  "approved": true,
+  "source_rig": "humanoid01e",
+  "target_runtime_rig": "humanoid01d",
+  "deployed": true,
+  "character": "Da Anh",
+  "role": "Legendary Hero",
+  "status": "approved_dagger_handbow_v11_deployed",
+  "runtime_verified": false,
+  "source_bones": 96,
+  "runtime_bones": 83,
+  "battle_animation": "hu1d_elf_sword_and_handbow",
+  "campaign_animation": "cam_hero_hu1d_elf_sword_and_handbow",
+  "installed_pack": "F:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\data\\mc_moonshadow_heroes_v11_da_anh_handbow.pack",
+  "pack_sha256": "7ed15a7ea89b7cfab44c0096709a7887a872953d4973a985177ff1c9572b40cb",
+  "deployment_report": "D:\\Warhammer3_Modding\\moon_cathay\\build\\da-anh-v11-dagger-handbow\\deployment.json",
+  "starting_movement_fix_retained": true
+}

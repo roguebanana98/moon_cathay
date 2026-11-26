@@ -1,0 +1,500 @@
+id,type,gender,frequency,text
+1986120000,family_name,b,1,Nguyen
+1986120001,family_name,b,1,Tran
+1986120002,family_name,b,1,Le
+1986120003,family_name,b,1,Pham
+1986120004,family_name,b,1,Hoang
+1986120005,family_name,b,1,Huynh
+1986120006,family_name,b,1,Phan
+1986120007,family_name,b,1,Vu
+1986120008,family_name,b,1,Vo
+1986120009,family_name,b,1,Dang
+1986120010,family_name,b,1,Bui
+1986120011,family_name,b,1,Do
+1986120012,family_name,b,1,Ho
+1986120013,family_name,b,1,Ngo
+1986120014,family_name,b,1,Duong
+1986120015,family_name,b,1,Ly
+1986120016,family_name,b,1,Dinh
+1986120017,family_name,b,1,Truong
+1986120018,family_name,b,1,Lam
+1986120019,family_name,b,1,Ta
+1986120020,family_name,b,1,Trinh
+1986120021,family_name,b,1,Doan
+1986120022,family_name,b,1,Luong
+1986120023,family_name,b,1,Mai
+1986120024,family_name,b,1,Dao
+1986120025,family_name,b,1,Cao
+1986120026,family_name,b,1,Chau
+1986120027,family_name,b,1,To
+1986120028,family_name,b,1,Ton
+1986120029,family_name,b,1,Luc
+1986120030,family_name,b,1,Luu
+1986120031,family_name,b,1,Ha
+1986120032,family_name,b,1,Thai
+1986120033,family_name,b,1,Van
+1986120034,family_name,b,1,La
+1986120035,family_name,b,1,Quach
+1986120036,family_name,b,1,Trieu
+1986120037,family_name,b,1,Chu
+1986120038,family_name,b,1,Vi
+1986120039,family_name,b,1,Hua
+1986120040,family_name,b,1,Khuat
+1986120041,family_name,b,1,Mac
+1986120042,family_name,b,1,Giang
+1986120043,family_name,b,1,Phung
+1986120044,family_name,b,1,Khuc
+1986120045,family_name,b,1,Thach
+1986120046,family_name,b,1,Nong
+1986120047,family_name,b,1,Au
+1986120048,family_name,b,1,Tang
+1986120049,family_name,b,1,Tu
+1986121000,forename,m,1,Bao
+1986121001,forename,m,1,Canh
+1986121002,forename,m,1,Cuong
+1986121003,forename,m,1,Dat
+1986121004,forename,m,1,Duc
+1986121005,forename,m,1,Dung
+1986121006,forename,m,1,Duy
+1986121007,forename,m,1,Hieu
+1986121008,forename,m,1,Hoang
+1986121009,forename,m,1,Hung
+1986121010,forename,m,1,Huy
+1986121011,forename,m,1,Khai
+1986121012,forename,m,1,Khoa
+1986121013,forename,m,1,Khoi
+1986121014,forename,m,1,Kien
+1986121015,forename,m,1,Long
+1986121016,forename,m,1,Loc
+1986121017,forename,m,1,Nam
+1986121018,forename,m,1,Nghia
+1986121019,forename,m,1,Phong
+1986121020,forename,m,1,Phuc
+1986121021,forename,m,1,Quan
+1986121022,forename,m,1,Quang
+1986121023,forename,m,1,Quoc
+1986121024,forename,m,1,Son
+1986121025,forename,m,1,Tai
+1986121026,forename,m,1,Tan
+1986121027,forename,m,1,Thang
+1986121028,forename,m,1,Thinh
+1986121029,forename,m,1,Trung
+1986121030,forename,m,1,Tuan
+1986121031,forename,m,1,Tung
+1986121032,forename,m,1,Viet
+1986121033,forename,m,1,Vinh
+1986121034,forename,m,1,Vuong
+1986121035,forename,m,1,Anh Dung
+1986121036,forename,m,1,Anh Kiet
+1986121037,forename,m,1,Anh Tuan
+1986121038,forename,m,1,Bao Duy
+1986121039,forename,m,1,Bao Long
+1986121040,forename,m,1,Bao Phuc
+1986121041,forename,m,1,Bao Quoc
+1986121042,forename,m,1,Chi Cuong
+1986121043,forename,m,1,Chi Dung
+1986121044,forename,m,1,Chi Kien
+1986121045,forename,m,1,Chi Thanh
+1986121046,forename,m,1,Chi Thien
+1986121047,forename,m,1,Chi Trung
+1986121048,forename,m,1,Chi Viet
+1986121049,forename,m,1,Cong Danh
+1986121050,forename,m,1,Cong Minh
+1986121051,forename,m,1,Cong Thanh
+1986121052,forename,m,1,Cong Vinh
+1986121053,forename,m,1,Dinh Phong
+1986121054,forename,m,1,Duc Anh
+1986121055,forename,m,1,Duc Hieu
+1986121056,forename,m,1,Duc Huy
+1986121057,forename,m,1,Duc Kien
+1986121058,forename,m,1,Duc Minh
+1986121059,forename,m,1,Duc Phong
+1986121060,forename,m,1,Duc Thang
+1986121061,forename,m,1,Duc Thinh
+1986121062,forename,m,1,Duc Trung
+1986121063,forename,m,1,Duc Viet
+1986121064,forename,m,1,Duy An
+1986121065,forename,m,1,Duy Khang
+1986121066,forename,m,1,Duy Khanh
+1986121067,forename,m,1,Duy Long
+1986121068,forename,m,1,Duy Manh
+1986121069,forename,m,1,Duy Nam
+1986121070,forename,m,1,Duy Phong
+1986121071,forename,m,1,Duy Quang
+1986121072,forename,m,1,Duy Thanh
+1986121073,forename,m,1,Duy Thinh
+1986121074,forename,m,1,Duy Truong
+1986121075,forename,m,1,Duy Tung
+1986121076,forename,m,1,Hai Dang
+1986121077,forename,m,1,Hai Duong
+1986121078,forename,m,1,Hai Long
+1986121079,forename,m,1,Hai Nam
+1986121080,forename,m,1,Hai Phong
+1986121081,forename,m,1,Hai Son
+1986121082,forename,m,1,Hai Trieu
+1986121083,forename,m,1,Huu Duc
+1986121084,forename,m,1,Huu Khang
+1986121085,forename,m,1,Huu Nghia
+1986121086,forename,m,1,Huu Phuc
+1986121087,forename,m,1,Huu Thanh
+1986121088,forename,m,1,Huu Thien
+1986121089,forename,m,1,Huu Tin
+1986121090,forename,m,1,Manh Cuong
+1986121091,forename,m,1,Manh Hung
+1986121092,forename,m,1,Manh Kien
+1986121093,forename,m,1,Minh Duc
+1986121094,forename,m,1,Minh Hieu
+1986121095,forename,m,1,Minh Hoang
+1986121096,forename,m,1,Minh Hung
+1986121097,forename,m,1,Minh Huy
+1986121098,forename,m,1,Minh Khang
+1986121099,forename,m,1,Minh Khoi
+1986121100,forename,m,1,Minh Long
+1986121101,forename,m,1,Minh Phong
+1986121102,forename,m,1,Minh Quan
+1986121103,forename,m,1,Minh Quang
+1986121104,forename,m,1,Minh Tri
+1986121105,forename,m,1,Minh Trung
+1986121106,forename,m,1,Ngoc Huy
+1986121107,forename,m,1,Ngoc Minh
+1986121108,forename,m,1,Ngoc Son
+1986121109,forename,m,1,Phuc An
+1986121110,forename,m,1,Phuc Lam
+1986121111,forename,m,1,Phuc Thinh
+1986121112,forename,m,1,Quang Duy
+1986121113,forename,m,1,Quang Huy
+1986121114,forename,m,1,Quang Khai
+1986121115,forename,m,1,Quang Minh
+1986121116,forename,m,1,Quang Vinh
+1986121117,forename,m,1,Quoc Anh
+1986121118,forename,m,1,Quoc Bao
+1986121119,forename,m,1,Quoc Duy
+1986121120,forename,m,1,Quoc Huy
+1986121121,forename,m,1,Quoc Khanh
+1986121122,forename,m,1,Quoc Phong
+1986121123,forename,m,1,Quoc Trung
+1986121124,forename,m,1,Thanh Dat
+1986121125,forename,m,1,Thanh Long
+1986121126,forename,m,1,Thanh Phong
+1986121127,forename,m,1,Thanh Son
+1986121128,forename,m,1,Thanh Tung
+1986121129,forename,m,1,Thien An
+1986121130,forename,m,1,Thien Bao
+1986121131,forename,m,1,Thien Long
+1986121132,forename,m,1,Thien Phuc
+1986121133,forename,m,1,Thien Vu
+1986121134,forename,m,1,Trong Duc
+1986121135,forename,m,1,Trong Hieu
+1986121136,forename,m,1,Trong Nghia
+1986121137,forename,m,1,Trong Tin
+1986121138,forename,m,1,Tuan Anh
+1986121139,forename,m,1,Tuan Kiet
+1986121140,forename,m,1,Tuan Minh
+1986121141,forename,m,1,Tuan Phong
+1986121142,forename,m,1,Tuan Vu
+1986121143,forename,m,1,Viet Anh
+1986121144,forename,m,1,Viet Dung
+1986121145,forename,m,1,Viet Hoang
+1986121146,forename,m,1,Viet Khang
+1986121147,forename,m,1,Viet Long
+1986121148,forename,m,1,Viet Phong
+1986121149,forename,m,1,Viet Thanh
+1986121150,forename,m,1,Viet Thang
+1986121151,forename,m,1,Viet Trung
+1986122000,forename,f,1,Bich
+1986122001,forename,f,1,Chi
+1986122002,forename,f,1,Dao
+1986122003,forename,f,1,Diep
+1986122004,forename,f,1,Diem
+1986122005,forename,f,1,Duyen
+1986122006,forename,f,1,Hanh
+1986122007,forename,f,1,Hien
+1986122008,forename,f,1,Hoa
+1986122009,forename,f,1,Hong
+1986122010,forename,f,1,Hue
+1986122011,forename,f,1,Huong
+1986122012,forename,f,1,Kim
+1986122013,forename,f,1,Lan
+1986122014,forename,f,1,Lien
+1986122015,forename,f,1,Lieu
+1986122016,forename,f,1,Loan
+1986122017,forename,f,1,Mai
+1986122018,forename,f,1,My
+1986122019,forename,f,1,Nga
+1986122020,forename,f,1,Ngan
+1986122021,forename,f,1,Nhi
+1986122022,forename,f,1,Nhung
+1986122023,forename,f,1,Nu
+1986122024,forename,f,1,Oanh
+1986122025,forename,f,1,Quynh
+1986122026,forename,f,1,Thao
+1986122027,forename,f,1,Thu
+1986122028,forename,f,1,Thuy
+1986122029,forename,f,1,Trang
+1986122030,forename,f,1,Tram
+1986122031,forename,f,1,Trinh
+1986122032,forename,f,1,Truc
+1986122033,forename,f,1,Tu
+1986122034,forename,f,1,Uyen
+1986122035,forename,f,1,Van
+1986122036,forename,f,1,Vi
+1986122037,forename,f,1,Vy
+1986122038,forename,f,1,Yen
+1986122039,forename,f,1,Anh Dao
+1986122040,forename,f,1,Anh Duong
+1986122041,forename,f,1,Anh Thu
+1986122042,forename,f,1,Anh Tuyet
+1986122043,forename,f,1,Bao Anh
+1986122044,forename,f,1,Bao Chau
+1986122045,forename,f,1,Bao Ha
+1986122046,forename,f,1,Bao Han
+1986122047,forename,f,1,Bao Ngoc
+1986122048,forename,f,1,Bao Nhi
+1986122049,forename,f,1,Bao Tram
+1986122050,forename,f,1,Bich Chau
+1986122051,forename,f,1,Bich Ha
+1986122052,forename,f,1,Bich Hanh
+1986122053,forename,f,1,Bich Lien
+1986122054,forename,f,1,Bich Ngoc
+1986122055,forename,f,1,Bich Phuong
+1986122056,forename,f,1,Cam Ha
+1986122057,forename,f,1,Cam Hong
+1986122058,forename,f,1,Cam Linh
+1986122059,forename,f,1,Cam Ly
+1986122060,forename,f,1,Cam Nhung
+1986122061,forename,f,1,Cam Tu
+1986122062,forename,f,1,Dieu Anh
+1986122063,forename,f,1,Dieu Ha
+1986122064,forename,f,1,Dieu Hien
+1986122065,forename,f,1,Dieu Linh
+1986122066,forename,f,1,Dieu Thao
+1986122067,forename,f,1,Dieu Trang
+1986122068,forename,f,1,Gia Han
+1986122069,forename,f,1,Gia Linh
+1986122070,forename,f,1,Gia Nhi
+1986122071,forename,f,1,Ha Anh
+1986122072,forename,f,1,Ha Chau
+1986122073,forename,f,1,Ha Linh
+1986122074,forename,f,1,Ha My
+1986122075,forename,f,1,Ha Phuong
+1986122076,forename,f,1,Hai Anh
+1986122077,forename,f,1,Hai Chau
+1986122078,forename,f,1,Hai Ha
+1986122079,forename,f,1,Hai Linh
+1986122080,forename,f,1,Hai Yen
+1986122081,forename,f,1,Hoai An
+1986122082,forename,f,1,Hoai Linh
+1986122083,forename,f,1,Hoai Phuong
+1986122084,forename,f,1,Hoai Thu
+1986122085,forename,f,1,Hoang Anh
+1986122086,forename,f,1,Hoang Lan
+1986122087,forename,f,1,Hoang Mai
+1986122088,forename,f,1,Hong Anh
+1986122089,forename,f,1,Hong Chau
+1986122090,forename,f,1,Hong Ha
+1986122091,forename,f,1,Hong Hanh
+1986122092,forename,f,1,Hong Lien
+1986122093,forename,f,1,Hong Loan
+1986122094,forename,f,1,Hong Mai
+1986122095,forename,f,1,Hong Ngoc
+1986122096,forename,f,1,Hong Nhung
+1986122097,forename,f,1,Hong Phuong
+1986122098,forename,f,1,Hong Tham
+1986122099,forename,f,1,Hong Thao
+1986122100,forename,f,1,Hong Van
+1986122101,forename,f,1,Huong Giang
+1986122102,forename,f,1,Huong Lan
+1986122103,forename,f,1,Huong Ly
+1986122104,forename,f,1,Khanh An
+1986122105,forename,f,1,Khanh Chi
+1986122106,forename,f,1,Khanh Ha
+1986122107,forename,f,1,Khanh Huyen
+1986122108,forename,f,1,Khanh Linh
+1986122109,forename,f,1,Khanh Ly
+1986122110,forename,f,1,Khanh Ngoc
+1986122111,forename,f,1,Khanh Nhu
+1986122112,forename,f,1,Khanh Van
+1986122113,forename,f,1,Kim Anh
+1986122114,forename,f,1,Kim Chi
+1986122115,forename,f,1,Kim Ha
+1986122116,forename,f,1,Kim Lien
+1986122117,forename,f,1,Kim Loan
+1986122118,forename,f,1,Kim Ngan
+1986122119,forename,f,1,Kim Ngoc
+1986122120,forename,f,1,Kim Phuong
+1986122121,forename,f,1,Kim Thoa
+1986122122,forename,f,1,Kim Uyen
+1986122123,forename,f,1,Lan Anh
+1986122124,forename,f,1,Lan Chi
+1986122125,forename,f,1,Lan Huong
+1986122126,forename,f,1,Lan Ngoc
+1986122127,forename,f,1,Lan Phuong
+1986122128,forename,f,1,Lan Thanh
+1986122129,forename,f,1,Le Anh
+1986122130,forename,f,1,Le Chi
+1986122131,forename,f,1,Le Ha
+1986122132,forename,f,1,Le Hang
+1986122133,forename,f,1,Le Huyen
+1986122134,forename,f,1,Le Quyen
+1986122135,forename,f,1,Lien Anh
+1986122136,forename,f,1,Minh Anh
+1986122137,forename,f,1,Minh Chau
+1986122138,forename,f,1,Minh Ha
+1986122139,forename,f,1,Minh Hanh
+1986122140,forename,f,1,Minh Huyen
+1986122141,forename,f,1,Minh Ngoc
+1986122142,forename,f,1,Minh Tam
+1986122143,forename,f,1,Minh Thu
+1986122144,forename,f,1,Minh Trang
+1986122145,forename,f,1,My Anh
+1986122146,forename,f,1,My Duyen
+1986122147,forename,f,1,My Ha
+1986122148,forename,f,1,My Hanh
+1986122149,forename,f,1,My Huong
+1986122150,forename,f,1,My Lan
+1986122151,forename,f,1,My Linh
+1986122152,forename,f,1,My Ngoc
+1986122153,forename,f,1,My Nhan
+1986122154,forename,f,1,My Tien
+1986122155,forename,f,1,Ngoc Anh
+1986122156,forename,f,1,Ngoc Bich
+1986122157,forename,f,1,Ngoc Chau
+1986122158,forename,f,1,Ngoc Diep
+1986122159,forename,f,1,Ngoc Dung
+1986122160,forename,f,1,Ngoc Ha
+1986122161,forename,f,1,Ngoc Hanh
+1986122162,forename,f,1,Ngoc Hien
+1986122163,forename,f,1,Ngoc Hoa
+1986122164,forename,f,1,Ngoc Hong
+1986122165,forename,f,1,Ngoc Hue
+1986122166,forename,f,1,Ngoc Huong
+1986122167,forename,f,1,Ngoc Khanh
+1986122168,forename,f,1,Ngoc Lan
+1986122169,forename,f,1,Ngoc Lien
+1986122170,forename,f,1,Ngoc Linh
+1986122171,forename,f,1,Ngoc Mai
+1986122172,forename,f,1,Ngoc Nga
+1986122173,forename,f,1,Ngoc Ngan
+1986122174,forename,f,1,Ngoc Nhi
+1986122175,forename,f,1,Ngoc Phuong
+1986122176,forename,f,1,Ngoc Quynh
+1986122177,forename,f,1,Ngoc Thao
+1986122178,forename,f,1,Ngoc Thu
+1986122179,forename,f,1,Ngoc Tram
+1986122180,forename,f,1,Ngoc Trinh
+1986122181,forename,f,1,Ngoc Uyen
+1986122182,forename,f,1,Ngoc Van
+1986122183,forename,f,1,Nguyet Anh
+1986122184,forename,f,1,Nguyet Ha
+1986122185,forename,f,1,Nguyet Lan
+1986122186,forename,f,1,Nguyet Linh
+1986122187,forename,f,1,Nguyet Mai
+1986122188,forename,f,1,Nguyet Nga
+1986122189,forename,f,1,Nguyet Thu
+1986122190,forename,f,1,Nguyet Van
+1986122191,forename,f,1,Phuong Anh
+1986122192,forename,f,1,Phuong Chi
+1986122193,forename,f,1,Phuong Ha
+1986122194,forename,f,1,Phuong Hien
+1986122195,forename,f,1,Phuong Lan
+1986122196,forename,f,1,Phuong Linh
+1986122197,forename,f,1,Phuong Mai
+1986122198,forename,f,1,Phuong Nhi
+1986122199,forename,f,1,Phuong Thao
+1986122200,forename,f,1,Quynh Anh
+1986122201,forename,f,1,Quynh Chi
+1986122202,forename,f,1,Quynh Ha
+1986122203,forename,f,1,Quynh Hoa
+1986122204,forename,f,1,Quynh Huong
+1986122205,forename,f,1,Quynh Lan
+1986122206,forename,f,1,Quynh Lien
+1986122207,forename,f,1,Quynh Mai
+1986122208,forename,f,1,Quynh Nga
+1986122209,forename,f,1,Quynh Nhu
+1986122210,forename,f,1,Quynh Trang
+1986122211,forename,f,1,Thanh An
+1986122212,forename,f,1,Thanh Ha
+1986122213,forename,f,1,Thanh Hang
+1986122214,forename,f,1,Thanh Hien
+1986122215,forename,f,1,Thanh Hoa
+1986122216,forename,f,1,Thanh Huong
+1986122217,forename,f,1,Thanh Lan
+1986122218,forename,f,1,Thanh Mai
+1986122219,forename,f,1,Thanh Ngan
+1986122220,forename,f,1,Thanh Nha
+1986122221,forename,f,1,Thanh Phuong
+1986122222,forename,f,1,Thanh Tam
+1986122223,forename,f,1,Thanh Thao
+1986122224,forename,f,1,Thanh Thu
+1986122225,forename,f,1,Thanh Truc
+1986122226,forename,f,1,Thanh Van
+1986122227,forename,f,1,Thu Anh
+1986122228,forename,f,1,Thu Ha
+1986122229,forename,f,1,Thu Hang
+1986122230,forename,f,1,Thu Hien
+1986122231,forename,f,1,Thu Hoa
+1986122232,forename,f,1,Thu Huong
+1986122233,forename,f,1,Thu Lan
+1986122234,forename,f,1,Thu Mai
+1986122235,forename,f,1,Thu Ngoc
+1986122236,forename,f,1,Thu Phuong
+1986122237,forename,f,1,Thu Thao
+1986122238,forename,f,1,Thu Trang
+1986122239,forename,f,1,Thuy Anh
+1986122240,forename,f,1,Thuy Chi
+1986122241,forename,f,1,Thuy Duong
+1986122242,forename,f,1,Thuy Ha
+1986122243,forename,f,1,Thuy Hanh
+1986122244,forename,f,1,Thuy Hoa
+1986122245,forename,f,1,Thuy Lan
+1986122246,forename,f,1,Thuy Linh
+1986122247,forename,f,1,Thuy Mai
+1986122248,forename,f,1,Thuy Ngoc
+1986122249,forename,f,1,Thuy Nhi
+1986122250,forename,f,1,Thuy Phuong
+1986122251,forename,f,1,Thuy Tien
+1986122252,forename,f,1,Thuy Truc
+1986122253,forename,f,1,Thuy Van
+1986122254,forename,f,1,Tram Anh
+1986122255,forename,f,1,Truc Anh
+1986122256,forename,f,1,Truc Chi
+1986122257,forename,f,1,Truc Ha
+1986122258,forename,f,1,Truc Lam
+1986122259,forename,f,1,Truc Linh
+1986122260,forename,f,1,Truc Mai
+1986122261,forename,f,1,Truc Phuong
+1986122262,forename,f,1,Tu Anh
+1986122263,forename,f,1,Tu Linh
+1986122264,forename,f,1,Tu Uyen
+1986122265,forename,f,1,Tuyet Anh
+1986122266,forename,f,1,Tuyet Hoa
+1986122267,forename,f,1,Tuyet Lan
+1986122268,forename,f,1,Tuyet Linh
+1986122269,forename,f,1,Tuyet Mai
+1986122270,forename,f,1,Tuyet Nga
+1986122271,forename,f,1,Tuyet Nhi
+1986122272,forename,f,1,Tuyet Nhung
+1986122273,forename,f,1,Tuyet Trinh
+1986122274,forename,f,1,Tuyet Van
+1986122275,forename,f,1,Yen Anh
+1986122276,forename,f,1,Yen Chi
+1986122277,forename,f,1,Yen Ha
+1986122278,forename,f,1,Yen Hoa
+1986122279,forename,f,1,Yen Linh
+1986122280,forename,f,1,Yen Ngoc
+1986122281,forename,f,1,Yen Nhi
+1986122282,forename,f,1,Yen Phuong
+1986123000,forename,b,1,An
+1986123001,forename,b,1,Anh
+1986123002,forename,b,1,Binh
+1986123003,forename,b,1,Chau
+1986123004,forename,b,1,Giang
+1986123005,forename,b,1,Ha
+1986123006,forename,b,1,Hai
+1986123007,forename,b,1,Khanh
+1986123008,forename,b,1,Lam
+1986123009,forename,b,1,Linh
+1986123010,forename,b,1,Minh
+1986123011,forename,b,1,Ngoc
+1986123012,forename,b,1,Phuong
+1986123013,forename,b,1,Thanh

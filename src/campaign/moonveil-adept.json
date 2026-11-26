@@ -1,0 +1,101 @@
+{
+  "name": "Moonveil Adept",
+  "subtype": "mc_moonveil_adept",
+  "classification": "regular_repeatable_hero",
+  "faction": "cr_cth_agents_of_the_moon",
+  "role": "Protect allies, control enemies, guide armies along hidden paths",
+  "lore": "wh_main_lore_light",
+  "native_spell_mechanics_icons_vfx": true,
+  "spell_names": "Original English Lore of Light names",
+  "campaign_role": "Native Alchemist/engineer actions: Increase Mobility, Boost Income, Damage Building, Assassinate, Hinder Replenishment, Specialist",
+  "recruitment": "Replaces Alchemist recruitment only for Agents of the Moon; existing Alchemist buildings, shared engineer capacity, no additional capacity",
+  "stats_costs": "Native Alchemist unit and subtype values",
+  "appearance_source": {
+    "pack": "F:\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\3836052402\\@taolu_cth_esoteric_masters.pack",
+    "sha256": "b1eef9a9c77dec10cc8ef569f3419a506a5911ea09fbb6f89d011bd16ca0b9de"
+  },
+  "appearances": [
+    {
+      "key": "mc_moonveil_adept_white",
+      "palette": "black",
+      "source": "cth_air_bender",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_moonveil_adept_white.variantmeshdefinition",
+      "representative": [
+        "variantmeshes/wh_variantmodels/mc_moonveil_adept/assets/67bf15677f_cth_bender_body_01_black.wsmodel",
+        "variantmeshes/wh_variantmodels/mc_moonveil_adept/assets/ca8744a6c0_cth_nan_gau_warrior_head2_black.wsmodel"
+      ],
+      "gallery_number": 2,
+      "body_palette": "black",
+      "head_number": 2,
+      "selection": "02 | Body 01 | Head 2",
+      "legacy_palette_slot": "white"
+    },
+    {
+      "key": "mc_moonveil_adept_black",
+      "palette": "black",
+      "source": "cth_earth_bender",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_moonveil_adept_black.variantmeshdefinition",
+      "representative": [
+        "variantmeshes/wh_variantmodels/mc_moonveil_adept/assets/f3a14306f9_cth_bender_body_03_black.wsmodel",
+        "variantmeshes/wh_variantmodels/mc_moonveil_adept/assets/ca8744a6c0_cth_nan_gau_warrior_head2_black.wsmodel"
+      ],
+      "gallery_number": 6,
+      "body_palette": "black",
+      "head_number": 2,
+      "selection": "06 | Body 03 | Head 2",
+      "legacy_palette_slot": "black"
+    },
+    {
+      "key": "mc_moonveil_adept_blue",
+      "palette": "black",
+      "source": "cth_water_bender",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_moonveil_adept_blue.variantmeshdefinition",
+      "representative": [
+        "variantmeshes/wh_variantmodels/mc_moonveil_adept/assets/8114f1669b_cth_bender_body_01a_black.wsmodel",
+        "variantmeshes/wh_variantmodels/mc_moonveil_adept/assets/ca8744a6c0_cth_nan_gau_warrior_head2_black.wsmodel"
+      ],
+      "gallery_number": 10,
+      "body_palette": "black",
+      "head_number": 2,
+      "selection": "10 | Body 01a | Head 2",
+      "legacy_palette_slot": "blue"
+    },
+    {
+      "key": "mc_moonveil_adept_red",
+      "palette": "black",
+      "source": "cth_fire_bender",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_moonveil_adept_red.variantmeshdefinition",
+      "representative": [
+        "variantmeshes/wh_variantmodels/mc_moonveil_adept/assets/be149244f1_cth_bender_body_03a_black.wsmodel",
+        "variantmeshes/wh_variantmodels/mc_moonveil_adept/assets/ca8744a6c0_cth_nan_gau_warrior_head2_black.wsmodel"
+      ],
+      "gallery_number": 14,
+      "body_palette": "black",
+      "head_number": 2,
+      "selection": "14 | Body 03a | Head 2",
+      "legacy_palette_slot": "red"
+    }
+  ],
+  "mounts": [
+    "Warhorse",
+    "Sky Lantern"
+  ],
+  "custom_battle": {
+    "faction": "wh3_main_cth_cathay_mp",
+    "category": "Heroes",
+    "general_unit": false,
+    "lore": "wh_main_lore_light",
+    "mount_selector": true
+  },
+  "pack": "mc_moonshadow_heroes_v34_yuan_bo_lord.pack",
+  "runtime_verified": false,
+  "approved_gallery_numbers": [
+    2,
+    6,
+    10,
+    14
+  ],
+  "head_selection": "Native black head2 for all four user-selected body variants",
+  "approved_scene": "build/moonveil-v32-approved-variants/moonveil-approved-02-06-10-14.blend",
+  "validation_report": "build/moonveil-v32-approved-variants/pack-validation.json"
+}

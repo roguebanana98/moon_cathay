@@ -1,0 +1,47 @@
+local listeners, queue, ticks = {}, {}, {}
+local faction = "cr_cth_agents_of_the_moon"
+local panel = true
+local lords_visible = true
+local clicked, hidden = {}, {}
+local localised = {wh3_dlc24_cth_celestial_general="Thien Tuong",mc_assault_general="Assault General",mc_bastion_general="Bastion General"}
+local function button(id, label, state)
+    return {id=id,label={GetStateText=function() return label end},state=state or "active",visible=true,
+        Id=function(self) return self.id end,CurrentState=function(self) return self.state end,
+        SetVisible=function(self,v) self.visible=v;hidden[#hidden+1]=self.id end,
+        SimulateLClick=function(self) clicked[#clicked+1]=self.id;for _,b in ipairs(_G.buttons) do b.state="active" end;self.state="selected" end}
+end
+buttons={button("wh3_dlc24_cth_celestial_general","Thien Tuong","selected"),button("mc_assault_general","Assault General"),button("mc_bastion_general","Bastion General")}
+local list={ChildCount=function() return #buttons end,Find=function(_,i) return buttons[i+1] end}
+local parent={Visible=function() return lords_visible end}
+cm={get_local_faction_name=function() return faction end,callback=function(_,f) queue[#queue+1]=f end,add_first_tick_callback=function(_,f) ticks[#ticks+1]=f end}
+core={get_ui_root=function() return "root" end,add_listener=function(_,name,event,cond,action) listeners[event]={cond,action} end}
+common={get_localised_string=function(key) local k=key:gsub("^agent_recruitment_categories_onscreen_name_","");return localised[k] end}
+UIComponent=function(value) return value end
+find_uicomponent=function(root,...)
+    if root=="root" then
+        local p={...};assert(table.concat(p,"/")=="character_panel/character_panel_info_holder/lords_and_agents_holder/lord_parent")
+        return panel and parent or nil
+    end
+    if root==parent then assert(select(1,...)=="list_box");return list end
+    assert(select(1,...)=="label");return root.label
+end
+local function flush() local q=queue;queue={};for _,f in ipairs(q) do f() end end
+local function emit(event,s)
+    local l=listeners[event];local c={string=s}
+    if l[1](c) then l[2](c) end;flush()
+end
+dofile("src/script/campaign/mod/mc_moon_hide_celestial_general_tab.lua")
+emit("PanelOpenedCampaign","character_panel")
+assert(not buttons[1].visible and buttons[2].visible and buttons[3].visible)
+assert(#clicked==1 and clicked[1]=="mc_assault_general")
+buttons[1].state="active";buttons[3].state="selected";emit("ComponentLClickUp");assert(#clicked==1) -- Keep user's Bastion selection.
+buttons[1]=button("opaque_dynamic_17","Thien Tuong");emit("ComponentLClickUp");assert(not buttons[1].visible) -- Localised label fallback.
+faction="wh3_main_cth_the_northern_provinces";buttons[1]=button("wh3_dlc24_cth_celestial_general","Thien Tuong","selected");local count=#hidden
+emit("PanelOpenedCampaign","character_panel");emit("ComponentLClickUp");assert(buttons[1].visible and #hidden==count and #clicked==1)
+faction="cr_cth_agents_of_the_moon";panel=false;emit("PanelOpenedCampaign","character_panel");assert(#hidden==count)
+panel=true;buttons={button("wh3_dlc24_cth_celestial_general","Thien Tuong","down"),button("mc_bastion_general","Bastion General")};emit("PanelOpenedCampaign","character_panel");assert(clicked[#clicked]=="mc_bastion_general")
+emit("PanelClosedCampaign","character_panel");buttons[1].visible=true;count=#hidden;emit("ComponentLClickUp");assert(buttons[1].visible and #hidden==count)
+for _,f in ipairs(ticks) do f() end;flush();assert(not buttons[1].visible) -- Already-open panel on load.
+lords_visible=false;buttons[1].visible=true;buttons[1].state="selected";count=#hidden;local clicks=#clicked
+emit("PanelOpenedCampaign","character_panel");emit("ComponentLClickUp");assert(buttons[1].visible and #hidden==count and #clicked==clicks) -- Hero recruitment shares this panel.
+print("PASS: Moon-only category hiding, exact-ID/localised fallback, default selection repair, other categories/factions untouched, absent/closed/hero panel safety")

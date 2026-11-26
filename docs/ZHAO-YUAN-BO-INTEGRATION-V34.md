@@ -1,0 +1,11 @@
+# Zhao Yixuan approved Yuan Bo integration - 2026-11-24
+
+User approved zhao-yuan-bo-sword-grip-fixed.blend and requested updating the current mod. Built directly on active v33; no proposed Moon/water/fire skill redesign is included. WWD skills, spells, stats, source body/weights, recruitment groups, mounts of other lords and all other content remain unchanged.
+
+The mc_mooncourt_lord_human battle unit now references the real native compiled hu1e_dlc24_yuan_bo_dragon_jade animation table. Campaign art1986113200 uses native cam_lord_hu1e_dlc24_yuan_bo_dragon_jade. Native compiled battle entries are verified in the extracted animation archives, native skeleton mapping is humanoid01e, and the campaign BIN is verified. No custom animation lookup, source-only fragment, exported Blender montage, native clip bundle or runtime UI script is introduced. This explicitly avoids the previous missing-custom-runtime-BIN T-pose failure mode; it is not a game-runtime confirmation.
+
+The existing private body VMD is unchanged except a weapon_2 slot for Yuan Bo's original sword. Sword WS/material/texture dependencies are namespaced in the private pack; common textures remain native references. Original RMV2 geometry, all four LODs and material pivots are byte-identical to the approved native sword source. The native engine applies weapon2 pose and material pivot; the Blender-only fix was to preserve that same pivot via CHILD_OF rather than overwrite it with COPY_TRANSFORMS. No arbitrary offset, hand edits or reweighting are exported.
+
+Portrait/card PNGs are rerendered from the exact approved fixed scene. Campaign/battle/custom-battle appearance IDs remain unchanged. Only land_units.man_animation, campaign_character_arts.land_animation, the private VMD and four PNGs change among existing payloads; source sword assets are added. Every other v33 payload is byte-identical, including the approved Moonveil models02/06/10/14 and the lord recruitment layout.
+
+Validation/deployment reports: build/moon-v34-yuan-bo-lord. Current DB extraction: reference/local/moon-v34-roundtrip/db. Build tools: Render-Zhao-Yuan-Bo-Integration.py, Build-Zhao-Yuan-Bo-Integration.py, Deploy-Zhao-Yuan-Bo-Integration.py. Previous v33 retained for rollback. No saves, native game or Workshop packs modified; no public redistribution. No game launch/runtime rendering confirmation.

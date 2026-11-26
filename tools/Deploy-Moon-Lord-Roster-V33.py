@@ -1,0 +1,24 @@
+"""Enable validated v33 lord roster pack; retain v32 disabled."""
+import copy,hashlib,json,os,shutil,subprocess
+from datetime import datetime,timezone
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];C=json.loads((R/'config/local.json').read_text(encoding='utf-8-sig'));O=R/'build/moon-v33-lord-roster'
+v=json.loads((O/'pack-validation.json').read_text());assert v['status']=='static_checks_passed' and not v['blocking_diagnostics']
+assert v['roundtrip_passed'] and v['source_skill_mechanics_preserved'] and v['source_native_animation'] and v['native_shugengan_disabled_moon_only'] and v['private_assault_category_removed'] and v['unrelated_payloads_unchanged'] and v['no_ui_script']
+sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+source=Path(v['pack']).resolve();data=(Path(C['game'])/'data').resolve();target=(data/source.name).resolve()
+assert source.parent==O.resolve() and target.parent==data and sha(source)==v['sha256'];assert not target.exists() and not (O/'deployment.json').exists();assert sha(v['base'])==v['base_sha256']
+running=subprocess.run(['powershell','-NoProfile','-Command','@(Get-Process -Name Warhammer3 -ErrorAction SilentlyContinue).Count'],capture_output=True,text=True,check=True);assert running.stdout.strip()=='0','Close the game before deployment'
+launcher=Path(os.environ['APPDATA'])/'The Creative Assembly/Launcher/20190104-moddata.dat';raw=launcher.read_bytes();mods=json.loads(raw.decode('utf-8-sig'));before=copy.deepcopy(mods)
+oldname=Path(v['base']).name;old=[m for m in mods if m.get('game')=='warhammer3' and m.get('uuid')==oldname and m.get('active')];assert len(old)==1 and not any(m.get('uuid')==source.name for m in mods)
+baseline={m['packfile']:sha(m['packfile']) for m in mods if m.get('game')=='warhammer3' and m.get('active') and m.get('owned')}
+backup=O/('deployment-backup-'+datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S'));backup.mkdir();(backup/launcher.name).write_bytes(raw)
+shutil.copy2(source,target);assert sha(target)==v['sha256']
+new=copy.deepcopy(old[0]);new.update(uuid=source.name,packfile=target.as_posix(),name='Agents of the Moon - Shugengan Generals and WWD Lord',active=True,order=old[0].get('order',0))
+mods.insert(mods.index(old[0])+1,new);old[0]['active']=False
+other=lambda rs:[m for m in rs if not(m.get('game')=='warhammer3' and m.get('uuid') in (oldname,source.name))]
+assert other(mods)==other(before);assert launcher.read_bytes()==raw,'Launcher changed concurrently; copied pack left disabled'
+temp=launcher.with_name(launcher.name+'.moon-lord-roster.tmp');temp.write_text(json.dumps(mods,ensure_ascii=False,separators=(',',':')),encoding='utf8');os.replace(temp,launcher)
+assert json.loads(launcher.read_text(encoding='utf-8-sig'))==mods;assert all(sha(p)==h for p,h in baseline.items())
+report=dict(status='deployed_enabled',target=str(target),sha256=sha(target),enabled=source.name,disabled=oldname,previous_pack_retained=True,launcher_backup=str(backup/launcher.name),unrelated_launcher_entries_unchanged=True,previous_active_pack_hashes_unchanged=True,saves_modified=False,native_or_workshop_modified=False,game_launched=False,runtime_verified=False,previous_active_load_order_preserved=True,order=new['order'])
+(O/'deployment.json').write_text(json.dumps(report,indent=2),encoding='utf8');v['deployed']=True;(O/'pack-validation.json').write_text(json.dumps(v,indent=2),encoding='utf8');print(json.dumps(report,indent=2))

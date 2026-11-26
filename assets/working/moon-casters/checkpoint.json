@@ -1,0 +1,39 @@
+{
+  "status": "model_and_recruitment_preview_spells_deferred",
+  "scene": "D:\\Warhammer3_Modding\\moon_cathay\\assets\\working\\moon-casters\\moon-casters-models.blend",
+  "scene_sha256": "ba4f29f4459b731fc7e159bbf237e0026c6e579f1b79e9056b2826f12d3b2771",
+  "source_pack": "F:/SteamLibrary/steamapps/workshop/content/1142710/3270368516/@mustdy_sarv_hakutaku_diviner.pack",
+  "source_pack_sha256": "13db2dc05aa189820c26a058ad79c8351184e71bce8f572eecb548ae2e849f5d",
+  "models": [
+    {
+      "key": "mc_pyromancer",
+      "name": "Pyromancer",
+      "source_model": 1,
+      "wsmodel": "variantmeshes/wh_variantmodels/mc_moon_casters/mc_pyromancer.wsmodel",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_pyromancer.variantmeshdefinition",
+      "palette": "black / dark red"
+    },
+    {
+      "key": "mc_astral_weaver",
+      "name": "Astral Weaver",
+      "source_model": 2,
+      "wsmodel": "variantmeshes/wh_variantmodels/mc_moon_casters/mc_astral_weaver.wsmodel",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_astral_weaver.variantmeshdefinition",
+      "palette": "black / silver"
+    },
+    {
+      "key": "mc_tidecaller",
+      "name": "Tidecaller",
+      "source_model": 3,
+      "wsmodel": "variantmeshes/wh_variantmodels/mc_moon_casters/mc_tidecaller.wsmodel",
+      "vmd": "variantmeshes/variantmeshdefinitions/mc_tidecaller.variantmeshdefinition",
+      "palette": "navy / silver"
+    }
+  ],
+  "skeleton": "humanoid01e",
+  "battle_animation": "hu1e_mage_storm_dragon",
+  "campaign_animation": "cam_hu1e_mage_storm_dragon",
+  "sampled_poses": 63,
+  "runtime_verified": false,
+  "documentation": "docs/MOON-CASTERS-V13.md"
+}

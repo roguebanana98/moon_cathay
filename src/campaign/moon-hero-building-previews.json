@@ -1,0 +1,16 @@
+{
+  "pack": "mc_moonshadow_heroes_v34_yuan_bo_lord.pack",
+  "faction": "cr_cth_agents_of_the_moon",
+  "units": [
+    "mc_moonshadow_assassin_human",
+    "mc_pyromancer_human",
+    "mc_astral_weaver_human",
+    "mc_tidecaller_human",
+    "Luke_cth_master_engineer",
+    "mc_moonveil_adept_human"
+  ],
+  "campaign_exclusive": true,
+  "existing_payloads_unchanged": true,
+  "runtime_verified": false,
+  "documentation": "docs/MOON-HERO-BUILDING-PREVIEWS-V30.md"
+}

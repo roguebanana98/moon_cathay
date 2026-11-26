@@ -1,0 +1,28 @@
+{
+  "character": "Da Anh",
+  "role": "Legendary Hero",
+  "character_key": "mc_da_anh",
+  "blend": "da-anh-legendary-hero.blend",
+  "sha256": "9c60cf60d750c36bb255c70ba71088cfbbbd35743d6ee0e0c907f218c6fd9784",
+  "approved_source": "D:\\Warhammer3_Modding\\moon_cathay\\build\\celestial-concubines-dual-knives\\celestial-concubine-01-closed-chest-textured.blend",
+  "source_mod": "GrandCathay_CelestialConcubines_ENG.pack",
+  "body": 1,
+  "head": 1,
+  "skeleton": "humanoid01e",
+  "bones": 96,
+  "weapons": [
+    "ninja_knife_1",
+    "ninja_knife_2"
+  ],
+  "preview_animation": "hu1e_sword_and_shield",
+  "packed_used_images": 15,
+  "linked_libraries": 0,
+  "status": "appearance_approved_runtime_v10_starting_movement_fix_deployed",
+  "deployed": true,
+  "runtime_verified": false,
+  "battle_animation": "hu1e_sword_and_shield",
+  "campaign_animation": "cam_hero_hu1e_dlc24_gatemaster_sword_and_shield",
+  "installed_pack": "F:\\SteamLibrary\\steamapps\\common\\Total War WARHAMMER III\\data\\mc_moonshadow_heroes_v10_starting_movement.pack",
+  "pack_sha256": "b8a6ee8424e56f407b1ae20e17965cc5bd9a55123ffde92247708485cddbadb4",
+  "deployment_report": "D:\\Warhammer3_Modding\\moon_cathay\\build\\da-anh-v10-starting-movement\\deployment.json"
+}

@@ -1,0 +1,45 @@
+{
+  "pack": "mc_moonshadow_heroes_v34_yuan_bo_lord.pack",
+  "key": "mc_mooncourt_lord",
+  "display_name": "Zhao Yixuan",
+  "classification": "regular_repeatable_lord",
+  "faction": "cr_cth_agents_of_the_moon",
+  "recruitment_category": "wh3_dlc24_cth_celestial_general",
+  "source": {
+    "gallery_number": 20,
+    "unit": "deer_cth_zhaoyixuan",
+    "pack": "F:\\SteamLibrary\\steamapps\\workshop\\content\\1142710\\2789903784\\DEER24Cathay.pack",
+    "sha256": "c5f411df984a0241d0dc507255a28e596a66ea5df585710ef5d61794fb60d304"
+  },
+  "graphics": {
+    "key": "mc_mooncourt_lord",
+    "gallery_number": 20,
+    "source": "deer_cth_zhaoyixuan",
+    "vmd": "variantmeshes/variantmeshdefinitions/mc_mooncourt_lord.variantmeshdefinition",
+    "representative": [
+      "variantmeshes/wh_variantmodels/mc_mooncourt_lord/assets/46891c65cb_zhaoyixuan_body.wsmodel"
+    ]
+  },
+  "native_animation": "hu1e_dlc24_yuan_bo_dragon_jade",
+  "source_skill_tree_preserved": true,
+  "skill_nodes": 73,
+  "custom_skills": 14,
+  "custom_abilities": 3,
+  "source_mounts": 0,
+  "custom_battle_enabled": true,
+  "names_group": "names_mc_agents_of_the_moon_vietnamese",
+  "localization": "English ASCII",
+  "documentation": "docs/MOON-LORD-ROSTER-V33.md",
+  "runtime_verified": false,
+  "native_campaign_animation": "cam_lord_hu1e_dlc24_yuan_bo_dragon_jade",
+  "approved_scene": "D:\\Warhammer3_Modding\\moon_cathay\\build\\zhao-yuan-bo-preview\\zhao-yuan-bo-sword-grip-fixed.blend",
+  "weapon": {
+    "name": "Yuan Bo native sword",
+    "wsmodel": "variantmeshes/wh_variantmodels/mc_mooncourt_lord/yuan_bo_sword/a6a90d30ff_cth_dragon_jade_human_sword_2h_01.wsmodel",
+    "attachment": "weapon_2",
+    "original_material_pivots_preserved": true,
+    "native_geometry_and_four_lods_unchanged": true
+  },
+  "skill_redesign": "Moon/water/fire proposal not yet applied; original WWD skills preserved",
+  "integration_documentation": "docs/ZHAO-YUAN-BO-INTEGRATION-V34.md"
+}

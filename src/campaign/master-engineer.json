@@ -1,0 +1,52 @@
+{
+  "name": "Ordnance Master",
+  "subtype": "Luke_cth_master_engineer",
+  "agent_type": "wizard",
+  "faction": "cr_cth_agents_of_the_moon",
+  "regular_repeatable_hero": true,
+  "campaign_cap": -1,
+  "buildings": [
+    "wh3_main_cth_gunners_1",
+    "wh3_main_cth_gunners_2",
+    "wh3_main_cth_gunners_3"
+  ],
+  "capacity": "Source-mod behavior: Forge adds 1/2/3 to shared wizard capacity, not a new independent engineer pool",
+  "source_mod_workshop_id": "2815205063",
+  "source_pack_sha256": "f63f7488dca880768851400e7be2c23715757f92b01370c8147064679e6f1c4f",
+  "requires_original_mod_enabled": false,
+  "requires_portrait_submod_enabled": false,
+  "unit_variants": 5,
+  "mounts": [
+    "Warhorse",
+    "Sky Lantern",
+    "Sky Junk",
+    "Gyrobomber"
+  ],
+  "source_hero_stats_skills_mount_effects_preserved": true,
+  "omitted_unrelated_source_changes": [
+    "Five vanilla Astromancer art overrides",
+    "Three global native technology effect additions"
+  ],
+  "localization": "English ASCII",
+  "source_assets_location": "Private ignored build output only; original Workshop files read-only",
+  "documentation": "docs/ORDNANCE-MASTER-HERO-CATEGORY-V19.md",
+  "runtime_verified": false,
+  "custom_battle": {
+    "enabled": true,
+    "faction": "wh3_main_cth_cathay_mp",
+    "menu": "Grand Cathay > Heroes",
+    "character": "mc_ordnance_master_cb_character",
+    "variants": 5,
+    "mounts": 4,
+    "skill_preset": [
+      "engineer_rocket",
+      "wh_main_skill_dwf_engineer_self_ballistics_calibration",
+      "wh_pro01_skill_grombrindal_flash_bang",
+      "wh2_dlc11_skill_cst_gunnery_wight_support_2"
+    ],
+    "campaign_unaffected": true,
+    "ui_unit_group_land": "emp_engineer",
+    "ui_parent_group": "heroes_agents",
+    "general_unit": false
+  }
+}
