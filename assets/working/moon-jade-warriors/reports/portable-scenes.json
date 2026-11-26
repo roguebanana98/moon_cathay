@@ -1,0 +1,32 @@
+[
+  {
+    "path": "assets/working/moon-jade-warriors/moon-jade-warriors-working.blend",
+    "packed_images": 49,
+    "external_images": [],
+    "linked_ids": [],
+    "objects": 97,
+    "frame": 1,
+    "markers": 8,
+    "sha256": "de55c9ba258e56cc7bb29a621a2f41496245aebd353c0f93c3dc4c44544466fa"
+  },
+  {
+    "path": "assets/working/moon-jade-warriors/moon-jade-warrior-animation-review.blend",
+    "packed_images": 37,
+    "external_images": [],
+    "linked_ids": [],
+    "objects": 28,
+    "frame": 1,
+    "markers": 8,
+    "sha256": "02c4b33c2bfff24ef450c7fec0e70a9e92585f9e707d032c950b42cce6bed725"
+  },
+  {
+    "path": "assets/working/moon-jade-warriors/moon-jade-exported-assets-review.blend",
+    "packed_images": 87,
+    "external_images": [],
+    "linked_ids": [],
+    "objects": 34,
+    "frame": 1,
+    "markers": 0,
+    "sha256": "2b3cbca5c5e2ffe3cd80c85a4b244083e818d9a7bb2f8386805fca233ec8b813"
+  }
+]

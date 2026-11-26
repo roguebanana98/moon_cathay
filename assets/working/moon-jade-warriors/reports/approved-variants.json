@@ -1,0 +1,103 @@
+{
+  "scene": "PROJECT_ROOT\\build\\moon-jade-approved-variants\\moon-jade-warriors-approved-seven-variants-v2.blend",
+  "approved_source": "PROJECT_ROOT\\build\\deer-jade-animation-review\\jade-warrior-brown-boots-animation-review-v2.blend",
+  "approved_source_sha256": "02c4b33c2bfff24ef450c7fec0e70a9e92585f9e707d032c950b42cce6bed725",
+  "single_checkpoint": "PROJECT_ROOT\\build\\moon-jade-approved-variants\\approved-single-model-animation-checkpoint.blend",
+  "models": [
+    {
+      "number": 1,
+      "key": "mc_moon_jade_warrior_appearance_01",
+      "source_head": "1/beitingsheshou/beitingsheshouh1.wsmodel",
+      "collection": "VARIANT 01 | approved body05 + DEER head01",
+      "mesh_count": 10,
+      "rig": "Moon Jade 01 | native humanoid01e"
+    },
+    {
+      "number": 2,
+      "key": "mc_moon_jade_warrior_appearance_02",
+      "source_head": "1/beitingsheshou/beitingsheshouh2.wsmodel",
+      "collection": "VARIANT 02 | approved body05 + DEER head02",
+      "mesh_count": 12,
+      "rig": "Moon Jade 02 | native humanoid01e"
+    },
+    {
+      "number": 3,
+      "key": "mc_moon_jade_warrior_appearance_03",
+      "source_head": "1/beitingsheshou/beitingsheshouh3.wsmodel",
+      "collection": "VARIANT 03 | approved body05 + DEER head03",
+      "mesh_count": 12,
+      "rig": "Moon Jade 03 | native humanoid01e"
+    },
+    {
+      "number": 4,
+      "key": "mc_moon_jade_warrior_appearance_04",
+      "source_head": "1/beitingsheshou/beitingsheshouh4.wsmodel",
+      "collection": "VARIANT 04 | approved body05 + DEER head04",
+      "mesh_count": 12,
+      "rig": "Moon Jade 04 | native humanoid01e"
+    },
+    {
+      "number": 5,
+      "key": "mc_moon_jade_warrior_appearance_05",
+      "source_head": "1/beitingsheshou/beitingsheshouh5.wsmodel",
+      "collection": "VARIANT 05 | approved body05 + DEER head05",
+      "mesh_count": 10,
+      "rig": "Moon Jade 05 | native humanoid01e"
+    },
+    {
+      "number": 6,
+      "key": "mc_moon_jade_warrior_appearance_06",
+      "source_head": "1/beitingsheshou/beitingsheshouh6.wsmodel",
+      "collection": "VARIANT 06 | approved body05 + DEER head06",
+      "mesh_count": 12,
+      "rig": "Moon Jade 06 | native humanoid01e"
+    },
+    {
+      "number": 7,
+      "key": "mc_moon_jade_warrior_appearance_07",
+      "source_head": "1/beitingsheshou/beitingsheshouh7.wsmodel",
+      "collection": "VARIANT 07 | approved body05 + DEER head07",
+      "mesh_count": 11,
+      "rig": "Moon Jade 07 | native humanoid01e"
+    }
+  ],
+  "sampled_frames": [
+    1,
+    60,
+    120,
+    121,
+    180,
+    240,
+    241,
+    300,
+    360,
+    361,
+    405,
+    450,
+    451,
+    468,
+    486,
+    487,
+    517,
+    548,
+    549,
+    567,
+    586,
+    587,
+    608,
+    630
+  ],
+  "packed_images": 49,
+  "linked_libraries": 0,
+  "intended_faction": "Agents of the Moon",
+  "current_equipment": "Jade Warriors sword and shield",
+  "game_integrated": false,
+  "game_exported": false,
+  "heads_are_source_options_not_necessarily_distinct_faces": true,
+  "linked_libraries_verified_after_reopening": true,
+  "head07_helmet_fit": {
+    "covered_scalp_vertices_tucked": 77,
+    "face_and_moustache_unchanged": true
+  },
+  "source_appearance_geometry_unchanged_except_head07_covered_scalp": true
+}

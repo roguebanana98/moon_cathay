@@ -1,0 +1,37 @@
+{
+  "approved_date": "2026-11-26",
+  "authorization": "User explicitly requested pushing all current work, including models and mod pack, to Git.",
+  "files": [
+    {
+      "path": "assets/working/moon-jade-warriors/moon-jade-warriors-working.blend",
+      "bytes": 65409480,
+      "sha256": "de55c9ba258e56cc7bb29a621a2f41496245aebd353c0f93c3dc4c44544466fa",
+      "source_path": "build/moon-jade-approved-variants/moon-jade-warriors-approved-seven-variants-v2.blend"
+    },
+    {
+      "path": "assets/working/moon-jade-warriors/moon-jade-warrior-animation-review.blend",
+      "bytes": 54176749,
+      "sha256": "02c4b33c2bfff24ef450c7fec0e70a9e92585f9e707d032c950b42cce6bed725",
+      "source_path": "build/moon-jade-approved-variants/approved-single-model-animation-checkpoint.blend"
+    },
+    {
+      "path": "assets/working/moon-jade-warriors/moon-jade-exported-assets-review.blend",
+      "bytes": 56009368,
+      "sha256": "2b3cbca5c5e2ffe3cd80c85a4b244083e818d9a7bb2f8386805fca233ec8b813",
+      "source_path": "build/moon-jade-reskin-v1/actual-exported-model-review.blend"
+    },
+    {
+      "path": "releases/moon-jade-warriors-reskin-v1/mc_moon_jade_warriors_reskin_v1.pack",
+      "bytes": 99690815,
+      "sha256": "3809a4b684c0e9b3f3b1183ed9fb1d799bb7a05195bf8e91deb675932b02952e",
+      "source_path": "build/moon-jade-reskin-v1/mc_moon_jade_warriors_reskin_v1.pack"
+    }
+  ],
+  "game_pack_enabled": false,
+  "runtime_verified": false,
+  "source_workshop_item": "2965749119",
+  "source_pack_not_required_by_built_mod": true,
+  "game_dependency": "!cr_immortal_empires_expanded.pack",
+  "scope": "Agents of the Moon Jade Warriors sword and shield only; seven source head options",
+  "preserve_full_scenes": true
+}

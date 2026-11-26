@@ -1,0 +1,31 @@
+{
+  "pack": "PROJECT_ROOT\\build\\moon-jade-reskin-v1\\mc_moon_jade_warriors_reskin_v1.pack",
+  "sha256": "3809a4b684c0e9b3f3b1183ed9fb1d799bb7a05195bf8e91deb675932b02952e",
+  "bytes": 99690815,
+  "payloads": 103,
+  "faction": "cr_cth_agents_of_the_moon",
+  "unit": "wh3_main_cth_inf_jade_warriors_0",
+  "head_options": 7,
+  "db_tables": {
+    "unit_variants": 1,
+    "variants": 1
+  },
+  "dependencies": [
+    "!cr_immortal_empires_expanded.pack"
+  ],
+  "all_assets_private_namespace": true,
+  "native_gameplay_unchanged": true,
+  "source_pack_not_required": true,
+  "game_runtime_verified": false,
+  "deployed": true,
+  "roundtrip_db_equal": true,
+  "payload_bytes_equal": true,
+  "deployed_to_data": true,
+  "installed_path": "GAME_ROOT\\data\\mc_moon_jade_warriors_reskin_v1.pack",
+  "distribution_path": "PROJECT_ROOT\\dist\\moon-jade-warriors-reskin-v1\\mc_moon_jade_warriors_reskin_v1.pack",
+  "launcher_changed": false,
+  "enabled_in_launcher": false,
+  "blocking_diagnostics": 0,
+  "diagnostic_results": 0,
+  "game_launched": false
+}

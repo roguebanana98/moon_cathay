@@ -1,0 +1,690 @@
+{
+  "source": "PROJECT_ROOT\\build\\moon-jade-approved-variants\\moon-jade-warriors-approved-seven-variants-v2.blend",
+  "source_sha256": "de55c9ba258e56cc7bb29a621a2f41496245aebd353c0f93c3dc4c44544466fa",
+  "models": [
+    {
+      "key": "body",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/body.rigid_model_v2",
+      "weighted": true,
+      "skeleton": "humanoid01e",
+      "lod_triangles": [
+        10814,
+        5405,
+        2702,
+        1346
+      ],
+      "parts": [
+        {
+          "name": "body_p00",
+          "source": "Moon Jade 01 | cth_jade_warrior_body_02.005",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "body_p01",
+          "source": "Moon Jade 01 | cth_shugengan_body_01.004",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p01_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p01_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p01_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "body_p02",
+          "source": "Moon Jade 01 | cth_peasant_head_03.004",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p02_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p02_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p02_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "body_p03",
+          "source": "Moon Jade 01 | cth_jade_warrior_helmet_02.001",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p03_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p03_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p03_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "body_p04",
+          "source": "Moon Jade 01 | ksl_boyar_head_04.004",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p04_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p04_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p04_normal.dds"
+          },
+          "alpha": true,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "body_p05",
+          "source": "Moon Jade 01 | cth_dragon_jade_human_01.002",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p05_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p05_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p05_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "body_p06",
+          "source": "Moon Jade 01 | Model05 | rear neckguard from Model06",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p06_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p06_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p06_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "head_01",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/head_01.rigid_model_v2",
+      "weighted": true,
+      "skeleton": "humanoid01e",
+      "lod_triangles": [
+        2648,
+        1323,
+        662,
+        330
+      ],
+      "parts": [
+        {
+          "name": "head_01_p00",
+          "source": "Moon Jade 01 | cth_peasant_head_01.001",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_01_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_01_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_01_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "head_02",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/head_02.rigid_model_v2",
+      "weighted": true,
+      "skeleton": "humanoid01e",
+      "lod_triangles": [
+        2534,
+        1266,
+        632,
+        316
+      ],
+      "parts": [
+        {
+          "name": "head_02_p00",
+          "source": "Moon Jade 02 | cth_peasant_head_02.003",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_02_p01",
+          "source": "Moon Jade 02 | cth_celestial_guard_head_01.006",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p01_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p01_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p01_normal.dds"
+          },
+          "alpha": true,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_02_p02",
+          "source": "Moon Jade 02 | cth_celestial_guard_head_01.007",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p02_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p02_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p02_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "head_03",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/head_03.rigid_model_v2",
+      "weighted": true,
+      "skeleton": "humanoid01e",
+      "lod_triangles": [
+        1928,
+        962,
+        481,
+        240
+      ],
+      "parts": [
+        {
+          "name": "head_03_p00",
+          "source": "Moon Jade 03 | cth_celestial_guard_head_01.008",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_03_p01",
+          "source": "Moon Jade 03 | cth_celestial_guard_head_01.009",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p01_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p01_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p01_normal.dds"
+          },
+          "alpha": true,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_03_p02",
+          "source": "Moon Jade 03 | cth_peasant_head_02.004",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p02_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p02_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p02_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "head_04",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/head_04.rigid_model_v2",
+      "weighted": true,
+      "skeleton": "humanoid01e",
+      "lod_triangles": [
+        1827,
+        913,
+        456,
+        226
+      ],
+      "parts": [
+        {
+          "name": "head_04_p00",
+          "source": "Moon Jade 04 | cth_peasant_head_02.005",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_04_p01",
+          "source": "Moon Jade 04 | cth_celestial_guard_head_02.003",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p01_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p01_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p01_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_04_p02",
+          "source": "Moon Jade 04 | cth_celestial_guard_head_02.004",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p02_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p02_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p02_normal.dds"
+          },
+          "alpha": true,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "head_05",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/head_05.rigid_model_v2",
+      "weighted": true,
+      "skeleton": "humanoid01e",
+      "lod_triangles": [
+        1598,
+        799,
+        399,
+        198
+      ],
+      "parts": [
+        {
+          "name": "head_05_p00",
+          "source": "Moon Jade 05 | cth_celestial_guard_head_02.005",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_05_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_05_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_05_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "head_06",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/head_06.rigid_model_v2",
+      "weighted": true,
+      "skeleton": "humanoid01e",
+      "lod_triangles": [
+        1750,
+        875,
+        437,
+        217
+      ],
+      "parts": [
+        {
+          "name": "head_06_p00",
+          "source": "Moon Jade 06 | cth_celestial_guard_head_02.006",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_06_p01",
+          "source": "Moon Jade 06 | cth_dragon_iron_human_head_01",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p01_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p01_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p01_normal.dds"
+          },
+          "alpha": true,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_06_p02",
+          "source": "Moon Jade 06 | cth_peasant_head_01.002",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p02_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p02_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p02_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "head_07",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/head_07.rigid_model_v2",
+      "weighted": true,
+      "skeleton": "humanoid01e",
+      "lod_triangles": [
+        3429,
+        1714,
+        856,
+        427
+      ],
+      "parts": [
+        {
+          "name": "head_07_p00",
+          "source": "Moon Jade 07 | cth_peasant_head_03.005",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "head_07_p01",
+          "source": "Moon Jade 07 | cth_dragon_iron_human_head_01.001",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p01_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p01_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p01_normal.dds"
+          },
+          "alpha": true,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dao",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/dao.rigid_model_v2",
+      "weighted": false,
+      "skeleton": "",
+      "lod_triangles": [
+        2320,
+        1159,
+        578,
+        287
+      ],
+      "parts": [
+        {
+          "name": "dao_p00",
+          "source": "Moon Jade 01 | Jade Warrior | reference ring-pommel dao",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            -0.37230628728866577,
+            -0.010363951325416565,
+            -2.9802322387695312e-08
+          ]
+        },
+        {
+          "name": "dao_p01",
+          "source": "Moon Jade 01 | Jade Warrior | reference ring-pommel dao",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p01_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p01_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p01_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            -0.37230628728866577,
+            -0.010363951325416565,
+            -2.9802322387695312e-08
+          ]
+        },
+        {
+          "name": "dao_p02",
+          "source": "Moon Jade 01 | Jade Warrior | reference ring-pommel dao",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p02_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p02_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p02_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            -0.37230628728866577,
+            -0.010363951325416565,
+            -2.9802322387695312e-08
+          ]
+        },
+        {
+          "name": "dao_p03",
+          "source": "Moon Jade 01 | Jade Warrior | reference ring-pommel dao",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p03_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p03_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p03_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            -0.37230628728866577,
+            -0.010363951325416565,
+            -2.9802322387695312e-08
+          ]
+        },
+        {
+          "name": "dao_p04",
+          "source": "Moon Jade 01 | Jade Warrior | reference ring-pommel dao",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p04_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p04_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p04_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            -0.37230628728866577,
+            -0.010363951325416565,
+            -2.9802322387695312e-08
+          ]
+        }
+      ]
+    },
+    {
+      "key": "shield",
+      "path": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/shield.rigid_model_v2",
+      "weighted": false,
+      "skeleton": "",
+      "lod_triangles": [
+        1618,
+        809,
+        403,
+        202
+      ],
+      "parts": [
+        {
+          "name": "shield_p00",
+          "source": "Moon Jade 01 | Model05 | round shield | Chen",
+          "textures": {
+            "27": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/shield_p00_base_colour.dds",
+            "29": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/shield_p00_material_map.dds",
+            "1": "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/shield_p00_normal.dds"
+          },
+          "alpha": false,
+          "pivot": [
+            0.0,
+            0.007933184504508972,
+            -0.0021638646721839905
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": {
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p00_base_colour.dds": "0d516f5873d0c7c70314d0cb26a9a6bc822092d08456468be3c73815a19d8f10",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p00_material_map.dds": "9514f691b29f16670e14cb3104cd2af4e5246fb979b074d32c585834bb1c8d67",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p00_normal.dds": "620c37b5ee0735f885c73a03fd84c9a1d0b9964fdbc1dd1e4ed7e1b51ce29c2d",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p01_base_colour.dds": "f944ac5e29f89f681f9d1e0194f6e223e359b8ca74e9f300f6140b250d2f08c1",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p01_material_map.dds": "07f3e288de9e091eadad51973d2261d6fc73bce82b4cd4d042a02f5e4d79d175",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p01_normal.dds": "11a7075d555ce68cfd470cf0230394d1583801334a90e38cb755eb58a4572f65",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p02_base_colour.dds": "61d72611814b6d307c67b2327833b98a91b6eab4ce22c56879daa4f9d119b09c",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p02_material_map.dds": "15e77f3fe71656b332a37b32c14e7134e57a37c0b16b7f9851567e5a9767f3e1",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p02_normal.dds": "85edf38d2592f43420f8524f5d49431e8e52a21f33469981ae3cd35f10df4fa0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p03_base_colour.dds": "7f7e59c9357ceeca63e2d847c2f3437e248fbe7be00e23685e1074117ee25b74",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p03_material_map.dds": "75e340f2750f2a9d572604bcd5e1d35c3821826f9887a98e5c4a9eccaa952d50",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p03_normal.dds": "4076687e484935c83dfe2a8387ab2777ae1ec6aad1addc57b923207d11105459",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p04_base_colour.dds": "b28d257bd26ed7e990370292c96846d85a4e841f61ab1f171e462b1411025b86",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p04_material_map.dds": "9ed625ce1d4cdea947a25d85b997cbd31ae9b840ca451548f570e0d2ad22dd6c",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p04_normal.dds": "86b40738bfdc0c75bc74eae677ee02050f584db9dd45246590a72e09b25b235a",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p05_base_colour.dds": "f8ba0fea1662f7f73b0762fa9e46ba94c8c2f3153e21373d7da55d340bed3ce5",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p05_material_map.dds": "ea22cc95e74436a10172cd986486acd230569dce3a1c7d615c0f83b06b5a66e7",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p05_normal.dds": "bb25369ac5e97f33533c31b4832e0bdf650b5f886e5f2fb19b5d589bddb33b95",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p06_base_colour.dds": "1cc7fe01cd3f65b251899896c0a09ec59662fdb38dddcb650ff69b8a45196c02",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p06_material_map.dds": "7d0ddd2e29df1dd94902bf52d6ab9c07cc9f5ae676fb8cb0778e0606c7804256",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/body_p06_normal.dds": "bb25369ac5e97f33533c31b4832e0bdf650b5f886e5f2fb19b5d589bddb33b95",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_01_p00_base_colour.dds": "1a51143a2aed18d828f3feebe695f67be7bdc3ba9e9a0cc7f91653bc3fde0e23",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_01_p00_material_map.dds": "754f0a9f4163359b2d048dc1dd5925510f0e69574b36955c6d872d4d9124d0bd",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_01_p00_normal.dds": "85edf38d2592f43420f8524f5d49431e8e52a21f33469981ae3cd35f10df4fa0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p00_base_colour.dds": "9a36b85ce7763ca19958826f265ab7c44e32f28410684920aec60155ebc877ec",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p00_material_map.dds": "d99f066778019de135627eb74a9d18a0b52b464a080037adab57356f1a2a8501",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p00_normal.dds": "85edf38d2592f43420f8524f5d49431e8e52a21f33469981ae3cd35f10df4fa0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p01_base_colour.dds": "09a77ca404744f7783691a1fd28a99dd8d9c0e86ec9f8a4ca07d23204b3282c0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p01_material_map.dds": "35c6aa9861154e7655662d773e6caa4341c3663ec5ebd02d62f4c5eab9af6851",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p01_normal.dds": "5e85eb63b288ad6fe69e6c9744e98e2844e75e8d9ed08b84079a6b1341531086",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p02_base_colour.dds": "e78359ed8b2bc5b95110931a7763d88457278390f2d88e0224a2ad8d1c6d83dc",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p02_material_map.dds": "e7192c21667a19485871f0ed8fbbd3cf13884dd0c7ed28c980004228160e4595",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_02_p02_normal.dds": "5e85eb63b288ad6fe69e6c9744e98e2844e75e8d9ed08b84079a6b1341531086",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p00_base_colour.dds": "1130cbdee0c3352e45f0baf840f7065e84c654e314b017d4274086c77fac383c",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p00_material_map.dds": "6d2c609b7d1430850b1da9baca9afe9b16fb96b87b501b6cfa6fa9e96d37d4e5",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p00_normal.dds": "5e85eb63b288ad6fe69e6c9744e98e2844e75e8d9ed08b84079a6b1341531086",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p01_base_colour.dds": "5dfd8369c579dc7f9fbb525a097d6c80a8f5c6926d6fdd0d1a77b7be28783a6e",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p01_material_map.dds": "0723947157c3c291a675ebce40d04ef1bc0ab0c9758586537f84f8e3fc9309a6",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p01_normal.dds": "5e85eb63b288ad6fe69e6c9744e98e2844e75e8d9ed08b84079a6b1341531086",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p02_base_colour.dds": "f8f2a53a6b08e3935b87a0a00ab0d5d1d5c7672f569e155b032b67fe1672b472",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p02_material_map.dds": "5f8a47b5d7550cfb8a8efb1cb63d351dcac79fc6caa17fa1099e13fee285aa1e",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_03_p02_normal.dds": "85edf38d2592f43420f8524f5d49431e8e52a21f33469981ae3cd35f10df4fa0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p00_base_colour.dds": "54fbcc8cf55836662055ec7812f3b06fab46b38f274788ab12ec711597741838",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p00_material_map.dds": "7dca40ad05a0fb89f33e03f48c40cacb69a28553c4799b03fb6e32cdeaf540dc",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p00_normal.dds": "85edf38d2592f43420f8524f5d49431e8e52a21f33469981ae3cd35f10df4fa0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p01_base_colour.dds": "3901225dfd316df3befa8746a3c8e6bd57e455383fba73dddc53e06ccc3c20d6",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p01_material_map.dds": "08ba92f51ce3abda50f4ede3112f713080ac39a2faa6941474bd5ef54dc84df4",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p01_normal.dds": "5e85eb63b288ad6fe69e6c9744e98e2844e75e8d9ed08b84079a6b1341531086",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p02_base_colour.dds": "ba9a3fc397a11a7cea668b9a1d8ffd25e251aa06c6da7278f97d2733e5287ca5",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p02_material_map.dds": "ac5af95dfa7d2e87c4cacb6f95ec64ee54a79903bffed32bd73bd0f21bbc95b2",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_04_p02_normal.dds": "5e85eb63b288ad6fe69e6c9744e98e2844e75e8d9ed08b84079a6b1341531086",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_05_p00_base_colour.dds": "3901225dfd316df3befa8746a3c8e6bd57e455383fba73dddc53e06ccc3c20d6",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_05_p00_material_map.dds": "08ba92f51ce3abda50f4ede3112f713080ac39a2faa6941474bd5ef54dc84df4",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_05_p00_normal.dds": "5e85eb63b288ad6fe69e6c9744e98e2844e75e8d9ed08b84079a6b1341531086",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p00_base_colour.dds": "920ba93e8eec3e35b103d2eb9272229df7ed0bcae5a49410a86ca6f8be9f8a32",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p00_material_map.dds": "08ba92f51ce3abda50f4ede3112f713080ac39a2faa6941474bd5ef54dc84df4",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p00_normal.dds": "5e85eb63b288ad6fe69e6c9744e98e2844e75e8d9ed08b84079a6b1341531086",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p01_base_colour.dds": "148842385d61d7b8044c5bff55bbf3f4d1b0785c2a32a9020bc46be36032b8ef",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p01_material_map.dds": "414f136ad8a803512eec3dd23bf6585c2929d596ef003f84f8d1bb0ac81d01e0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p01_normal.dds": "5cc3f08d4d3680edfcb939e4173cbb82ef3fa465993ba361280e7a4248fabefd",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p02_base_colour.dds": "69c4ca59e20c30f2566d14ade7d557866600953783a98a945b33328fe48d165d",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p02_material_map.dds": "1a664b6376e6a2886b10c85e0414b2a7d231b742f5bd2f891c87bd89e5f931c4",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_06_p02_normal.dds": "85edf38d2592f43420f8524f5d49431e8e52a21f33469981ae3cd35f10df4fa0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p00_base_colour.dds": "e0e33d3135faabf94bc13f93f9048ab8f5294c40a136095e15e26683a56a1f8f",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p00_material_map.dds": "e57b6f175e42453df921ac29b9779f73a3811d0ac9e1502dde003a5318c0be53",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p00_normal.dds": "85edf38d2592f43420f8524f5d49431e8e52a21f33469981ae3cd35f10df4fa0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p01_base_colour.dds": "148842385d61d7b8044c5bff55bbf3f4d1b0785c2a32a9020bc46be36032b8ef",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p01_material_map.dds": "414f136ad8a803512eec3dd23bf6585c2929d596ef003f84f8d1bb0ac81d01e0",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/head_07_p01_normal.dds": "5cc3f08d4d3680edfcb939e4173cbb82ef3fa465993ba361280e7a4248fabefd",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p00_base_colour.dds": "6b628bcc7c29fea4435718dfe359124acfc459823ec954b827a85c8fbc32c10e",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p00_material_map.dds": "4fe6cc5228115a16fe6e5115681c827c4ac81804b0fd4eb2fbf9c1c27215f37a",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p00_normal.dds": "30fe5223ba0ef54be105606fd15d2aa9642b6bd65150e169f5d746bf7864bf50",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p01_base_colour.dds": "212204f953eeea4daec0a818ea93c564c9f1263712d33c76bce311f391c4db04",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p01_material_map.dds": "4b94ae7f066fbe2b5037a48ff5b04e11f8eb04818a2b9dbd908f37c4c500b005",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p01_normal.dds": "30fe5223ba0ef54be105606fd15d2aa9642b6bd65150e169f5d746bf7864bf50",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p02_base_colour.dds": "72ea51993ebf9b3397e500411c4d67a0f6feb09b8384b9cf66d2344589e3271a",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p02_material_map.dds": "19d6061395348a8c0eba7e9374b1670310ed7eb93abbd39e5b2f8471e49affe1",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p02_normal.dds": "30fe5223ba0ef54be105606fd15d2aa9642b6bd65150e169f5d746bf7864bf50",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p03_base_colour.dds": "a25de352cbf54b75d470c20738aeaf6646b1d554e3dde6dbe51782b4ba6af6cc",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p03_material_map.dds": "511f15255138140851decb0f8aee9f93761cd9fbf96bcc6c3af48cb4399c6036",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p03_normal.dds": "30fe5223ba0ef54be105606fd15d2aa9642b6bd65150e169f5d746bf7864bf50",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p04_base_colour.dds": "08e80431936638f2ac8599095d05a8a1e5c8aa89d7ab7519e35dae57443e7f4c",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p04_material_map.dds": "eb7d51b732aa0d40cb58968c2368210c2075d8cd40c74b60035420cc2a0d73e9",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/dao_p04_normal.dds": "30fe5223ba0ef54be105606fd15d2aa9642b6bd65150e169f5d746bf7864bf50",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/shield_p00_base_colour.dds": "b034663eb0268548496a5a320aa6262ba1d449bcde8c2f7914814cc462c12d9a",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/shield_p00_material_map.dds": "d9c4c7435775c07ed07b22d991a12cdaaa792d874b436763f577c747025e1ef4",
+    "variantmeshes/wh_variantmodels/mc_moon_jade_reskin/tex/shield_p00_normal.dds": "1a47ecf339cfda7189f6604cd2c839a8aee80a559640a1ded7e55b11004432cf"
+  },
+  "warnings": [
+    "body_p00: 65 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "body_p00: 102 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "body_p00: 105 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_01_p00: 5 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_01_p00: 5 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_01_p00: 9 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_02_p00: 6 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_02_p00: 6 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_03_p00: 4 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_03_p00: 9 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_04_p01: 2 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_04_p01: 4 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_04_p01: 8 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_05_p00: 4 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_05_p00: 7 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_06_p00: 4 vertices had more than 4 bone influences; lowest weights dropped and renormalized",
+    "head_06_p00: 4 vertices had more than 4 bone influences; lowest weights dropped and renormalized"
+  ],
+  "base_colour_srgb_input_explicit": true
+}

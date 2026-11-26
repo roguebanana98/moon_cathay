@@ -8,3 +8,7 @@
 *.blend binary
 assets/working/moon-casters/moon-casters-models.blend filter=lfs diff=lfs merge=lfs -text
 assets/working/divine-wing-guard/divine-wing-guard-working.blend filter=lfs diff=lfs merge=lfs -text
+assets/working/moon-jade-warriors/moon-jade-warriors-working.blend filter=lfs diff=lfs merge=lfs -text
+assets/working/moon-jade-warriors/moon-jade-warrior-animation-review.blend filter=lfs diff=lfs merge=lfs -text
+assets/working/moon-jade-warriors/moon-jade-exported-assets-review.blend filter=lfs diff=lfs merge=lfs -text
+releases/moon-jade-warriors-reskin-v1/mc_moon_jade_warriors_reskin_v1.pack filter=lfs diff=lfs merge=lfs -text

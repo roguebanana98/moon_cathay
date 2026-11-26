@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "clip": "01 IDLE",
+      "frame": 1,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "01 IDLE",
+      "frame": 26,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "01 IDLE",
+      "frame": 52,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "02 WALK",
+      "frame": 1,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "02 WALK",
+      "frame": 16,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "02 WALK",
+      "frame": 32,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "03 RUN",
+      "frame": 1,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "03 RUN",
+      "frame": 10,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "03 RUN",
+      "frame": 20,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "04 CHARGE",
+      "frame": 1,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "04 CHARGE",
+      "frame": 7,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "04 CHARGE",
+      "frame": 14,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "05 ATTACK A",
+      "frame": 1,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "05 ATTACK A",
+      "frame": 18,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "05 ATTACK A",
+      "frame": 36,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "06 ATTACK B",
+      "frame": 1,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "06 ATTACK B",
+      "frame": 31,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "06 ATTACK B",
+      "frame": 62,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "07 JUMP ATTACK",
+      "frame": 1,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "07 JUMP ATTACK",
+      "frame": 19,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "07 JUMP ATTACK",
+      "frame": 38,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "08 DEFEND",
+      "frame": 1,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "08 DEFEND",
+      "frame": 22,
+      "all_seven_heads_and_props": true
+    },
+    {
+      "clip": "08 DEFEND",
+      "frame": 44,
+      "all_seven_heads_and_props": true
+    }
+  ],
+  "head_options": 7,
+  "model_files": 10,
+  "source_sha256": "de55c9ba258e56cc7bb29a621a2f41496245aebd353c0f93c3dc4c44544466fa",
+  "warnings": [],
+  "actual_RMV2_DDS_reimport": true,
+  "prop_pivots_verified": true,
+  "runtime_verified": false
+}

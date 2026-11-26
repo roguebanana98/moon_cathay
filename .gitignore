@@ -5,6 +5,7 @@
 /dist/
 /logs/
 *.pack
+!/releases/moon-jade-warriors-reskin-v1/mc_moon_jade_warriors_reskin_v1.pack
 *.esf
 *.save
 *.save_multiplayer
