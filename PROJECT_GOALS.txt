@@ -1,5 +1,7 @@
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
 
+TIẾN ĐỘ HIỆN TẠI [26/11/2026 — ZHAO YIXUAN / PHỤC HỒI BUILD]: Đã lưu bản thiết kế đầy đủ tại docs/ZHAO-YIXUAN-SHUGENGAN-SKILL-PROPOSAL.md: pháp sư/chỉ huy nền Shugengan Yin, cận chiến yếu hơn nhưng nhanh hơn, 6 phép Moon/nước/lửa, đầy đủ nhánh và cấp mở. Người dùng đã yêu cầu tích hợp, sau đó yêu cầu ưu tiên cập nhật goal và backup Git trước. CHƯA TÍCH HỢP VÀO MOD: chưa sửa DB/Lua/model, build, deploy hoặc chạy game. V34 trong bàn giao vẫn giữ cây/chỉ số WWD, chưa có pack v34 để kiểm tra trực tiếp trên máy này. Game 9.0.5/WWD đã đọc tại H:\SteamLibrary; WWD khác hash nguồn cũ. Audit build: script là chuỗi tăng dần v34 <- v33 <- v32 và các bản trước, không phải clean build; repo thiếu pack nền, một số scene người dùng chỉnh, render và dữ liệu trung gian trong build/reference. Có source và một số checkpoint model đã theo Git, nên có thể nghiên cứu tái dựng chức năng nhưng chưa thể bảo đảm khôi phục chính xác v34. Ưu tiên tìm pack v32/v33/v34 hoặc backup build; nếu không có thì lập quy trình tái dựng, phục hồi/duyệt ngoại hình và validate lại trước khi sửa Zhao. Script v35 Moon Arts cũ khác thiết kế vừa chốt, không chạy trực tiếp hoặc bỏ hash guard. Mount và migration save cũ còn phải chốt. Các mục lịch sử bên dưới chưa được rà soát lại toàn bộ.
+
 MOONSHADOW — ĐỔI NƠI TUYỂN [21/11/2026]: Theo yêu cầu cân bằng mới, v6 bỏ toàn bộ định nghĩa Moonshadow Hideout, chuyển tuyển Moonshadow Assassin sang Celestial Tower và giữ khi nâng Celestial Observatory/Celestial Beacon. Mỗi công trình +1 giới hạn ở cả ba cấp, không cộng dồn qua nâng cấp. Điều kiện Region.Owner.RecordKey chỉ áp dụng cho Agents of the Moon; chi phí/tên/slot/effect Astromancer gốc giữ nguyên. Mọi payload nhân vật, skill, đồ họa và spawn Da Anh byte-identical v5. Báo cáo hiện hành: build/moonshadow-celestial-tower/build-report.json và deployment.json; docs/MOONSHADOW-HEROES.md. Không mở game; tuyển/context/giới hạn trong engine chưa xác nhận. Mốc công trình riêng v5 bên dưới là lịch sử, đã bị thay thế.
 
 MOONSHADOW HEROES [21/11/2026]: Đã thêm/cài/bật addon mc_moonshadow_heroes_v5.pack: dòng Moonshadow Assassin tuyển thường, công trình Moonshadow Hideout chỉ dành Agents of the Moon (yêu cầu thành III, 2500, 3 lượt, +1 giới hạn mỗi công trình), và Da Anh Legendary Hero độc lập cạnh quân đoàn Huyen Ve từ đầu campaign MỚI. Da Anh duy nhất/bất tử, không chiếm giới hạn hero thường, không tự spawn vào save cũ; có nhánh Moonshadow Veil / Silent Execution / Sever the Supply Lines. Model tạm nguyên bản Khainite Assassin cùng animation gốc; chờ người dùng tìm model. Loại kỹ năng nô lệ, loyalty và Murderous Prowess/Mastery, toàn bộ UI ASCII English. 17 tình huống Lua giả lập, DB/loc/skill graph/portrait và compiled animation lookup đạt; 14 cảnh báo metadata schema, không lỗi chặn. Đã backup launcher, bốn pack local đang bật và entry cũ giữ nguyên; không sửa save/Workshop/game gốc, không mở game. Chưa xác nhận tuyển/spawn/skill trong engine. Chi tiết docs/MOONSHADOW-HEROES.md; báo cáo build/moonshadow-heroes/build-report.json và deployment.json.
@@ -10,7 +12,7 @@ KIẾM THỬ GAME [03/11/2026]: Người dùng đã duyệt preview fantasy long
 
 KIẾM THỬ BLENDER [03/11/2026]: Đã nhập fantasy longsword người dùng cung cấp, giữ đủ 466.979 tam giác/texture 4K, căn theo chuôi kiếm và weapon_2 trên model Huyen Ve đã duyệt. Scene riêng build/huyen-ve-fantasy-longsword/huyen-ve-fantasy-sword-preview.blend; kiếm cũ ẩn và giữ nguyên, không sửa tay/body/rig. Chín mẫu đứng/chạy/chém bám attachment đạt; đã render/xem trước và mở Blender. Theo yêu cầu mới nhất chỉ thử Blender, chưa export/tối ưu mesh/đưa vào mod; v25 r5 giữ nguyên. Xem docs/HUYEN-VE-FANTASY-LONGSWORD-PREVIEW.md.
 
-TIẾN ĐỘ HIỆN TẠI [03/11/2026]: R5 đã tích hợp ảnh thẻ Da Lien người dùng cung cấp, căn đủ 5 PNG portrait/card; bản gốc giữ nguyên. Đã cài/bật r5 sau khi người dùng tự thoát game, r4 tắt; chưa kiểm tra ảnh trong game. R4 đổi icon Crimson Moonstone sang Gem of Blood native theo yêu cầu người dùng. Đã viết/đóng/cài và bật pack đủ 6 chương v25 r7; giữ v24 tắt làm fallback. Đủ gate 6/8/10/14/18/22, rescue Da Lien + ngọc, Avauka/chuộc giáp, Hero điều tra-giao hồ sơ, kill đúng quân đoàn và phục hồi kiếm trả phí một lần/2 lượt. 58 kiểm tra chuỗi Lua, 13 hồi quy chương 1, 10 tình huống thưởng Hero và kiểm tra battle/native-library đạt ở biên engine giả lập; DB roundtrip/diagnostics không lỗi chặn mới. Campaign mới IEE đã khởi tạo controller đúng, không spawn Hero visual test; đã thoát game và khôi phục/đối chiếu hash đủ 69 save cùng intro preference. Full campaign end-to-end chưa xác nhận. Xem docs/HUYEN-VE-V25-QUEST-INTEGRATION.md.
+MỐC LỊCH SỬ HUYEN VE [03/11/2026]: R5 đã tích hợp ảnh thẻ Da Lien người dùng cung cấp, căn đủ 5 PNG portrait/card; bản gốc giữ nguyên. Đã cài/bật r5 sau khi người dùng tự thoát game, r4 tắt; chưa kiểm tra ảnh trong game. R4 đổi icon Crimson Moonstone sang Gem of Blood native theo yêu cầu người dùng. Đã viết/đóng/cài và bật pack đủ 6 chương v25 r7; giữ v24 tắt làm fallback. Đủ gate 6/8/10/14/18/22, rescue Da Lien + ngọc, Avauka/chuộc giáp, Hero điều tra-giao hồ sơ, kill đúng quân đoàn và phục hồi kiếm trả phí một lần/2 lượt. 58 kiểm tra chuỗi Lua, 13 hồi quy chương 1, 10 tình huống thưởng Hero và kiểm tra battle/native-library đạt ở biên engine giả lập; DB roundtrip/diagnostics không lỗi chặn mới. Campaign mới IEE đã khởi tạo controller đúng, không spawn Hero visual test; đã thoát game và khôi phục/đối chiếu hash đủ 69 save cùng intro preference. Full campaign end-to-end chưa xác nhận. Xem docs/HUYEN-VE-V25-QUEST-INTEGRATION.md.
 
 LỊCH SỬ CÁC MỐC — mô tả trạng thái tại thời điểm ghi; dùng tiến độ hiện tại và checklist bên dưới để tiếp tục công việc.
 
@@ -464,6 +466,29 @@ Audit nhiệm vụ faction hiện tại:
     Map/roster/tọa độ/timeline còn phải chốt và test; bản progression phải bỏ
     spawn appearance-test v20 và xử lý migration save test rõ ràng.
 
+5C. ZHAO YIXUAN — ĐỀ XUẤT NỀN SHUGENGAN [26/11/2026]
+[X] Đã lưu đầy đủ bản xem trước tại docs/ZHAO-YIXUAN-SHUGENGAN-SKILL-PROPOSAL.md.
+[X] Ghi nhận hướng người dùng yêu cầu: công dụng như Shugengan, cận chiến yếu hơn,
+    nhanh nhẹn hơn; giữ ngoại hình/kiếm/animation Yuan Bo đã duyệt.
+[X] Đã đọc WWD hiện tại và native 9.0.5 trên H:\SteamLibrary; WWD khác hash nguồn
+    v34 nên không coi đây là kiểm chứng trực tiếp pack v34 cũ.
+[~] Chỉ số/bộ phép/cây 54 ô/cấp mở là THIẾT KẾ, chưa phải gameplay đã triển khai.
+    Sáu phép: Storm of Shadows, Talons of Night, Tidecall, Fog of the Damned,
+    Fireball, Flaming Sword of Rhuin; chỉ Power of Yin, không Earth Blood.
+    Năm nhánh còn lại theo nền Shugengan; cooldown riêng chỉ hai phép Moon.
+[X] Người dùng đã yêu cầu triển khai sau khi lưu.
+[~] Chờ pack nền v34 hoặc bản mới hơn: chưa tìm thấy trong game ổ H, project/build,
+    launcher và các thư mục backup đã kiểm tra; không tái dựng đè các ngoại hình đã duyệt.
+[X] Đã audit khả năng rebuild: thiếu pack nền/scene/render trung gian; chuỗi script
+    hiện không phải clean build. Source/checkpoint hiện có chưa đủ bảo đảm v34 nguyên trạng.
+[ ] Phục hồi pack v32/v33/v34 hoặc backup build. Nếu không còn, lập pipeline tái dựng
+    và kiểm chứng lại ngoại hình/chức năng; không bỏ hash guard để ép chạy.
+[ ] Cập nhật builder Zhao theo thiết kế mới; script v35 Moon Arts cũ khác bản chốt.
+[ ] Đối chiếu dependency, chốt mounted stats và duyệt rider.
+[ ] Chốt migration skill/ability/điểm/item/bất tử cho save cũ nếu triển khai.
+[ ] Build/validate/deploy và kiểm thử engine theo phạm vi được yêu cầu sau này.
+    HIỆN CHƯA TÍCH HỢP VÀO MOD. V34 trong bàn giao vẫn giữ cây/chỉ số WWD.
+
 6. MỞ RỘNG FACTION VÀ PROVINCE
 [ ] Thiết kế cách tạo/tách faction và phân bố lãnh thổ theo từng yêu cầu cụ thể.
 [ ] Xác minh công cụ, startpos, dữ liệu province/region và AI cần đồng bộ.
@@ -519,6 +544,7 @@ Thiết kế chuỗi nhiệm vụ hiện hành: docs/HUYEN-VE-QUEST-CAMPAIGN-DES
 Kiểm tra khả thi nhiệm vụ/trang bị: docs/HUYEN-VE-EQUIPMENT-FEASIBILITY.md
 Audit nhiệm vụ faction: docs/FACTION-MISSIONS.md
 Tiến độ model concept03 (lịch sử, đã thay ngoại hình): docs/CONCEPT03-MODEL.md
+Đề xuất Zhao Yixuan nền Shugengan (CHƯA tích hợp): docs/ZHAO-YIXUAN-SHUGENGAN-SKILL-PROPOSAL.md
 Quy tắc làm việc và ngoại lệ được phép: AGENTS.md
 Kiểm kê tool/mod và phiên bản local: mục 2A ở trên; reports/tool-mod-inventory.json
 
