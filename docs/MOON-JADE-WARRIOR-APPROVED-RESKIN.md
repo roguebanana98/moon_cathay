@@ -1,7 +1,18 @@
 # Agents of the Moon — approved Jade Warrior reskin
 
-Approved by the user on 26 November 2026. This is the separate regular Jade
-Warrior reskin project, not Divine Wing Guard and not the deferred Zhao work.
+Approved by the user on 26 November 2026. This regular Jade Warrior reskin is
+separate from Divine Wing Guard.
+
+**Current combined candidate: v37, installed and enabled**,
+`mc_moonshadow_heroes_v37_zhao_cb_fix.pack`, SHA256
+`da1d0ffe06b5ea210b55e1941bc43ed609dcbfda2680bc84209e8a4b1d2df2c1`.
+It retains all approved Jade v2 payloads byte-for-byte and the Zhao redesign from
+v36. Only two Zhao Custom Battle DB payloads changed in v37. V36 and standalone
+Jade v1/v2 are disabled; existing files are preserved. Runtime confirmation is
+pending and the user will test. The Moon-only Onyx hiding patch runs alongside.
+The requested Git backup contains source/docs only, with no new models or packs.
+
+The v2 family addon remains a separate preserved build; see its section below.
 
 ## Approved appearance
 
@@ -66,8 +77,9 @@ of clipping in every frame or in the game.
 
 Intended for **Agents of the Moon only**. Do not globally replace Cathay's native
 Jade Warrior model paths or alter other factions. The current approved equipment
-is the **sword-and-shield** variant; halberd, crossbow and cavalry equipment have
-not been adapted or reviewed as part of this appearance family.
+was initially the **sword-and-shield** variant. V2 extends the approved human
+body/head appearance to halberd, two crossbow units and Jade Lancers while keeping
+their native equipment, shields and horse.
 
 ## Standalone mod built — 26 November 2026
 
@@ -110,3 +122,52 @@ Reports and actual exported model review:
 `Export-Moon-Jade-Reskin.py`, `Correct-Moon-Jade-DDS-Colour.py`,
 `Review-Moon-Jade-Exported-Assets.py`, `Build-Moon-Jade-Reskin-Pack.py`,
 `Install-Moon-Jade-Reskin-Pack.py`. Do not overwrite approved source scenes.
+
+## V2 — shared human appearance for the entire Jade family
+
+User requested the other four Jade unit types share the newly approved person
+model. Built **mc_moon_jade_warriors_reskin_v2_family.pack**, 99,709,378 bytes,
+SHA256 `9d711a7f571501f3c67a80b4f6d68da1b453f2a20d29c7e8e8248ddb68ba3ee1`.
+Installed beside retained v1 in game data and copied to
+`dist/moon-jade-warriors-reskin-v2/`. Enable **v2 and disable v1** in the launcher;
+v2 is self-contained and includes v1. Launcher was not edited and game not run.
+
+All five Moon-only unit appearances now use exactly the same exported common
+body05, rear neckguard, normal brown boot toes and seven head choices:
+
+| Unit | Key | Equipment |
+|---|---|---|
+| Jade Warriors | `wh3_main_cth_inf_jade_warriors_0` | Approved v1 custom dao and round 陳 shield retained |
+| Jade Warriors (Halberds) | `wh3_main_cth_inf_jade_warriors_1` | Native halberd |
+| Jade Warrior Crossbowmen | `wh3_main_cth_inf_jade_warrior_crossbowmen_0` | Native crossbow, bolt and sidearm |
+| Jade Warrior Crossbowmen (Shields) | `wh3_main_cth_inf_jade_warrior_crossbowmen_1` | Native crossbow, bolt, sidearm and shield |
+| Jade Lancers | `wh3_main_cth_cav_jade_lancers_0` | Native lance, shield and heavy horse |
+
+Only the **human body/head slots** are replaced for the four new types. Their
+native VMD equipment choices, attachment points, metadata and blood-stump slots
+are retained. All four existing man-animation profiles use `humanoid01e`; profiles,
+stats, mounts, recruitment and other factions are untouched. Do not interpret
+the shared-person request as approval to replace these four types' weapons or
+shields with the sword-and-shield unit's custom equipment.
+
+V2 changes exactly two existing DB payloads (five Moon unit-variant rows plus
+five private variant definitions) and adds four private VMDs. **Every other v1
+payload remains byte-identical**, including all body/head meshes, four LODs,
+textures, dao/shield and the original sword-and-shield VMD. IEE remains the only
+declared mod dependency; DEER24 source pack is not required.
+
+Validation: reimported shipped common human assets with native equipment; 18 native
+clips at 54 representative frames including all seven head meshes. Inspected
+halberd, crossbow, shielded crossbow and full heavy-horse/rider renders. Rider
+clips use mount-root-relative coordinates, so the Blender presentation adds the
+horse root translation; engine positioning is unmodified. Numerical checks and
+sampled renders do not prove complete reload/bow-mechanism playback, absence of
+all riding/clothing clipping, or game runtime safety. Native equipment animation
+mechanics remain unchanged. RPFM DB roundtrip, exact v1-payload audit and **zero
+diagnostic results** passed.
+
+Reports/previews and four complete review scenes are local in
+`build/moon-jade-reskin-v2/`. Source manifest updated; no new LFS rules or uploads.
+The pack remains below GitHub's regular-file hard limit. Build tools:
+`Prepare-Moon-Jade-Family-V2.py`, `Review-Moon-Jade-Family-V2.py`,
+`Build-Moon-Jade-Family-V2.py`, `Install-Moon-Jade-Family-V2.py`.

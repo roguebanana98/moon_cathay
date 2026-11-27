@@ -1,24 +1,44 @@
 {
-  "status": "standalone_pack_built_installed_not_enabled",
+  "status": "integrated_in_v37_installed_enabled_runtime_unverified",
   "approved_date": "2026-11-26",
   "intended_faction": "Agents of the Moon",
   "faction_only": true,
-  "equipment_reviewed": "jade_warriors_sword_and_shield",
+  "equipment_reviewed": [
+    "jade_warriors_sword_and_shield",
+    "halberds",
+    "crossbows",
+    "crossbows_with_shields",
+    "jade_lancers"
+  ],
+  "shared_people_appearance": "approved_body05_helmet_neckguard_brown_boots_and_seven_heads",
+  "new_four_unit_equipment": "native weapons, sidearms, shields and horse unchanged; human body/head slots only",
+  "affected_unit_keys": [
+    "wh3_main_cth_inf_jade_warriors_0",
+    "wh3_main_cth_inf_jade_warriors_1",
+    "wh3_main_cth_inf_jade_warrior_crossbowmen_0",
+    "wh3_main_cth_inf_jade_warrior_crossbowmen_1",
+    "wh3_main_cth_cav_jade_lancers_0"
+  ],
   "game_integrated": true,
   "game_assets_exported": true,
-  "enabled_in_launcher": false,
+  "enabled_in_launcher": true,
   "runtime_verified": false,
-  "pack_name": "mc_moon_jade_warriors_reskin_v1.pack",
+  "pack_name": "mc_moonshadow_heroes_v37_zhao_cb_fix.pack",
   "git_storage": "ordinary_binary_no_lfs_for_jade_models_or_pack",
-  "pack_sha256": "3809a4b684c0e9b3f3b1183ed9fb1d799bb7a05195bf8e91deb675932b02952e",
-  "distribution": "releases/moon-jade-warriors-reskin-v1",
-  "build_report": "assets/working/moon-jade-warriors/reports/pack.json",
+  "pack_sha256": "da1d0ffe06b5ea210b55e1941bc43ed609dcbfda2680bc84209e8a4b1d2df2c1",
+  "distribution": "dist/moon-v37-zhao-cb-fix",
+  "build_report": "build/moon-v37-zhao-cb-fix/validation.json",
+  "previous_tracked_release": "releases/moon-jade-warriors-reskin-v1",
   "source_workshop_item": "2965749119",
   "source_pack": "@DEER24JadeWarriorRESKIN2.pack",
   "approved_body": "1/beitingsheshou/beitingsheshou5.wsmodel",
   "rear_neckguard_donor": "1/beitingsheshou/beitingsheshou_lancer.wsmodel",
   "rear_neckguard_scope": "rear panel only; keep approved body05 helmet and side panels",
-  "shield": {"shape": "round", "painted_character": "陳", "paint_colour": "red"},
+  "shield": {
+    "shape": "round",
+    "painted_character": "陳",
+    "paint_colour": "red"
+  },
   "dao": {
     "shape": "user_reference_long_curved_blade",
     "handle": "long_brown_wood",
@@ -29,15 +49,39 @@
     "sharp_edge_side": "matches_original_Jade_Warrior_sword",
     "native_weapon_pivot_preserved": true
   },
-  "boots": {"toe_shape": "flattened_shortened", "toe_colour": "brown_matching_boot_leather"},
+  "boots": {
+    "toe_shape": "flattened_shortened",
+    "toe_colour": "brown_matching_boot_leather"
+  },
   "head_options": [
-    {"key": "mc_moon_jade_warrior_appearance_01", "source": "1/beitingsheshou/beitingsheshouh1.wsmodel"},
-    {"key": "mc_moon_jade_warrior_appearance_02", "source": "1/beitingsheshou/beitingsheshouh2.wsmodel"},
-    {"key": "mc_moon_jade_warrior_appearance_03", "source": "1/beitingsheshou/beitingsheshouh3.wsmodel"},
-    {"key": "mc_moon_jade_warrior_appearance_04", "source": "1/beitingsheshou/beitingsheshouh4.wsmodel"},
-    {"key": "mc_moon_jade_warrior_appearance_05", "source": "1/beitingsheshou/beitingsheshouh5.wsmodel"},
-    {"key": "mc_moon_jade_warrior_appearance_06", "source": "1/beitingsheshou/beitingsheshouh6.wsmodel"},
-    {"key": "mc_moon_jade_warrior_appearance_07", "source": "1/beitingsheshou/beitingsheshouh7.wsmodel"}
+    {
+      "key": "mc_moon_jade_warrior_appearance_01",
+      "source": "1/beitingsheshou/beitingsheshouh1.wsmodel"
+    },
+    {
+      "key": "mc_moon_jade_warrior_appearance_02",
+      "source": "1/beitingsheshou/beitingsheshouh2.wsmodel"
+    },
+    {
+      "key": "mc_moon_jade_warrior_appearance_03",
+      "source": "1/beitingsheshou/beitingsheshouh3.wsmodel"
+    },
+    {
+      "key": "mc_moon_jade_warrior_appearance_04",
+      "source": "1/beitingsheshou/beitingsheshouh4.wsmodel"
+    },
+    {
+      "key": "mc_moon_jade_warrior_appearance_05",
+      "source": "1/beitingsheshou/beitingsheshouh5.wsmodel"
+    },
+    {
+      "key": "mc_moon_jade_warrior_appearance_06",
+      "source": "1/beitingsheshou/beitingsheshouh6.wsmodel"
+    },
+    {
+      "key": "mc_moon_jade_warrior_appearance_07",
+      "source": "1/beitingsheshou/beitingsheshouh7.wsmodel"
+    }
   ],
   "head_options_note": "Source face/hair/beard options; not necessarily seven distinct face geometries.",
   "approved_checkpoint": "assets/working/moon-jade-warriors/moon-jade-warrior-animation-review.blend",
@@ -46,5 +90,10 @@
   "git_checkpoint_metadata": "assets/working/moon-jade-warriors/checkpoint.json",
   "head07_helmet_fit": "covered upper scalp tucked under helmet; visible face and moustache retained",
   "design_document": "docs/MOON-JADE-WARRIOR-APPROVED-RESKIN.md",
-  "pending_game_preparation": ["enable_in_launcher", "runtime_review"]
+  "pending_game_preparation": [
+    "runtime_review"
+  ],
+  "previous_standalone_pack": "mc_moon_jade_warriors_reskin_v2_family.pack",
+  "previous_standalone_sha256": "9d711a7f571501f3c67a80b4f6d68da1b453f2a20d29c7e8e8248ddb68ba3ee1",
+  "all_standalone_v2_payloads_byte_identical": true
 }

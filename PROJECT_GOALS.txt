@@ -1,4 +1,29 @@
+TRẠNG THÁI HIỆN TẠI — ZHAO / JADE / ONYX [27/11/2026]
+[X] Zhao theo thiết kế đã chốt và reskin 5 loại Jade đã tích hợp; bản đang bật là v37, v36 đã tắt.
+[X] V37 sửa nguồn khai báo phép/passive trùng và tách uniform gây hai lựa chọn Zhao trong Custom Battle. Chỉ 2 DB payload đổi; stats/tree/model/Jade và migration giữ nguyên từng byte so với v36.
+[X] Kiểm tra model campaign trong pack v37 đã cài: artset nữ Zhao → uniform/model Zhao; đi bộ dùng kiếm/animation Yuan Bo; mount dùng uniform kiếm cưỡi riêng và animation tương ứng. Không thấy mod đang bật nào khác dùng lại các khóa riêng này; đây là kiểm tra dữ liệu, chưa xác nhận hình trong game.
+[X] Bản vá mc_moon_hide_onyx_crowmen_v1.pack đã cài/bật cùng v37: ẩn/chặn tuyển Onyx Crowmen thường và RoR riêng cho Moon, không xóa quân sẵn có/đồn trú hay sửa phe khác. Skywing chưa tích hợp.
+[X] RPFM roundtrip/hash/phạm vi dữ liệu đã kiểm tra; v37 còn 168 cảnh báo schema/cache, không có loại lỗi khác; bản vá Onyx không có diagnostic khi kiểm cùng định nghĩa faction từ v37. Test Lua migration phạm vi/idempotence/traits/item/immortality passed.
+[ ] Người dùng tự test: một lựa chọn Zhao, phép/passive không trùng, ngoại hình campaign/mount/Longma và reset kỹ năng trên save riêng. Chưa có xác nhận runtime sau sửa v37/Onyx; không đánh dấu các lỗi đã hết trong game.
+[X] Phạm vi Git được yêu cầu lần này: toàn bộ source/công cụ/test/metadata/tài liệu của Zhao, Jade và Onyx. KHÔNG đưa model hoặc build pack mod mới lên Git; không thêm LFS, không đưa config máy/extract/cache/launcher/save lên. Asset đã có trong lịch sử Git giữ nguyên.
+
+2026-11-27 — Đã cài/bật bản vá ẩn Onyx Crowmen thường và RoR riêng cho Agents of the Moon (mc_moon_hide_onyx_crowmen_v1.pack), chạy cùng v37. Chặn tuyển và ẩn quyền CB riêng của Moon; không xóa quân có sẵn/đồn trú, không đổi phe khác. Roundtrip và kiểm tra dependency passed; chưa kiểm tra runtime. Skywing chưa tích hợp.
+
+2026-11-27 — V37: sua Zhao bi trung lua chon va phep trong Custom Battle. Da build/cai/bat v37 thay v36, giu nguyen cac mod khac; chi2DBpayloads thay doi. Stats/tree/model/Jade giu nguyen tung byte. Roundtrip passed;168schema/cache warnings,0other diagnostics. Runtime va mounted appearance dang cho kiem tra. Chi tiet docs/ZHAO-CUSTOM-BATTLE-DUPLICATES-V37.md.
+
 MOON CATHAY — MỤC TIÊU VÀ TIẾN ĐỘ DỰ ÁN
+
+V36 — ĐÃ GỘP ZHAO MỚI + RESKIN 5 LOẠI JADE [26/11/2026]
+[X] Dùng nguyên v35 khôi phục làm nền, SHA256 109bb96662d68e2c0054b3fb17d5d6959fe227b620db872d9f2dce0bb9c4b37e; không sửa file gốc.
+[X] Build/cài mc_moonshadow_heroes_v36_zhao_jade.pack, 1,307,126,079bytes; SHA256 2584f38b44cf2e9d8f9f4feba87a809cfbfc187dd17f71d638292c2d905087e3. Bản phân phối: dist/moon-v36-zhao-jade; đã copy vào data game ổ H.
+[X] Zhao theo thiết kế đã duyệt: 54 ô hiển thị/68 node cả ẩn, nhánh phép 17 điểm; Lunar Snare/Grasp of the Eclipse/Crashing Tide/Sea Mist/Ember Bolt/Flameforged Blade; chỉ một Power of Yin, không Earth Blood. Sáu unique nền Yin; -20% hồi chiêu riêng chỉ hai phép Moon. Bound4ô1điểm khóa chọn1; đỏ/xanh/chung native và cấp mở đúng thiết kế.
+[X] Đi bộ: bonusHP4160,giáp20,MA45/MD35,charge20,sát thương210+90AP,run4.2,kháng đạn15%,giá1000/upkeep300/CB700. Mount theo chênh lệch Shugengan: Warhorse bonusHP4764/giáp60/MA45/MD35/charge40/210+90AP; Longma bonusHP5364/giáp60/MA45/MD35/charge60/240+100AP. Giữ tốc độ mount native, tự mở cấp hiển thị5/15. Giữ body/kiếm/animation Yuan Bo đi bộ; thêm kiếm mounted riêng hand_right đủ4LOD, không sửa body/weights.
+[X] Gộp nguyên reskin Jade v2 cho kiếm-khiên/kích/nỏ/nỏ-khiên/Jade Lancers riêng Moon, body05+chegáy+giày nâu+7đầu. Kiếm-khiên giữ đao và khiên tròn chữ 陳; bốn loại còn lại giữ trang bị/ngựa/animation native. Mọi payload v2 byte-identical.
+[X] Dữ liệu ngoài phạm vi Zhao của v35 giữ byte-identical;18payload cũ đổi/136payload thêm. RPFMroundtrip,graph/gate,donor spell/cooldown/bound-lock và hash passed.45mẫu pose Zhao/15clip native,0cảnhbáo importer; dùng lại kiểm tra Jade v2 vì asset không đổi.
+[X] Có migration chỉ cho Zhao/Moon: reset kỹ năng cũ một lần bằng API native, giữ XP/traits/identity, dọn skill ẩn cũ/Command Seal, cấp lại2phép nền/mount đạt cấp, bất tử theo skill đã mua. Test ranh giới/phạm vi/idempotence passed; không sửa trực tiếp save.
+[ ] Test game và save cũ: hoàn điểm native/migration chưa xác nhận runtime; độ khớp rider Longma khi bay, clipping/transition/mount/cast phải test. Preview ghép hai rig không chứng minh placement engine hoàn chỉnh.
+    CHƯA BẬT LAUNCHER/CHƯA MỞ GAME. Khi test bật v36, tắt các mc_moonshadow_heroes cũ (v35 nếu bật) và Jade v1/v2 riêng vì đã gộp; giữ MIXER/IEE và dependency đang dùng.
+    RPFM còn168cảnhbáo NoReferenceTableNorColumnFoundNoPak của schema/cache,0loại khác; không ghi là0diagnostics. Đã sửa tên bảng đuôi số và trùng Command Seal ở bản nháp trước khi cài. Bảng tên quân dưới đây vẫn chưa áp dụng; Skywing model chưa tích hợp. Không pushGit/thêmLFS/chỉnhnative hoặc Workshop. Reports build/moon-v36-zhao-jade; hướng dẫn dist/moon-v36-zhao-jade/README.txt. Các mốc thiếu nền/chưa triển khai Zhao phía dưới là lịch sử, được mốc v36 này thay thế.
 
 TÊN ROSTER CATHAY / ĐẠI VIỆT — ĐÃ DUYỆT [26/11/2026]
 [X] Người dùng duyệt toàn bộ bảng dưới đây sau khi rà trang bị, vai trò và cấp tinh nhuệ của 29 đơn vị thường, 7 đơn vị danh tiếng và 1 đơn vị triệu hồi. Chưa gồm lord/hero.

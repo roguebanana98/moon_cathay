@@ -1,0 +1,139 @@
+{
+  "spells": [
+    {
+      "slug": "ember_bolt",
+      "name": "Ember Bolt",
+      "donor_skill": "wh_main_skill_all_magic_fire_01_fireball",
+      "donor_ability": "wh_main_spell_fire_fireball",
+      "ability": "mc_zhao_v36_ability_9"
+    },
+    {
+      "slug": "lunar_snare",
+      "name": "Lunar Snare",
+      "donor_skill": "wh3_main_skill_cth_magic_yin_02_storm_of_shadows_lord",
+      "donor_ability": "wh3_main_spell_yin_storm_of_shadows",
+      "ability": "mc_zhao_v36_ability_5"
+    },
+    {
+      "slug": "crashing_tide",
+      "name": "Crashing Tide",
+      "donor_skill": "wh2_dlc11_skill_all_magic_deep_02_tidecall_lord",
+      "donor_ability": "wh2_dlc11_spell_deep_tidecall",
+      "ability": "mc_zhao_v36_ability_2"
+    },
+    {
+      "slug": "grasp_eclipse",
+      "name": "Grasp of the Eclipse",
+      "donor_skill": "wh3_main_skill_cth_magic_yin_07_talons_of_night_lord",
+      "donor_ability": "wh3_main_spell_yin_talons_of_night",
+      "ability": "mc_zhao_v36_ability_7"
+    },
+    {
+      "slug": "sea_mist",
+      "name": "Sea Mist",
+      "donor_skill": "wh2_dlc11_skill_all_magic_deep_05_fog_of_the_damned_lord",
+      "donor_ability": "wh2_dlc11_spell_deep_fog_of_the_damned",
+      "ability": "mc_zhao_v36_ability_0"
+    },
+    {
+      "slug": "flameforged_blade",
+      "name": "Flameforged Blade",
+      "donor_skill": "wh2_main_skill_all_magic_fire_03_flaming_sword_of_rhuin_lord",
+      "donor_ability": "wh_main_spell_fire_flaming_sword_of_rhuin",
+      "ability": "mc_zhao_v36_ability_11"
+    }
+  ],
+  "skill_donors": {
+    "mc_zhao_v36_skill_ember_bolt": "wh_main_skill_all_magic_fire_01_fireball",
+    "mc_zhao_v36_skill_lunar_snare": "wh3_main_skill_cth_magic_yin_02_storm_of_shadows_lord",
+    "mc_zhao_v36_skill_crashing_tide": "wh2_dlc11_skill_all_magic_deep_02_tidecall_lord",
+    "mc_zhao_v36_skill_grasp_eclipse": "wh3_main_skill_cth_magic_yin_07_talons_of_night_lord",
+    "mc_zhao_v36_skill_sea_mist": "wh2_dlc11_skill_all_magic_deep_05_fog_of_the_damned_lord",
+    "mc_zhao_v36_skill_flameforged_blade": "wh2_main_skill_all_magic_fire_03_flaming_sword_of_rhuin_lord",
+    "mc_zhao_v36_skill_passive": "wh3_main_skill_cth_magic_yin_05_power_of_yin",
+    "mc_zhao_v36_unique_0": "wh3_main_skill_cth_dragon_blooded_shugengan_yin_unique_0",
+    "mc_zhao_v36_unique_1": "wh3_main_skill_cth_dragon_blooded_shugengan_yin_unique_1",
+    "mc_zhao_v36_unique_2": "wh3_main_skill_cth_dragon_blooded_shugengan_yin_unique_2",
+    "mc_zhao_v36_unique_3": "wh3_main_skill_cth_dragon_blooded_shugengan_yin_unique_3",
+    "mc_zhao_v36_unique_4": "wh3_main_skill_cth_dragon_blooded_shugengan_yin_unique_4",
+    "mc_zhao_v36_unique_5": "wh3_main_skill_cth_dragon_blooded_shugengan_yin_unique_5",
+    "mc_zhao_v36_wind_harmony": "wh3_main_skill_cth_all_unique_magic_resist",
+    "mc_zhao_v36_ranged_discipline": "wh3_main_skill_cth_all_unique_missile_resist",
+    "mc_zhao_v36_mount_warhorse": "wh3_main_skill_cth_dragon_blooded_shugengan_lord_yin_mount_warhorse",
+    "mc_zhao_v36_mount_jade_longma": "wh3_main_skill_cth_dragon_blooded_shugengan_lord_yin_mount_jade_longma",
+    "mc_zhao_v36_bound_metal": "wh3_main_skill_cth_dragon_blooded_shugengan_self_metal",
+    "mc_zhao_v36_bound_death": "wh3_main_skill_cth_dragon_blooded_shugengan_self_death",
+    "mc_zhao_v36_bound_beasts": "wh3_main_skill_cth_dragon_blooded_shugengan_self_beasts",
+    "mc_zhao_v36_bound_shadow": "wh3_main_skill_cth_dragon_blooded_shugengan_self_shadow",
+    "mc_zhao_v36_foundation": "wh3_main_skill_cth_magic_yin_dummy_cloak_of_jet_storm_of_shadows"
+  },
+  "skill_names": {
+    "mc_zhao_v36_skill_ember_bolt": "Ember Bolt",
+    "mc_zhao_v36_skill_lunar_snare": "Lunar Snare",
+    "mc_zhao_v36_skill_crashing_tide": "Crashing Tide",
+    "mc_zhao_v36_skill_grasp_eclipse": "Grasp of the Eclipse",
+    "mc_zhao_v36_skill_sea_mist": "Sea Mist",
+    "mc_zhao_v36_skill_flameforged_blade": "Flameforged Blade",
+    "mc_zhao_v36_skill_passive": "Lunar Ascendancy",
+    "mc_zhao_v36_unique_0": "Mooncourt Defence",
+    "mc_zhao_v36_unique_1": "Threefold Attunement",
+    "mc_zhao_v36_unique_2": "Protection of the Mooncourt",
+    "mc_zhao_v36_unique_3": "Master of the Mooncourt",
+    "mc_zhao_v36_unique_4": "Resonant Presence",
+    "mc_zhao_v36_unique_5": "Empowered Mooncaster",
+    "mc_zhao_v36_wind_harmony": "Wind Harmony",
+    "mc_zhao_v36_ranged_discipline": "Ranged Discipline",
+    "mc_zhao_v36_mount_warhorse": "Warhorse",
+    "mc_zhao_v36_mount_jade_longma": "Jade Longma",
+    "mc_zhao_v36_bound_metal": "Metal Affinity",
+    "mc_zhao_v36_bound_death": "Death Affinity",
+    "mc_zhao_v36_bound_beasts": "Beast Affinity",
+    "mc_zhao_v36_bound_shadow": "Shadow Affinity",
+    "mc_zhao_v36_foundation": "Starting Moon Arts [HIDDEN]"
+  },
+  "visible_nodes": 54,
+  "total_nodes": 68,
+  "foundation": "mc_zhao_v36_foundation",
+  "unique_names": [
+    "Mooncourt Defence",
+    "Threefold Attunement",
+    "Protection of the Mooncourt",
+    "Master of the Mooncourt",
+    "Resonant Presence",
+    "Empowered Mooncaster"
+  ],
+  "bound": [
+    {
+      "skill": "mc_zhao_v36_bound_metal",
+      "ability": "wh3_main_spell_bound_plague_of_rust"
+    },
+    {
+      "skill": "mc_zhao_v36_bound_death",
+      "ability": "wh3_main_spell_bound_spirit_leech"
+    },
+    {
+      "skill": "mc_zhao_v36_bound_beasts",
+      "ability": "wh3_main_spell_bound_flock_of_doom"
+    },
+    {
+      "skill": "mc_zhao_v36_bound_shadow",
+      "ability": "wh3_main_spell_bound_enfeebling_foe"
+    }
+  ],
+  "status": "design_implemented_v36_current_v37_installed_enabled_runtime_unverified",
+  "base_sha256": "109bb96662d68e2c0054b3fb17d5d6959fe227b620db872d9f2dce0bb9c4b37e",
+  "pack": "mc_moonshadow_heroes_v37_zhao_cb_fix.pack",
+  "pack_sha256": "da1d0ffe06b5ea210b55e1941bc43ed609dcbfda2680bc84209e8a4b1d2df2c1",
+  "bytes": 1307123794,
+  "faction": "cr_cth_agents_of_the_moon",
+  "subtype": "mc_mooncourt_lord",
+  "proposal": "docs/ZHAO-YIXUAN-SHUGENGAN-SKILL-PROPOSAL.md",
+  "mount_stats_policy": "native_Shugengan_deltas_with_native_mount_movement",
+  "mounted_full_fit_runtime_verified": false,
+  "migration_runtime_verified": false,
+  "game_runtime_verified": false,
+  "enabled_in_launcher": true,
+  "cb_repair_document": "docs/ZHAO-CUSTOM-BATTLE-DUPLICATES-V37.md",
+  "campaign_model_data_audit": "passed_installed_v37_and_active_pack_references_no_competing_private_keys",
+  "campaign_model_runtime_verified": false
+}

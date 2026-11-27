@@ -2,7 +2,35 @@
 
 Ngày: 26/11/2026.
 
-**Trạng thái: ĐỀ XUẤT ĐÃ LƯU — CHƯA TÍCH HỢP VÀO MOD.**
+**Trạng thái hiện tại 27/11/2026: v37 ĐÃ CÀI/BẬT, ĐANG CHỜ NGƯỜI DÙNG TEST.**
+
+V37 kế thừa thiết kế v36 và sửa mục Zhao/phép trùng trong Custom Battle; xem
+`docs/ZHAO-CUSTOM-BATTLE-DUPLICATES-V37.md`. Model campaign đã kiểm tra chuỗi
+tham chiếu trong pack cài đặt và các mod đang bật, chưa xác nhận hình trong game.
+Bản vá ẩn Onyx riêng Moon chạy cùng v37. Các ghi chú v36 dưới đây là lịch sử triển khai.
+
+Cập nhật triển khai 26/11/2026: người dùng cung cấp v35 và yêu cầu dùng làm nền,
+áp dụng bản thiết kế này cùng reskin năm loại Jade đã duyệt. Đã build/cài
+`mc_moonshadow_heroes_v36_zhao_jade.pack`, SHA256
+`2584f38b44cf2e9d8f9f4feba87a809cfbfc187dd17f71d638292c2d905087e3`.
+V35 gốc giữ nguyên. Bản mới có 54 node hiển thị/68 node gồm ẩn, 17 điểm nhánh
+phép, sáu phép đúng bảng dưới, một Power of Yin và bound chọn một trong bốn.
+Chỉ số đi bộ đúng thiết kế. Mounted dùng chênh lệch Shugengan: horse bonusHP4764,
+Longma5364; giáp60, MA45/MD35; charge40/60; sát thương210+90AP và240+100AP,
+giữ movement native, mở ở cấp hiển thị5/15. Không cộng run4.2 lên mount.
+Foot body/sword/Yuan Bo profiles giữ nguyên. Kiếm mounted hand_right riêng đã
+xuất/đọc lại bốn LOD; kiểm tra15clip/45mẫu và render riêng, không xuất montage.
+Độ khớp rider Longma khi bay/clipping/transition vẫn cần kiểm chứng trong game.
+
+Có script migration phạm vi Zhao/Moon: native one-time skill reset, cleanup grant
+cũ/Command Seal, giữ XP và traits, foundation hai phép/mount đạt cấp, bất tử theo
+skill Immortality đã mua. Boundary tests passed; engine refunds và save migration
+chưa được xác nhận runtime. RPFM DB/loc roundtrip, donor/graph/gate/hash checks
+passed;168cảnhbáo thiếu định nghĩa tham chiếu schema/cache còn lại, không có loại
+diagnostic khác. Launcher chưa sửa. Hướng dẫn/báo cáo: `dist/moon-v36-zhao-jade`
+và `build/moon-v36-zhao-jade`. Không push Git hoặc thêm LFS trong đợt triển khai.
+Những ghi chú chờ pack, mount chưa triển khai và trạng thái save-only bên dưới là
+lịch sử thiết kế, được cập nhật triển khai này thay thế.
 
 Cập nhật 26/11/2026 sau khi lưu: người dùng đã yêu cầu triển khai bản này vào mod.
 Đã kiểm tra thư viện Steam ổ H, project/build, launcher và thư mục backup được
