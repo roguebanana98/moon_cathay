@@ -1,5 +1,16 @@
 # Project constraints
 
+- ELEPHANT EDITABLE GIT CHECKPOINT (2026-11-28): user explicitly requested pushing
+  the newly approved elephant model after its native-animation trial. Scoped
+  exception to the earlier source-only backup and third-party asset exclusions:
+  assets/working/cathay-war-elephant contains compressed editable approved and
+  animation-trial Blender scenes, packed textures, previews and portability hashes.
+  Both scenes reopened successfully with no linked libraries or external used
+  images. Six native OvN clips; original body weights retained, custom coat uses
+  a shared spine weight field. Stomp/rearing still has front-leg/breast-apron
+  intersections; gunners retain aim pose, no firing animation. No game pack or
+  v52 change, runtime claim, Workshop publishing or new LFS rule is included.
+
 - SOURCE-ONLY GIT BACKUP (2026-11-27): user requested updating Goals and pushing all Zhao/Jade/Onyx changes while explicitly excluding model files and built mod packs. This backup includes authored tools, Lua template/test, campaign metadata and documentation only; preserve existing historical tracked binaries, do not add new model/pack/build/cache/config/save/launcher data or LFS rules. Current local setup is v37 plus Moon-only Onyx patch; runtime review belongs to user and remains unconfirmed.
 
 - MOON ONYX CROWMEN HIDDEN (2026-11-27): user requested hiding Onyx Crowmen for Agents of the Moon. Built/installed/enabled separate mc_moon_hide_onyx_crowmen_v1.pack (1155bytes,SHA256 8683b190ce867b9c6daf40e519d448bfb14409ec3183777e6b2644a92211480b) alongside unchanged v37. Two faction-scoped campaign recruitment denials, regular+RoR, and two Moon-only campaign_exclusive CB permission rows; native Cathay/other factions untouched. No models/scripts/garrison or existing army deletion. Declares IEE dependency. RPFM roundtrip passed,0patch diagnostics when checked with v37 faction definition; v37 retains168schema/cache warnings. Native-only cache lacks IEE faction, so standalone diagnose without dependency falsely reports4InvalidReference; do not claim native-only cache resolves Moon. Launcher backup in build/moon-hide-onyx-crowmen-v1/launcher-before-20261127T021947Z.json; all existing entries unchanged. Runtime not verified; no game launch/Git/LFS change. Build tool tools/Build-Moon-Hide-Onyx-Crowmen.py; dist/moon-hide-onyx-crowmen-v1. Skywing replacement still not integrated.

@@ -1,0 +1,44 @@
+{
+  "checkpoints": [
+    {
+      "file": "cathay-war-elephant-approved.blend",
+      "bytes": 28803328,
+      "sha256": "e9e582f001b292e43ebc4c55191b4914606e229413b4e3f6e433e365048eeda7",
+      "source_sha256": "172db5e7a040f0ae88ddc7ceba66862250cf0863fc639d73997f3367a1c602b7",
+      "objects": 507,
+      "packed_images": 12,
+      "linked_libraries": 0,
+      "external_used_images": 0,
+      "armatures": [
+        "RESKIN | Gunner 1",
+        "RESKIN | Gunner 2",
+        "RESKIN | Gunner 3",
+        "RESKIN | Gunner 4",
+        "RESKIN | Gunner 5",
+        "RESKIN | Gunner 6"
+      ]
+    },
+    {
+      "file": "cathay-war-elephant-animation-trial.blend",
+      "bytes": 35794802,
+      "sha256": "7d7b329d1acbd7803f7c61ca49fbe356d06ca10b084f6aad7a74faff45cbc1ba",
+      "source_sha256": "5b029180d0e5b3e3a6bb720a2df4c72b553ed544fee3b8d7e7ad5e6076996cfd",
+      "objects": 508,
+      "packed_images": 12,
+      "linked_libraries": 0,
+      "external_used_images": 0,
+      "armatures": [
+        "ELEPHANT | native OvN animation trial",
+        "RESKIN | Gunner 1",
+        "RESKIN | Gunner 2",
+        "RESKIN | Gunner 3",
+        "RESKIN | Gunner 4",
+        "RESKIN | Gunner 5",
+        "RESKIN | Gunner 6"
+      ]
+    }
+  ],
+  "blender_version": "4.5.15 LTS",
+  "game_modified": false,
+  "known_issue": "Front legs intersect breast apron during stomp/rearing animation; requires further rig fitting."
+}
